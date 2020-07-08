@@ -1,4 +1,4 @@
-# Dictionary and data versioning in Opal table names
+# Dictionary and data versioning in DataSHIELD table names
 
 There are 2 kinds of versioning in the LifeCycle project.
 
