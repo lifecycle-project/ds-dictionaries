@@ -30,8 +30,7 @@ Finally you need to amend the changelogs.
 
 Please use the pull-request flow: 
 
-## Dictionary and data versioning in Opal table names
-
+## Dictionary and data versioning in DataSHIELD table names
 There are 2 kinds of versioning in the LifeCycle project.
 
 First of all the data dictionary versioning and second the versioning of the data itself. We are using an implementation of semantic versioning ([semantic versioning](https://semver.org)). A better explanation on using semantic versioning in data can be found here: [semantic versioning for data products](https://medium.com/data-architect/semantic-versioning-for-data-products-2b060962093).
@@ -100,4 +99,4 @@ Check: [outcome dictionary changelog](./changelogs/OUTCOME_DICTIONARY_CHANGELOG.
 
 
 ### Data releases
-We do not have a cohort specific changelog at the moment. Coming soon.
+We do not have a cohort specific changelog at the moment.
