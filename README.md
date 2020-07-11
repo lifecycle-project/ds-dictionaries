@@ -1,4 +1,36 @@
-# Dictionary and data versioning in Opal table names
+# Dictionaries used in LifeCycle, Athlete and Longitools
+You can add new content and release the dictionaries for all consortia. If you have a new study and want to add new variables please follow the add variables process described [here](https://github.com/lifecycle-project/ds-beta-dictionaries/content/README.md).
+
+## Adding new variables
+When you need to add new variables you need to perform 2 steps:
+- Adding the new variables to the dictionaries
+- Reshaping your data to DataSHIELD backend format
+
+### Adding new dictionaries (data schemes)
+When you add new dictionaries you need to place them in ```R/data/dictionaries/x_x```.
+
+For WP1 and 3 these 3 tables are namespaces this way:
+- 2_0_non_repeated.xslx
+- 2_0_yearly_repeated.xslx
+- 2_0_monthly_repeated.xslx
+- 2_0_trimester_repeated.xslx
+
+For WP4, 5 and 6 these tables are created:
+- 1_0_non_repeated.xslx
+- 1_0_yearly_repeated.xslx
+- 1_0_monthly_repeated.xslx
+- 1_0_weekly_repeated.xslx
+
+You need to place them into ```R/data/dictionaries/x_x``` as well. 
+
+Finally you need to amend the changelogs.
+
+- CORE_DICTIONARY_CHANGELOG.md
+- OUTCOME_DICTIONARY_CHANGELOG.md
+
+Please use the pull-request flow: 
+
+## Dictionary and data versioning in Opal table names
 
 There are 2 kinds of versioning in the LifeCycle project.
 
