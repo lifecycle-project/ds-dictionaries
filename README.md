@@ -7,26 +7,23 @@ When you need to add new variables you need to perform 2 steps:
 - Reshaping your data to DataSHIELD backend format
 
 ### Adding new dictionaries (data schemes)
-When you add new dictionaries you need to place them in ```R/data/dictionaries/x_x```.
+When you add new dictionaries you need to place them in ```/dictionaries/x_x```.
 
 For WP1 and 3 these 3 tables are namespaces this way:
-- 2_0_non_repeated.xslx
-- 2_0_yearly_repeated.xslx
-- 2_0_monthly_repeated.xslx
-- 2_0_trimester_repeated.xslx
+- 2_0_core_non_rep.xslx
+- 2_0_core_yearly_rep.xslx
+- 2_0_core_monthly_rep.xslx
+- 2_0_core_trimester_rep.xslx
 
 For WP4, 5 and 6 these tables are created:
-- 1_0_non_repeated.xslx
-- 1_0_yearly_repeated.xslx
-- 1_0_monthly_repeated.xslx
-- 1_0_weekly_repeated.xslx
+- 1_0_outcome_non_rep.xslx
+- 1_0_outcome_yearly_rep.xslx
+- 1_0_outcome_monthly_rep.xslx
+- 1_0_outcome_weekly_rep.xslx
 
 You need to place them into ```R/data/dictionaries/x_x``` as well. 
 
-Finally you need to amend the changelogs.
-
-- CORE_DICTIONARY_CHANGELOG.md
-- OUTCOME_DICTIONARY_CHANGELOG.md
+Finally you need to amend the changelogs, check [amend changelogs](#changelog)
 
 Please use the pull-request flow: 
 
@@ -57,18 +54,18 @@ The version-scheme is as follows:
 **dictionary-major . dictionary-minor . dictionary-kind . data-major . data-minor . tablename**
 
 *Examples*
-* 1_1_dict-kind_1_0_non_repeated_measures.xlsx
-* 1_1_dict-kind_1_0_weekly_repeated_measures.xlsx
-* 1_1_dict-kind_1_0_monthly_repeated_measures.xlsx
-* 1_1_dict-kind_1_0_quaterly_repeated_measures.xlsx
-* 1_1_dict-kind_1_0_yearly_repeated_measures.xlsx
+* 1_1_dict-kind_1_0_non_rep.xlsx
+* 1_1_dict-kind_1_0_weekly_rep.xlsx
+* 1_1_dict-kind_1_0_monthly_rep.xlsx
+* 1_1_dict-kind_1_0_trimester_rep.xlsx
+* 1_1_dict-kind_1_0_yearly_rep.xlsx
 
 *Table names*
-* 1_1_dict-kind_1_0_non_repeated_measures
-* 1_1_dict-kind_1_0_weekly_measures
-* 1_1_dict-kind_1_0_monthly_repeated_measures
-* 1_1_dict-kind_1_0_quaterly_repeated_measures
-* 1_1_dict-kind_1_0_yearly_repeated_measuress
+* 1_1_dict-kind_1_0_non_rep
+* 1_1_dict-kind_1_0_weekly_rep
+* 1_1_dict-kind_1_0_monthly_rep
+* 1_1_dict-kind_1_0_trimster_rep
+* 1_1_dict-kind_1_0_yearly_rep
 
 ### Dictionary
 We are using semantic versioning in the data dictionary in LifeCycle. The implementation we now use is:
@@ -93,9 +90,8 @@ The implementation of semantic versioning is as follows.
 To keep track of all the changed within the different versions of the dictionaries and data releases we need to have changelogs. This way we can trace back what has happened in which release.
 
 ### Dictionary releases
-Check: [core dictionary changelog](./changelogs/CORE_DICTIONARY_CHANGELOG.md)
-
-Check: [outcome dictionary changelog](./changelogs/OUTCOME_DICTIONARY_CHANGELOG.md)
+* Check: [core dictionary changelog](./changelogs/CORE_DICTIONARY_CHANGELOG.md)
+* Check: [outcome dictionary changelog](./changelogs/OUTCOME_DICTIONARY_CHANGELOG.md)
 
 
 ### Data releases
