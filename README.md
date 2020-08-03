@@ -7,7 +7,7 @@ When you need to add new variables you need to perform 2 steps:
 - Reshaping your data to DataSHIELD backend format
 
 ### Adding new dictionaries (data schemes)
-When you add new dictionaries you need to place them in ```/dictionaries/x_x```.
+When you add new dictionaries you need to place them in ```/dictionaries/core/x_x``` or ```/dictionaries/outcome/x_x```.
 
 For WP1 and 3 these 3 tables are namespaces this way:
 - 2_0_core_non_rep.xslx
