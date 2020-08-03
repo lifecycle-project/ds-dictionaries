@@ -1,8 +1,8 @@
 # Versions of data dictionaries (outcome = wp4, wp5 and wp6)
 We define here in what versions of the data dictionaries contains which tables.
 
-## 1.x
-**lifecycleProject R-package version >= 2.x.x** *--> not released yet*
+## 1.2
+**dsUpload R-package version >= 3.x.x** *--> not released yet*
 
 ### Content
 
@@ -19,13 +19,13 @@ We define here in what versions of the data dictionaries contains which tables.
 *trimester-repeated variables*
 
 ### Tables
-- 1_x_outcome_x_x_non_repeated
-- 1_x_outcome_x_x_weekly_repeated
-- 1_x_outcome_x_x_monthly_repeated
-- 1_x_outcome_x_x_yearly_repeated
+- 1_2_outcome_x_x_non_repeated
+- 1_2_outcome_x_x_weekly_repeated
+- 1_2_outcome_x_x_monthly_repeated
+- 1_2_outcome_x_x_yearly_repeated
 
 ## 1.1
-**lifecycleProject R-package version >= 2.3.0**
+**dsUpload R-package version >= 3.0.0**
 
 ### Content
 Additional variables for yearly repeats and some renames.
