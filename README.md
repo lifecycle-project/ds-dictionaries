@@ -25,7 +25,7 @@ You need to place them into ```R/data/dictionaries/x_x``` as well.
 
 Finally you need to amend the changelogs, check [amend changelogs](#changelog)
 
-Please use the pull-request flow: 
+Please use the pull-request flow. For more information check [GIT workflow](https://github.com/lifecycle-project/analysis-tutorials/blob/master/GIT-WORKFLOW.md)
 
 ## Dictionary and data versioning in DataSHIELD table names
 There are 2 kinds of versioning in the LifeCycle project.
