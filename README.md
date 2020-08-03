@@ -1,5 +1,5 @@
 # Dictionaries used in LifeCycle, Athlete and Longitools
-You can add new content and release the dictionaries for all consortia. If you have a new study and want to add new variables please follow the add variables process described [here](https://github.com/lifecycle-project/ds-beta-dictionaries/content/README.md).
+You can add new content and release the dictionaries for all consortia.
 
 ## Adding new variables
 When you need to add new variables you need to perform 2 steps:
