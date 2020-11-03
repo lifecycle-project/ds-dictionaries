@@ -27,10 +27,8 @@ Finally you need to amend the changelogs, check [amend changelogs](#changelog)
 
 Please use the pull-request flow. For more information check [GIT workflow](https://github.com/lifecycle-project/analysis-tutorials/blob/master/GIT-WORKFLOW.md)
 
-## Dictionary and data versioning in DataSHIELD table names
-There are 2 kinds of versioning in the LifeCycle project.
-
-First of all the data dictionary versioning and second the versioning of the data itself. We are using an implementation of semantic versioning ([semantic versioning](https://semver.org)). A better explanation on using semantic versioning in data can be found here: [semantic versioning for data products](https://medium.com/data-architect/semantic-versioning-for-data-products-2b060962093).
+## Dictionary versioning in DataSHIELD table names
+We are using an implementation of semantic versioning ([semantic versioning](https://semver.org)). A better explanation on using semantic versioning in data can be found here: [semantic versioning for data products](https://medium.com/data-architect/semantic-versioning-for-data-products-2b060962093).
 
 ## Versioning
 We now can distinguish 4 tables for the core variables and 4 tables for the outcome variables. They will be released in 2 sets. One for the core variables and one for the outcome variables.
@@ -41,31 +39,22 @@ We now can distinguish 4 tables for the core variables and 4 tables for the outc
 * trimester measures
 * yearly repeated measures
 
-
 **Outcome variables**
 * non repeated measures
 * weekly repeated measures
 * monthly repeated measures
 * yearly repeated measures
 
-
 The version-scheme is as follows:
 
-**dictionary-major . dictionary-minor . dictionary-kind . data-major . data-minor . tablename**
+**dictionary-major _ dictionary-minor - dictionary-kind - tablename**
 
 *Examples*
-* 1_1_dict-kind_1_0_non_rep.xlsx
-* 1_1_dict-kind_1_0_weekly_rep.xlsx
-* 1_1_dict-kind_1_0_monthly_rep.xlsx
-* 1_1_dict-kind_1_0_trimester_rep.xlsx
-* 1_1_dict-kind_1_0_yearly_rep.xlsx
-
-*Table names*
-* 1_1_dict-kind_1_0_non_rep
-* 1_1_dict-kind_1_0_weekly_rep
-* 1_1_dict-kind_1_0_monthly_rep
-* 1_1_dict-kind_1_0_trimster_rep
-* 1_1_dict-kind_1_0_yearly_rep
+* 1_1_dict-kind_non_rep.xlsx
+* 1_1_dict-kind_weekly_rep.xlsx
+* 1_1_dict-kind_monthly_rep.xlsx
+* 1_1_dict-kind_trimester_rep.xlsx
+* 1_1_dict-kind_yearly_rep.xlsx
 
 ### Dictionary
 We are using semantic versioning in the data dictionary in LifeCycle. The implementation we now use is:
@@ -77,22 +66,9 @@ We are using semantic versioning in the data dictionary in LifeCycle. The implem
   * Renaming of columns within the exisiting tables (the original column remains in the set)
   * Changing the columntype within the existing tables
 
-### Data
-Not only the dictionary has to have a version also the data is versioned within LifeCycle. This is needed because of the reproducability of the research that is going to be performed on the datasets.
-
-The implementation of semantic versioning is as follows.
-* **Major**
-  * Amending your dataset with new data
-* **Minor**
-  * Correcting errors in the data (e.g. categories which are encoded the wrong way)
-
 ## Changelog
 To keep track of all the changed within the different versions of the dictionaries and data releases we need to have changelogs. This way we can trace back what has happened in which release.
 
 ### Dictionary releases
 * Check: [core dictionary changelog](./changelogs/CORE_DICTIONARY_CHANGELOG.md)
 * Check: [outcome dictionary changelog](./changelogs/OUTCOME_DICTIONARY_CHANGELOG.md)
-
-
-### Data releases
-We do not have a cohort specific changelog at the moment.
