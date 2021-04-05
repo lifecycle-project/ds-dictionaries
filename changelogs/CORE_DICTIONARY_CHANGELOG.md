@@ -1,8 +1,8 @@
 # Versions of data dictionaries (core = wp1 and wp3)
 We define here in what versions of the data dictionaries contains which tables.
 
-## 2.2
-**dsUpload R-package version >= 3.x.x** *--> not released yet*
+## 2.3
+**dsUpload R-package version >= 4.1.x** *--> not released yet*
 
 ### Content
 
@@ -19,10 +19,54 @@ We define here in what versions of the data dictionaries contains which tables.
 *trimester-repeated variables*
 
 ### Tables
-- 2_2_core_x_x_non_rep
-- 2_2_core_x_x_trimester_rep
-- 2_2_core_x_x_yearly_rep
-- 2_2_core_x_x_monthly_rep
+- 2_3_nonrep
+- 2_3_trimester_rep
+- 2_3_yearly_rep
+- 2_3_monthly_rep
+
+## 2.2
+**dsUpload R-package version >= 4.1.x**
+
+### Content
+
+#### General changes
+- *yearly-repeated variables*
+  - Added distance to meteorological station
+- *trimester-repeated variables*
+  - Added distance to meteorological station
+- *non-repeated variables*
+  - Added distance to meteorological station
+
+#### Additional variables 
+
+*non-repeated variables*
+
+**Added mdist variable**
+
+| Variable   | Type    | Description                                         |
+| ---------- | ------- | --------------------------------------------------- |
+| mdist_preg | decimal | Distance to meteorological station during pregnancy |
+
+*yearly-repeated variables*
+
+**Added mdist variable**
+
+| Variable | Type    | Description                        |
+| ---------| ------- | ---------------------------------- |
+| mdist_   | decimal | Distance to meteorological station |
+
+*trimester-repeated variables*
+
+**Added mdist variable**
+
+| Variable | Type    | Description                        |
+| ---------| ------- | ---------------------------------- |
+| mdist_t  | decimal | Distance to meteorological station |
+
+### Tables
+- 2_2_nonrep
+- 2_2_trimester_rep
+- 2_2_yearly_rep
 
 ## 2.1
 **dsUpload R-package version >= 3.0.0**
