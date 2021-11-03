@@ -2,7 +2,7 @@
 We define here in what versions of the data dictionaries contains which tables.
 
 ## 2.3
-**dsUpload R-package version >= 4.1.x** *--> not released yet*
+**dsUpload R-package version >= 4.4.x** *--> not released yet*
 
 ### Content
 
@@ -25,7 +25,7 @@ We define here in what versions of the data dictionaries contains which tables.
 - 2_3_monthly_rep
 
 ## 2.2
-**dsUpload R-package version >= 4.1.x**
+**dsUpload R-package version >= 4.4.x**
 
 ### Content
 
