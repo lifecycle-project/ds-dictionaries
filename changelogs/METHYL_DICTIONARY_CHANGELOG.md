@@ -1,8 +1,8 @@
 # Versions of data dictionaries (methylation data)
 We define here in what versions of the data dictionaries contains which tables.
-
-## 1.1
-**dsUpload R-package version >= 4.1.x** *--> not released yet*
+## 1.2
+**dsUploadMethyl R-package version >= 1.x.x**
+**dsUpload R-package version >= 4.6.x**
 
 ### Content
 
@@ -10,28 +10,58 @@ We define here in what versions of the data dictionaries contains which tables.
 
 #### Additional variables 
 
-*non-repeated variables*
+*smoking variables*
 
-*yearly-repeated variables*
+**Added maternal smoking scores**
+
+| Variable                  | Type    | Description                                                   |
+| ------------------------- | ------- | ------------------------------------------------------------- |
+| matsmo_score_             | integer | Calculated smoking score using DNAsmokeR                      |
+| matsmo_array_             | integer | Type of DNA methylation array used to create smoking score    |
+| matsmo_age_at_dna_methyl_ | integer | Age of child when DNA sample was collected in years           |
+| matsmo_tissue_            | integer | Tissue source of DNA methylation sample                       |
+| matsmo_format_            | integer | Is data raw or normalised (specify normalisation method used) |
 
 ### Tables
-- 1_1_nonrep
-- 1_1_yearly_rep
-
-## 1.0
-**dsUpload R-package version >= 4.1.x**
+- 1_2_corblood
+- 1_2_peripheral_blood
+- 1_2_placenta
+- 1_2_smoking
+## 1.1
+**dsUploadMethyl R-package version >= 1.x.x**
 
 ### Content
 
 #### General changes
-- *yearly-repeated variables*
-  - Added yearly repeated methylation variables based upon the output of `methylclock`
-- *non-repeated variables*
-  - Added non repeated methylation variables based upon the output of `methylclock`
 
 #### Additional variables 
 
-*non-repeated variables*
+*cordblood variables*
+
+*peripheral blood variables*
+
+*placenta variables*
+
+### Tables
+- 1_1_corblood
+- 1_1_peripheral_blood
+- 1_1_placenta
+## 1.0
+**dsUploadMethyl R-package version >= 1.x.x**
+
+### Content
+
+#### General changes
+- *cordblood variables*
+  - Added cordblood methylation variables based upon the output of `methylclock`
+- *peripheral blood variables*
+  - Added peripheral blood methylation variables based upon the output of `methylclock`
+- *placenta variables*
+  - Added placenta methylation variables based upon the output of `methylclock`
+
+#### Additional variables 
+
+*cordblood*
 
 **Added methylation variables**
 
@@ -39,9 +69,9 @@ We define here in what versions of the data dictionaries contains which tables.
 | ---------- | ------- | --------------------------------------------------- |
 | mdist_preg | decimal | Distance to meteorological station during pregnancy |
 
-*yearly-repeated variables*
-
+*peripheral blood variables*
 
 ### Tables
-- 1_0_nonrep
-- 1_0_yearly_rep
+- 1_0_corblood
+- 1_0_peripheral_blood
+- 1_0_placenta

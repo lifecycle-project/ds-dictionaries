@@ -2,7 +2,7 @@
 We define here in what versions of the data dictionaries contains which tables.
 
 ## 1.5
-**dsUpload R-package version >= 4.4.x** *--> not released yet*
+**dsUpload R-package version >= 4.4.x** 
 
 ### Content
 
@@ -45,9 +45,8 @@ We define here in what versions of the data dictionaries contains which tables.
 ### Content
 
 #### General changes
-Changed description of variables to match the catalogue descriptions
-#### Additional variables
-
+- Changed description of variables to match the catalogue descriptions
+- Removed variables depending on methylclock package
 ### Tables
 - 1_3_non_repeated
 - 1_3_weekly_repeated
@@ -60,8 +59,12 @@ Changed description of variables to match the catalogue descriptions
 ### Content
 
 #### General changes
-- *yearly-repeated variables*
+- *yearly repeated variables*
   - Added maternal smoking variables (generated with Sebastian Rauschert shiny-app)
+- *non repeated methylation variables*  
+  - Added non repeated variables depending on methylclock package
+- *yearly repeated methylation variables* 
+   - Added yearly repeated variables depening on methylclock package
 
 #### Additional variables
 
