@@ -24,6 +24,8 @@ Only affects the yearly repeated measurements.
 #### General changes
 - Fix the `matsmo` variables with the additional underscore
 - Rename variable `matsmo_normalisation` to `matsmo_format_`
+- Change the unit from `matsmo_score_` and `matsmo_age_at_dna_methyl_` to decimal
+- Update the label from the `matsmo_score_`
 
 #### Additional variables
 
