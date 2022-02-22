@@ -1,12 +1,29 @@
 # Versions of data dictionaries (outcome = wp4, wp5 and wp6)
 We define here in what versions of the data dictionaries contains which tables.
 
-## 1.5
+## 1.6 --> not released yet
 **dsUpload R-package version >= 4.4.x** 
 
 ### Content
 
 #### General changes
+
+#### Additional variables
+
+### Tables
+- 1_6_non_repeated
+- 1_6_weekly_repeated
+- 1_6_monthly_repeated
+- 1_6_yearly_repeated
+
+## 1.5
+**dsUpload R-package version >= 4.4.x** 
+
+### Content
+Only affects the yearly repeated measurements.
+#### General changes
+- Fix the `matsmo` variables with the additional underscore
+- Rename variable `matsmo_normalisation` to `matsmo_format_`
 
 #### Additional variables
 
