@@ -1,7 +1,7 @@
 # Versions of data dictionaries (core = wp1 and wp3)
 We define here in what versions of the data dictionaries contains which tables.
 
-## 2.3
+## 2.4
 **dsUpload R-package version >= 4.4.x** *--> not released yet*
 
 ### Content
@@ -17,6 +17,36 @@ We define here in what versions of the data dictionaries contains which tables.
 *monthly-repeated variables*
 
 *trimester-repeated variables*
+
+### Tables
+- 2_4_nonrep
+- 2_4_trimester_rep
+- 2_4_yearly_rep
+- 2_4_monthly_rep
+
+## 2.3
+**dsUpload R-package version >= 4.4.x**
+
+### Content
+
+#### General changes
+
+#### Additional variables 
+
+*trimester-repeated variables*
+
+| Variable          | Type      | Description                                               |
+| ----------------- | --------- | ---------------------------------------------------       |
+|SAI_score_T2       |integer    |SAI score second trimester                                 |
+|SCL_total_score_T2 |integer    |SCL score second trimester                                 |
+|SCL_anx_score_T2   |integer    |SCL anxiety score second trimester                         |
+|SCL_dep_score_T2   |integer    |SCL depression score second trimester                      |
+|SCL_total_score_T3 |integer    |SCL score third trimester                                  |
+|SCL_anx_score_T3   |integer    |SCL anxiety score third trimester                          |
+|SCL_dep_score_T3   |integer    |SCL depression score third trimester                       |
+|GA_anx_T2          |integer    |Gestational age in days at second trimester anxiety measure|
+|GA_anx_T3          |integer    |Gestational age in days at third trimester anxiety measure |
+
 
 ### Tables
 - 2_3_nonrep
