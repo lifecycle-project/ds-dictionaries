@@ -6,7 +6,7 @@ We define here in what versions of the data dictionaries contains which tables
 
 ### Content
 1.0 Chemicals in Athlete from Helix Project
-it is a test, only the Phthalates data are included in this version for now.
+Chemicals for mother and child
 
 #### General changes
 
@@ -16,6 +16,9 @@ it is a test, only the Phthalates data are included in this version for now.
 
 *trimester-repeated variables*
 
+*yearly-repeated variables*
+
 ### Tables
 - 1_0_nonrep
 - 1_0_trimester_rep
+- 1_0_yearly_rep
