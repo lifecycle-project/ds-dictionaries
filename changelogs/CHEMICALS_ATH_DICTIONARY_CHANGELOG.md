@@ -92,7 +92,7 @@ We define here in what versions of the data dictionaries contains which tables
 
 | Variable | Type    | Description                        |
 | ---------| ------- | ---------------------------------- |
-|age_years | integer | Age of child in trimester             |
+|age_trimester | integer | Age of child in trimester             |
 
 ### Tables
 - 1_1_nonrep
