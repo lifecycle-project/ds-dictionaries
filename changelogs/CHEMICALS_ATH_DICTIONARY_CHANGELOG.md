@@ -11,6 +11,8 @@ We define here in what versions of the data dictionaries contains which tables
   - Added variables see list below
 - *trimester-repeated variables*
   - Added age_trimeter at trimester dictionary
+- added cohort_id at non-rep dict.
+- prene varibles name fixed into pyrene.
 
 #### Additional variables 
 
@@ -92,8 +94,15 @@ We define here in what versions of the data dictionaries contains which tables
 
 | Variable | Type    | Description                        |
 | ---------| ------- | ---------------------------------- |
-|age_trimester | integer | Age of child in trimester             |
+|age_trimester | integer | Age of child in trimester      |
 
+**non-repeated varaibles**
+
+| Variable | Type    | Description                        |
+| ---------| ------- | ---------------------------------- |
+| cohort_id | integer | Unique identifier for the cohort  |
+
+			
 ### Tables
 - 1_1_nonrep
 - 1_1_trimester_rep
