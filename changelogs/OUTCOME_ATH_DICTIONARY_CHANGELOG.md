@@ -1,4 +1,4 @@
-# Versions of data dictionaries (chemical data)
+# Versions of data dictionaries (outcome_ath data)
 
 We define here in what versions of the data dictionaries contains which tables
 
