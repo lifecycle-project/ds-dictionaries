@@ -41,7 +41,7 @@ We define here in what versions of the data dictionaries contains which tables
 | mother_id                     | text    | Unique identifier number for the mother                                                                                             |
 | child_id                      | text    | Unique identifier number for the index child                                                                                        |
 | age_trimester                 | integer | Age of the child in trimesters                                                                                                      |
-| ga_us_t                       | integer | Gestational age when ultrasound in X trimester was performed                                                                        |
+| ga_us_t                       | decimal | Gestational age when ultrasound in X trimester was performed                                                                        |
 | fetus_biparietal_diam_t       | decimal | Biparietal diameter of the fetus in X trimester                                                                                     |
 | fetus_head_circum_t           | decimal | Circumference of the head of the fetus in X trimester                                                                               |
 | fetus_abd_circum_t            | decimal | Abdominal circumference of the fetus in X trimester                                                                                 |
