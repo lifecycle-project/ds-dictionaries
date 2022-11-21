@@ -46,7 +46,7 @@ We define here in what versions of the data dictionaries contains which tables
 | fetus_head_circum_t           | decimal | Circumference of the head of the fetus in X trimester                                                                               |
 | fetus_abd_circum_t            | decimal | Abdominal circumference of the fetus in X trimester                                                                                 |
 | fetus_femur_length_t          | decimal | Femur length of the fetus in X trimester                                                                                            |
-| fetus_weight_t                | integer | Estimated weight of the fetus in X trimester                                                                                        |
+| fetus_weight_t                | decimal | Estimated weight of the fetus in X trimester                                                                                        |
 | biparietal_diam_sdsWHO_t      | decimal | Gestational age-adjusted biparietal diameter SDS  in X trimester based on overall WHO-based reference growth curves                 |
 | head_circum_sdsWHO_t          | decimal | Gestational age-adjusted head circumference SDS  in X trimester based on overall WHO-based reference growth curves                  |
 | abd_circum_sdsWHO_t           | decimal | Gestational age-adjusted abdominal circumference SDS  in X trimester based on overall WHO-based reference growth curves             |
