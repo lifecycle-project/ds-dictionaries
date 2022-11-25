@@ -35,13 +35,13 @@ We define here in what versions of the data dictionaries contains which tables.
 
 *trimester-repeated variables*
 
-| Variable          | Type      | Description                                               |
-| ----------------- | --------- | ---------------------------------------------------       |
-|SAI_score_t1       |integer    |SAI score first trimester                                  |
-|SCL_total_score_t1 |integer    |SCL score first trimester                                  |
-|SCL_anx_score_t1   |integer    |SCL anxiety score first trimester                          |
-|SCL_dep_score_t1   |integer    |SCL depression score first trimester                       |
-|GA_anx_t1          |integer    |Gestational age in days at first trimester anxiety measure |
+| Variable          | Type      | Description                                           |
+| ----------------- | --------- | ---------------------------------------------------   |
+|SAI_score_t        |integer    |SAI score X trimester                                  |
+|SCL_total_score_t  |integer    |SCL score X trimester                                  |
+|SCL_anx_score_t    |integer    |SCL anxiety score X trimester                          |
+|SCL_dep_score_t    |integer    |SCL depression score X trimester                       |
+|GA_anx_t           |integer    |Gestational age in days at X trimester anxiety measure |
 
 ### Tables
 - 2_3_nonrep
