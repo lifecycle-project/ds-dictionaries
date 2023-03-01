@@ -1,4 +1,4 @@
-# Versions of data dictionaries (chemical data)
+# Versions of data dictionaries (outcome_ath data)
 
 We define here in what versions of the data dictionaries contains which tables
 
@@ -59,12 +59,12 @@ We define here in what versions of the data dictionaries contains which tables
 | mother_id                     | text    | Unique identifier number for the mother                                                                                             |
 | child_id                      | text    | Unique identifier number for the index child                                                                                        |
 | age_trimester                 | integer | Age of the child in trimesters                                                                                                      |
-| ga_us_t                       | integer | Gestational age when ultrasound in X trimester was performed                                                                        |
+| ga_us_t                       | decimal | Gestational age when ultrasound in X trimester was performed                                                                        |
 | fetus_biparietal_diam_t       | decimal | Biparietal diameter of the fetus in X trimester                                                                                     |
 | fetus_head_circum_t           | decimal | Circumference of the head of the fetus in X trimester                                                                               |
 | fetus_abd_circum_t            | decimal | Abdominal circumference of the fetus in X trimester                                                                                 |
 | fetus_femur_length_t          | decimal | Femur length of the fetus in X trimester                                                                                            |
-| fetus_weight_t                | integer | Estimated weight of the fetus in X trimester                                                                                        |
+| fetus_weight_t                | decimal | Estimated weight of the fetus in X trimester                                                                                        |
 | biparietal_diam_sdsWHO_t      | decimal | Gestational age-adjusted biparietal diameter SDS  in X trimester based on overall WHO-based reference growth curves                 |
 | head_circum_sdsWHO_t          | decimal | Gestational age-adjusted head circumference SDS  in X trimester based on overall WHO-based reference growth curves                  |
 | abd_circum_sdsWHO_t           | decimal | Gestational age-adjusted abdominal circumference SDS  in X trimester based on overall WHO-based reference growth curves             |
