@@ -1,10 +1,21 @@
 # DataSHIELD ds-dictionaries to use with dsUpload
 
+## Short introduction
+
 The dictionaries found in this repository are used by dsUpload and defined by the network Lifecycle and more recently by Athlete and LongITools. DsUpload uploads your transformed data defined by the dictionaries. This will ensure that the harmonized variables are used across multiple cohorts running Armadillo and/or Opal. Which can subsequently be analyzed in a federated system called DataSHIELD.
+
+### Add variables to a (new) dictionary
 
 When a new dictionary or new variables for a dictionary need to be added a number of steps need to be considered which we will go through below.
 
-## Dictionary versioning
+### Dictionary
+
+- [DONE] Dictionary versioning
+- Dictionary excel sheets
+- Dictionary columns
+- Dictionary template (empty)
+
+#### Dictionary versioning
 
 Dictionaries are placed in the directory `/dictionaries/<name>/x_y` in the repository [lifecycle-project/ds-dictionaries](https://github.com/lifecycle-project/ds-dictionaries)
 
@@ -54,49 +65,14 @@ Semantic versioning is used with the following implementation: *(Note: is this c
   - Renaming of columns withing the existing tables (the original column remains in the set)
   - Changing the column type within the existing tables
 
-## Dictionary excel file
+### Variables
 
-The dictionary should be provided as an excel file (.xslx) with two sheets:
+- Variables 'rules'
+- 'Protected' variables
+- variable valueType (list)
+- variable Unit (link to CatalogueOntologies)
 
-- Variables
-- Categories
-
-## Dictionary columns
-
-The following columns are allowed:
-
-- Variables (sheet)
-  - name (`variable_name`, `repeat_name_0`, `cats_`)
-  - valueType (`decimal`, `integer`, `text`)
-  - unit ([see list](https://data-catalogue.molgeniscloud.org/CatalogueOntologies/tables/#/Units))
-  - label (eg. [Cat ownership in child's household from 0 to <1 year](https://data-catalogue.molgeniscloud.org/catalogue/catalogue/#/networks-catalogue/EUChildNetwork/variables/cats_0?model=LifeCycle_CDM&version=1.0.0))
-
-- Categories (sheet)
-  - variable (`cats_`)
-  - name (`0`)
-  - isMissing (`=FALSE()`)
-  - label (`no`)
-
-## Dictionary template
-
-*NOTE: add empty template*
-
-## Variables
-
-Non repeating and repeating variables follow a slightly different format. A non repeating variable will look like `variable_name`, lower case and connected by an underscore.
-
-Repeating variables are defined like `repeat_name_`, lower case and postfix with an underscore. dsUpload will accept variables like `repeat_name_0`, `repeat_name_1`.
-
-Some variables are reserved by dsUpload:
-
-- `row_id`
-- `child_id`
-- `age_years`
-- `age_months`
-- `age_weeks`
-- `age_trimester`
-
-## Changelogs
+### Changelogs
 
 To keep track of all the changed within the different versions of the dictionaries and data releases need to have changelogs. This way we can trace back what has happened in which release.
 
