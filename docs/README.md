@@ -1,8 +1,8 @@
 # DataSHIELD ds-dictionaries to use with dsUpload
 
-The dictionaries found in this repository are used by dsUpload and defined by the network Lifecycle and more recently by Athlete and LongITools. DsUpload uploads your transformed data defined by the dictionaries. This will ensure that the harmonized variables are used across multiple cohorts running Armadillo and/or Opal. Which can subsequently be analyzed in a federated system called DataSHIELD.
+The dictionaries found in this repository are used by dsUpload and defined by the LifeCycle Project, and more recently by ATHLETE and LongITools. DsUpload uploads your transformed data according to the structure defined by the dictionaries. This will ensure that the harmonized variables can be used across multiple cohorts running Armadillo and/or Opal servers, which can subsequently be analyzed using a federated system called DataSHIELD.
 
-When a new dictionary or new variables for a dictionary need to be added a number of steps need to be considered which we will go through below.
+When a new dictionary, or new variables for a dictionary, will be added, a number of steps should be followed, which are described below.
 
 ## Dictionary versioning
 
@@ -10,18 +10,18 @@ Dictionaries are placed in the directory `/dictionaries/<name>/x_y` in the repos
 
 The dictionary `<name>` will be defined by the network, for this example we take the LifeCycle dictionary `core`.
 
-Next we find that there are [multiple versions](https://github.com/lifecycle-project/ds-dictionaries/tree/master/dictionaries/core) (`x_y`) of this dictionary defined: 1_0, 2_0, 2_1, 2_2, 2_3. Where `x` is the dictionary mayor and `y` the minor version.
+Next we find that there are [multiple versions](https://github.com/lifecycle-project/ds-dictionaries/tree/master/dictionaries/core) (`x_y`) of this dictionary defined: 1_0, 2_0, 2_1, 2_2, 2_3. Where `x` is the dictionary major and `y` the minor version.
 
 In this example the [latest version](https://github.com/lifecycle-project/ds-dictionaries/tree/master/dictionaries/core/2_3) of the LifeCycle dictionary `core` is `/dictionaries/core/2_3`
 
-This latest version contains multiple dictionary kinds:
+This latest version contains multiple dictionary types:
 
 - `2_3_non_rep.xslx`
 - `2_3_monthly_rep.xslx`
 - `2_3_trimester_rep.xslx`
 - `2_3_yearly_rep.xslx`
 
-The dictionary kinds currently supported by dsUpload are:
+The dictionary type currently supported by dsUpload are:
 
 - `non_rep` (non repeating variables)
 - `weekly_rep` (weekly repeating variables)
@@ -66,7 +66,7 @@ The dictionary should be provided as an excel file (.xslx) with two sheets:
 The following columns are allowed:
 
 - Variables (sheet)
-  - name (`variable_name`, `repeat_name_0`, `cats_`)
+  - name (`variable_name`, `repeat_name_0`*, `cats_`)
   - valueType (`decimal`, `integer`, `text`)
   - unit ([see list](https://data-catalogue.molgeniscloud.org/CatalogueOntologies/tables/#/Units))
   - label (eg. [Cat ownership in child's household from 0 to <1 year](https://data-catalogue.molgeniscloud.org/catalogue/catalogue/#/networks-catalogue/EUChildNetwork/variables/cats_0?model=LifeCycle_CDM&version=1.0.0))
@@ -74,8 +74,10 @@ The following columns are allowed:
 - Categories (sheet)
   - variable (`cats_`)
   - name (`0`)
-  - isMissing (`=FALSE()`)
+  - isMissing (`=FALSE()`) **delete column?, is never used**
   - label (`no`)
+
+`*` If used in non_rep. 
 
 ## Dictionary template
 
@@ -106,5 +108,5 @@ Changelogs are placed in the [directory](https://github.com/lifecycle-project/ds
 - Version of the published dictionary
 - Which version of dsUpload is compatible with the dictionary
 - List of General changes
-- List of Additional variables which in case of a new dictionary should list ALL variables for each dictionary kind, list Variable, Type and Description.
+- LList of additional variables. In case of a new dictionary this list should contain ALL variables for each dictionary, (including name, type and description).
 - List of tables (dictionaries) defined and published
