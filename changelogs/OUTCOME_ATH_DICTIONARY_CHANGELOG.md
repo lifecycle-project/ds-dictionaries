@@ -4,7 +4,7 @@ We define here in what versions of the data dictionaries contains which tables
 
 ## 1.0
 
-**dsUpload R-package version >= 4.6.x**
+**dsUpload R-package version >= 4.7.x**
 
 ### Content
 
@@ -156,10 +156,10 @@ yearly-repeated variables*
 | homa_ir_idefics_perc_ | decimal | Repeated HOMA-IR percentiles based on the IDEFICS study reference values |
 | glucose_idefics_perc_ | decimal | Repeated glucose percentiles based on the IDEFICS study reference values |
 | mets_age_ | decimal | Exact age of the child (in years) when the MetS components were measured. |
-| alt_ | decimal | Repeated measures of child’s |
-| ast_ | decimal | Repeated measures of child’s |
-| ggt_ | decimal | Repeated measures of child’s |
-| ck18_ | decimal | Repeated measures of child’s |
+| alt_ | decimal | Repeated measures of child’s alanine aminotrasferase concentrations |
+| ast_ | decimal | Repeated measures of child’s aspartate aminotrasferase concentrations |
+| ggt_ | decimal | Repeated measures of child’s gamma-glutamyl transferase concentrations |
+| ck18_ | decimal | Repeated measures of child’s Cytokeratin-18 concentrations |
 | liver_age_ | decimal | Exact age of the child (in years) when liver enzymes were measured etc. |
 | mrivafm_ | decimal | Repeated measures of child‘s visceral abdominal fat mass measured using MRI: mrivafm_: assessed within one year of childbirth (>0 year and <1 year) mrivafm_1: assessed when the child was aged between ≥ 1 year and < 2 years … mrivafm_17: assessed when the child was aged between ≥ 17 years and < 18 years |
 | mrihff_ | decimal | Repeated measures of child’s mean hepatic fat-fraction  measured using MRI: mrihff_: assessed within one year of childbirth (>0 year and <1 year) mrihff_1: assessed when the child was aged between ≥ 1 year and < 2 years … mrihff_17: assessed when the child was aged between ≥ 17 years and < 18 years |
