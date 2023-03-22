@@ -1,0 +1,2661 @@
+dictionary.name: chemicals_ath
+dictionary.version: 1_1
+dictionary.type: non_rep
+Variables: |
+  - name: row_id
+    valueType: integer
+    unit: numeric
+    label: Unique identifer for the row in Opal
+  - name: child_id
+    valueType: text
+    unit: .na.character
+    label: Unique identifer for the child
+  - name: cohort_id
+    valueType: integer
+    unit: numeric
+    label: Unique identifier for the cohort
+  - name: m_mep_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MEP preconception levels
+  - name: m_mep_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MEP at preconception
+  - name: m_mep_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MEP pregnancy levels
+  - name: m_mep_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MEP at pregnancy
+  - name: m_mep_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MEP birth levels
+  - name: m_mep_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MEP at birth
+  - name: m_mibp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MiBP preconception levels
+  - name: m_mibp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MiBP at preconception
+  - name: m_mibp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MiBP pregnancy levels
+  - name: m_mibp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MiBP at pregnancy
+  - name: m_mibp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MiBP birth levels
+  - name: m_mibp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MiBP at birth
+  - name: m_mnbp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MnBP preconception levels
+  - name: m_mnbp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MnBP at preconception
+  - name: m_mnbp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MnBP pregnancy levels
+  - name: m_mnbp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MnBP at pregnancy
+  - name: m_mnbp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MnBP birth levels
+  - name: m_mnbp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MnBP at birth
+  - name: m_mbzp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MBzP preconception levels
+  - name: m_mbzp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MBzP at preconception
+  - name: m_mbzp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MBzP pregnancy levels
+  - name: m_mbzp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MBzP at pregnancy
+  - name: m_mbzp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MBzP birth levels
+  - name: m_mbzp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MBzP at birth
+  - name: m_mehp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MEHP preconception levels
+  - name: m_mehp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MEHP at preconception
+  - name: m_mehp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MEHP pregnancy levels
+  - name: m_mehp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MEHP at pregnancy
+  - name: m_mehp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MEHP birth levels
+  - name: m_mehp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MEHP at birth
+  - name: m_mehhp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MEHHP preconception levels
+  - name: m_mehhp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MEHHP at preconception
+  - name: m_mehhp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MEHHP pregnancy levels
+  - name: m_mehhp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MEHHP at pregnancy
+  - name: m_mehhp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MEHHP birth levels
+  - name: m_mehhp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MEHHP at birth
+  - name: m_meohp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MEOHP preconception levels
+  - name: m_meohp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MEOHP at preconception
+  - name: m_meohp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MEOHP pregnancy levels
+  - name: m_meohp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MEOHP at pregnancy
+  - name: m_meohp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MEOHP birth levels
+  - name: m_meohp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MEOHP at birth
+  - name: m_mecpp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MECPP preconception levels
+  - name: m_mecpp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MECPP at preconception
+  - name: m_mecpp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MECPP pregnancy levels
+  - name: m_mecpp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MECPP at pregnancy
+  - name: m_mecpp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MECPP birth levels
+  - name: m_mecpp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MECPP at birth
+  - name: m_mmchp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MMCHP preconception levels
+  - name: m_mmchp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MMCHP at preconception
+  - name: m_mmchp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MMCHP pregnancy levels
+  - name: m_mmchp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MMCHP at pregnancy
+  - name: m_mmchp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MMCHP birth levels
+  - name: m_mmchp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MMCHP at birth
+  - name: m_ohminp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal oh_MiNP preconception levels
+  - name: m_ohminp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oh_MiNP at preconception
+  - name: m_ohminp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine oh_MiNP pregnancy levels
+  - name: m_ohminp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine oh_MiNP at pregnancy
+  - name: m_ohminp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  oh_MiNP birth levels
+  - name: m_ohminp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oh_MiNP at birth
+  - name: m_oxominp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal oxo_MiNP preconception levels
+  - name: m_oxominp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oxo_MiNP at preconception
+  - name: m_oxominp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine oxo_MiNP pregnancy levels
+  - name: m_oxominp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine oxo_MiNP at pregnancy
+  - name: m_oxominp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  oxo_MiNP birth levels
+  - name: m_oxominp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oxo_MiNP at birth
+  - name: m_cxminp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal cx_MiNP preconception levels
+  - name: m_cxminp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  cx_MiNP at preconception
+  - name: m_cxminp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine cx_MiNP pregnancy levels
+  - name: m_cxminp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine cx_MiNP at pregnancy
+  - name: m_cxminp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  cx_MiNP birth levels
+  - name: m_cxminp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  cx_MiNP at birth
+  - name: m_ohmphp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal oh_MPHP preconception levels
+  - name: m_ohmphp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oh_MPHP at preconception
+  - name: m_ohmphp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine oh_MPHP pregnancy levels
+  - name: m_ohmphp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine oh_MPHP at pregnancy
+  - name: m_ohmphp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  oh_MPHP birth levels
+  - name: m_ohmphp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oh_MPHP at birth
+  - name: m_ohminch_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal oh_MiNCH preconception levels
+  - name: m_ohminch_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oh_MiNCH at preconception
+  - name: m_ohminch_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine oh_MiNCH pregnancy levels
+  - name: m_ohminch_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine oh_MiNCH at pregnancy
+  - name: m_ohminch_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  oh_MiNCH birth levels
+  - name: m_ohminch_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oh_MiNCH at birth
+  - name: m_oxominch_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal oxo_MiNCH preconception levels
+  - name: m_oxominch_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oxo_MiNCH at preconception
+  - name: m_oxominch_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine oxo_MiNCH pregnancy levels
+  - name: m_oxominch_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine oxo_MiNCH at pregnancy
+  - name: m_oxominch_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  oxo_MiNCH birth levels
+  - name: m_oxominch_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  oxo_MiNCH at birth
+  - name: m_mnpep_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MnPeP preconception levels
+  - name: m_mnpep_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MnPeP at preconception
+  - name: m_mnpep_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MnPeP pregnancy levels
+  - name: m_mnpep_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MnPeP at pregnancy
+  - name: m_mnpep_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MnPeP birth levels
+  - name: m_mnpep_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MnPeP at birth
+  - name: m_mchp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MCHP preconception levels
+  - name: m_mchp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MCHP at preconception
+  - name: m_mchp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MCHP pregnancy levels
+  - name: m_mchp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MCHP at pregnancy
+  - name: m_mchp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MCHP birth levels
+  - name: m_mchp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MCHP at birth
+  - name: m_mnop_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal MnOP preconception levels
+  - name: m_mnop_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MnOP at preconception
+  - name: m_mnop_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine MnOP pregnancy levels
+  - name: m_mnop_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine MnOP at pregnancy
+  - name: m_mnop_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  MnOP birth levels
+  - name: m_mnop_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  MnOP at birth
+  - name: m_mmp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal mMP preconception levels
+  - name: m_mmp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  mMP at preconception
+  - name: m_mmp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine mMP pregnancy levels
+  - name: m_mmp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine mMP at pregnancy
+  - name: m_mmp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  mMP birth levels
+  - name: m_mmp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  mMP at birth
+  - name: m_mhxp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal mHxP preconception levels
+  - name: m_mhxp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  mHxP at preconception
+  - name: m_mhxp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine mHxP pregnancy levels
+  - name: m_mhxp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine mHxP at pregnancy
+  - name: m_mhxp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  mHxP birth levels
+  - name: m_mhxp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  mHxP at birth
+  - name: m_mhpp_raw_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal mHpP preconception levels
+  - name: m_mhpp_lod_precon
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  mHpP at preconception
+  - name: m_mhpp_raw_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal urine mHpP pregnancy levels
+  - name: m_mhpp_lod_preg
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal urine mHpP at pregnancy
+  - name: m_mhpp_raw_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Maternal  mHpP birth levels
+  - name: m_mhpp_lod_birth
+    valueType: decimal
+    unit: µg/ml
+    label: Limit of detection of maternal  mHpP at birth
+  - name: m_bpa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal BPA preconception levels
+  - name: m_bpa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  BPA at preconception
+  - name: m_bpa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine BPA pregnancy levels
+  - name: m_bpa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine BPA at pregnancy
+  - name: m_bpa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  BPA birth levels
+  - name: m_bpa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  BPA at birth
+  - name: m_bps_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal BPS preconception levels
+  - name: m_bps_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  BPS at preconception
+  - name: m_bps_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine BPS pregnancy levels
+  - name: m_bps_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine BPS at pregnancy
+  - name: m_bps_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  BPS birth levels
+  - name: m_bps_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  BPS at birth
+  - name: m_bpf_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal BPF preconception levels
+  - name: m_bpf_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  BPF at preconception
+  - name: m_bpf_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine BPF pregnancy levels
+  - name: m_bpf_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine BPF at pregnancy
+  - name: m_bpf_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  BPF birth levels
+  - name: m_bpf_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  BPF at birth
+  - name: m_mepa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal MEPA preconception levels
+  - name: m_mepa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  MEPA at preconception
+  - name: m_mepa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine MEPA pregnancy levels
+  - name: m_mepa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine MEPA at pregnancy
+  - name: m_mepa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  MEPA birth levels
+  - name: m_mepa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  MEPA at birth
+  - name: m_etpa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal ETPA preconception levels
+  - name: m_etpa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  ETPA at preconception
+  - name: m_etpa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine ETPA pregnancy levels
+  - name: m_etpa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine ETPA at pregnancy
+  - name: m_etpa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  ETPA birth levels
+  - name: m_etpa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  ETPA at birth
+  - name: m_prpa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal PRPA preconception levels
+  - name: m_prpa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  PRPA at preconception
+  - name: m_prpa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine PRPA pregnancy levels
+  - name: m_prpa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine PRPA at pregnancy
+  - name: m_prpa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  PRPA birth levels
+  - name: m_prpa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  PRPA at birth
+  - name: m_bupa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal BUPA preconception levels
+  - name: m_bupa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  BUPA at preconception
+  - name: m_bupa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine BUPA pregnancy levels
+  - name: m_bupa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine BUPA at pregnancy
+  - name: m_bupa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  BUPA birth levels
+  - name: m_bupa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  BUPA at birth
+  - name: m_oxbe_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal OXBE preconception levels
+  - name: m_oxbe_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  OXBE at preconception
+  - name: m_oxbe_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine OXBE pregnancy levels
+  - name: m_oxbe_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine OXBE at pregnancy
+  - name: m_oxbe_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  OXBE birth levels
+  - name: m_oxbe_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  OXBE at birth
+  - name: m_trcs_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal TRCS preconception levels
+  - name: m_trcs_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  TRCS at preconception
+  - name: m_trcs_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine TRCS pregnancy levels
+  - name: m_trcs_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine TRCS at pregnancy
+  - name: m_trcs_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  TRCS birth levels
+  - name: m_trcs_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  TRCS at birth
+  - name: m_pfhxs_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  PFHxS preconception levels
+  - name: m_pfhxs_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFHxS at preconception
+  - name: m_pfhxs_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   PFHxS birth levels
+  - name: m_pfhxs_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFHxS at birth
+  - name: m_pfhps_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  PFHpS preconception levels
+  - name: m_pfhps_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFHpS at preconception
+  - name: m_pfhps_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   PFHpS birth levels
+  - name: m_pfhps_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFHpS at birth
+  - name: m_pfos_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  PFOS preconception levels
+  - name: m_pfos_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFOS at preconception
+  - name: m_pfos_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   PFOS birth levels
+  - name: m_pfos_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFOS at birth
+  - name: m_pfoa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  PFOA preconception levels
+  - name: m_pfoa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFOA at preconception
+  - name: m_pfoa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   PFOA birth levels
+  - name: m_pfoa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFOA at birth
+  - name: m_pfna_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  PFNA preconception levels
+  - name: m_pfna_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFNA at preconception
+  - name: m_pfna_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   PFNA birth levels
+  - name: m_pfna_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFNA at birth
+  - name: m_pfda_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  PFDA preconception levels
+  - name: m_pfda_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFDA at preconception
+  - name: m_pfda_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   PFDA birth levels
+  - name: m_pfda_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFDA at birth
+  - name: m_pfunda_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  PFUnDA preconception levels
+  - name: m_pfunda_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFUnDA at preconception
+  - name: m_pfunda_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   PFUnDA birth levels
+  - name: m_pfunda_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   PFUnDA at birth
+  - name: m_creatinine_raw_precon
+    valueType: decimal
+    unit: g/L
+    label: Maternal Creatinine preconception levels
+  - name: m_creatinine_lod_precon
+    valueType: decimal
+    unit: g/L
+    label: Limit of detection of maternal  Creatinine at preconception
+  - name: m_creatinine_raw_preg
+    valueType: decimal
+    unit: g/L
+    label: Maternal urine Creatinine pregnancy levels
+  - name: m_creatinine_lod_preg
+    valueType: decimal
+    unit: g/L
+    label: Limit of detection of maternal urine Creatinine at pregnancy
+  - name: m_creatinine_raw_birth
+    valueType: decimal
+    unit: g/L
+    label: Maternal  Creatinine birth levels
+  - name: m_creatinine_lod_birth
+    valueType: decimal
+    unit: g/L
+    label: Limit of detection of maternal  Creatinine at birth
+  - name: m_pcb118_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal PCB_118 preconception levels
+  - name: m_pcb118_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal  PCB_118 at preconception
+  - name: m_pcb118_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  PCB_118 birth levels
+  - name: m_pcb118_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal  PCB_118 at birth
+  - name: m_pcb138_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  PCB_138 preconception levels
+  - name: m_pcb138_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PCB_138 at preconception
+  - name: m_pcb138_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal   PCB_138 birth levels
+  - name: m_pcb138_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PCB_138 at birth
+  - name: m_pcb153_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  PCB_153 preconception levels
+  - name: m_pcb153_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PCB_153 at preconception
+  - name: m_pcb153_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal   PCB_153 birth levels
+  - name: m_pcb153_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PCB_153 at birth
+  - name: m_pcb170_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  PCB_170 preconception levels
+  - name: m_pcb170_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PCB_170 at preconception
+  - name: m_pcb170_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal   PCB_170 birth levels
+  - name: m_pcb170_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PCB_170 at birth
+  - name: m_pcb180_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  PCB_180 preconception levels
+  - name: m_pcb180_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PCB_180 at preconception
+  - name: m_pcb180_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal   PCB_180 birth levels
+  - name: m_pcb180_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PCB_180 at birth
+  - name: m_ddt_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  DDT preconception levels
+  - name: m_ddt_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   DDT at preconception
+  - name: m_ddt_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal   DDT birth levels
+  - name: m_ddt_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   DDT at birth
+  - name: m_dde_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  DDE preconception levels
+  - name: m_dde_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   DDE at preconception
+  - name: m_dde_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal   DDE birth levels
+  - name: m_dde_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   DDE at birth
+  - name: m_hcb_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  HCB preconception levels
+  - name: m_hcb_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   HCB at preconception
+  - name: m_hcb_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal   HCB birth levels
+  - name: m_hcb_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   HCB at birth
+  - name: m_hch_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  HCH preconception levels
+  - name: m_hch_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   HCH at preconception
+  - name: m_hch_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal   HCH birth levels
+  - name: m_hch_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal HCH at birth
+  - name: m_pbde47_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  PBDE_47 preconception levels
+  - name: m_pbde47_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PBDE_47 in preconception
+  - name: m_pbde47_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal PBDE_47 birth levels
+  - name: m_pbde47_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PBDE_47 at birth
+  - name: m_pbde153_raw_precon
+    valueType: decimal
+    unit: pg/g
+    label: Maternal  PBDE_153 preconception levels
+  - name: m_pbde153_lod_precon
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PBDE_153 at preconception
+  - name: m_pbde153_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Maternal   PBDE_153 birth levels
+  - name: m_pbde153_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of maternal   PBDE_153 at birth
+  - name: m_dmp_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal DMP preconception levels
+  - name: m_dmp_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DMP at preconception
+  - name: m_dmp_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine DMP pregnancy levels
+  - name: m_dmp_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine DMP at pregnancy
+  - name: m_dmp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  DMP birth levels
+  - name: m_dmp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DMP at birth
+  - name: m_dmtp_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal DMTP preconception levels
+  - name: m_dmtp_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DMTP at preconception
+  - name: m_dmtp_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine DMTP pregnancy levels
+  - name: m_dmtp_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine DMTP at pregnancy
+  - name: m_dmtp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  DMTP birth levels
+  - name: m_dmtp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DMTP at birth
+  - name: m_dmdtp_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal DMDTP preconception levels
+  - name: m_dmdtp_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DMDTP at preconception
+  - name: m_dmdtp_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine DMDTP pregnancy levels
+  - name: m_dmdtp_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine DMDTP at pregnancy
+  - name: m_dmdtp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  DMDTP birth levels
+  - name: m_dmdtp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DMDTP at birth
+  - name: m_dep_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal DEP preconception levels
+  - name: m_dep_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DEP at preconception
+  - name: m_dep_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine DEP pregnancy levels
+  - name: m_dep_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine DEP at pregnancy
+  - name: m_dep_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  DEP birth levels
+  - name: m_dep_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DEP at birth
+  - name: m_detp_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal DETP preconception levels
+  - name: m_detp_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DETP at preconception
+  - name: m_detp_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine DETP pregnancy levels
+  - name: m_detp_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine DETP at pregnancy
+  - name: m_detp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  DETP birth levels
+  - name: m_detp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DETP at birth
+  - name: m_dedtp_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal DEDTP preconception levels
+  - name: m_dedtp_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DEDTP at preconception
+  - name: m_dedtp_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine DEDTP pregnancy levels
+  - name: m_dedtp_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine DEDTP at pregnancy
+  - name: m_dedtp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  DEDTP birth levels
+  - name: m_dedtp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  DEDTP at birth
+  - name: m_hg_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Hg preconception levels
+  - name: m_hg_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Hg at preconception
+  - name: m_hg_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Hg birth levels
+  - name: m_hg_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Hg at birth
+  - name: m_cd_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Cd preconception levels
+  - name: m_cd_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Cd at preconception
+  - name: m_cd_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Cd birth levels
+  - name: m_cd_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Cd at birth
+  - name: m_pb_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Pb preconception levels
+  - name: m_pb_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Pb at preconception
+  - name: m_pb_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Pb birth levels
+  - name: m_pb_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Pb at birth
+  - name: m_se_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Se preconception levels
+  - name: m_se_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Se at preconception
+  - name: m_se_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Se birth levels
+  - name: m_se_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Se at birth
+  - name: m_mn_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Mn preconception levels
+  - name: m_mn_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Mn at preconception
+  - name: m_mn_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Mn birth levels
+  - name: m_mn_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Mn at birth
+  - name: m_zn_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Zn preconception levels
+  - name: m_zn_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Zn at preconception
+  - name: m_zn_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Zn birth levels
+  - name: m_zn_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Zn at birth
+  - name: m_as_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  As preconception levels
+  - name: m_as_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   As at preconception
+  - name: m_as_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   As birth levels
+  - name: m_as_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   As at birth
+  - name: m_tl_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Tl preconception levels
+  - name: m_tl_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Tl at preconception
+  - name: m_tl_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Tl birth levels
+  - name: m_tl_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Tl at birth
+  - name: m_co_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Co preconception levels
+  - name: m_co_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Co at preconception
+  - name: m_co_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Co birth levels
+  - name: m_co_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Co at birth
+  - name: m_cu_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Cu preconception levels
+  - name: m_cu_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Cu at preconception
+  - name: m_cu_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Cu birth levels
+  - name: m_cu_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Cu at birth
+  - name: m_mo_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Mo preconception levels
+  - name: m_mo_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Mo at preconception
+  - name: m_mo_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Mo birth levels
+  - name: m_mo_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Mo at birth
+  - name: m_cs_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Cs preconception levels
+  - name: m_cs_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Cs at preconception
+  - name: m_cs_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Cs birth levels
+  - name: m_cs_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Cs at birth
+  - name: m_na_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Na preconception levels
+  - name: m_na_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Na at preconception
+  - name: m_na_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Na birth levels
+  - name: m_na_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Na at birth
+  - name: m_k_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  K preconception levels
+  - name: m_k_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   K at preconception
+  - name: m_k_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   K birth levels
+  - name: m_k_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   K at birth
+  - name: m_mg_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Mg preconception levels
+  - name: m_mg_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Mg at preconception
+  - name: m_mg_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal   Mg birth levels
+  - name: m_mg_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal   Mg at birth
+  - name: m_cotinine_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Cotinine preconception levels
+  - name: m_cotinine_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Cotinine at preconception
+  - name: m_cotinine_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Cotinine pregnancy levels
+  - name: m_cotinine_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Cotinine at pregnancy
+  - name: m_cotinine_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Cotinine birth levels
+  - name: m_cotinine_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Cotinine at birth
+  - name: m_benzoapyrene_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Benzo(a)pyrene preconception levels
+  - name: m_benzoapyrene_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Benzo(a)pyrene at preconception
+  - name: m_benzoapyrene_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Benzo(a)pyrene pregnancy levels
+  - name: m_benzoapyrene_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Benzo(a)pyrene at pregnancy
+  - name: m_benzoapyrene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Benzo(a)pyrene birth levels
+  - name: m_benzoapyrene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Benzo(a)pyrene at birth
+  - name: m_chrysene_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Chrysene preconception levels
+  - name: m_chrysene_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Chrysene at preconception
+  - name: m_chrysene_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Chrysene pregnancy levels
+  - name: m_chrysene_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Chrysene at pregnancy
+  - name: m_chrysene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Chrysene birth levels
+  - name: m_chrysene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Chrysene at birth
+  - name: m_fluorene_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Fluorene preconception levels
+  - name: m_fluorene_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Fluorene at preconception
+  - name: m_fluorene_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Fluorene pregnancy levels
+  - name: m_fluorene_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Fluorene at pregnancy
+  - name: m_fluorene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Fluorene birth levels
+  - name: m_fluorene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Fluorene at birth
+  - name: m_naphthalene_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Naphthalene preconception levels
+  - name: m_naphthalene_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Naphthalene at preconception
+  - name: m_naphthalene_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Naphthalene pregnancy levels
+  - name: m_naphthalene_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Naphthalene at pregnancy
+  - name: m_naphthalene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Naphthalene birth levels
+  - name: m_naphthalene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Naphthalene at birth
+  - name: m_phenanthrene_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Phenanthrene preconception levels
+  - name: m_phenanthrene_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Phenanthrene at preconception
+  - name: m_phenanthrene_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Phenanthrene pregnancy levels
+  - name: m_phenanthrene_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Phenanthrene at pregnancy
+  - name: m_phenanthrene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Phenanthrene birth levels
+  - name: m_phenanthrene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Phenanthrene at birth
+  - name: m_pyrene_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Pyrene preconception levels
+  - name: m_pyrene_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Pyrene at preconception
+  - name: m_pyrene_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Pyrene pregnancy levels
+  - name: m_pyrene_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Pyrene at pregnancy
+  - name: m_pyrene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Pyrene birth levels
+  - name: m_pyrene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Pyrene at birth
+  - name: m_phenoxyacetic_acid_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Phenoxyacetic acid preconception levels
+  - name: m_phenoxyacetic_acid_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Phenoxyacetic acid at preconception
+  - name: m_phenoxyacetic_acid_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Phenoxyacetic acid pregnancy levels
+  - name: m_phenoxyacetic_acid_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Phenoxyacetic acid at pregnancy
+  - name: m_phenoxyacetic_acid_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Phenoxyacetic acid birth levels
+  - name: m_phenoxyacetic_acid_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Phenoxyacetic acid at birth
+  - name: m_maa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal MAA preconception levels
+  - name: m_maa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  MAA at preconception
+  - name: m_maa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine MAA pregnancy levels
+  - name: m_maa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine MAA at pregnancy
+  - name: m_maa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  MAA birth levels
+  - name: m_maa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  MAA at birth
+  - name: m_meaa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal MEAA preconception levels
+  - name: m_meaa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  MEAA at preconception
+  - name: m_meaa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine MEAA pregnancy levels
+  - name: m_meaa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine MEAA at pregnancy
+  - name: m_meaa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  MEAA birth levels
+  - name: m_meaa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  MEAA at birth
+  - name: m_eaa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal EAA preconception levels
+  - name: m_eaa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  EAA at preconception
+  - name: m_eaa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine EAA pregnancy levels
+  - name: m_eaa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine EAA at pregnancy
+  - name: m_eaa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  EAA birth levels
+  - name: m_eaa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  EAA at birth
+  - name: m_eeaa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal EEAA preconception levels
+  - name: m_eeaa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  EEAA at preconception
+  - name: m_eeaa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine EEAA pregnancy levels
+  - name: m_eeaa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine EEAA at pregnancy
+  - name: m_eeaa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  EEAA birth levels
+  - name: m_eeaa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  EEAA at birth
+  - name: m_2mpa_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal 2_MPA preconception levels
+  - name: m_2mpa_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  2_MPA at preconception
+  - name: m_2mpa_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine 2_MPA pregnancy levels
+  - name: m_2mpa_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine 2_MPA at pregnancy
+  - name: m_2mpa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  2_MPA birth levels
+  - name: m_2mpa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  2_MPA at birth
+  - name: m_chlorphyrifos_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Chlorphyrifos preconception levels
+  - name: m_chlorphyrifos_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Chlorphyrifos at preconception
+  - name: m_chlorphyrifos_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Chlorphyrifos pregnancy levels
+  - name: m_chlorphyrifos_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Chlorphyrifos at pregnancy
+  - name: m_chlorphyrifos_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Chlorphyrifos birth levels
+  - name: m_chlorphyrifos_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Chlorphyrifos at birth
+  - name: m_pyrethroids_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Pyrethroids preconception levels
+  - name: m_pyrethroids_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Pyrethroids at preconception
+  - name: m_pyrethroids_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Pyrethroids pregnancy levels
+  - name: m_pyrethroids_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Pyrethroids at pregnancy
+  - name: m_pyrethroids_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Pyrethroids birth levels
+  - name: m_pyrethroids_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Pyrethroids at birth
+  - name: m_boscalid_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Boscalid preconception levels
+  - name: m_boscalid_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Boscalid at preconception
+  - name: m_boscalid_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Boscalid pregnancy levels
+  - name: m_boscalid_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Boscalid at pregnancy
+  - name: m_boscalid_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Boscalid birth levels
+  - name: m_boscalid_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Boscalid at birth
+  - name: m_imazalil_raw_precon
+    valueType: decimal
+    unit: µg/L
+    label: Maternal Imazalil preconception levels
+  - name: m_imazalil_lod_precon
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Imazalil at preconception
+  - name: m_imazalil_raw_preg
+    valueType: decimal
+    unit: µg/L
+    label: Maternal urine Imazalil pregnancy levels
+  - name: m_imazalil_lod_preg
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal urine Imazalil at pregnancy
+  - name: m_imazalil_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Maternal  Imazalil birth levels
+  - name: m_imazalil_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of maternal  Imazalil at birth
+  - name: c_bpa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn BPA birth levels
+  - name: c_bpa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  BPA at birth
+  - name: c_bps_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn BPS birth levels
+  - name: c_bps_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  BPS at birth
+  - name: c_bpf_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn BPF birth levels
+  - name: c_bpf_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  BPF at birth
+  - name: c_mepa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MEPA birth levels
+  - name: c_mepa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MEPA at birth
+  - name: c_etpa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn ETPA birth levels
+  - name: c_etpa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  ETPA at birth
+  - name: c_prpa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn PRPA birth levels
+  - name: c_prpa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  PRPA at birth
+  - name: c_bupa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn BUPA birth levels
+  - name: c_bupa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  BUPA at birth
+  - name: c_oxbe_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn OXBE birth levels
+  - name: c_oxbe_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  OXBE at birth
+  - name: c_trcs_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn TRCS birth levels
+  - name: c_trcs_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  TRCS at birth
+  - name: c_mep_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MEP birth levels
+  - name: c_mep_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MEP at birth
+  - name: c_mibp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MiBP birth levels
+  - name: c_mibp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MiBP at birth
+  - name: c_mnbp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MnBP birth levels
+  - name: c_mnbp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MnBP at birth
+  - name: c_mbzp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MBzP birth levels
+  - name: c_mbzp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MBzP at birth
+  - name: c_mehp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MEHP birth levels
+  - name: c_mehp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MEHP at birth
+  - name: c_mehhp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MEHHP birth levels
+  - name: c_mehhp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MEHHP at birth
+  - name: c_meohp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MEOHP birth levels
+  - name: c_meohp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MEOHP at birth
+  - name: c_mecpp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MECPP birth levels
+  - name: c_mecpp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MECPP at birth
+  - name: c_mmchp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MMCHP birth levels
+  - name: c_mmchp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MMCHP at birth
+  - name: c_ohminp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn ohminp birth levels
+  - name: c_ohminp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  ohminp at birth
+  - name: c_oxominp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn oxoMiNP birth levels
+  - name: c_oxominp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn oxoMiNP at birth
+  - name: c_cxminp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn cxminp birth levels
+  - name: c_cxminp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  cxminp at birth
+  - name: c_ohmphp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn ohmphp birth levels
+  - name: c_ohmphp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  ohmphp at birth
+  - name: c_ohminch_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn ohminch birth levels
+  - name: c_ohminch_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  ohminch at birth
+  - name: c_oxominch_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn oxominch birth levels
+  - name: c_oxominch_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  oxominch at birth
+  - name: c_mnpep_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MnPeP birth levels
+  - name: c_mnpep_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MnPeP at birth
+  - name: c_mchp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MCHP birth levels
+  - name: c_mchp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MCHP at birth
+  - name: c_mnop_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MnOP birth levels
+  - name: c_mnop_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MnOP at birth
+  - name: c_mmp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn mMP birth levels
+  - name: c_mmp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  mMP at birth
+  - name: c_mhxp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn mHxP birth levels
+  - name: c_mhxp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  mHxP at birth
+  - name: c_mhpp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn mHpP birth levels
+  - name: c_mhpp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  mHpP at birth
+  - name: c_pfhxs_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  PFHxS birth levels
+  - name: c_pfhxs_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   PFHxS at birth
+  - name: c_pfhps_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  PFHpS birth levels
+  - name: c_pfhps_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   PFHpS at birth
+  - name: c_pfos_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  PFOS birth levels
+  - name: c_pfos_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   PFOS at birth
+  - name: c_pfoa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  PFOA birth levels
+  - name: c_pfoa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   PFOA at birth
+  - name: c_pfna_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  PFNA birth levels
+  - name: c_pfna_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   PFNA at birth
+  - name: c_pfda_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  PFDA birth levels
+  - name: c_pfda_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   PFDA at birth
+  - name: c_pfunda_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  PFUnDA birth levels
+  - name: c_pfunda_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   PFUnDA at birth
+  - name: c_creatinine_raw_birth
+    valueType: decimal
+    unit: g/L
+    label: Newborn Creatinine birth levels
+  - name: c_creatinine_lod_birth
+    valueType: decimal
+    unit: g/L
+    label: Limit of detection of newborn  Creatinine at birth
+  - name: c_pcb118_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn PCB-118 birth levels
+  - name: c_pcb118_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn  PCB-118 at birth
+  - name: c_pcb138_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  PCB-138 birth levels
+  - name: c_pcb138_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   PCB-138 at birth
+  - name: c_pcb153_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  PCB-153 birth levels
+  - name: c_pcb153_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   PCB-153 at birth
+  - name: c_pcb170_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  PCB-170 birth levels
+  - name: c_pcb170_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   PCB-170 at birth
+  - name: c_pcb180_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  PCB-180 birth levels
+  - name: c_pcb180_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   PCB-180 at birth
+  - name: c_ddt_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  DDT birth levels
+  - name: c_ddt_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   DDT at birth
+  - name: c_dde_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  DDE birth levels
+  - name: c_dde_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   DDE at birth
+  - name: c_hcb_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  HCB birth levels
+  - name: c_hcb_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   HCB at birth
+  - name: c_hch_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  HCH birth levels
+  - name: c_hch_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   HCH at birth
+  - name: c_pbde47_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  PBDE-47 birth levels
+  - name: c_pbde47_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   PBDE-47 at birth
+  - name: c_pbde153_raw_birth
+    valueType: decimal
+    unit: pg/g
+    label: Newborn  PBDE-153 birth levels
+  - name: c_pbde153_lod_birth
+    valueType: decimal
+    unit: pg/g
+    label: Limit of detection of newborn   PBDE-153 at birth
+  - name: c_hg_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Hg birth levels
+  - name: c_hg_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Hg at birth
+  - name: c_cd_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Cd birth levels
+  - name: c_cd_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Cd at birth
+  - name: c_pb_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Pb birth levels
+  - name: c_pb_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Pb at birth
+  - name: c_se_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Se birth levels
+  - name: c_se_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Se at birth
+  - name: c_mn_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Mn birth levels
+  - name: c_mn_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Mn at birth
+  - name: c_zn_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Zn birth levels
+  - name: c_zn_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Zn at birth
+  - name: c_as_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  As birth levels
+  - name: c_as_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   As at birth
+  - name: c_tl_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Tl birth levels
+  - name: c_tl_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Tl at birth
+  - name: c_co_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Co birth levels
+  - name: c_co_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Co at birth
+  - name: c_cu_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Cu birth levels
+  - name: c_cu_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Cu at birth
+  - name: c_mo_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Mo birth levels
+  - name: c_mo_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Mo at birth
+  - name: c_cs_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Cs birth levels
+  - name: c_cs_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Cs at birth
+  - name: c_na_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Na birth levels
+  - name: c_na_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Na at birth
+  - name: c_k_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  K birth levels
+  - name: c_k_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   K at birth
+  - name: c_mg_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn  Mg birth levels
+  - name: c_mg_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn   Mg at birth
+  - name: c_dmp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn DMP birth levels
+  - name: c_dmp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  DMP at birth
+  - name: c_dmtp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn DMTP birth levels
+  - name: c_dmtp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  DMTP at birth
+  - name: c_dmdtp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn DMDTP birth levels
+  - name: c_dmdtp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  DMDTP at birth
+  - name: c_dep_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn DEP birth levels
+  - name: c_dep_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  DEP at birth
+  - name: c_detp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn DETP birth levels
+  - name: c_detp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  DETP at birth
+  - name: c_dedtp_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn DEDTP birth levels
+  - name: c_dedtp_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  DEDTP at birth
+  - name: c_cotinine_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Cotinine birth levels
+  - name: c_cotinine_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Cotinine at birth
+  - name: c_benzoapyrene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Benzo(a)pyrene birth levels
+  - name: c_benzoapyrene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Benzo(a)pyrene at birth
+  - name: c_chrsene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Chrysene birth levels
+  - name: c_chrsene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Chrysene at birth
+  - name: c_fluorene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Fluorene birth levels
+  - name: c_fluorene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Fluorene at birth
+  - name: c_naphthalene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Naphthalene birth levels
+  - name: c_naphthalene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Naphthalene at birth
+  - name: c_phenanthrene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Phenanthrene birth levels
+  - name: c_phenanthrene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Phenanthrene at birth
+  - name: c_pyrene_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Pyrene birth levels
+  - name: c_pyrene_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Pyrene at birth
+  - name: c_chlorphyrifos_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Chlorphyrifos birth levels
+  - name: c_chlorphyrifos_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Chlorphyrifos at birth
+  - name: c_pyrethroids_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Pyrethroids birth levels
+  - name: c_pyrethroids_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Pyrethroids at birth
+  - name: c_boscalid_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Boscalid birth levels
+  - name: c_boscalid_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Boscalid at birth
+  - name: c_imazalil_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Imazalil birth levels
+  - name: c_imazalil_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Imazalil at birth
+  - name: c_phenoxyacetic_acid_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn Phenoxyacetic acid birth levels
+  - name: c_phenoxyacetic_acid_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  Phenoxyacetic acid at birth
+  - name: c_maa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MAA birth levels
+  - name: c_maa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MAA at birth
+  - name: c_meaa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn MEAA birth levels
+  - name: c_meaa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  MEAA at birth
+  - name: c_eaa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn EAA birth levels
+  - name: c_eaa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  EAA at birth
+  - name: c_eeaa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn EEAA birth levels
+  - name: c_eeaa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  EEAA at birth
+  - name: c_2mpa_raw_birth
+    valueType: decimal
+    unit: µg/L
+    label: Newborn 2-MPA birth levels
+  - name: c_2mpa_lod_birth
+    valueType: decimal
+    unit: µg/L
+    label: Limit of detection of newborn  2-MPA at birth
+Categories: |
+  - variable: cohort_id
+    name: '101'
+    isMissing: 'FALSE'
+    label: genr
+  - variable: cohort_id
+    name: '102'
+    isMissing: 'FALSE'
+    label: inma
+  - variable: cohort_id
+    name: '103'
+    isMissing: 'FALSE'
+    label: ninfea
+  - variable: cohort_id
+    name: '104'
+    isMissing: 'FALSE'
+    label: sws
+  - variable: cohort_id
+    name: '105'
+    isMissing: 'FALSE'
+    label: alspac
+  - variable: cohort_id
+    name: '106'
+    isMissing: 'FALSE'
+    label: dnbc
+  - variable: cohort_id
+    name: '107'
+    isMissing: 'FALSE'
+    label: bib
+  - variable: cohort_id
+    name: '108'
+    isMissing: 'FALSE'
+    label: gecko
+  - variable: cohort_id
+    name: '109'
+    isMissing: 'FALSE'
+    label: rhea
+  - variable: cohort_id
+    name: '110'
+    isMissing: 'FALSE'
+    label: moba
+  - variable: cohort_id
+    name: '111'
+    isMissing: 'FALSE'
+    label: elfe
+  - variable: cohort_id
+    name: '112'
+    isMissing: 'FALSE'
+    label: eden
+  - variable: cohort_id
+    name: '113'
+    isMissing: 'FALSE'
+    label: nfbc66
+  - variable: cohort_id
+    name: '114'
+    isMissing: 'FALSE'
+    label: nfbc86
+  - variable: cohort_id
+    name: '115'
+    isMissing: 'FALSE'
+    label: hbcs
+  - variable: cohort_id
+    name: '116'
+    isMissing: 'FALSE'
+    label: chop
+  - variable: cohort_id
+    name: '117'
+    isMissing: 'FALSE'
+    label: raine
+  - variable: cohort_id
+    name: '118'
+    isMissing: 'FALSE'
+    label: rug
+  - variable: cohort_id
+    name: '119'
+    isMissing: 'FALSE'
+    label: kanc
+  - variable: cohort_id
+    name: '120'
+    isMissing: 'FALSE'
+    label: gaspii
+  - variable: cohort_id
+    name: '121'
+    isMissing: 'FALSE'
+    label: piccolipu
+  - variable: cohort_id
+    name: '122'
+    isMissing: 'FALSE'
+    label: abcd
+  - variable: cohort_id
+    name: '123'
+    isMissing: 'FALSE'
+    label: bisc
+  - variable: cohort_id
+    name: '124'
+    isMissing: 'FALSE'
+    label: environage
+  - variable: cohort_id
+    name: '125'
+    isMissing: 'FALSE'
+    label: kanc
+  - variable: cohort_id
+    name: '126'
+    isMissing: 'FALSE'
+    label: pelagie
+  - variable: cohort_id
+    name: '127'
+    isMissing: 'FALSE'
+    label: sepages
+  - variable: cohort_id
+    name: '128'
+    isMissing: 'FALSE'
+    label: tng
+  - variable: cohort_id
+    name: '129'
+    isMissing: 'FALSE'
+    label: hgs
+  - variable: cohort_id
+    name: '130'
+    isMissing: 'FALSE'
+    label: recetox
+  - variable: cohort_id
+    name: '131'
+    isMissing: 'FALSE'
+    label: genxxi
