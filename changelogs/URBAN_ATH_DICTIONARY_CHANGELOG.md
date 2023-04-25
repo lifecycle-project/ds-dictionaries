@@ -211,7 +211,7 @@ We define here in what versions of the data dictionaries contains which tables
 | mother_id | text | Unique identifier number for the mother  |
 | child_id | text | Unique identifier number for the index child  |
 | age_trimester | integer | Age of the child in trimesters |
-| urb_area_id | categorical | unique identifier for the urban area |
+| urb_area_id | integer | unique identifier for the urban area |
 | ath_no2_t | decimal | no2 average value (extrapolated back in time using ratio method) during trimester |
 | ath_no2elp_t | decimal | no2 elapse average value (extrapolated back in time using ratio method) during trimester |
 | ath_nox_t | decimal | nox average value (extrapolated back in time using ratio method) during trimester |
@@ -318,7 +318,7 @@ We define here in what versions of the data dictionaries contains which tables
 | row_id | integer | Unique identifier for the row in Opal |
 | child_id | text | Unique identifier for the child |
 | age_years | integer | Age of child in years |
-| urb_area_id | categorical | unique identifier for the urban area |
+| urb_area_id | integer | unique identifier for the urban area |
 | urb_deg_ | integer | Urban degree as classified by GHS-SMOD |
 | ath_no2_ | decimal | no2 average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year) |
 | ath_no2elp_ | decimal | no2 elapse average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year) |
