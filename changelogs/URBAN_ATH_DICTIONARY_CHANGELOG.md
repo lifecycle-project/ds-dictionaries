@@ -40,7 +40,7 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_bdens300_preg | decimal | building density within a buffer of 300 m at pregnancy |
 | ath_blue_dist_preg | decimal | straight line distance to nearest blue space > 5,000 m2 at  pregnancy |
 | ath_blue_size_preg | decimal | area of closest blue space > 5,000m2 at pregnancy |
-| ath_blueyn300_preg | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at pregnancy |
+| ath_blueyn300_preg | boolean | is there a blue space  > 5,000 m2 in a distance of 300 m? at pregnancy |
 | ath_connind100_preg | decimal | connectivity density within a buffer of 100 m at pregnancy |
 | ath_connind300_preg | decimal | connectivity density within a buffer of 300 m at pregnancy |
 | ath_distinvnear1_preg | decimal | inverse distance to nearest road at pregnancy |
@@ -49,13 +49,14 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_frichness300_preg | decimal | number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at pregnancy |
 | ath_green_dist_preg | decimal | straight line distance to nearest green space > 5,000 m2 at  pregnancy |
 | ath_green_size_preg | decimal | area of closest green space > 5,000m2 at pregnancy |
-| ath_greenyn300_preg | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at pregnancy |
+| ath_greenyn300_preg | boolean | is there a green space  > 5,000 m2 in a distance of 300 m? at pregnancy |
 | ath_hdres_preg | decimal | percentage of hdres (decimal urban fabric) land use within a buffer of 300 m at pregnancy |
 | ath_hmax_preg | decimal | average of maximum relative humidity during pregnancy |
 | ath_hmin_preg | decimal | average of minimum relative humidity during pregnancy |
 | ath_hu_preg | decimal | average of relative humidity from eobs data during pregnancy |
 | ath_hum_preg | decimal | average of mean relative humidity during pregnancy |
 | ath_indtr_preg | decimal | percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at pregnancy |
+| ath_lan_preg | decimal | nighttime light at pregnancy |
 | ath_landuseshan300_preg | decimal | landuse Shannon's Evenness Index within a buffer of 300 m at pregnancy |
 | ath_lden_c_preg | integer | categorized day-evening-night level at pregnancy |
 | ath_lden_preg | decimal | day-evening-night level at pregnancy |
@@ -137,7 +138,7 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_bdens300_0 | decimal | building density within a buffer of 300 m at birth |
 | ath_blue_dist_0 | decimal | straight line distance to nearest blue space > 5,000 m2 at  birth |
 | ath_blue_size_0 | decimal | area of closest blue space > 5,000m2 at birth |
-| ath_blueyn300_0 | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at birth |
+| ath_blueyn300_0 | boolean | is there a blue space  > 5,000 m2 in a distance of 300 m? at birth |
 | ath_connind100_0 | decimal | connectivity density within a buffer of 100 m at birth |
 | ath_connind300_0 | decimal | connectivity density within a buffer of 300 m at birth |
 | ath_distinvnear1_0 | decimal | inverse distance to nearest road at birth |
@@ -146,9 +147,10 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_frichness300_0 | decimal | number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at birth |
 | ath_green_dist_0 | decimal | straight line distance to nearest green space > 5,000 m2 at  birth |
 | ath_green_size_0 | decimal | area of closest green space > 5,000m2 at birth |
-| ath_greenyn300_0 | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at birth |
+| ath_greenyn300_0 | boolean | is there a green space  > 5,000 m2 in a distance of 300 m? at birth |
 | ath_hdres_0 | decimal | percentage of hdres (decimal urban fabric) land use within a buffer of 300 m at birth |
 | ath_indtr_0 | decimal | percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at birth |
+| ath_lan_0 | decimal | nighttime light at birth |
 | ath_landuseshan300_0 | decimal | landuse Shannon's Evenness Index within a buffer of 300 m at birth |
 | ath_lden_c_0 | integer | categorized day-evening-night level at birth |
 | ath_lden_0 | decimal | day-evening-night level at birth |
@@ -210,6 +212,7 @@ We define here in what versions of the data dictionaries contains which tables
 | row_id | integer | Unique identifier for the row in Opal |
 | mother_id | text | Unique identifier number for the mother  |
 | child_id | text | Unique identifier number for the index child  |
+| cohort_id | integer | Unique identifier for the cohort |
 | age_trimester | integer | Age of the child in trimesters |
 | urb_area_id | integer | unique identifier for the urban area |
 | ath_no2_t | decimal | no2 average value (extrapolated back in time using ratio method) during trimester |
@@ -240,8 +243,8 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_green_dist_t | decimal | straight line distance to nearest green space > 5,000 m2 at  trimester |
 | ath_blue_size_t | decimal | area of closest blue space > 5,000m2 at trimester |
 | ath_green_size_t | decimal | area of closest green space > 5,000m2 at trimester |
-| ath_blueyn300_t | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at trimester |
-| ath_greenyn300_t | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at trimester |
+| ath_blueyn300_t | boolean | is there a blue space  > 5,000 m2 in a distance of 300 m? at trimester |
+| ath_greenyn300_t | boolean | is there a green space  > 5,000 m2 in a distance of 300 m? at trimester |
 | ath_ndvi100_mean_t | decimal | 5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester |
 | ath_ndvi300_mean_t | decimal | 5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester |
 | ath_ndvi500_mean_t | decimal | 5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester |
@@ -308,6 +311,7 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_uvdvc_t | decimal | average of vitamin-d UV dose during trimester |
 | ath_lst_t | decimal | land surface temperature during trimester |
 | ath_mdist_t | decimal | distance to meteorological station during trimester |
+| ath_lan_t | decimal | nighttime light at trimester |
 
 *yearly-repeated variables*
 
@@ -317,6 +321,7 @@ We define here in what versions of the data dictionaries contains which tables
 | ----------------| ----------- | --------------------------------------------- |
 | row_id | integer | Unique identifier for the row in Opal |
 | child_id | text | Unique identifier for the child |
+| cohort_id | integer | Unique identifier for the cohort |
 | age_years | integer | Age of child in years |
 | urb_area_id | integer | unique identifier for the urban area |
 | urb_deg_ | integer | Urban degree as classified by GHS-SMOD |
@@ -348,8 +353,8 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_green_dist_ | decimal | straight line distance to nearest green space > 5,000 m2 at  # year |
 | ath_blue_size_ | decimal | area of closest blue space > 5,000m2 at # year |
 | ath_green_size_ | decimal | area of closest green space > 5,000m2 at # year |
-| ath_blueyn300_ | decimal | is there a blue space  > 5,000 m2 in a distance of 300 m? at # year |
-| ath_greenyn300_ | decimal | is there a green space  > 5,000 m2 in a distance of 300 m? at # year |
+| ath_blueyn300_ | boolean | is there a blue space  > 5,000 m2 in a distance of 300 m? at # year |
+| ath_greenyn300_ | boolean | is there a green space  > 5,000 m2 in a distance of 300 m? at # year |
 | ath_ndvi100_mean_ | decimal | 5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at # year |
 | ath_ndvi300_mean_ | decimal | 5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at # year |
 | ath_ndvi500_mean_ | decimal | 5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at # year |
@@ -416,6 +421,7 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_uvdvc_ | decimal | average of vitamin-d UV dose during # year (># year and <=#+1 year) |
 | ath_lst_ | decimal | land surface temperature during # year (># year and <=#+1 year) |
 | ath_mdist_ | decimal | distance to meteorological station during # year (># year and <=#+1 year) |
+| ath_lan_ | decimal | nighttime light at # year (># year and <=# year) |
 
 
 ### Tables
