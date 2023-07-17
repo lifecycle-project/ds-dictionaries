@@ -10,6 +10,62 @@ We define here in what versions of the data dictionaries contains which tables
 
 #### General changes
 
+*yearly-repeated variables*
+
+**Changed variables**
+
+| Variable        | Type        | Description                                      |
+| ----------------| ----------- | --------------------------------------------- |
+| cohort_id | integer | Unique identifier for the cohort |
+| ath_blueyn300_ | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at # year |
+| ath_greenyn300_ | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at # year |
+
+#### Additional variables
+
+- see lists below
+
+*non-repeated variables*
+
+**Added variables**
+
+| Variable        | Type        | Description                                      |
+| ----------------| ----------- | --------------------------------------------- |
+| ath_lan_preg | decimal | nighttime light at pregnancy |
+| ath_lan_0 | decimal | nighttime light at birth |
+
+
+*trimester-repeated variables*
+
+**Added variables**
+
+| Variable                      | Type    | Description                                                                                                                         |
+| ------------------------------| ------- | ----------------------------------------------------------------------------------------------------------------------------------- 
+| cohort_id | integer | Unique identifier for the cohort |
+| ath_lan_t | decimal | nighttime light at trimester |
+
+*yearly-repeated variables*
+
+**Added variables**
+
+| Variable        | Type        | Description                                      |
+| ----------------| ----------- | --------------------------------------------- |
+| ath_lan_ | decimal | nighttime light at # year (># year and <=# year) |
+
+
+### Tables
+
+- 1_1_non_rep
+- 1_1_trimester_rep
+- 1_1_yearly_rep
+
+## 1.0
+
+**dsUpload R-package version >= 4.7.x**
+
+### Content
+
+#### General changes
+
 - *non-repeated variables*
   - Added variables see list below
 - *trimester-repeated variables*
@@ -56,7 +112,6 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_hu_preg | decimal | average of relative humidity from eobs data during pregnancy |
 | ath_hum_preg | decimal | average of mean relative humidity during pregnancy |
 | ath_indtr_preg | decimal | percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at pregnancy |
-| ath_lan_preg | decimal | nighttime light at pregnancy |
 | ath_landuseshan300_preg | decimal | landuse Shannon's Evenness Index within a buffer of 300 m at pregnancy |
 | ath_lden_c_preg | integer | categorized day-evening-night level at pregnancy |
 | ath_lden_preg | decimal | day-evening-night level at pregnancy |
@@ -150,7 +205,6 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_greenyn300_0 | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at birth |
 | ath_hdres_0 | decimal | percentage of hdres (decimal urban fabric) land use within a buffer of 300 m at birth |
 | ath_indtr_0 | decimal | percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at birth |
-| ath_lan_0 | decimal | nighttime light at birth |
 | ath_landuseshan300_0 | decimal | landuse Shannon's Evenness Index within a buffer of 300 m at birth |
 | ath_lden_c_0 | integer | categorized day-evening-night level at birth |
 | ath_lden_0 | decimal | day-evening-night level at birth |
@@ -212,7 +266,6 @@ We define here in what versions of the data dictionaries contains which tables
 | row_id | integer | Unique identifier for the row in Opal |
 | mother_id | text | Unique identifier number for the mother  |
 | child_id | text | Unique identifier number for the index child  |
-| cohort_id | integer | Unique identifier for the cohort |
 | age_trimester | integer | Age of the child in trimesters |
 | urb_area_id | integer | unique identifier for the urban area |
 | ath_no2_t | decimal | no2 average value (extrapolated back in time using ratio method) during trimester |
@@ -321,7 +374,6 @@ We define here in what versions of the data dictionaries contains which tables
 | ----------------| ----------- | --------------------------------------------- |
 | row_id | integer | Unique identifier for the row in Opal |
 | child_id | text | Unique identifier for the child |
-| cohort_id | integer | Unique identifier for the cohort |
 | age_years | integer | Age of child in years |
 | urb_area_id | integer | unique identifier for the urban area |
 | urb_deg_ | integer | Urban degree as classified by GHS-SMOD |
@@ -353,8 +405,8 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_green_dist_ | decimal | straight line distance to nearest green space > 5,000 m2 at  # year |
 | ath_blue_size_ | decimal | area of closest blue space > 5,000m2 at # year |
 | ath_green_size_ | decimal | area of closest green space > 5,000m2 at # year |
-| ath_blueyn300_ | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at # year |
-| ath_greenyn300_ | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at # year |
+| ath_blueyn300_ | decimal | is there a blue space  > 5,000 m2 in a distance of 300 m? at # year |
+| ath_greenyn300_ | decimal | is there a green space  > 5,000 m2 in a distance of 300 m? at # year |
 | ath_ndvi100_mean_ | decimal | 5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at # year |
 | ath_ndvi300_mean_ | decimal | 5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at # year |
 | ath_ndvi500_mean_ | decimal | 5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at # year |
@@ -421,8 +473,6 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_uvdvc_ | decimal | average of vitamin-d UV dose during # year (># year and <=#+1 year) |
 | ath_lst_ | decimal | land surface temperature during # year (># year and <=#+1 year) |
 | ath_mdist_ | decimal | distance to meteorological station during # year (># year and <=#+1 year) |
-| ath_lan_ | decimal | nighttime light at # year (># year and <=# year) |
-
 
 ### Tables
 
