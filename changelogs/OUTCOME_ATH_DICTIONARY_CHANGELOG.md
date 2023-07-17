@@ -19,10 +19,10 @@ We define here in what versions of the data dictionaries contains which tables
 
 ### Tables
 
-- 1_0_non_rep
-- 1_0_monthly_rep
-- 1_0_trimester_rep
-- 1_0_yearly_rep
+- 1_1_non_rep
+- 1_1_monthly_rep
+- 1_1_trimester_rep
+- 1_1_yearly_rep
 
 
 ## 1.0
