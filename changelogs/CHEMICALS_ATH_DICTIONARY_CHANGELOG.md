@@ -1,6 +1,27 @@
 # Versions of data dictionaries (chemical data)
 We define here in what versions of the data dictionaries contains which tables
 
+## 1.2
+**dsUpload R-package version >= 4.6.x**
+
+### Content
+
+- fix cohort_id for helix, elspac and genrnext in 1_2_non_rep.xslx (Categories)
+- removed column label:en from Yearly (Categories) would brake dsUpload with non equal columns across non_rep, trimester
+
+#### General changes
+
+- fix cohort_id
+
+#### Additional variables 
+
+- none
+			
+### Tables
+- 1_2_nonrep
+- 1_2_trimester_rep
+- 1_2_yearly_rep
+
 ## 1.1
 **dsUpload R-package version >= 4.6.x**
 
