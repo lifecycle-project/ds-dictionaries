@@ -2,9 +2,10 @@
 We define here in what versions of the data dictionaries contains which tables.
 
 ## 2.4
-**dsUpload R-package version >= 4.4.x** *--> not released yet*
+**dsUpload R-package version >= 4.4.x**
 
 ### Content
+fix cohort_id for helix, elspac and genrnext in 2_3_non_rep.xslx (Categories)
 
 #### General changes
 
