@@ -2,6 +2,29 @@
 
 We define here in what versions of the data dictionaries contains which tables
 
+## 1.1
+
+**dsUpload R-package version >= 4.7.x**
+
+### Content
+- fix cohort_id for helix, elspac and genrnext in 1_1_non_rep.xslx (Categories)
+
+#### General changes
+
+- fix cohort_id
+
+#### Additional variables
+
+- none
+
+### Tables
+
+- 1_1_non_rep
+- 1_1_monthly_rep
+- 1_1_trimester_rep
+- 1_1_yearly_rep
+
+
 ## 1.0
 
 **dsUpload R-package version >= 4.7.x**
