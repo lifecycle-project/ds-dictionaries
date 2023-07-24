@@ -2,7 +2,7 @@
 
 We define here in what versions of the data dictionaries contains which tables
 
-## 1.0
+## 1.1
 
 **dsUpload R-package version >= 4.7.x**
 
