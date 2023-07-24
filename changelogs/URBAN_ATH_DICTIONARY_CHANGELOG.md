@@ -10,6 +10,62 @@ We define here in what versions of the data dictionaries contains which tables
 
 #### General changes
 
+*yearly-repeated variables*
+
+**Changed variables**
+
+| Variable        | Type        | Description                                      |
+| ----------------| ----------- | --------------------------------------------- |
+| cohort_id | integer | Unique identifier for the cohort |
+| ath_blueyn300_ | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at # year |
+| ath_greenyn300_ | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at # year |
+
+#### Additional variables
+
+- see lists below
+
+*non-repeated variables*
+
+**Added variables**
+
+| Variable        | Type        | Description                                      |
+| ----------------| ----------- | --------------------------------------------- |
+| ath_lan_preg | decimal | nighttime light at pregnancy |
+| ath_lan_0 | decimal | nighttime light at birth |
+
+
+*trimester-repeated variables*
+
+**Added variables**
+
+| Variable                      | Type    | Description                                                                                                                         |
+| ------------------------------| ------- | ----------------------------------------------------------------------------------------------------------------------------------- 
+| cohort_id | integer | Unique identifier for the cohort |
+| ath_lan_t | decimal | nighttime light at trimester |
+
+*yearly-repeated variables*
+
+**Added variables**
+
+| Variable        | Type        | Description                                      |
+| ----------------| ----------- | --------------------------------------------- |
+| ath_lan_ | decimal | nighttime light at # year (># year and <=# year) |
+
+
+### Tables
+
+- 1_1_non_rep
+- 1_1_trimester_rep
+- 1_1_yearly_rep
+
+## 1.0
+
+**dsUpload R-package version >= 4.7.x**
+
+### Content
+
+#### General changes
+
 - *non-repeated variables*
   - Added variables see list below
 - *trimester-repeated variables*
@@ -308,6 +364,7 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_uvdvc_t | decimal | average of vitamin-d UV dose during trimester |
 | ath_lst_t | decimal | land surface temperature during trimester |
 | ath_mdist_t | decimal | distance to meteorological station during trimester |
+| ath_lan_t | decimal | nighttime light at trimester |
 
 *yearly-repeated variables*
 
@@ -416,7 +473,6 @@ We define here in what versions of the data dictionaries contains which tables
 | ath_uvdvc_ | decimal | average of vitamin-d UV dose during # year (># year and <=#+1 year) |
 | ath_lst_ | decimal | land surface temperature during # year (># year and <=#+1 year) |
 | ath_mdist_ | decimal | distance to meteorological station during # year (># year and <=#+1 year) |
-
 
 ### Tables
 
