@@ -1,0 +1,501 @@
+table,variable,name,missing,label
+core,cohort_id,101,0,genr
+core,cohort_id,102,0,inma
+core,cohort_id,103,0,ninfea
+core,cohort_id,104,0,sws
+core,cohort_id,105,0,alspac
+core,cohort_id,106,0,dnbc
+core,cohort_id,107,0,bib
+core,cohort_id,108,0,gecko
+core,cohort_id,109,0,rhea
+core,cohort_id,110,0,moba
+core,cohort_id,111,0,elfe
+core,cohort_id,112,0,eden
+core,cohort_id,113,0,nfbc66
+core,cohort_id,114,0,nfbc86
+core,cohort_id,115,0,hbcs
+core,cohort_id,116,0,chop
+core,cohort_id,117,0,raine
+core,cohort_id,118,0,rug
+core,cohort_id,119,0,kanc
+core,cohort_id,120,0,gaspii
+core,cohort_id,121,0,piccolipu
+core,cohort_id,122,0,abcd
+core,cohort_id,123,0,bisc
+core,cohort_id,124,0,environage 
+core,cohort_id,125,0,helix
+core,cohort_id,126,0,pelagie
+core,cohort_id,127,0,sepages
+core,cohort_id,128,0,tng
+core,cohort_id,129,0,hgs
+core,cohort_id,130,0,elspac
+core,cohort_id,131,0,genxxi
+core,cohort_id,132,0,genrnext
+core,coh_country,36,0,Australia
+core,coh_country,208,0,Denmark
+core,coh_country,246,0,Finland
+core,coh_country,250,0,France
+core,coh_country,276,0,Germany
+core,coh_country,300,0,Greece
+core,coh_country,380,0,Italy
+core,coh_country,528,0,Netherlands
+core,coh_country,578,0,Norway
+core,coh_country,724,0,Spain
+core,coh_country,826,0,UnitedKingdom
+core,cob_m,0,0,Born in country of cohort
+core,cob_m,1,0,Born in EU country (outside cohort country)
+core,cob_m,2,0,Born in other country
+core,ethn1_m,1,0,Western
+core,ethn1_m,2,0,Non-western
+core,ethn1_m,3,0,Mixed
+core,ethn2_m,1,0,White (Caucasian)
+core,ethn2_m,2,0,Non-white (non-Caucasian)
+core,ethn2_m,3,0,Mixed
+core,ethn3_m,1,0,Western
+core,ethn3_m,2,0,Non-western
+core,ethn3_m,3,0,Mixed
+core,death_m,0,0,No
+core,death_m,1,0,Yes
+core,prepreg_weight_mes,0,0,self-reported
+core,prepreg_weight_mes,1,0,measured
+core,latepreg_weight_mes,0,0,self-reported
+core,latepreg_weight_mes,1,0,measured
+core,preg_gain_mes,0,0,self-reported
+core,preg_gain_mes,1,0,measured
+core,preg_gain_mes,2,0,pre-pregnancy weight measured and late-pregnancy weight reported
+core,preg_gain_mes,3,0,pre-pregnancy weight reported and late-pregnancy weight recorded
+core,height_mes_m,0,0,self-reported
+core,height_mes_m,1,0,measured
+core,prepreg_dia,1,0,No
+core,prepreg_dia,2,0,TypeI
+core,prepreg_dia,3,0,TypeII
+core,prepreg_dia,4,0,Gestational diabetes
+core,prepreg_dia,5,0,Other/unspecified
+core,preg_dia,0,0,no
+core,preg_dia,1,0,yes
+core,preg_thyroid,0,0,no
+core,preg_thyroid,1,0,yes
+core,preg_fever,0,0,no
+core,preg_fever,1,0,yes
+core,preeclam,0,0,no
+core,preeclam,1,0,yes
+core,preg_ht,0,0,no
+core,preg_ht,1,0,yes
+core,asthma_m,0,0,no
+core,asthma_m,1,0,yes
+core,prepreg_psych,0,0,no
+core,prepreg_psych,1,0,yes
+core,preg_psych,0,0,no
+core,preg_psych,1,0,yes
+core,ppd,0,0,no
+core,ppd,1,0,yes
+core,prepreg_smk,0,0,no
+core,prepreg_smk,1,0,yes
+core,prepreg_cig,0,0,none
+core,prepreg_cig,1,0,<10 per day
+core,prepreg_cig,2,0,>= 10 per day
+core,preg_smk,0,0,no
+core,preg_smk,1,0,yes
+core,preg_cig,0,0,none
+core,preg_cig,1,0,<10 per day
+core,preg_cig,2,0,>= 10 per day
+core,prepreg_alc,0,0,no
+core,prepreg_alc,1,0,yes
+core,prepreg_alc_unit,0,0,0 (Never drinking alcohol)
+core,prepreg_alc_unit,1,0,Light (< 3 units per week)
+core,prepreg_alc_unit,2,0,Moderate (>=3 - <7 units per week)
+core,prepreg_alc_unit,3,0,Moderate to heavy (>=7 - <14 units per week)
+core,prepreg_alc_unit,4,0,Heavy (>=14 units per week)
+core,preg_alc,0,0,no
+core,preg_alc,1,0,yes
+core,preg_alc_unit,0,0,none
+core,preg_alc_unit,1,0,>0 and <3units per week
+core,preg_alc_unit,2,0,>=3 and <7 units per week
+core,preg_alc_unit,3,0,>=7 units per week
+core,folic_prepreg,0,0,no
+core,folic_prepreg,1,0,yes
+core,folic_preg12,0,0,no
+core,folic_preg12,1,0,yes
+core,folic_post12,0,0,no
+core,folic_post12,1,0,yes
+core,parity_m,0,0,0
+core,parity_m,1,0,1
+core,parity_m,2,0,2
+core,parity_m,3,0,3
+core,parity_m,4,0,=>4
+core,preg_plan,1,0,"Yes (Planned, partly planned)"
+core,preg_plan,2,0,No (Not planned)
+core,mar,0,0,no
+core,mar,1,0,yes
+core,ivf,0,0,no
+core,ivf,1,0,yes
+core,outcome,1,0,live-born
+core,outcome,2,0,stillborn
+core,outcome,3,0,spontaneous abortion
+core,outcome,4,0,induced abortion
+core,outcome,5,0,unspecified abortion
+core,outcome,6,0,other
+core,mode_delivery,1,0,Vaginal (normal)
+core,mode_delivery,2,0,"Forceps, vacuum"
+core,mode_delivery,3,0,Elective caesarean
+core,mode_delivery,4,0,Emergency caesarean
+core,mode_delivery,5,0,Caesarean unspecified
+core,plac_abrup,0,0,no
+core,plac_abrup,1,0,yes
+core,cob_p,0,0,Born in country of cohort
+core,cob_p,1,0,Born in EU country (outside cohort country)
+core,cob_p,2,0,Born in other country
+core,cob_p_fath,1,0,Biological father
+core,cob_p_fath,2,0,Social father
+core,cob_p_fath,3,0,Social mother
+core,cob_p_fath,4,0,Unknown
+core,ethn1_p,1,0,western
+core,ethn1_p,2,0,non-western
+core,ethn1_p,3,0,mixed
+core,ethn2_p,1,0,white (Caucasian)
+core,ethn2_p,2,0,non-white (non-Caucasian)
+core,ethn2_p,3,0,mixed
+core,ethn3_p,1,0,western
+core,ethn3_p,2,0,non-western
+core,ethn3_p,3,0,mixed
+core,ethn_p_fath,1,0,Biological father
+core,ethn_p_fath,2,0,Social father
+core,ethn_p_fath,3,0,Social mother
+core,ethn_p_fath,4,0,Unknown
+core,death_p,0,0,no
+core,death_p,1,0,yes
+core,death_p_fath,1,0,Biological father
+core,death_p_fath,2,0,Social father
+core,death_p_fath,3,0,Social mother
+core,death_p_fath,4,0,Unknown
+core,weight_mes_f1,0,0,Self-reported
+core,weight_mes_f1,1,0,Reported by others
+core,weight_mes_f1,2,0,Measured
+core,weight_f1_fath,1,0,Biological father
+core,weight_f1_fath,2,0,Social father
+core,weight_f1_fath,3,0,Social mother
+core,weight_f1_fath,4,0,Unknown
+core,height_mes_f1,0,0,Self-reported
+core,height_mes_f1,1,0,Reported by others
+core,height_mes_f1,2,0,Measured
+core,height_f1_fath,1,0,Biological father
+core,height_f1_fath,2,0,Social father
+core,height_f1_fath,3,0,Social mother
+core,height_f1_fath,4,0,Unknown
+core,dia_bf,1,0,No
+core,dia_bf,2,0,Type I
+core,dia_bf,3,0,Type II
+core,dia_bf,4,0,Other/unspecified
+core,asthma_bf,0,0,no
+core,asthma_bf,1,0,yes
+core,psych_bf,0,0,no
+core,psych_bf,1,0,yes
+core,smk_p,0,0,no
+core,smk_p,1,0,yes
+core,smk_cig_p,0,0,None
+core,smk_cig_p,1,0,< 10 per day
+core,smk_cig_p,2,0,>=10 per day
+core,smk_fath,1,0,Biological father
+core,smk_fath,2,0,Social father
+core,smk_fath,3,0,Social mother
+core,smk_fath,4,0,Unknown
+core,neo_unit,0,0,no
+core,neo_unit,1,0,yes
+core,sex,1,0,male
+core,sex,2,0,female
+core,plurality,1,0,single
+core,plurality,2,0,twin
+core,plurality,3,0,>=triplets
+core,weight_who_ga,1,0,SGA
+core,weight_who_ga,2,0,AGA
+core,weight_who_ga,3,0,LGA
+core,con_anomalies,0,0,no
+core,con_anomalies,1,0,yes
+core,major_con_anomalies,0,0,no
+core,major_con_anomalies,1,0,yes
+core,cer_palsy,0,0,no
+core,cer_palsy,1,0,yes
+core,sibling_pos,1,0,1
+core,sibling_pos,2,0,2
+core,sibling_pos,3,0,3
+core,sibling_pos,4,0,4
+core,sibling_pos,5,0,>= 5
+core,death_child,0,0,no
+core,death_child,1,0,yes
+core,breastfed_ever,0,0,never breastfed
+core,breastfed_ever,1,0,breastfed
+core,eusilc_income_quintiles,1,0,first quintile
+core,eusilc_income_quintiles,2,0,second quintile
+core,eusilc_income_quintiles,3,0,third quintile
+core,eusilc_income_quintiles,4,0,fourth quintile
+core,eusilc_income_quintiles,5,0,fifth quintile
+core,miggen_child,1,0,1st generation
+core,miggen_child,2,0,2nd generation
+core,miggen_child,3,0,2.5 generation (mother)
+core,miggen_child,4,0,2.5 generation (father)
+core,miggen_child,5,0,natives
+core,region_mo,0,0,Host country-born
+core,region_mo,1,0,Western EU/EEA
+core,region_mo,2,0,Eastern EU
+core,region_mo,3,0,Other Europe & Central Asia
+core,region_mo,4,0,East Asia & Pacific
+core,region_mo,5,0,South Asia
+core,region_mo,6,0,Middle East & North Africa
+core,region_mo,7,0,Sub-Saharan Africa
+core,region_mo,8,0,Latin America & Caribbean
+core,region_mo,9,0,North America
+core,region_fa,0,0,Host country-born
+core,region_fa,1,0,Western EU/EEA
+core,region_fa,2,0,Eastern EU
+core,region_fa,3,0,Other Europe & Central Asia
+core,region_fa,4,0,East Asia & Pacific
+core,region_fa,5,0,South Asia
+core,region_fa,6,0,Middle East & North Africa
+core,region_fa,7,0,Sub-Saharan Africa
+core,region_fa,8,0,Latin America & Caribbean
+core,region_fa,9,0,North America
+core,urb_area_id,1001,0,Rotterdam
+core,urb_area_id,1102,0,Gipuzkoa
+core,urb_area_id,1103,0,Sabadell
+core,urb_area_id,1104,0,Valencia
+core,urb_area_id,1201,0,Florence
+core,urb_area_id,1202,0,Turin
+core,urb_area_id,1203,0,Rome
+core,urb_area_id,1301,0,Bristol
+core,urb_area_id,1401,0,Copenhagen
+core,urb_area_id,1501,0,Bradford
+core,urb_area_id,1601,0,Heraklion
+core,urb_area_id,1701,0,Oslo
+core,urb_area_id,1801,0,Nancy
+core,urb_area_id,1802,0,Poitiers
+core,urb_area_id,1901,0,Kaunas
+core,urb_area_id,2001,0,Amsterdam
+core,blueyn300_preg,1,0,yes
+core,blueyn300_preg,0,0,no
+core,greenyn300_preg,1,0,yes
+core,greenyn300_preg,0,0,no
+core,ln_c_preg,1,0,<50
+core,ln_c_preg,2,0,50-54.9
+core,ln_c_preg,3,0,55-59.9
+core,ln_c_preg,4,0,60-64.9
+core,ln_c_preg,5,0,65-69.9
+core,ln_c_preg,6,0,>70
+core,lden_c_preg,1,0,<55
+core,lden_c_preg,2,0,55-59.9
+core,lden_c_preg,3,0,60-64.9
+core,lden_c_preg,4,0,65-69.9
+core,lden_c_preg,5,0,70-74.9
+core,lden_c_preg,6,0,>75
+core,areases_tert_preg,1,0,low deprivated
+core,areases_tert_preg,2,0,medium deprivated
+core,areases_tert_preg,3,0,high deprivated
+core,areases_quint_preg,1,0,low deprivated
+core,areases_quint_preg,2,0,medium-low deprivated
+core,areases_quint_preg,3,0,medium deprivated
+core,areases_quint_preg,4,0,medium-high deprivated
+core,areases_quint_preg,5,0,high deprivated
+core,dietass_pgn,1,0,FFQ
+core,dietass_pgn,2,0,Recall diary
+core,dietass_pgn,3,0,Other
+core,dietass_psc,1,0,FFQ
+core,dietass_psc,2,0,Recall diary
+core,dietass_psc,3,0,Other
+core,dietass_sch,1,0,FFQ
+core,dietass_sch,2,0,Recall diary
+core,dietass_sch,3,0,Other
+core,supp_pgn,0,0,No
+core,supp_pgn,1,0,Yes
+core,supp_psc,0,0,No
+core,supp_psc,1,0,Yes
+core,supp_sch,0,0,No
+core,supp_sch,1,0,Yes
+core,cats_preg,0,0,No
+core,cats_preg,1,0,Yes
+core,dogs_preg,0,0,No
+core,dogs_preg,1,0,Yes
+core,prepreg_dep,0,0,No
+core,prepreg_dep,1,0,Yes
+core,prepreg_anx,0,0,No
+core,prepreg_anx,1,0,Yes
+core,prepreg_ed,0,0,No
+core,prepreg_ed,1,0,Yes
+core,preg_ed,0,0,No
+core,preg_ed,1,0,Yes
+core,prepreg_an,0,0,No
+core,prepreg_an,1,0,Yes
+core,preg_an,0,0,No
+core,preg_an,1,0,Yes
+core,prepreg_bn,0,0,No
+core,prepreg_bn,1,0,Yes
+core,preg_bn,0,0,No
+core,preg_bn,1,0,Yes
+core,abroad_mo,0,0,No
+core,abroad_mo,1,0,Yes
+core,abroad_fa,0,0,No
+core,abroad_fa,1,0,Yes
+core,abroad_child,0,0,No
+core,abroad_child,1,0,Yes
+core,smk_t,0,0,no
+core,smk_t,1,0,yes
+core,alc_t,0,0,no
+core,alc_t,1,0,yes
+core,blueyn300_t,1,0,yes
+core,blueyn300_t,0,0,no
+core,greenyn300_t,1,0,yes
+core,greenyn300_t,0,0,no
+core,ln_c_t,1,0,<50
+core,ln_c_t,2,0,50-54.9
+core,ln_c_t,3,0,55-59.9
+core,ln_c_t,4,0,60-64.9
+core,ln_c_t,5,0,65-69.9
+core,ln_c_t,6,0,>70
+core,lden_c_t,1,0,<55
+core,lden_c_t,2,0,55-59.9
+core,lden_c_t,3,0,60-64.9
+core,lden_c_t,4,0,65-69.9
+core,lden_c_t,5,0,70-74.9
+core,lden_c_t,6,0,>75
+core,areases_tert_t,1,0,low deprivated
+core,areases_tert_t,2,0,medium deprivated
+core,areases_tert_t,3,0,high deprivated
+core,areases_quint_t,1,0,low deprivated
+core,areases_quint_t,2,0,medium-low deprivated
+core,areases_quint_t,3,0,medium deprivated
+core,areases_quint_t,4,0,medium-high deprivated
+core,areases_quint_t,5,0,high deprivated
+core,cohab_,1,0," Yes, living as a couple"
+core,cohab_,2,0," No, not living as a couple"
+core,occup_m_,1,0, Employed
+core,occup_m_,2,0, Self-employed 
+core,occup_m_,3,0, Unemployed
+core,occup_m_,4,0," Student, apprentice, student"
+core,occup_m_,5,0, Domestic tasks (housewife etc.)
+core,occup_m_,6,0, Inactive/other (Receiving benefits or pension etc.)
+core,occupcode_m_,1,0," Legislators, senior officials, managers "
+core,occupcode_m_,2,0, Professionals
+core,occupcode_m_,3,0, Technicians and associate professionals
+core,occupcode_m_,4,0, Clerks
+core,occupcode_m_,5,0," Service workers, and shop and market sales workers"
+core,occupcode_m_,6,0," Skilled agricultural, and fishery workers"
+core,occupcode_m_,7,0, Craft and related trades workers
+core,occupcode_m_,8,0," Plant and machine operators, and assemblers"
+core,occupcode_m_,9,0, Elementary occupations
+core,occupcode_m_,0,0, Armed forces occupations
+core,edu_m_,1,0,high
+core,edu_m_,2,0,medium
+core,edu_m_,3,0,low
+core,occup_f1_,1,0,Employed
+core,occup_f1_,2,0,Self-employed 
+core,occup_f1_,3,0,Unemployed
+core,occup_f1_,4,0,"Student, apprentice, student"
+core,occup_f1_,5,0,Domestic tasks (housewife etc.)
+core,occup_f1_,6,0,Inactive/other (receiving benefits or pension etc.)
+core,occup_f1_fath,1,0,Biological father
+core,occup_f1_fath,2,0,Social father
+core,occup_f1_fath,3,0,Social mother
+core,occup_f1_fath,4,0,Unknown
+core,occup_f2_,1,0,Employed
+core,occup_f2_,2,0,Self-employed 
+core,occup_f2_,3,0,Unemployed
+core,occup_f2_,4,0,"Student, apprentice, student"
+core,occup_f2_,5,0,Domestic tasks (housewife etc.)
+core,occup_f2_,6,0,Inactive/other (receiving benefits or pension etc.)
+core,occup_f2_fath,1,0,Biological father
+core,occup_f2_fath,2,0,Social father
+core,occup_f2_fath,3,0,Social mother
+core,occup_f2_fath,4,0,Unknown
+core,occupcode_f1_,1,0," Legislators, senior officials, managers "
+core,occupcode_f1_,2,0, Professionals
+core,occupcode_f1_,3,0, Technicians and associate professionals
+core,occupcode_f1_,4,0, Clerks
+core,occupcode_f1_,5,0," Service workers, and shop and market sales workers"
+core,occupcode_f1_,6,0," Skilled agricultural, and fishery workers"
+core,occupcode_f1_,7,0, Craft and related trades workers
+core,occupcode_f1_,8,0," Plant and machine operators, and assemblers"
+core,occupcode_f1_,9,0, Elementary occupations
+core,occupcode_f1_,0,0, Armed forces occupations
+core,occupcode_f1_fath,1,0,Biological father
+core,occupcode_f1_fath,2,0,Social father
+core,occupcode_f1_fath,3,0,Social mother
+core,occupcode_f1_fath,4,0,Unknown
+core,occupcode_f2_,1,0," Legislators, senior officials, managers "
+core,occupcode_f2_,2,0, Professionals
+core,occupcode_f2_,3,0, Technicians and associate professionals
+core,occupcode_f2_,4,0, Clerks
+core,occupcode_f2_,5,0," Service workers, and shop and market sales workers"
+core,occupcode_f2_,6,0," Skilled agricultural, and fishery workers"
+core,occupcode_f2_,7,0, Craft and related trades workers
+core,occupcode_f2_,8,0," Plant and machine operators, and assemblers"
+core,occupcode_f2_,9,0, Elementary occupations
+core,occupcode_f2_,0,0, Armed forces occupations
+core,occupcode_f2_fath,1,0,Biological father
+core,occupcode_f2_fath,2,0,Social father
+core,occupcode_f2_fath,3,0,Social mother
+core,occupcode_f2_fath,4,0,Unknown
+core,edu_f1_,1,0,high
+core,edu_f1_,2,0,medium
+core,edu_f1_,3,0,low
+core,edu_f1_fath,1,0,Biological father
+core,edu_f1_fath,2,0,Social father
+core,edu_f1_fath,3,0,Social mother
+core,edu_f1_fath,4,0,Unknown
+core,edu_f2_,1,0,high
+core,edu_f2_,2,0,medium
+core,edu_f2_,3,0,low
+core,edu_f2_fath,1,0,Biological father
+core,edu_f2_fath,2,0,Social father
+core,edu_f2_fath,3,0,Social mother
+core,edu_f2_fath,4,0,Unknown
+core,childcare_,0,0, no childcare
+core,childcare_,1,0, childcare
+core,childcarerel_,0,0," not cared for by friends, relatives etc."
+core,childcarerel_,1,0," cared for by friends, relatives etc."
+core,childcareprof_,0,0, not cared for by a professional child minder
+core,childcareprof_,1,0, cared for by a professional child minder
+core,childcarecentre_,0,0, not attending a day care centre
+core,childcarecentre_,1,0, attending a day care centre
+core,smk_exp,0,0,not exposed
+core,smk_exp,1,0,exposed
+core,pets_,0,0,no 
+core,pets_,1,0,yes 
+core,cats_,0,0,no
+core,cats_,1,0,yes
+core,dogs_,0,0,no
+core,dogs_,1,0,yes
+core,mental_exp,0,0,no 
+core,mental_exp,1,0,yes 
+core,hhincome_,1,0, 4th quartile (highest)
+core,hhincome_,2,0, 3rd quartile
+core,hhincome_,3,0, 2nd quartile 
+core,hhincome_,4,0, 1st quartile 
+core,fam_splitup,0,0,No split up
+core,fam_splitup,1,0,Split up
+core,blueyn300_,1,0,yes
+core,blueyn300_,0,0,no
+core,greenyn300_,1,0,yes
+core,greenyn300_,0,0,no
+core,ln_c_,1,0,<50
+core,ln_c_,2,0,50-54.9
+core,ln_c_,3,0,55-59.9
+core,ln_c_,4,0,60-64.9
+core,ln_c_,5,0,65-69.9
+core,lden_c_,1,0,<55
+core,lden_c_,2,0,55-59.9
+core,lden_c_,3,0,60-64.9
+core,lden_c_,4,0,65-69.9
+core,lden_c_,5,0,70-74.9
+core,lden_c_,6,0,>75
+core,areases_tert_,1,0,low deprivated
+core,areases_tert_,2,0,medium deprivated
+core,areases_tert_,3,0,high deprivated
+core,areases_quint_,1,0,low deprivated
+core,areases_quint_,2,0,medium-low deprivated
+core,areases_quint_,3,0,medium deprivated
+core,areases_quint_,4,0,medium-high deprivated
+core,areases_quint_,5,0,high deprivated
+core,ed_m_,0,0,no
+core,ed_m_,1,0,yes
+core,an_m_,0,0,no
+core,an_m_,1,0,yes
+core,bn_m_,0,0,no
+core,bn_m_,1,0,yes

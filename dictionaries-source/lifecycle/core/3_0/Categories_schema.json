@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "required": [
+        "variable",
+        "name",
+        "missing",
+        "label"
+    ],
+    "properties": {
+        "table": {
+            "type": "string"
+        },
+        "variable": {
+            "type": "string"
+        },
+        "name": {
+            "type": "integer"
+        },
+        "missing": {
+            "type": "boolean"
+        },
+        "label": {
+            "type": "string"
+        }
+    }
+}
