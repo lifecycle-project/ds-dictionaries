@@ -1,6 +1,27 @@
 # Versions of data dictionaries (core = wp1 and wp3)
 We define here in what versions of the data dictionaries contains which tables.
 
+## 2.5
+
+### Content
+
+#### General changes
+
+#### Additional variables 
+
+*non-repeated variables*
+
+| Variable          | Type      | Description                                           |
+| ----------------- | --------- | ---------------------------------------------------   |
+|bib1000_valid      |integer    |Partipant a member of BiB1000 sub-cohort               |
+
+
+### Tables
+- 2_5_nonrep
+- 2_5_trimester_rep
+- 2_5_yearly_rep
+- 2_5_monthly_rep
+
 ## 2.4
 **dsUpload R-package version >= 4.4.x**
 
