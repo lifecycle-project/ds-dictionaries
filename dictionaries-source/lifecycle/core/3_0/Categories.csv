@@ -22,7 +22,7 @@ core,cohort_id,120,0,gaspii
 core,cohort_id,121,0,piccolipu
 core,cohort_id,122,0,abcd
 core,cohort_id,123,0,bisc
-core,cohort_id,124,0,environage 
+core,cohort_id,124,0,environage
 core,cohort_id,125,0,helix
 core,cohort_id,126,0,pelagie
 core,cohort_id,127,0,sepages
@@ -363,29 +363,29 @@ core,areases_quint_t,2,0,medium-low deprivated
 core,areases_quint_t,3,0,medium deprivated
 core,areases_quint_t,4,0,medium-high deprivated
 core,areases_quint_t,5,0,high deprivated
-core,cohab_,1,0," Yes, living as a couple"
-core,cohab_,2,0," No, not living as a couple"
-core,occup_m_,1,0, Employed
-core,occup_m_,2,0, Self-employed 
-core,occup_m_,3,0, Unemployed
-core,occup_m_,4,0," Student, apprentice, student"
-core,occup_m_,5,0, Domestic tasks (housewife etc.)
-core,occup_m_,6,0, Inactive/other (Receiving benefits or pension etc.)
-core,occupcode_m_,1,0," Legislators, senior officials, managers "
-core,occupcode_m_,2,0, Professionals
-core,occupcode_m_,3,0, Technicians and associate professionals
-core,occupcode_m_,4,0, Clerks
-core,occupcode_m_,5,0," Service workers, and shop and market sales workers"
-core,occupcode_m_,6,0," Skilled agricultural, and fishery workers"
-core,occupcode_m_,7,0, Craft and related trades workers
-core,occupcode_m_,8,0," Plant and machine operators, and assemblers"
-core,occupcode_m_,9,0, Elementary occupations
-core,occupcode_m_,0,0, Armed forces occupations
+core,cohab_,1,0,"Yes, living as a couple"
+core,cohab_,2,0,"No, not living as a couple"
+core,occup_m_,1,0,Employed
+core,occup_m_,2,0,Self-employed
+core,occup_m_,3,0,Unemployed
+core,occup_m_,4,0,"Student, apprentice, student"
+core,occup_m_,5,0,Domestic tasks (housewife etc.)
+core,occup_m_,6,0,Inactive/other (Receiving benefits or pension etc.)
+core,occupcode_m_,1,0,"Legislators, senior officials, managers"
+core,occupcode_m_,2,0,Professionals
+core,occupcode_m_,3,0,Technicians and associate professionals
+core,occupcode_m_,4,0,Clerks
+core,occupcode_m_,5,0,"Service workers, and shop and market sales workers"
+core,occupcode_m_,6,0,"Skilled agricultural, and fishery workers"
+core,occupcode_m_,7,0,Craft and related trades workers
+core,occupcode_m_,8,0,"Plant and machine operators, and assemblers"
+core,occupcode_m_,9,0,Elementary occupations
+core,occupcode_m_,0,0,Armed forces occupations
 core,edu_m_,1,0,high
 core,edu_m_,2,0,medium
 core,edu_m_,3,0,low
 core,occup_f1_,1,0,Employed
-core,occup_f1_,2,0,Self-employed 
+core,occup_f1_,2,0,Self-employed
 core,occup_f1_,3,0,Unemployed
 core,occup_f1_,4,0,"Student, apprentice, student"
 core,occup_f1_,5,0,Domestic tasks (housewife etc.)
@@ -395,7 +395,7 @@ core,occup_f1_fath,2,0,Social father
 core,occup_f1_fath,3,0,Social mother
 core,occup_f1_fath,4,0,Unknown
 core,occup_f2_,1,0,Employed
-core,occup_f2_,2,0,Self-employed 
+core,occup_f2_,2,0,Self-employed
 core,occup_f2_,3,0,Unemployed
 core,occup_f2_,4,0,"Student, apprentice, student"
 core,occup_f2_,5,0,Domestic tasks (housewife etc.)
@@ -404,30 +404,30 @@ core,occup_f2_fath,1,0,Biological father
 core,occup_f2_fath,2,0,Social father
 core,occup_f2_fath,3,0,Social mother
 core,occup_f2_fath,4,0,Unknown
-core,occupcode_f1_,1,0," Legislators, senior officials, managers "
-core,occupcode_f1_,2,0, Professionals
-core,occupcode_f1_,3,0, Technicians and associate professionals
-core,occupcode_f1_,4,0, Clerks
-core,occupcode_f1_,5,0," Service workers, and shop and market sales workers"
-core,occupcode_f1_,6,0," Skilled agricultural, and fishery workers"
-core,occupcode_f1_,7,0, Craft and related trades workers
-core,occupcode_f1_,8,0," Plant and machine operators, and assemblers"
-core,occupcode_f1_,9,0, Elementary occupations
-core,occupcode_f1_,0,0, Armed forces occupations
+core,occupcode_f1_,1,0,"Legislators, senior officials, managers"
+core,occupcode_f1_,2,0,Professionals
+core,occupcode_f1_,3,0,Technicians and associate professionals
+core,occupcode_f1_,4,0,Clerks
+core,occupcode_f1_,5,0,"Service workers, and shop and market sales workers"
+core,occupcode_f1_,6,0,"Skilled agricultural, and fishery workers"
+core,occupcode_f1_,7,0,Craft and related trades workers
+core,occupcode_f1_,8,0,"Plant and machine operators, and assemblers"
+core,occupcode_f1_,9,0,Elementary occupations
+core,occupcode_f1_,0,0,Armed forces occupations
 core,occupcode_f1_fath,1,0,Biological father
 core,occupcode_f1_fath,2,0,Social father
 core,occupcode_f1_fath,3,0,Social mother
 core,occupcode_f1_fath,4,0,Unknown
-core,occupcode_f2_,1,0," Legislators, senior officials, managers "
-core,occupcode_f2_,2,0, Professionals
-core,occupcode_f2_,3,0, Technicians and associate professionals
-core,occupcode_f2_,4,0, Clerks
-core,occupcode_f2_,5,0," Service workers, and shop and market sales workers"
-core,occupcode_f2_,6,0," Skilled agricultural, and fishery workers"
-core,occupcode_f2_,7,0, Craft and related trades workers
-core,occupcode_f2_,8,0," Plant and machine operators, and assemblers"
-core,occupcode_f2_,9,0, Elementary occupations
-core,occupcode_f2_,0,0, Armed forces occupations
+core,occupcode_f2_,1,0,"Legislators, senior officials, managers"
+core,occupcode_f2_,2,0,Professionals
+core,occupcode_f2_,3,0,Technicians and associate professionals
+core,occupcode_f2_,4,0,Clerks
+core,occupcode_f2_,5,0,"Service workers, and shop and market sales workers"
+core,occupcode_f2_,6,0,"Skilled agricultural, and fishery workers"
+core,occupcode_f2_,7,0,Craft and related trades workers
+core,occupcode_f2_,8,0,"Plant and machine operators, and assemblers"
+core,occupcode_f2_,9,0,Elementary occupations
+core,occupcode_f2_,0,0,Armed forces occupations
 core,occupcode_f2_fath,1,0,Biological father
 core,occupcode_f2_fath,2,0,Social father
 core,occupcode_f2_fath,3,0,Social mother
@@ -446,28 +446,28 @@ core,edu_f2_fath,1,0,Biological father
 core,edu_f2_fath,2,0,Social father
 core,edu_f2_fath,3,0,Social mother
 core,edu_f2_fath,4,0,Unknown
-core,childcare_,0,0, no childcare
-core,childcare_,1,0, childcare
-core,childcarerel_,0,0," not cared for by friends, relatives etc."
-core,childcarerel_,1,0," cared for by friends, relatives etc."
-core,childcareprof_,0,0, not cared for by a professional child minder
-core,childcareprof_,1,0, cared for by a professional child minder
-core,childcarecentre_,0,0, not attending a day care centre
-core,childcarecentre_,1,0, attending a day care centre
+core,childcare_,0,0,no childcare
+core,childcare_,1,0,childcare
+core,childcarerel_,0,0,"not cared for by friends, relatives etc."
+core,childcarerel_,1,0,"cared for by friends, relatives etc."
+core,childcareprof_,0,0,not cared for by a professional child minder
+core,childcareprof_,1,0,cared for by a professional child minder
+core,childcarecentre_,0,0,not attending a day care centre
+core,childcarecentre_,1,0,attending a day care centre
 core,smk_exp,0,0,not exposed
 core,smk_exp,1,0,exposed
-core,pets_,0,0,no 
-core,pets_,1,0,yes 
+core,pets_,0,0,no
+core,pets_,1,0,yes
 core,cats_,0,0,no
 core,cats_,1,0,yes
 core,dogs_,0,0,no
 core,dogs_,1,0,yes
-core,mental_exp,0,0,no 
-core,mental_exp,1,0,yes 
-core,hhincome_,1,0, 4th quartile (highest)
-core,hhincome_,2,0, 3rd quartile
-core,hhincome_,3,0, 2nd quartile 
-core,hhincome_,4,0, 1st quartile 
+core,mental_exp,0,0,no
+core,mental_exp,1,0,yes
+core,hhincome_,1,0,4th quartile (highest)
+core,hhincome_,2,0,3rd quartile
+core,hhincome_,3,0,2nd quartile
+core,hhincome_,4,0,1st quartile
 core,fam_splitup,0,0,No split up
 core,fam_splitup,1,0,Split up
 core,blueyn300_,1,0,yes
