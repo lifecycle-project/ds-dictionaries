@@ -335,34 +335,6 @@ core,abroad_fa,0,0,No
 core,abroad_fa,1,0,Yes
 core,abroad_child,0,0,No
 core,abroad_child,1,0,Yes
-core,smk_t,0,0,no
-core,smk_t,1,0,yes
-core,alc_t,0,0,no
-core,alc_t,1,0,yes
-core,blueyn300_t,1,0,yes
-core,blueyn300_t,0,0,no
-core,greenyn300_t,1,0,yes
-core,greenyn300_t,0,0,no
-core,ln_c_t,1,0,<50
-core,ln_c_t,2,0,50-54.9
-core,ln_c_t,3,0,55-59.9
-core,ln_c_t,4,0,60-64.9
-core,ln_c_t,5,0,65-69.9
-core,ln_c_t,6,0,>70
-core,lden_c_t,1,0,<55
-core,lden_c_t,2,0,55-59.9
-core,lden_c_t,3,0,60-64.9
-core,lden_c_t,4,0,65-69.9
-core,lden_c_t,5,0,70-74.9
-core,lden_c_t,6,0,>75
-core,areases_tert_t,1,0,low deprivated
-core,areases_tert_t,2,0,medium deprivated
-core,areases_tert_t,3,0,high deprivated
-core,areases_quint_t,1,0,low deprivated
-core,areases_quint_t,2,0,medium-low deprivated
-core,areases_quint_t,3,0,medium deprivated
-core,areases_quint_t,4,0,medium-high deprivated
-core,areases_quint_t,5,0,high deprivated
 core,cohab_,1,0,"Yes, living as a couple"
 core,cohab_,2,0,"No, not living as a couple"
 core,occup_m_,1,0,Employed
@@ -499,3 +471,31 @@ core,an_m_,0,0,no
 core,an_m_,1,0,yes
 core,bn_m_,0,0,no
 core,bn_m_,1,0,yes
+core,smk_t,0,0,no
+core,smk_t,1,0,yes
+core,alc_t,0,0,no
+core,alc_t,1,0,yes
+core,blueyn300_t,1,0,yes
+core,blueyn300_t,0,0,no
+core,greenyn300_t,1,0,yes
+core,greenyn300_t,0,0,no
+core,ln_c_t,1,0,<50
+core,ln_c_t,2,0,50-54.9
+core,ln_c_t,3,0,55-59.9
+core,ln_c_t,4,0,60-64.9
+core,ln_c_t,5,0,65-69.9
+core,ln_c_t,6,0,>70
+core,lden_c_t,1,0,<55
+core,lden_c_t,2,0,55-59.9
+core,lden_c_t,3,0,60-64.9
+core,lden_c_t,4,0,65-69.9
+core,lden_c_t,5,0,70-74.9
+core,lden_c_t,6,0,>75
+core,areases_tert_t,1,0,low deprivated
+core,areases_tert_t,2,0,medium deprivated
+core,areases_tert_t,3,0,high deprivated
+core,areases_quint_t,1,0,low deprivated
+core,areases_quint_t,2,0,medium-low deprivated
+core,areases_quint_t,3,0,medium deprivated
+core,areases_quint_t,4,0,medium-high deprivated
+core,areases_quint_t,5,0,high deprivated

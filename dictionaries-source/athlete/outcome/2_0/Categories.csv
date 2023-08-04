@@ -1,0 +1,81 @@
+table,variable,name,missing,label
+outcome,cohort_id,101,0,genr
+outcome,cohort_id,102,0,inma
+outcome,cohort_id,103,0,ninfea
+outcome,cohort_id,104,0,sws
+outcome,cohort_id,105,0,alspac
+outcome,cohort_id,106,0,dnbc
+outcome,cohort_id,107,0,bib
+outcome,cohort_id,108,0,gecko
+outcome,cohort_id,109,0,rhea
+outcome,cohort_id,110,0,moba
+outcome,cohort_id,111,0,elfe
+outcome,cohort_id,112,0,eden
+outcome,cohort_id,113,0,nfbc66
+outcome,cohort_id,114,0,nfbc86
+outcome,cohort_id,115,0,hbcs
+outcome,cohort_id,116,0,chop
+outcome,cohort_id,117,0,raine
+outcome,cohort_id,118,0,rug
+outcome,cohort_id,119,0,kanc
+outcome,cohort_id,120,0,gaspii
+outcome,cohort_id,121,0,piccolipu
+outcome,cohort_id,122,0,abcd
+outcome,cohort_id,123,0,bisc
+outcome,cohort_id,124,0,environage
+outcome,cohort_id,125,0,helix
+outcome,cohort_id,126,0,pelagie
+outcome,cohort_id,127,0,sepages
+outcome,cohort_id,128,0,tng
+outcome,cohort_id,129,0,hgs
+outcome,cohort_id,130,0,elspac
+outcome,cohort_id,131,0,genxxi
+outcome,cohort_id,132,0,genrnext
+outcome,aggr_instr_,13,0,CBCL
+outcome,aggr_instr_,47,0,SDQ
+outcome,aggr_eval_,1,0,teacher
+outcome,aggr_eval_,2,0,parent
+outcome,aggr_eval_,3,0,examiner
+outcome,aggr_eval_,4,0,computerized
+outcome,aggr_eval_,5,0,self-reported
+outcome,aggr_eval_,6,0,other
+outcome,att_instr_,62,0,CPT
+outcome,att_instr_,63,0,ANT
+outcome,att_eval_,1,0,teacher
+outcome,att_eval_,2,0,parent
+outcome,att_eval_,3,0,examiner
+outcome,att_eval_,4,0,computerized
+outcome,att_eval_,5,0,self-reported
+outcome,att_eval_,6,0,other
+outcome,edR_,0,0,No
+outcome,edR_,1,0,Yes
+outcome,edR_eval_,1,0,Medical registries or medical records linkage
+outcome,edR_eval_,2,0,Parentally reported doctor-diagnosed disorder
+outcome,anR_,0,0,No
+outcome,anR_,1,0,Yes
+outcome,anR_eval_,1,0,Medical registries or medical records linkage
+outcome,anR_eval_,2,0,Parentally reported doctor-diagnosed disorder
+outcome,bnR_,0,0,No
+outcome,bnR_,1,0,Yes
+outcome,bnR_eval_,1,0,Medical registries or medical records linkage
+outcome,bnR_eval_,2,0,Parentally reported doctor-diagnosed disorder
+outcome,bedR_,0,0,No
+outcome,bedR_,1,0,Yes
+outcome,bedR_eval_,1,0,Medical registries or medical records linkage
+outcome,bedR_eval_,2,0,Parentally reported doctor-diagnosed disorder
+outcome,rmcmes_,1,0,Manual
+outcome,rmcmes_,2,0,Semi-automatic
+outcome,mets_ idefics_,0,0,Non-MetS
+outcome,mets_ idefics_,1,0,Mets
+outcome,rhinitis_sx_ever_,0,0,No
+outcome,rhinitis_sx_ever_,1,0,Yes
+outcome,rhinitis_sx_12m_,0,0,No
+outcome,rhinitis_sx_12m_,1,0,Yes
+outcome,rhinitis_,0,0,No
+outcome,rhinitis_,1,0,Yes
+outcome,n_wheezing_12m_,0,0,None
+outcome,n_wheezing_12m_,1,0,1 to 3
+outcome,n_wheezing_12m_,2,0,4 to 12.
+outcome,n_wheezing_12m_,3,0,more than 12
+outcome,rhinitis_ttt_12m_,0,0,No
+outcome,rhinitis_ttt_12m_,1,0,Yes

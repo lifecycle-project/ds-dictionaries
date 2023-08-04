@@ -1,0 +1,112 @@
+table,name,valueType,unit,repeatable,label
+outcome,row_id,integer,numeric,0,Unique identifier for the row in Opal
+outcome,mother_id,text,,0,Unique identifier number for the mother 
+outcome,child_id,text,,0,Unique identifier number for the index child 
+outcome,cohort_id,integer,,0,Unique identifier for the cohort
+outcome,CRL_t1,decimal,cm,0,Crown-rump length in 1st trimester
+outcome,age_years,integer,numeric,1,Age of child in years
+outcome,age_months,integer,numeric,1,Age of the child in months
+outcome,z_height_,decimal,numeric,1,Repeated measures of child's height z-score calculated using the World Health Organization (WHO) reference curves
+outcome,z_weight_,decimal,numeric,1,Repeated measures of child's weight z-score calculated using the World Health Organization (WHO) reference curves
+outcome,z_bmi_,decimal,numeric,1,Repeated measures of child's BMI z-score calculated using the World Health Organization (WHO) reference curves
+outcome,aggr_raw_,decimal,numeric,1,"Repeated measures of aggressive behavior, total raw score: aggr_raw_0: assessed within one year of childbirth (>0 year and <1 year) aggr_raw_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … aggr_raw_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years"
+outcome,aggr_age_,integer,numeric,1,"Exact age of the child (in years) when aggressive behavior was recorded for aggr_raw_0, aggr_raw_1, etc."
+outcome,aggr_instr_,integer,numeric,1,"Cohort-specific instrument used to measure the aggressive behavior for aggr_raw_0, aggr_raw_1, etc."
+outcome,aggr_eval_,decimal,numeric,1,"Who the test was administered/answered by for aggr_raw_0, aggr_raw_1, etc."
+outcome,aggr_avg_,decimal,numeric,1,"Average of available items comprising the total raw score of aggr_raw_0, aggr_raw_1, etc."
+outcome,aggr_pro_,decimal,numeric,1,"Total aggressive behavior score after prorating aggr_raw_0, aggr_raw1, etc."
+outcome,aggr_pc_,decimal,numeric,1,"Aggressive behavior, percentiles of aggr_pro_0, aggr_pro_1, etc."
+outcome,att_om_raw_,decimal,numeric,1,"Repeated measures of attentional function, raw score of number of omissions: att_om_raw_0: assessed within one year of childbirth (>0 year and <1 year) att_om_raw_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … att_om_raw_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years"
+outcome,att_com_raw_,decimal,numeric,1,"Repeated measures of attentional function, raw score of number of commissions: att_com_raw_0: assessed within one year of childbirth (>0 year and <1 year) att_com_raw_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … att_com_raw_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years"
+outcome,att_hrt_raw_,decimal,numeric,1,"Repeated measures of attentional function, raw score of hit reaction time: att_hrt_raw_0: assessed within one year of childbirth (>0 year and <1 year) att_hrt_raw_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … att_hrt_raw_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years"
+outcome,att_hrtse_raw_,decimal,numeric,1,"Repeated measures of attentional function, raw score of standard error of hit reaction time: att_hrtse_raw_0: assessed within one year of childbirth (>0 year and <1 year) att_hrtse_raw_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … att_hrtse_raw_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years"
+outcome,att_age_,integer,numeric,1,"Exact age of the child (in years) when attentional function was recorded for att_raw_0, att_raw_1, etc."
+outcome,att_instr_,integer,numeric,1,"Cohort-specific instrument used to measure the attentional function for att_raw_0, att_raw_1, etc."
+outcome,att_eval_,decimal,numeric,1,"Who the test was administered/answered by for att_raw_0, att_raw_1, etc."
+outcome,att_om_pc_,decimal,numeric,1,"Attentional function, percentiles of att_om_pro_0, att_pro_om_1, etc."
+outcome,att_com_pc_,decimal,numeric,1,"Attentional function, percentiles of att_com_pro_0, att_com_pro_1, etc."
+outcome,att_hrt_pc_,decimal,numeric,1,"Attentional function, percentiles of att_hrt_pro_0, att_hrt_pro_1, etc."
+outcome,att_hrtse_pc_,decimal,numeric,1,"Attentional function, standardized score of att_hrtse_pro_0, att_hrtse_pro_1, etc."
+outcome,att_om_std_,decimal,numeric,1,"Attentional function, standardized score of att_om_pro_0, att_om_pro_1, etc."
+outcome,att_com_std_,decimal,numeric,1,"Attentional function, standardized score of att_com_pro_0, att_com_pro_1, etc."
+outcome,att_hrt_std_,decimal,numeric,1,"Attentional function, standardized score of att_hrt_pro_0, att_hrt_pro_1, etc."
+outcome,att_hrtse_std_,integer,numeric,1,"Attentional function, standardized score of att_hrtse_pro_0, att_hrtse_pro_1, etc."
+outcome,edR_,decimal,numeric,1,Repeated measures of offspring eating disorder diagnosis:
+outcome,edR_age_,integer,numeric,1,"Exact age at eating disorder onset for edR_10, edR_11, etc."
+outcome,edR_eval_,integer,numeric,1,"How was the medical diagnosis reported for edR_10, edR_11, etc assessed."
+outcome,anR_,decimal,numeric,1,Repeated measures of offspring anorexia nervosa diagnosis:
+outcome,anR_age_,integer,numeric,1,"Exact age at anorexia nervosa onset for anR_10, anR_11, etc."
+outcome,anR_eval_,integer,numeric,1,"How was the medical diagnosis reported for anR_10, anR_11, etc assessed."
+outcome,bnR_,decimal,numeric,1,Repeated measures of offspring bulimia nervosa diagnosis:
+outcome,bnR_age_,integer,numeric,1,"Exact age at bulimia nervosa onset for bnR_10, bnR_11, etc."
+outcome,bnR_eval_,integer,numeric,1,"How was the medical diagnosis reported for bnR_10, bnR_11, etc assessed."
+outcome,bedR_,decimal,numeric,1,Repeated measures of offspring binge eating disorder diagnosis:
+outcome,bedR_age_,integer,numeric,1,"Exact age at binge eating disorder onset for bedR_10, bedR_11, etc."
+outcome,bedR_eval_,integer,numeric,1,"How was the medical diagnosis reported for bedR_10, bedR_11, etc assessed."
+outcome,aggr_wave_,integer,numeric,1,Which wave of aggressive behavior measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,att_wave_,integer,numeric,1,Which wave of attentional function measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,edR_wave_,integer,numeric,1,Which wave of offspring eating disorder diagnosis was recorded? From 1 to the total number of measurement in the cohort
+outcome,anR_wave_,integer,numeric,1,Which wave of offspring anorexia nervosa diagnosis was recorded? From 1 to the total number of measurement in the cohort
+outcome,bnR_wave_,integer,numeric,1,Which wave of bulimia nervosa diagnosis was recorded? From 1 to the total number of measurement in the cohort
+outcome,bedR_wave_,integer,numeric,1,Which wave of binge eating disorder diagnosis was recorded? From 1 to the total number of measurement in the cohort
+outcome,int_wave_,integer,numeric,1,Which wave of internalizing symptoms measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,ext_wave_,integer,numeric,1,Which wave of externalizing symptoms measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,adhd_wave_,integer,numeric,1,Which wave of adhd scale measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,adhdR_wave_,integer,numeric,1,Which wave of ADHD diagnosis was recorded? From 1 to the total number of measurement in the cohort
+outcome,asd_wave_,integer,numeric,1,Which wave of ASD measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,asdR_wave_,integer,numeric,1,Which wave of ASD diagnosis was recorded? From 1 to the total number of measurement in the cohort
+outcome,gm_wave_,integer,numeric,1,Which wave of gross motor measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,fm_wave_,integer,numeric,1,Which wave of fine motor measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,nvi_wave_,integer,numeric,1,Which wave of non-verbal intelligence measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,wm_wave_,integer,numeric,1,Which wave of working memory measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,lan_wave_,decimal,numeric,1,Which wave of language measurement was recorded? From 1 to the total number of measurement in the cohort
+outcome,crae_,decimal,micrometer,1,Repeated measures of child‘s central retinal arterial equivalent (CRAE) (mean value from right and left fundus): rmccrae_: assessed within one year of childbirth (>0 year and <1 year) rmccrae_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … rmccrae_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years
+outcome,crve_,decimal,micrometer,1,Repeated measures of child‘s central retinal venular equivalent (CRVE) (mean value from right and left fundus): rmccrve_: assessed within one year of childbirth (>0 year and <1 year) rmccrve_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … rmccrve_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years
+outcome,avr_,decimal,,1,Repeated measures of child‘s arteriole-to-venule ratio (AVR) (mean value from right and left fundus): rmcavr_ assessed within one year of childbirth (>0 year and <1 year) rmcavr_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … rmcavr_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years
+outcome,tortuosity_,decimal,,1,Repeated measures of child‘s tortuosity index (mean value from right and left fundus): rmcavr_ assessed within one year of childbirth (>0 year and <1 year) rmcavr_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … rmcavr_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years
+outcome,rmc_age_,decimal,,1,"Exact age of the child (in years) when arteriole-to-venule ratio (AVR) vas measured for rmcavr_, rmcavr_1, etc."
+outcome,rmcmes_,integer,,1,"Method used to measure retinal microcirculation parameters (i.e. CRAE, CRVE, and AVR) for each measurement (e.g. rmcrve_, rmcrve_1, rmcrve_2 etc.)"
+outcome,mets_ idefics_,integer,,1,Repeated classification of pediatric MetS based on the IDEFICS definition (pediatric MetS at a monitoring level when the values of at least three of the components of MetS exceed the 90th percentile)
+outcome,mets_score_idefics_,decimal,,1,Continuous pediatric MetS score combining all components based on the IDEFICS z-scores
+outcome,cvd_risk_score_,decimal,,1,Continuous pediatric CVD score combining three MetS components (not including the HOMA-IR/glucose component) based on the IDEFICS z-scores
+outcome,wc_idefics_perc_,decimal,,1,Repeated WC percentiles based on the IDEFICS study reference values
+outcome,sbp_idefics_perc_,decimal,,1,Repeated SBP percentiles based on the IDEFICS study reference values
+outcome,dbp_idefics_perc_,decimal,,1,Repeated DBP percentiles based on the IDEFICS study reference values
+outcome,triglyceride_idefics_perc_,decimal,,1,Repeated triglycerides percentiles based on the IDEFICS study reference values
+outcome,hdl_idefics_perc_,decimal,,1,Repeated HDL-C percentiles based on the IDEFICS study reference values
+outcome,homa_ir_,decimal,,1,Repeated HOMA-IR values
+outcome,homa_ir_idefics_perc_,decimal,,1,Repeated HOMA-IR percentiles based on the IDEFICS study reference values
+outcome,glucose_idefics_perc_,decimal,,1,Repeated glucose percentiles based on the IDEFICS study reference values
+outcome,mets_age_,decimal,,1,Exact age of the child (in years) when the MetS components were measured.
+outcome,alt_,decimal,unit per liter,1,Repeated measures of child’s alanine aminotrasferase concentrations
+outcome,ast_,decimal,unit per liter,1,Repeated measures of child’s aspartate aminotrasferase concentrations
+outcome,ggt_,decimal,unit per liter,1,Repeated measures of child’s gamma-glutamyl transferase concentrations
+outcome,ck18_,decimal,unit per liter,1,Repeated measures of child’s Cytokeratin-18 concentrations
+outcome,liver_age_,decimal,,1,Exact age of the child (in years) when liver enzymes were measured etc.
+outcome,mrivafm_,decimal,gram,1,Repeated measures of child‘s visceral abdominal fat mass measured using MRI: mrivafm_: assessed within one year of childbirth (>0 year and <1 year) mrivafm_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … mrivafm_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years
+outcome,mrihff_,decimal,%,1,Repeated measures of child’s mean hepatic fat-fraction  measured using MRI: mrihff_: assessed within one year of childbirth (>0 year and <1 year) mrihff_1: assessed when the child was aged between bigger or equal to 1 year and < 2 years … mrihff_17: assessed when the child was aged between bigger or equal to 17 years and < 18 years
+outcome,mri_age_,decimal,,1,"Exact age of the child (in years) when abdominal MRI (for visceral abdominal fat and hepatic fat-fraction) was measured e.g. for mrihff_, mrihff_1, etc."
+outcome,rhinitis_sx_ever_,integer,,1,"Ever (lifetime) problem with sneezing, or a runny, or blocked nose  when the child DID NOT have a cold or the flu and was aged 0-1 year / 1-2 years / … /17-18 years"
+outcome,rhinitis_sx_12m_,integer,,1,"Problem with sneezing, or a runny, or blocked nose  when the child DID NOT have a cold or the flu, in the past 12 months, and was aged 0-1 year / 1-2 years / … /17-18 years"
+outcome,rhinitis_,integer,,1,"Hay fever / rhinitis ever, reported at 0-1 yr / 1-2 yrs / …/17-18 years"
+outcome,n_wheezing_12m_,integer,,1,"Number of wheezing attacks in the past 12 months, when the child was aged 0-1 year / 1-2 years / … /17-18 years"
+outcome,rhinitis_ttt_12m_,integer,,1,"Did your child take any medicines against nasal allergy/hay fever/allergic rhinitis, when the child was aged 0-1 year / 1-2 years / … /17-18 years"
+outcome,age_trimester,integer,numeric,1,Age of the child in trimesters
+outcome,ga_us_t,decimal,days,1,Gestational age when ultrasound in X trimester was performed
+outcome,fetus_biparietal_diam_t,decimal,cm,1,Biparietal diameter of the fetus in X trimester
+outcome,fetus_head_circum_t,decimal,cm ,1,Circumference of the head of the fetus in X trimester 
+outcome,fetus_abd_circum_t,decimal,cm ,1,Abdominal circumference of the fetus in X trimester
+outcome,fetus_femur_length_t,decimal,cm ,1,Femur length of the fetus in X trimester
+outcome,fetus_weight_t,decimal,gram,1,Estimated weight of the fetus in X trimester
+outcome,biparietal_diam_sdsWHO_t,decimal,estimated fetal weight SDS,1,Gestational age-adjusted biparietal diameter SDS  in X trimester based on overall WHO-based reference growth curves
+outcome,head_circum_sdsWHO_t,decimal,estimated fetal weight SDS,1,Gestational age-adjusted head circumference SDS  in X trimester based on overall WHO-based reference growth curves
+outcome,abd_circum_sdsWHO_t,decimal,estimated fetal weight SDS,1,Gestational age-adjusted abdominal circumference SDS  in X trimester based on overall WHO-based reference growth curves
+outcome,femur_length_sdsWHO_t,decimal,estimated fetal weight SDS,1,Gestational age-adjusted femur length SDS  in X trimester based on overall WHO-based reference growth curves
+outcome,weight_sdsWHO_t,decimal,estimated fetal weight SDS,1,Gestational age- and sex- adjusted estimated fetal weight SDS  in X trimester based on overall WHO-based reference growth curves
+outcome,biparietal_diam_sdsWHOEUR_t,decimal,estimated fetal weight SDS,1,Gestational age- and sex-adjusted biparietal diameter SDS  in X trimester based on European WHO-based reference growth curves
+outcome,head_circum_sdsWHOEUR_t,decimal,estimated fetal weight SDS,1,Gestational age- and sex-adjusted head circumference SDS  in X trimester based on European WHO-based reference growth curves
+outcome,abd_circum_sdsWHOEUR_t,decimal,estimated fetal weight SDS,1,Gestational age- and sex-adjusted abdominal circumference SDS  in X trimester based on European WHO-based reference growth curves
+outcome,femur_length_sdsWHOEUR_t,decimal,estimated fetal weight SDS,1,Gestational age- and sex-adjusted femur length SDS  in X trimester based on European WHO-based reference growth curves
+outcome,weight_sdsWHOEUR_t,decimal,estimated fetal weight SDS,1,Gestational age- and sex- adjusted estimated fetal weight SDS  in X trimester based on European WHO-based reference growth curves
+outcome,pi_uma_t,decimal,,1,Pulsatility index umbilical artery in X trimester
+outcome,pi_uta_t,decimal,,1,Pulsatility index uterine artery in X trimester

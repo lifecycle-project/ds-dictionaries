@@ -1,0 +1,984 @@
+table,name,valueType,unit,repeatable,label
+chemicals,row_id,integer,numeric,0,Unique identifer for the row in Opal
+chemicals,child_id,text,,0,Unique identifer for the child
+chemicals,cohort_id,integer,numeric,0,Unique identifier for the cohort
+chemicals,m_mep_raw_precon,decimal,µg/ml,0,Maternal MEP preconception levels
+chemicals,m_mep_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MEP at preconception
+chemicals,m_mep_raw_preg,decimal,µg/ml,0,Maternal urine MEP pregnancy levels
+chemicals,m_mep_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MEP at pregnancy
+chemicals,m_mep_raw_birth,decimal,µg/ml,0,Maternal  MEP birth levels
+chemicals,m_mep_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MEP at birth
+chemicals,m_mibp_raw_precon,decimal,µg/ml,0,Maternal MiBP preconception levels
+chemicals,m_mibp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MiBP at preconception
+chemicals,m_mibp_raw_preg,decimal,µg/ml,0,Maternal urine MiBP pregnancy levels
+chemicals,m_mibp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MiBP at pregnancy
+chemicals,m_mibp_raw_birth,decimal,µg/ml,0,Maternal  MiBP birth levels
+chemicals,m_mibp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MiBP at birth
+chemicals,m_mnbp_raw_precon,decimal,µg/ml,0,Maternal MnBP preconception levels
+chemicals,m_mnbp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MnBP at preconception
+chemicals,m_mnbp_raw_preg,decimal,µg/ml,0,Maternal urine MnBP pregnancy levels
+chemicals,m_mnbp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MnBP at pregnancy
+chemicals,m_mnbp_raw_birth,decimal,µg/ml,0,Maternal  MnBP birth levels
+chemicals,m_mnbp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MnBP at birth
+chemicals,m_mbzp_raw_precon,decimal,µg/ml,0,Maternal MBzP preconception levels
+chemicals,m_mbzp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MBzP at preconception
+chemicals,m_mbzp_raw_preg,decimal,µg/ml,0,Maternal urine MBzP pregnancy levels
+chemicals,m_mbzp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MBzP at pregnancy
+chemicals,m_mbzp_raw_birth,decimal,µg/ml,0,Maternal  MBzP birth levels
+chemicals,m_mbzp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MBzP at birth
+chemicals,m_mehp_raw_precon,decimal,µg/ml,0,Maternal MEHP preconception levels
+chemicals,m_mehp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MEHP at preconception
+chemicals,m_mehp_raw_preg,decimal,µg/ml,0,Maternal urine MEHP pregnancy levels
+chemicals,m_mehp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MEHP at pregnancy
+chemicals,m_mehp_raw_birth,decimal,µg/ml,0,Maternal  MEHP birth levels
+chemicals,m_mehp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MEHP at birth
+chemicals,m_mehhp_raw_precon,decimal,µg/ml,0,Maternal MEHHP preconception levels
+chemicals,m_mehhp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MEHHP at preconception
+chemicals,m_mehhp_raw_preg,decimal,µg/ml,0,Maternal urine MEHHP pregnancy levels
+chemicals,m_mehhp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MEHHP at pregnancy
+chemicals,m_mehhp_raw_birth,decimal,µg/ml,0,Maternal  MEHHP birth levels
+chemicals,m_mehhp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MEHHP at birth
+chemicals,m_meohp_raw_precon,decimal,µg/ml,0,Maternal MEOHP preconception levels
+chemicals,m_meohp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MEOHP at preconception
+chemicals,m_meohp_raw_preg,decimal,µg/ml,0,Maternal urine MEOHP pregnancy levels
+chemicals,m_meohp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MEOHP at pregnancy
+chemicals,m_meohp_raw_birth,decimal,µg/ml,0,Maternal  MEOHP birth levels
+chemicals,m_meohp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MEOHP at birth
+chemicals,m_mecpp_raw_precon,decimal,µg/ml,0,Maternal MECPP preconception levels
+chemicals,m_mecpp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MECPP at preconception
+chemicals,m_mecpp_raw_preg,decimal,µg/ml,0,Maternal urine MECPP pregnancy levels
+chemicals,m_mecpp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MECPP at pregnancy
+chemicals,m_mecpp_raw_birth,decimal,µg/ml,0,Maternal  MECPP birth levels
+chemicals,m_mecpp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MECPP at birth
+chemicals,m_mmchp_raw_precon,decimal,µg/ml,0,Maternal MMCHP preconception levels
+chemicals,m_mmchp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MMCHP at preconception
+chemicals,m_mmchp_raw_preg,decimal,µg/ml,0,Maternal urine MMCHP pregnancy levels
+chemicals,m_mmchp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MMCHP at pregnancy
+chemicals,m_mmchp_raw_birth,decimal,µg/ml,0,Maternal  MMCHP birth levels
+chemicals,m_mmchp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MMCHP at birth
+chemicals,m_ohminp_raw_precon,decimal,µg/ml,0,Maternal oh_MiNP preconception levels
+chemicals,m_ohminp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  oh_MiNP at preconception
+chemicals,m_ohminp_raw_preg,decimal,µg/ml,0,Maternal urine oh_MiNP pregnancy levels
+chemicals,m_ohminp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine oh_MiNP at pregnancy
+chemicals,m_ohminp_raw_birth,decimal,µg/ml,0,Maternal  oh_MiNP birth levels
+chemicals,m_ohminp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  oh_MiNP at birth
+chemicals,m_oxominp_raw_precon,decimal,µg/ml,0,Maternal oxo_MiNP preconception levels
+chemicals,m_oxominp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  oxo_MiNP at preconception
+chemicals,m_oxominp_raw_preg,decimal,µg/ml,0,Maternal urine oxo_MiNP pregnancy levels
+chemicals,m_oxominp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine oxo_MiNP at pregnancy
+chemicals,m_oxominp_raw_birth,decimal,µg/ml,0,Maternal  oxo_MiNP birth levels
+chemicals,m_oxominp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  oxo_MiNP at birth
+chemicals,m_cxminp_raw_precon,decimal,µg/ml,0,Maternal cx_MiNP preconception levels
+chemicals,m_cxminp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  cx_MiNP at preconception
+chemicals,m_cxminp_raw_preg,decimal,µg/ml,0,Maternal urine cx_MiNP pregnancy levels
+chemicals,m_cxminp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine cx_MiNP at pregnancy
+chemicals,m_cxminp_raw_birth,decimal,µg/ml,0,Maternal  cx_MiNP birth levels
+chemicals,m_cxminp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  cx_MiNP at birth
+chemicals,m_ohmphp_raw_precon,decimal,µg/ml,0,Maternal oh_MPHP preconception levels
+chemicals,m_ohmphp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  oh_MPHP at preconception
+chemicals,m_ohmphp_raw_preg,decimal,µg/ml,0,Maternal urine oh_MPHP pregnancy levels
+chemicals,m_ohmphp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine oh_MPHP at pregnancy
+chemicals,m_ohmphp_raw_birth,decimal,µg/ml,0,Maternal  oh_MPHP birth levels
+chemicals,m_ohmphp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  oh_MPHP at birth
+chemicals,m_ohminch_raw_precon,decimal,µg/ml,0,Maternal oh_MiNCH preconception levels
+chemicals,m_ohminch_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  oh_MiNCH at preconception
+chemicals,m_ohminch_raw_preg,decimal,µg/ml,0,Maternal urine oh_MiNCH pregnancy levels
+chemicals,m_ohminch_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine oh_MiNCH at pregnancy
+chemicals,m_ohminch_raw_birth,decimal,µg/ml,0,Maternal  oh_MiNCH birth levels
+chemicals,m_ohminch_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  oh_MiNCH at birth
+chemicals,m_oxominch_raw_precon,decimal,µg/ml,0,Maternal oxo_MiNCH preconception levels
+chemicals,m_oxominch_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  oxo_MiNCH at preconception
+chemicals,m_oxominch_raw_preg,decimal,µg/ml,0,Maternal urine oxo_MiNCH pregnancy levels
+chemicals,m_oxominch_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine oxo_MiNCH at pregnancy
+chemicals,m_oxominch_raw_birth,decimal,µg/ml,0,Maternal  oxo_MiNCH birth levels
+chemicals,m_oxominch_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  oxo_MiNCH at birth
+chemicals,m_mnpep_raw_precon,decimal,µg/ml,0,Maternal MnPeP preconception levels
+chemicals,m_mnpep_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MnPeP at preconception
+chemicals,m_mnpep_raw_preg,decimal,µg/ml,0,Maternal urine MnPeP pregnancy levels
+chemicals,m_mnpep_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MnPeP at pregnancy
+chemicals,m_mnpep_raw_birth,decimal,µg/ml,0,Maternal  MnPeP birth levels
+chemicals,m_mnpep_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MnPeP at birth
+chemicals,m_mchp_raw_precon,decimal,µg/ml,0,Maternal MCHP preconception levels
+chemicals,m_mchp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MCHP at preconception
+chemicals,m_mchp_raw_preg,decimal,µg/ml,0,Maternal urine MCHP pregnancy levels
+chemicals,m_mchp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MCHP at pregnancy
+chemicals,m_mchp_raw_birth,decimal,µg/ml,0,Maternal  MCHP birth levels
+chemicals,m_mchp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MCHP at birth
+chemicals,m_mnop_raw_precon,decimal,µg/ml,0,Maternal MnOP preconception levels
+chemicals,m_mnop_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  MnOP at preconception
+chemicals,m_mnop_raw_preg,decimal,µg/ml,0,Maternal urine MnOP pregnancy levels
+chemicals,m_mnop_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine MnOP at pregnancy
+chemicals,m_mnop_raw_birth,decimal,µg/ml,0,Maternal  MnOP birth levels
+chemicals,m_mnop_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  MnOP at birth
+chemicals,m_mmp_raw_precon,decimal,µg/ml,0,Maternal mMP preconception levels
+chemicals,m_mmp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  mMP at preconception
+chemicals,m_mmp_raw_preg,decimal,µg/ml,0,Maternal urine mMP pregnancy levels
+chemicals,m_mmp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine mMP at pregnancy
+chemicals,m_mmp_raw_birth,decimal,µg/ml,0,Maternal  mMP birth levels
+chemicals,m_mmp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  mMP at birth
+chemicals,m_mhxp_raw_precon,decimal,µg/ml,0,Maternal mHxP preconception levels
+chemicals,m_mhxp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  mHxP at preconception
+chemicals,m_mhxp_raw_preg,decimal,µg/ml,0,Maternal urine mHxP pregnancy levels
+chemicals,m_mhxp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine mHxP at pregnancy
+chemicals,m_mhxp_raw_birth,decimal,µg/ml,0,Maternal  mHxP birth levels
+chemicals,m_mhxp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  mHxP at birth
+chemicals,m_mhpp_raw_precon,decimal,µg/ml,0,Maternal mHpP preconception levels
+chemicals,m_mhpp_lod_precon,decimal,µg/ml,0,Limit of detection of maternal  mHpP at preconception
+chemicals,m_mhpp_raw_preg,decimal,µg/ml,0,Maternal urine mHpP pregnancy levels
+chemicals,m_mhpp_lod_preg,decimal,µg/ml,0,Limit of detection of maternal urine mHpP at pregnancy
+chemicals,m_mhpp_raw_birth,decimal,µg/ml,0,Maternal  mHpP birth levels
+chemicals,m_mhpp_lod_birth,decimal,µg/ml,0,Limit of detection of maternal  mHpP at birth
+chemicals,m_bpa_raw_precon,decimal,µg/L,0,Maternal BPA preconception levels
+chemicals,m_bpa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  BPA at preconception
+chemicals,m_bpa_raw_preg,decimal,µg/L,0,Maternal urine BPA pregnancy levels
+chemicals,m_bpa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine BPA at pregnancy
+chemicals,m_bpa_raw_birth,decimal,µg/L,0,Maternal  BPA birth levels
+chemicals,m_bpa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  BPA at birth
+chemicals,m_bps_raw_precon,decimal,µg/L,0,Maternal BPS preconception levels
+chemicals,m_bps_lod_precon,decimal,µg/L,0,Limit of detection of maternal  BPS at preconception
+chemicals,m_bps_raw_preg,decimal,µg/L,0,Maternal urine BPS pregnancy levels
+chemicals,m_bps_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine BPS at pregnancy
+chemicals,m_bps_raw_birth,decimal,µg/L,0,Maternal  BPS birth levels
+chemicals,m_bps_lod_birth,decimal,µg/L,0,Limit of detection of maternal  BPS at birth
+chemicals,m_bpf_raw_precon,decimal,µg/L,0,Maternal BPF preconception levels
+chemicals,m_bpf_lod_precon,decimal,µg/L,0,Limit of detection of maternal  BPF at preconception
+chemicals,m_bpf_raw_preg,decimal,µg/L,0,Maternal urine BPF pregnancy levels
+chemicals,m_bpf_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine BPF at pregnancy
+chemicals,m_bpf_raw_birth,decimal,µg/L,0,Maternal  BPF birth levels
+chemicals,m_bpf_lod_birth,decimal,µg/L,0,Limit of detection of maternal  BPF at birth
+chemicals,m_mepa_raw_precon,decimal,µg/L,0,Maternal MEPA preconception levels
+chemicals,m_mepa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  MEPA at preconception
+chemicals,m_mepa_raw_preg,decimal,µg/L,0,Maternal urine MEPA pregnancy levels
+chemicals,m_mepa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine MEPA at pregnancy
+chemicals,m_mepa_raw_birth,decimal,µg/L,0,Maternal  MEPA birth levels
+chemicals,m_mepa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  MEPA at birth
+chemicals,m_etpa_raw_precon,decimal,µg/L,0,Maternal ETPA preconception levels
+chemicals,m_etpa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  ETPA at preconception
+chemicals,m_etpa_raw_preg,decimal,µg/L,0,Maternal urine ETPA pregnancy levels
+chemicals,m_etpa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine ETPA at pregnancy
+chemicals,m_etpa_raw_birth,decimal,µg/L,0,Maternal  ETPA birth levels
+chemicals,m_etpa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  ETPA at birth
+chemicals,m_prpa_raw_precon,decimal,µg/L,0,Maternal PRPA preconception levels
+chemicals,m_prpa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  PRPA at preconception
+chemicals,m_prpa_raw_preg,decimal,µg/L,0,Maternal urine PRPA pregnancy levels
+chemicals,m_prpa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine PRPA at pregnancy
+chemicals,m_prpa_raw_birth,decimal,µg/L,0,Maternal  PRPA birth levels
+chemicals,m_prpa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  PRPA at birth
+chemicals,m_bupa_raw_precon,decimal,µg/L,0,Maternal BUPA preconception levels
+chemicals,m_bupa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  BUPA at preconception
+chemicals,m_bupa_raw_preg,decimal,µg/L,0,Maternal urine BUPA pregnancy levels
+chemicals,m_bupa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine BUPA at pregnancy
+chemicals,m_bupa_raw_birth,decimal,µg/L,0,Maternal  BUPA birth levels
+chemicals,m_bupa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  BUPA at birth
+chemicals,m_oxbe_raw_precon,decimal,µg/L,0,Maternal OXBE preconception levels
+chemicals,m_oxbe_lod_precon,decimal,µg/L,0,Limit of detection of maternal  OXBE at preconception
+chemicals,m_oxbe_raw_preg,decimal,µg/L,0,Maternal urine OXBE pregnancy levels
+chemicals,m_oxbe_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine OXBE at pregnancy
+chemicals,m_oxbe_raw_birth,decimal,µg/L,0,Maternal  OXBE birth levels
+chemicals,m_oxbe_lod_birth,decimal,µg/L,0,Limit of detection of maternal  OXBE at birth
+chemicals,m_trcs_raw_precon,decimal,µg/L,0,Maternal TRCS preconception levels
+chemicals,m_trcs_lod_precon,decimal,µg/L,0,Limit of detection of maternal  TRCS at preconception
+chemicals,m_trcs_raw_preg,decimal,µg/L,0,Maternal urine TRCS pregnancy levels
+chemicals,m_trcs_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine TRCS at pregnancy
+chemicals,m_trcs_raw_birth,decimal,µg/L,0,Maternal  TRCS birth levels
+chemicals,m_trcs_lod_birth,decimal,µg/L,0,Limit of detection of maternal  TRCS at birth
+chemicals,m_pfhxs_raw_precon,decimal,µg/L,0,Maternal  PFHxS preconception levels
+chemicals,m_pfhxs_lod_precon,decimal,µg/L,0,Limit of detection of maternal   PFHxS at preconception
+chemicals,m_pfhxs_raw_birth,decimal,µg/L,0,Maternal   PFHxS birth levels
+chemicals,m_pfhxs_lod_birth,decimal,µg/L,0,Limit of detection of maternal   PFHxS at birth
+chemicals,m_pfhps_raw_precon,decimal,µg/L,0,Maternal  PFHpS preconception levels
+chemicals,m_pfhps_lod_precon,decimal,µg/L,0,Limit of detection of maternal   PFHpS at preconception
+chemicals,m_pfhps_raw_birth,decimal,µg/L,0,Maternal   PFHpS birth levels
+chemicals,m_pfhps_lod_birth,decimal,µg/L,0,Limit of detection of maternal   PFHpS at birth
+chemicals,m_pfos_raw_precon,decimal,µg/L,0,Maternal  PFOS preconception levels
+chemicals,m_pfos_lod_precon,decimal,µg/L,0,Limit of detection of maternal   PFOS at preconception
+chemicals,m_pfos_raw_birth,decimal,µg/L,0,Maternal   PFOS birth levels
+chemicals,m_pfos_lod_birth,decimal,µg/L,0,Limit of detection of maternal   PFOS at birth
+chemicals,m_pfoa_raw_precon,decimal,µg/L,0,Maternal  PFOA preconception levels
+chemicals,m_pfoa_lod_precon,decimal,µg/L,0,Limit of detection of maternal   PFOA at preconception
+chemicals,m_pfoa_raw_birth,decimal,µg/L,0,Maternal   PFOA birth levels
+chemicals,m_pfoa_lod_birth,decimal,µg/L,0,Limit of detection of maternal   PFOA at birth
+chemicals,m_pfna_raw_precon,decimal,µg/L,0,Maternal  PFNA preconception levels
+chemicals,m_pfna_lod_precon,decimal,µg/L,0,Limit of detection of maternal   PFNA at preconception
+chemicals,m_pfna_raw_birth,decimal,µg/L,0,Maternal   PFNA birth levels
+chemicals,m_pfna_lod_birth,decimal,µg/L,0,Limit of detection of maternal   PFNA at birth
+chemicals,m_pfda_raw_precon,decimal,µg/L,0,Maternal  PFDA preconception levels
+chemicals,m_pfda_lod_precon,decimal,µg/L,0,Limit of detection of maternal   PFDA at preconception
+chemicals,m_pfda_raw_birth,decimal,µg/L,0,Maternal   PFDA birth levels
+chemicals,m_pfda_lod_birth,decimal,µg/L,0,Limit of detection of maternal   PFDA at birth
+chemicals,m_pfunda_raw_precon,decimal,µg/L,0,Maternal  PFUnDA preconception levels
+chemicals,m_pfunda_lod_precon,decimal,µg/L,0,Limit of detection of maternal   PFUnDA at preconception
+chemicals,m_pfunda_raw_birth,decimal,µg/L,0,Maternal   PFUnDA birth levels
+chemicals,m_pfunda_lod_birth,decimal,µg/L,0,Limit of detection of maternal   PFUnDA at birth
+chemicals,m_creatinine_raw_precon,decimal,g/L,0,Maternal Creatinine preconception levels
+chemicals,m_creatinine_lod_precon,decimal,g/L,0,Limit of detection of maternal  Creatinine at preconception
+chemicals,m_creatinine_raw_preg,decimal,g/L,0,Maternal urine Creatinine pregnancy levels
+chemicals,m_creatinine_lod_preg,decimal,g/L,0,Limit of detection of maternal urine Creatinine at pregnancy
+chemicals,m_creatinine_raw_birth,decimal,g/L,0,Maternal  Creatinine birth levels
+chemicals,m_creatinine_lod_birth,decimal,g/L,0,Limit of detection of maternal  Creatinine at birth
+chemicals,m_pcb118_raw_precon,decimal,pg/g,0,Maternal PCB_118 preconception levels
+chemicals,m_pcb118_lod_precon,decimal,pg/g,0,Limit of detection of maternal  PCB_118 at preconception
+chemicals,m_pcb118_raw_birth,decimal,pg/g,0,Maternal  PCB_118 birth levels
+chemicals,m_pcb118_lod_birth,decimal,pg/g,0,Limit of detection of maternal  PCB_118 at birth
+chemicals,m_pcb138_raw_precon,decimal,pg/g,0,Maternal  PCB_138 preconception levels
+chemicals,m_pcb138_lod_precon,decimal,pg/g,0,Limit of detection of maternal   PCB_138 at preconception
+chemicals,m_pcb138_raw_birth,decimal,pg/g,0,Maternal   PCB_138 birth levels
+chemicals,m_pcb138_lod_birth,decimal,pg/g,0,Limit of detection of maternal   PCB_138 at birth
+chemicals,m_pcb153_raw_precon,decimal,pg/g,0,Maternal  PCB_153 preconception levels
+chemicals,m_pcb153_lod_precon,decimal,pg/g,0,Limit of detection of maternal   PCB_153 at preconception
+chemicals,m_pcb153_raw_birth,decimal,pg/g,0,Maternal   PCB_153 birth levels
+chemicals,m_pcb153_lod_birth,decimal,pg/g,0,Limit of detection of maternal   PCB_153 at birth
+chemicals,m_pcb170_raw_precon,decimal,pg/g,0,Maternal  PCB_170 preconception levels
+chemicals,m_pcb170_lod_precon,decimal,pg/g,0,Limit of detection of maternal   PCB_170 at preconception
+chemicals,m_pcb170_raw_birth,decimal,pg/g,0,Maternal   PCB_170 birth levels
+chemicals,m_pcb170_lod_birth,decimal,pg/g,0,Limit of detection of maternal   PCB_170 at birth
+chemicals,m_pcb180_raw_precon,decimal,pg/g,0,Maternal  PCB_180 preconception levels
+chemicals,m_pcb180_lod_precon,decimal,pg/g,0,Limit of detection of maternal   PCB_180 at preconception
+chemicals,m_pcb180_raw_birth,decimal,pg/g,0,Maternal   PCB_180 birth levels
+chemicals,m_pcb180_lod_birth,decimal,pg/g,0,Limit of detection of maternal   PCB_180 at birth
+chemicals,m_ddt_raw_precon,decimal,pg/g,0,Maternal  DDT preconception levels
+chemicals,m_ddt_lod_precon,decimal,pg/g,0,Limit of detection of maternal   DDT at preconception
+chemicals,m_ddt_raw_birth,decimal,pg/g,0,Maternal   DDT birth levels
+chemicals,m_ddt_lod_birth,decimal,pg/g,0,Limit of detection of maternal   DDT at birth
+chemicals,m_dde_raw_precon,decimal,pg/g,0,Maternal  DDE preconception levels
+chemicals,m_dde_lod_precon,decimal,pg/g,0,Limit of detection of maternal   DDE at preconception
+chemicals,m_dde_raw_birth,decimal,pg/g,0,Maternal   DDE birth levels
+chemicals,m_dde_lod_birth,decimal,pg/g,0,Limit of detection of maternal   DDE at birth
+chemicals,m_hcb_raw_precon,decimal,pg/g,0,Maternal  HCB preconception levels
+chemicals,m_hcb_lod_precon,decimal,pg/g,0,Limit of detection of maternal   HCB at preconception
+chemicals,m_hcb_raw_birth,decimal,pg/g,0,Maternal   HCB birth levels
+chemicals,m_hcb_lod_birth,decimal,pg/g,0,Limit of detection of maternal   HCB at birth
+chemicals,m_hch_raw_precon,decimal,pg/g,0,Maternal  HCH preconception levels
+chemicals,m_hch_lod_precon,decimal,pg/g,0,Limit of detection of maternal   HCH at preconception
+chemicals,m_hch_raw_birth,decimal,pg/g,0,Maternal   HCH birth levels
+chemicals,m_hch_lod_birth,decimal,pg/g,0,Limit of detection of maternal HCH at birth
+chemicals,m_pbde47_raw_precon,decimal,pg/g,0,Maternal  PBDE_47 preconception levels
+chemicals,m_pbde47_lod_precon,decimal,pg/g,0,Limit of detection of maternal   PBDE_47 in preconception
+chemicals,m_pbde47_raw_birth,decimal,pg/g,0,Maternal PBDE_47 birth levels
+chemicals,m_pbde47_lod_birth,decimal,pg/g,0,Limit of detection of maternal   PBDE_47 at birth
+chemicals,m_pbde153_raw_precon,decimal,pg/g,0,Maternal  PBDE_153 preconception levels
+chemicals,m_pbde153_lod_precon,decimal,pg/g,0,Limit of detection of maternal   PBDE_153 at preconception
+chemicals,m_pbde153_raw_birth,decimal,pg/g,0,Maternal   PBDE_153 birth levels
+chemicals,m_pbde153_lod_birth,decimal,pg/g,0,Limit of detection of maternal   PBDE_153 at birth
+chemicals,m_dmp_raw_precon,decimal,µg/L,0,Maternal DMP preconception levels
+chemicals,m_dmp_lod_precon,decimal,µg/L,0,Limit of detection of maternal  DMP at preconception
+chemicals,m_dmp_raw_preg,decimal,µg/L,0,Maternal urine DMP pregnancy levels
+chemicals,m_dmp_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine DMP at pregnancy
+chemicals,m_dmp_raw_birth,decimal,µg/L,0,Maternal  DMP birth levels
+chemicals,m_dmp_lod_birth,decimal,µg/L,0,Limit of detection of maternal  DMP at birth
+chemicals,m_dmtp_raw_precon,decimal,µg/L,0,Maternal DMTP preconception levels
+chemicals,m_dmtp_lod_precon,decimal,µg/L,0,Limit of detection of maternal  DMTP at preconception
+chemicals,m_dmtp_raw_preg,decimal,µg/L,0,Maternal urine DMTP pregnancy levels
+chemicals,m_dmtp_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine DMTP at pregnancy
+chemicals,m_dmtp_raw_birth,decimal,µg/L,0,Maternal  DMTP birth levels
+chemicals,m_dmtp_lod_birth,decimal,µg/L,0,Limit of detection of maternal  DMTP at birth
+chemicals,m_dmdtp_raw_precon,decimal,µg/L,0,Maternal DMDTP preconception levels
+chemicals,m_dmdtp_lod_precon,decimal,µg/L,0,Limit of detection of maternal  DMDTP at preconception
+chemicals,m_dmdtp_raw_preg,decimal,µg/L,0,Maternal urine DMDTP pregnancy levels
+chemicals,m_dmdtp_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine DMDTP at pregnancy
+chemicals,m_dmdtp_raw_birth,decimal,µg/L,0,Maternal  DMDTP birth levels
+chemicals,m_dmdtp_lod_birth,decimal,µg/L,0,Limit of detection of maternal  DMDTP at birth
+chemicals,m_dep_raw_precon,decimal,µg/L,0,Maternal DEP preconception levels
+chemicals,m_dep_lod_precon,decimal,µg/L,0,Limit of detection of maternal  DEP at preconception
+chemicals,m_dep_raw_preg,decimal,µg/L,0,Maternal urine DEP pregnancy levels
+chemicals,m_dep_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine DEP at pregnancy
+chemicals,m_dep_raw_birth,decimal,µg/L,0,Maternal  DEP birth levels
+chemicals,m_dep_lod_birth,decimal,µg/L,0,Limit of detection of maternal  DEP at birth
+chemicals,m_detp_raw_precon,decimal,µg/L,0,Maternal DETP preconception levels
+chemicals,m_detp_lod_precon,decimal,µg/L,0,Limit of detection of maternal  DETP at preconception
+chemicals,m_detp_raw_preg,decimal,µg/L,0,Maternal urine DETP pregnancy levels
+chemicals,m_detp_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine DETP at pregnancy
+chemicals,m_detp_raw_birth,decimal,µg/L,0,Maternal  DETP birth levels
+chemicals,m_detp_lod_birth,decimal,µg/L,0,Limit of detection of maternal  DETP at birth
+chemicals,m_dedtp_raw_precon,decimal,µg/L,0,Maternal DEDTP preconception levels
+chemicals,m_dedtp_lod_precon,decimal,µg/L,0,Limit of detection of maternal  DEDTP at preconception
+chemicals,m_dedtp_raw_preg,decimal,µg/L,0,Maternal urine DEDTP pregnancy levels
+chemicals,m_dedtp_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine DEDTP at pregnancy
+chemicals,m_dedtp_raw_birth,decimal,µg/L,0,Maternal  DEDTP birth levels
+chemicals,m_dedtp_lod_birth,decimal,µg/L,0,Limit of detection of maternal  DEDTP at birth
+chemicals,m_hg_raw_precon,decimal,µg/L,0,Maternal Hg preconception levels
+chemicals,m_hg_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Hg at preconception
+chemicals,m_hg_raw_birth,decimal,µg/L,0,Maternal  Hg birth levels
+chemicals,m_hg_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Hg at birth
+chemicals,m_cd_raw_precon,decimal,µg/L,0,Maternal  Cd preconception levels
+chemicals,m_cd_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Cd at preconception
+chemicals,m_cd_raw_birth,decimal,µg/L,0,Maternal   Cd birth levels
+chemicals,m_cd_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Cd at birth
+chemicals,m_pb_raw_precon,decimal,µg/L,0,Maternal  Pb preconception levels
+chemicals,m_pb_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Pb at preconception
+chemicals,m_pb_raw_birth,decimal,µg/L,0,Maternal   Pb birth levels
+chemicals,m_pb_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Pb at birth
+chemicals,m_se_raw_precon,decimal,µg/L,0,Maternal  Se preconception levels
+chemicals,m_se_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Se at preconception
+chemicals,m_se_raw_birth,decimal,µg/L,0,Maternal   Se birth levels
+chemicals,m_se_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Se at birth
+chemicals,m_mn_raw_precon,decimal,µg/L,0,Maternal  Mn preconception levels
+chemicals,m_mn_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Mn at preconception
+chemicals,m_mn_raw_birth,decimal,µg/L,0,Maternal   Mn birth levels
+chemicals,m_mn_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Mn at birth
+chemicals,m_zn_raw_precon,decimal,µg/L,0,Maternal  Zn preconception levels
+chemicals,m_zn_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Zn at preconception
+chemicals,m_zn_raw_birth,decimal,µg/L,0,Maternal   Zn birth levels
+chemicals,m_zn_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Zn at birth
+chemicals,m_as_raw_precon,decimal,µg/L,0,Maternal  As preconception levels
+chemicals,m_as_lod_precon,decimal,µg/L,0,Limit of detection of maternal   As at preconception
+chemicals,m_as_raw_birth,decimal,µg/L,0,Maternal   As birth levels
+chemicals,m_as_lod_birth,decimal,µg/L,0,Limit of detection of maternal   As at birth
+chemicals,m_tl_raw_precon,decimal,µg/L,0,Maternal  Tl preconception levels
+chemicals,m_tl_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Tl at preconception
+chemicals,m_tl_raw_birth,decimal,µg/L,0,Maternal   Tl birth levels
+chemicals,m_tl_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Tl at birth
+chemicals,m_co_raw_precon,decimal,µg/L,0,Maternal  Co preconception levels
+chemicals,m_co_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Co at preconception
+chemicals,m_co_raw_birth,decimal,µg/L,0,Maternal   Co birth levels
+chemicals,m_co_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Co at birth
+chemicals,m_cu_raw_precon,decimal,µg/L,0,Maternal  Cu preconception levels
+chemicals,m_cu_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Cu at preconception
+chemicals,m_cu_raw_birth,decimal,µg/L,0,Maternal   Cu birth levels
+chemicals,m_cu_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Cu at birth
+chemicals,m_mo_raw_precon,decimal,µg/L,0,Maternal  Mo preconception levels
+chemicals,m_mo_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Mo at preconception
+chemicals,m_mo_raw_birth,decimal,µg/L,0,Maternal   Mo birth levels
+chemicals,m_mo_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Mo at birth
+chemicals,m_cs_raw_precon,decimal,µg/L,0,Maternal  Cs preconception levels
+chemicals,m_cs_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Cs at preconception
+chemicals,m_cs_raw_birth,decimal,µg/L,0,Maternal   Cs birth levels
+chemicals,m_cs_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Cs at birth
+chemicals,m_na_raw_precon,decimal,µg/L,0,Maternal  Na preconception levels
+chemicals,m_na_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Na at preconception
+chemicals,m_na_raw_birth,decimal,µg/L,0,Maternal   Na birth levels
+chemicals,m_na_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Na at birth
+chemicals,m_k_raw_precon,decimal,µg/L,0,Maternal  K preconception levels
+chemicals,m_k_lod_precon,decimal,µg/L,0,Limit of detection of maternal   K at preconception
+chemicals,m_k_raw_birth,decimal,µg/L,0,Maternal   K birth levels
+chemicals,m_k_lod_birth,decimal,µg/L,0,Limit of detection of maternal   K at birth
+chemicals,m_mg_raw_precon,decimal,µg/L,0,Maternal  Mg preconception levels
+chemicals,m_mg_lod_precon,decimal,µg/L,0,Limit of detection of maternal   Mg at preconception
+chemicals,m_mg_raw_birth,decimal,µg/L,0,Maternal   Mg birth levels
+chemicals,m_mg_lod_birth,decimal,µg/L,0,Limit of detection of maternal   Mg at birth
+chemicals,m_cotinine_raw_precon,decimal,µg/L,0,Maternal Cotinine preconception levels
+chemicals,m_cotinine_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Cotinine at preconception
+chemicals,m_cotinine_raw_preg,decimal,µg/L,0,Maternal urine Cotinine pregnancy levels
+chemicals,m_cotinine_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Cotinine at pregnancy
+chemicals,m_cotinine_raw_birth,decimal,µg/L,0,Maternal  Cotinine birth levels
+chemicals,m_cotinine_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Cotinine at birth
+chemicals,m_benzoapyrene_raw_precon,decimal,µg/L,0,Maternal Benzo(a)pyrene preconception levels
+chemicals,m_benzoapyrene_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Benzo(a)pyrene at preconception
+chemicals,m_benzoapyrene_raw_preg,decimal,µg/L,0,Maternal urine Benzo(a)pyrene pregnancy levels
+chemicals,m_benzoapyrene_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Benzo(a)pyrene at pregnancy
+chemicals,m_benzoapyrene_raw_birth,decimal,µg/L,0,Maternal  Benzo(a)pyrene birth levels
+chemicals,m_benzoapyrene_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Benzo(a)pyrene at birth
+chemicals,m_chrysene_raw_precon,decimal,µg/L,0,Maternal Chrysene preconception levels
+chemicals,m_chrysene_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Chrysene at preconception
+chemicals,m_chrysene_raw_preg,decimal,µg/L,0,Maternal urine Chrysene pregnancy levels
+chemicals,m_chrysene_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Chrysene at pregnancy
+chemicals,m_chrysene_raw_birth,decimal,µg/L,0,Maternal  Chrysene birth levels
+chemicals,m_chrysene_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Chrysene at birth
+chemicals,m_fluorene_raw_precon,decimal,µg/L,0,Maternal Fluorene preconception levels
+chemicals,m_fluorene_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Fluorene at preconception
+chemicals,m_fluorene_raw_preg,decimal,µg/L,0,Maternal urine Fluorene pregnancy levels
+chemicals,m_fluorene_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Fluorene at pregnancy
+chemicals,m_fluorene_raw_birth,decimal,µg/L,0,Maternal  Fluorene birth levels
+chemicals,m_fluorene_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Fluorene at birth
+chemicals,m_naphthalene_raw_precon,decimal,µg/L,0,Maternal Naphthalene preconception levels
+chemicals,m_naphthalene_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Naphthalene at preconception
+chemicals,m_naphthalene_raw_preg,decimal,µg/L,0,Maternal urine Naphthalene pregnancy levels
+chemicals,m_naphthalene_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Naphthalene at pregnancy
+chemicals,m_naphthalene_raw_birth,decimal,µg/L,0,Maternal  Naphthalene birth levels
+chemicals,m_naphthalene_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Naphthalene at birth
+chemicals,m_phenanthrene_raw_precon,decimal,µg/L,0,Maternal Phenanthrene preconception levels
+chemicals,m_phenanthrene_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Phenanthrene at preconception
+chemicals,m_phenanthrene_raw_preg,decimal,µg/L,0,Maternal urine Phenanthrene pregnancy levels
+chemicals,m_phenanthrene_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Phenanthrene at pregnancy
+chemicals,m_phenanthrene_raw_birth,decimal,µg/L,0,Maternal  Phenanthrene birth levels
+chemicals,m_phenanthrene_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Phenanthrene at birth
+chemicals,m_pyrene_raw_precon,decimal,µg/L,0,Maternal Pyrene preconception levels
+chemicals,m_pyrene_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Pyrene at preconception
+chemicals,m_pyrene_raw_preg,decimal,µg/L,0,Maternal urine Pyrene pregnancy levels
+chemicals,m_pyrene_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Pyrene at pregnancy
+chemicals,m_pyrene_raw_birth,decimal,µg/L,0,Maternal  Pyrene birth levels
+chemicals,m_pyrene_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Pyrene at birth
+chemicals,m_phenoxyacetic_acid_raw_precon,decimal,µg/L,0,Maternal Phenoxyacetic acid preconception levels
+chemicals,m_phenoxyacetic_acid_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Phenoxyacetic acid at preconception
+chemicals,m_phenoxyacetic_acid_raw_preg,decimal,µg/L,0,Maternal urine Phenoxyacetic acid pregnancy levels
+chemicals,m_phenoxyacetic_acid_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Phenoxyacetic acid at pregnancy
+chemicals,m_phenoxyacetic_acid_raw_birth,decimal,µg/L,0,Maternal  Phenoxyacetic acid birth levels
+chemicals,m_phenoxyacetic_acid_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Phenoxyacetic acid at birth
+chemicals,m_maa_raw_precon,decimal,µg/L,0,Maternal MAA preconception levels
+chemicals,m_maa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  MAA at preconception
+chemicals,m_maa_raw_preg,decimal,µg/L,0,Maternal urine MAA pregnancy levels
+chemicals,m_maa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine MAA at pregnancy
+chemicals,m_maa_raw_birth,decimal,µg/L,0,Maternal  MAA birth levels
+chemicals,m_maa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  MAA at birth
+chemicals,m_meaa_raw_precon,decimal,µg/L,0,Maternal MEAA preconception levels
+chemicals,m_meaa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  MEAA at preconception
+chemicals,m_meaa_raw_preg,decimal,µg/L,0,Maternal urine MEAA pregnancy levels
+chemicals,m_meaa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine MEAA at pregnancy
+chemicals,m_meaa_raw_birth,decimal,µg/L,0,Maternal  MEAA birth levels
+chemicals,m_meaa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  MEAA at birth
+chemicals,m_eaa_raw_precon,decimal,µg/L,0,Maternal EAA preconception levels
+chemicals,m_eaa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  EAA at preconception
+chemicals,m_eaa_raw_preg,decimal,µg/L,0,Maternal urine EAA pregnancy levels
+chemicals,m_eaa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine EAA at pregnancy
+chemicals,m_eaa_raw_birth,decimal,µg/L,0,Maternal  EAA birth levels
+chemicals,m_eaa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  EAA at birth
+chemicals,m_eeaa_raw_precon,decimal,µg/L,0,Maternal EEAA preconception levels
+chemicals,m_eeaa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  EEAA at preconception
+chemicals,m_eeaa_raw_preg,decimal,µg/L,0,Maternal urine EEAA pregnancy levels
+chemicals,m_eeaa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine EEAA at pregnancy
+chemicals,m_eeaa_raw_birth,decimal,µg/L,0,Maternal  EEAA birth levels
+chemicals,m_eeaa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  EEAA at birth
+chemicals,m_2mpa_raw_precon,decimal,µg/L,0,Maternal 2_MPA preconception levels
+chemicals,m_2mpa_lod_precon,decimal,µg/L,0,Limit of detection of maternal  2_MPA at preconception
+chemicals,m_2mpa_raw_preg,decimal,µg/L,0,Maternal urine 2_MPA pregnancy levels
+chemicals,m_2mpa_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine 2_MPA at pregnancy
+chemicals,m_2mpa_raw_birth,decimal,µg/L,0,Maternal  2_MPA birth levels
+chemicals,m_2mpa_lod_birth,decimal,µg/L,0,Limit of detection of maternal  2_MPA at birth
+chemicals,m_chlorphyrifos_raw_precon,decimal,µg/L,0,Maternal Chlorphyrifos preconception levels
+chemicals,m_chlorphyrifos_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Chlorphyrifos at preconception
+chemicals,m_chlorphyrifos_raw_preg,decimal,µg/L,0,Maternal urine Chlorphyrifos pregnancy levels
+chemicals,m_chlorphyrifos_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Chlorphyrifos at pregnancy
+chemicals,m_chlorphyrifos_raw_birth,decimal,µg/L,0,Maternal  Chlorphyrifos birth levels
+chemicals,m_chlorphyrifos_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Chlorphyrifos at birth
+chemicals,m_pyrethroids_raw_precon,decimal,µg/L,0,Maternal Pyrethroids preconception levels
+chemicals,m_pyrethroids_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Pyrethroids at preconception
+chemicals,m_pyrethroids_raw_preg,decimal,µg/L,0,Maternal urine Pyrethroids pregnancy levels
+chemicals,m_pyrethroids_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Pyrethroids at pregnancy
+chemicals,m_pyrethroids_raw_birth,decimal,µg/L,0,Maternal  Pyrethroids birth levels
+chemicals,m_pyrethroids_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Pyrethroids at birth
+chemicals,m_boscalid_raw_precon,decimal,µg/L,0,Maternal Boscalid preconception levels
+chemicals,m_boscalid_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Boscalid at preconception
+chemicals,m_boscalid_raw_preg,decimal,µg/L,0,Maternal urine Boscalid pregnancy levels
+chemicals,m_boscalid_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Boscalid at pregnancy
+chemicals,m_boscalid_raw_birth,decimal,µg/L,0,Maternal  Boscalid birth levels
+chemicals,m_boscalid_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Boscalid at birth
+chemicals,m_imazalil_raw_precon,decimal,µg/L,0,Maternal Imazalil preconception levels
+chemicals,m_imazalil_lod_precon,decimal,µg/L,0,Limit of detection of maternal  Imazalil at preconception
+chemicals,m_imazalil_raw_preg,decimal,µg/L,0,Maternal urine Imazalil pregnancy levels
+chemicals,m_imazalil_lod_preg,decimal,µg/L,0,Limit of detection of maternal urine Imazalil at pregnancy
+chemicals,m_imazalil_raw_birth,decimal,µg/L,0,Maternal  Imazalil birth levels
+chemicals,m_imazalil_lod_birth,decimal,µg/L,0,Limit of detection of maternal  Imazalil at birth
+chemicals,c_bpa_raw_birth,decimal,µg/L,0,Newborn BPA birth levels
+chemicals,c_bpa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  BPA at birth
+chemicals,c_bps_raw_birth,decimal,µg/L,0,Newborn BPS birth levels
+chemicals,c_bps_lod_birth,decimal,µg/L,0,Limit of detection of newborn  BPS at birth
+chemicals,c_bpf_raw_birth,decimal,µg/L,0,Newborn BPF birth levels
+chemicals,c_bpf_lod_birth,decimal,µg/L,0,Limit of detection of newborn  BPF at birth
+chemicals,c_mepa_raw_birth,decimal,µg/L,0,Newborn MEPA birth levels
+chemicals,c_mepa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MEPA at birth
+chemicals,c_etpa_raw_birth,decimal,µg/L,0,Newborn ETPA birth levels
+chemicals,c_etpa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  ETPA at birth
+chemicals,c_prpa_raw_birth,decimal,µg/L,0,Newborn PRPA birth levels
+chemicals,c_prpa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  PRPA at birth
+chemicals,c_bupa_raw_birth,decimal,µg/L,0,Newborn BUPA birth levels
+chemicals,c_bupa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  BUPA at birth
+chemicals,c_oxbe_raw_birth,decimal,µg/L,0,Newborn OXBE birth levels
+chemicals,c_oxbe_lod_birth,decimal,µg/L,0,Limit of detection of newborn  OXBE at birth
+chemicals,c_trcs_raw_birth,decimal,µg/L,0,Newborn TRCS birth levels
+chemicals,c_trcs_lod_birth,decimal,µg/L,0,Limit of detection of newborn  TRCS at birth
+chemicals,c_mep_raw_birth,decimal,µg/L,0,Newborn MEP birth levels
+chemicals,c_mep_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MEP at birth
+chemicals,c_mibp_raw_birth,decimal,µg/L,0,Newborn MiBP birth levels
+chemicals,c_mibp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MiBP at birth
+chemicals,c_mnbp_raw_birth,decimal,µg/L,0,Newborn MnBP birth levels
+chemicals,c_mnbp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MnBP at birth
+chemicals,c_mbzp_raw_birth,decimal,µg/L,0,Newborn MBzP birth levels
+chemicals,c_mbzp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MBzP at birth
+chemicals,c_mehp_raw_birth,decimal,µg/L,0,Newborn MEHP birth levels
+chemicals,c_mehp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MEHP at birth
+chemicals,c_mehhp_raw_birth,decimal,µg/L,0,Newborn MEHHP birth levels
+chemicals,c_mehhp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MEHHP at birth
+chemicals,c_meohp_raw_birth,decimal,µg/L,0,Newborn MEOHP birth levels
+chemicals,c_meohp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MEOHP at birth
+chemicals,c_mecpp_raw_birth,decimal,µg/L,0,Newborn MECPP birth levels
+chemicals,c_mecpp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MECPP at birth
+chemicals,c_mmchp_raw_birth,decimal,µg/L,0,Newborn MMCHP birth levels
+chemicals,c_mmchp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MMCHP at birth
+chemicals,c_ohminp_raw_birth,decimal,µg/L,0,Newborn ohminp birth levels
+chemicals,c_ohminp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  ohminp at birth
+chemicals,c_oxominp_raw_birth,decimal,µg/L,0,Newborn oxoMiNP birth levels
+chemicals,c_oxominp_lod_birth,decimal,µg/L,0,Limit of detection of newborn oxoMiNP at birth
+chemicals,c_cxminp_raw_birth,decimal,µg/L,0,Newborn cxminp birth levels
+chemicals,c_cxminp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  cxminp at birth
+chemicals,c_ohmphp_raw_birth,decimal,µg/L,0,Newborn ohmphp birth levels
+chemicals,c_ohmphp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  ohmphp at birth
+chemicals,c_ohminch_raw_birth,decimal,µg/L,0,Newborn ohminch birth levels
+chemicals,c_ohminch_lod_birth,decimal,µg/L,0,Limit of detection of newborn  ohminch at birth
+chemicals,c_oxominch_raw_birth,decimal,µg/L,0,Newborn oxominch birth levels
+chemicals,c_oxominch_lod_birth,decimal,µg/L,0,Limit of detection of newborn  oxominch at birth
+chemicals,c_mnpep_raw_birth,decimal,µg/L,0,Newborn MnPeP birth levels
+chemicals,c_mnpep_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MnPeP at birth
+chemicals,c_mchp_raw_birth,decimal,µg/L,0,Newborn MCHP birth levels
+chemicals,c_mchp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MCHP at birth
+chemicals,c_mnop_raw_birth,decimal,µg/L,0,Newborn MnOP birth levels
+chemicals,c_mnop_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MnOP at birth
+chemicals,c_mmp_raw_birth,decimal,µg/L,0,Newborn mMP birth levels
+chemicals,c_mmp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  mMP at birth
+chemicals,c_mhxp_raw_birth,decimal,µg/L,0,Newborn mHxP birth levels
+chemicals,c_mhxp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  mHxP at birth
+chemicals,c_mhpp_raw_birth,decimal,µg/L,0,Newborn mHpP birth levels
+chemicals,c_mhpp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  mHpP at birth
+chemicals,c_pfhxs_raw_birth,decimal,µg/L,0,Newborn  PFHxS birth levels
+chemicals,c_pfhxs_lod_birth,decimal,µg/L,0,Limit of detection of newborn   PFHxS at birth
+chemicals,c_pfhps_raw_birth,decimal,µg/L,0,Newborn  PFHpS birth levels
+chemicals,c_pfhps_lod_birth,decimal,µg/L,0,Limit of detection of newborn   PFHpS at birth
+chemicals,c_pfos_raw_birth,decimal,µg/L,0,Newborn  PFOS birth levels
+chemicals,c_pfos_lod_birth,decimal,µg/L,0,Limit of detection of newborn   PFOS at birth
+chemicals,c_pfoa_raw_birth,decimal,µg/L,0,Newborn  PFOA birth levels
+chemicals,c_pfoa_lod_birth,decimal,µg/L,0,Limit of detection of newborn   PFOA at birth
+chemicals,c_pfna_raw_birth,decimal,µg/L,0,Newborn  PFNA birth levels
+chemicals,c_pfna_lod_birth,decimal,µg/L,0,Limit of detection of newborn   PFNA at birth
+chemicals,c_pfda_raw_birth,decimal,µg/L,0,Newborn  PFDA birth levels
+chemicals,c_pfda_lod_birth,decimal,µg/L,0,Limit of detection of newborn   PFDA at birth
+chemicals,c_pfunda_raw_birth,decimal,µg/L,0,Newborn  PFUnDA birth levels
+chemicals,c_pfunda_lod_birth,decimal,µg/L,0,Limit of detection of newborn   PFUnDA at birth
+chemicals,c_creatinine_raw_birth,decimal,g/L,0,Newborn Creatinine birth levels
+chemicals,c_creatinine_lod_birth,decimal,g/L,0,Limit of detection of newborn  Creatinine at birth
+chemicals,c_pcb118_raw_birth,decimal,pg/g,0,Newborn PCB-118 birth levels
+chemicals,c_pcb118_lod_birth,decimal,pg/g,0,Limit of detection of newborn  PCB-118 at birth
+chemicals,c_pcb138_raw_birth,decimal,pg/g,0,Newborn  PCB-138 birth levels
+chemicals,c_pcb138_lod_birth,decimal,pg/g,0,Limit of detection of newborn   PCB-138 at birth
+chemicals,c_pcb153_raw_birth,decimal,pg/g,0,Newborn  PCB-153 birth levels
+chemicals,c_pcb153_lod_birth,decimal,pg/g,0,Limit of detection of newborn   PCB-153 at birth
+chemicals,c_pcb170_raw_birth,decimal,pg/g,0,Newborn  PCB-170 birth levels
+chemicals,c_pcb170_lod_birth,decimal,pg/g,0,Limit of detection of newborn   PCB-170 at birth
+chemicals,c_pcb180_raw_birth,decimal,pg/g,0,Newborn  PCB-180 birth levels
+chemicals,c_pcb180_lod_birth,decimal,pg/g,0,Limit of detection of newborn   PCB-180 at birth
+chemicals,c_ddt_raw_birth,decimal,pg/g,0,Newborn  DDT birth levels
+chemicals,c_ddt_lod_birth,decimal,pg/g,0,Limit of detection of newborn   DDT at birth
+chemicals,c_dde_raw_birth,decimal,pg/g,0,Newborn  DDE birth levels
+chemicals,c_dde_lod_birth,decimal,pg/g,0,Limit of detection of newborn   DDE at birth
+chemicals,c_hcb_raw_birth,decimal,pg/g,0,Newborn  HCB birth levels
+chemicals,c_hcb_lod_birth,decimal,pg/g,0,Limit of detection of newborn   HCB at birth
+chemicals,c_hch_raw_birth,decimal,pg/g,0,Newborn  HCH birth levels
+chemicals,c_hch_lod_birth,decimal,pg/g,0,Limit of detection of newborn   HCH at birth
+chemicals,c_pbde47_raw_birth,decimal,pg/g,0,Newborn  PBDE-47 birth levels
+chemicals,c_pbde47_lod_birth,decimal,pg/g,0,Limit of detection of newborn   PBDE-47 at birth
+chemicals,c_pbde153_raw_birth,decimal,pg/g,0,Newborn  PBDE-153 birth levels
+chemicals,c_pbde153_lod_birth,decimal,pg/g,0,Limit of detection of newborn   PBDE-153 at birth
+chemicals,c_hg_raw_birth,decimal,µg/L,0,Newborn Hg birth levels
+chemicals,c_hg_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Hg at birth
+chemicals,c_cd_raw_birth,decimal,µg/L,0,Newborn  Cd birth levels
+chemicals,c_cd_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Cd at birth
+chemicals,c_pb_raw_birth,decimal,µg/L,0,Newborn  Pb birth levels
+chemicals,c_pb_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Pb at birth
+chemicals,c_se_raw_birth,decimal,µg/L,0,Newborn  Se birth levels
+chemicals,c_se_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Se at birth
+chemicals,c_mn_raw_birth,decimal,µg/L,0,Newborn  Mn birth levels
+chemicals,c_mn_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Mn at birth
+chemicals,c_zn_raw_birth,decimal,µg/L,0,Newborn  Zn birth levels
+chemicals,c_zn_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Zn at birth
+chemicals,c_as_raw_birth,decimal,µg/L,0,Newborn  As birth levels
+chemicals,c_as_lod_birth,decimal,µg/L,0,Limit of detection of newborn   As at birth
+chemicals,c_tl_raw_birth,decimal,µg/L,0,Newborn  Tl birth levels
+chemicals,c_tl_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Tl at birth
+chemicals,c_co_raw_birth,decimal,µg/L,0,Newborn  Co birth levels
+chemicals,c_co_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Co at birth
+chemicals,c_cu_raw_birth,decimal,µg/L,0,Newborn  Cu birth levels
+chemicals,c_cu_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Cu at birth
+chemicals,c_mo_raw_birth,decimal,µg/L,0,Newborn  Mo birth levels
+chemicals,c_mo_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Mo at birth
+chemicals,c_cs_raw_birth,decimal,µg/L,0,Newborn  Cs birth levels
+chemicals,c_cs_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Cs at birth
+chemicals,c_na_raw_birth,decimal,µg/L,0,Newborn  Na birth levels
+chemicals,c_na_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Na at birth
+chemicals,c_k_raw_birth,decimal,µg/L,0,Newborn  K birth levels
+chemicals,c_k_lod_birth,decimal,µg/L,0,Limit of detection of newborn   K at birth
+chemicals,c_mg_raw_birth,decimal,µg/L,0,Newborn  Mg birth levels
+chemicals,c_mg_lod_birth,decimal,µg/L,0,Limit of detection of newborn   Mg at birth
+chemicals,c_dmp_raw_birth,decimal,µg/L,0,Newborn DMP birth levels
+chemicals,c_dmp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  DMP at birth
+chemicals,c_dmtp_raw_birth,decimal,µg/L,0,Newborn DMTP birth levels
+chemicals,c_dmtp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  DMTP at birth
+chemicals,c_dmdtp_raw_birth,decimal,µg/L,0,Newborn DMDTP birth levels
+chemicals,c_dmdtp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  DMDTP at birth
+chemicals,c_dep_raw_birth,decimal,µg/L,0,Newborn DEP birth levels
+chemicals,c_dep_lod_birth,decimal,µg/L,0,Limit of detection of newborn  DEP at birth
+chemicals,c_detp_raw_birth,decimal,µg/L,0,Newborn DETP birth levels
+chemicals,c_detp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  DETP at birth
+chemicals,c_dedtp_raw_birth,decimal,µg/L,0,Newborn DEDTP birth levels
+chemicals,c_dedtp_lod_birth,decimal,µg/L,0,Limit of detection of newborn  DEDTP at birth
+chemicals,c_cotinine_raw_birth,decimal,µg/L,0,Newborn Cotinine birth levels
+chemicals,c_cotinine_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Cotinine at birth
+chemicals,c_benzoapyrene_raw_birth,decimal,µg/L,0,Newborn Benzo(a)pyrene birth levels
+chemicals,c_benzoapyrene_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Benzo(a)pyrene at birth
+chemicals,c_chrsene_raw_birth,decimal,µg/L,0,Newborn Chrysene birth levels
+chemicals,c_chrsene_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Chrysene at birth
+chemicals,c_fluorene_raw_birth,decimal,µg/L,0,Newborn Fluorene birth levels
+chemicals,c_fluorene_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Fluorene at birth
+chemicals,c_naphthalene_raw_birth,decimal,µg/L,0,Newborn Naphthalene birth levels
+chemicals,c_naphthalene_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Naphthalene at birth
+chemicals,c_phenanthrene_raw_birth,decimal,µg/L,0,Newborn Phenanthrene birth levels
+chemicals,c_phenanthrene_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Phenanthrene at birth
+chemicals,c_pyrene_raw_birth,decimal,µg/L,0,Newborn Pyrene birth levels
+chemicals,c_pyrene_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Pyrene at birth
+chemicals,c_chlorphyrifos_raw_birth,decimal,µg/L,0,Newborn Chlorphyrifos birth levels
+chemicals,c_chlorphyrifos_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Chlorphyrifos at birth
+chemicals,c_pyrethroids_raw_birth,decimal,µg/L,0,Newborn Pyrethroids birth levels
+chemicals,c_pyrethroids_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Pyrethroids at birth
+chemicals,c_boscalid_raw_birth,decimal,µg/L,0,Newborn Boscalid birth levels
+chemicals,c_boscalid_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Boscalid at birth
+chemicals,c_imazalil_raw_birth,decimal,µg/L,0,Newborn Imazalil birth levels
+chemicals,c_imazalil_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Imazalil at birth
+chemicals,c_phenoxyacetic_acid_raw_birth,decimal,µg/L,0,Newborn Phenoxyacetic acid birth levels
+chemicals,c_phenoxyacetic_acid_lod_birth,decimal,µg/L,0,Limit of detection of newborn  Phenoxyacetic acid at birth
+chemicals,c_maa_raw_birth,decimal,µg/L,0,Newborn MAA birth levels
+chemicals,c_maa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MAA at birth
+chemicals,c_meaa_raw_birth,decimal,µg/L,0,Newborn MEAA birth levels
+chemicals,c_meaa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  MEAA at birth
+chemicals,c_eaa_raw_birth,decimal,µg/L,0,Newborn EAA birth levels
+chemicals,c_eaa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  EAA at birth
+chemicals,c_eeaa_raw_birth,decimal,µg/L,0,Newborn EEAA birth levels
+chemicals,c_eeaa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  EEAA at birth
+chemicals,c_2mpa_raw_birth,decimal,µg/L,0,Newborn 2-MPA birth levels
+chemicals,c_2mpa_lod_birth,decimal,µg/L,0,Limit of detection of newborn  2-MPA at birth
+chemicals,age_years,integer,,1,Age of child in years
+chemicals,c_bpa_raw_,decimal,µg/L,1,child urine BPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_bpa_lod_,decimal,µg/L,1,limit of detection of child urine BPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_bps_raw_,decimal,µg/L,1,child urine BPS levels within # year of age (child was aged between # and < #+1 year)
+chemicals,c_bps_lod_,decimal,µg/L,1,limit of detection of child urine BPS levels within # year of age (child was aged between # and < #+1 year)
+chemicals,c_bpf_raw_ ,decimal,µg/L,1,Child urine BPF levels at # years
+chemicals,c_bpf_lod_,decimal,µg/L,1,Limit of detection of child urine BPF at # years
+chemicals,c_mepa_raw_,decimal,µg/L,1,child urine ETPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mepa_lod_,decimal,µg/L,1,limit of detection of child urine ETPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_etpa_raw_,decimal,µg/L,1,child urine ETPA levels within # year of age (child was aged between # and < #+1 year)
+chemicals,c_etpa_lod_,decimal,µg/L,1,limit of detection of child urine ETPA levels within # year of age (child was aged between # and < #+1 year)
+chemicals,c_prpa_raw_,decimal,µg/L,1,child urine PRPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_prpa_lod_,decimal,µg/L,1,limit of detection of child urine PRPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_bupa_raw_,decimal,µg/L,1,child urine BUPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_bupa_lod_,decimal,µg/L,1,limit of detection of child urine BUPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_oxbe_raw_,decimal,µg/L,1,child urine OXBE levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_oxbe_lod_,decimal,µg/L,1,limit of detection of child urine OXBE levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_trcs_raw_,decimal,µg/L,1,child urine TRCS levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_trcs_lod_,decimal,µg/L,1,limit of detection of child urine TRCS levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mep_raw_,decimal,µg/L,1,child urine MEP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mep_lod_,decimal,µg/L,1,limit of detection of child urine MEP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mibp_raw_,decimal,µg/L,1,child urine MiBP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mibp_lod_,decimal,µg/L,1,limit of detection of child urine MiBP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mnbp_raw_,decimal,µg/L,1,child urine MnBP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mnbp_lod_,decimal,µg/L,1,limit of detection of child urine MnBP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mbzp_raw_,decimal,µg/L,1,child urine MBzP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mbzp_lod_,decimal,µg/L,1,limit of detection of child urine MBzP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mehp_raw_,decimal,µg/L,1,child urine MEHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mehp_lod_,decimal,µg/L,1,limit of detection of child urine MEHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mehhp_raw_,decimal,µg/L,1,child urine MEHHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mehhp_lod_,decimal,µg/L,1,limit of detection of child urine MEHHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_meohp_raw_,decimal,µg/L,1,child urine MEOHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_meohp_lod_,decimal,µg/L,1,limit of detection of child urine MEOHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mecpp_raw_,decimal,µg/L,1,child urine MECPP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mecpp_lod_,decimal,µg/L,1,limit of detection of child urine MECPP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mmchp_raw_,decimal,µg/L,1,child urine MMCHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mmchp_lod_,decimal,µg/L,1,limit of detection of child urine MMCHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_ohminp_raw_,decimal,µg/L,1,child urine ohminp levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_ohminp_lod_,decimal,µg/L,1,limit of detection of child urine ohminp levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_oxominp_raw_,decimal,µg/L,1,child urine oxo-MiNP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_oxominp_lod_,decimal,µg/L,1,limit of detection of child urine oxo-MiNP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cxminp_raw_,decimal,µg/L,1,child urine cxminp levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cxminp_lod_,decimal,µg/L,1,limit of detection of child urine cxminp levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_ohmphp_raw_,decimal,µg/L,1,child urine ohmphp levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_ohmphp_lod_,decimal,µg/L,1,limit of detection of child urine ohmphp levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_ohminch_raw_,decimal,µg/L,1,child urine ohminch levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_ohminch_lod_,decimal,µg/L,1,limit of detection of child urine ohminch levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_oxominch_raw_,decimal,µg/L,1,child urine oxominch levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_oxominch_lod_,decimal,µg/L,1,limit of detection of child urine oxominch levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mnpep_raw_,decimal,µg/L,1,child urine MnPeP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mnpep_lod_,decimal,µg/L,1,limit of detection of child urine MnPeP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mchp_raw_,decimal,µg/L,1,child urine MCHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mchp_lod_,decimal,µg/L,1,limit of detection of child urine MCHP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mnop_raw_,decimal,µg/L,1,child urine MnOP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mnop_lod_,decimal,µg/L,1,limit of detection of child urine MnOP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mmp_raw_,decimal,µg/L,1,child urine mMP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mmp_lod_,decimal,µg/L,1,limit of detection of child urine mMP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mhxp_raw_,decimal,µg/L,1,child urine mHxP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mhxp_lod_,decimal,µg/L,1,limit of detection of child urine mHxP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mhpp_raw_,decimal,µg/L,1,child urine mHpP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mhpp_lod_,decimal,µg/L,1,limit of detection of child urine mHpP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfhxs_raw_,decimal,µg/L,1,child PFHxS levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfhxs_lod_,decimal,µg/L,1,limit of detection of child PFHxS levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfhps_raw_,decimal,µg/L,1,child PFHpS levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfhps_lod_,decimal,µg/L,1,limit of detection of child PFHpS levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfos_raw_,decimal,µg/L,1,child PFOS levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfos_lod_,decimal,µg/L,1,limit of detection of child PFOS levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfoa_raw_,decimal,µg/L,1,child PFOA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfoa_lod_,decimal,µg/L,1,limit of detection of child PFOA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfna_raw_,decimal,µg/L,1,child PFNA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfna_lod_,decimal,µg/L,1,limit of detection of child PFNA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfda_raw_,decimal,µg/L,1,child PFDA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfda_lod_,decimal,µg/L,1,limit of detection of child PFDA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfunda_raw_,decimal,µg/L,1,child PFUnDA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pfunda_lod_,decimal,µg/L,1,limit of detection of child PFUnDA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_creatinine_raw_,decimal,g/L,1,child urine Creatinine levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_creatinine_lod_,decimal,g/L,1,limit of detection of child urine Creatinine levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb118_raw_,decimal,pg/g,1,child PCB-118 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb118_lod_,decimal,pg/g,1,limit of detection of child PCB-118 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb138_raw_,decimal,pg/g,1,child PCB-138 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb138_lod_,decimal,pg/g,1,limit of detection of child PCB-138 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb153_raw_,decimal,pg/g,1,child PCB-153 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb153_lod_,decimal,pg/g,1,limit of detection of child PCB-153 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb170_raw_,decimal,pg/g,1,child PCB-170 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb170_lod_,decimal,pg/g,1,limit of detection of child PCB-170 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb180_raw_,decimal,pg/g,1,child PCB-180 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pcb180_lod_,decimal,pg/g,1,limit of detection of child PCB-180 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_ddt_raw_,decimal,pg/g,1,child DDT levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_ddt_lod_,decimal,pg/g,1,limit of detection of child DDT levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dde_raw_,decimal,pg/g,1,child DDE levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dde_lod_,decimal,pg/g,1,limit of detection of child DDE levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_hcb_raw_,decimal,pg/g,1,child HCB levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_hcb_lod_,decimal,pg/g,1,limit of detection of child HCB levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_hch_raw_,decimal,pg/g,1,child HCH levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_hch_lod_,decimal,pg/g,1,limit of detection of child HCH levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pbde47_raw_,decimal,pg/g,1,child PBDE-47 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pbde47_lod_,decimal,pg/g,1,limit of detection of child PBDE-47 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pbde153_raw_,decimal,pg/g,1,child PBDE-153 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pbde153_lod_,decimal,pg/g,1,limit of detection of child PBDE-153 levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_hg_raw_,decimal,µg/L,1,child Hg levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_hg_lod_,decimal,µg/L,1,limit of detection of child Hg levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cd_raw_,decimal,µg/L,1,child Cd levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cd_lod_,decimal,µg/L,1,limit of detection of child Cd levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pb_raw_,decimal,µg/L,1,child Pb levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pb_lod_,decimal,µg/L,1,limit of detection of child Pb levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_se_raw_,decimal,µg/L,1,child Se levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_se_lod_,decimal,µg/L,1,limit of detection of child Se levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mn_raw_,decimal,µg/L,1,child Mn levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mn_lod_,decimal,µg/L,1,limit of detection of child Mn levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_zn_raw_,decimal,µg/L,1,child Zn levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_zn_lod_,decimal,µg/L,1,limit of detection of child Zn levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_as_raw_,decimal,µg/L,1,child As levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_as_lod_,decimal,µg/L,1,limit of detection of child As levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_tl_raw_,decimal,µg/L,1,child Tl levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_tl_lod_,decimal,µg/L,1,limit of detection of child Tl levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_co_raw_,decimal,µg/L,1,child Co levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_co_lod_,decimal,µg/L,1,limit of detection of child Co levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cu_raw_,decimal,µg/L,1,child Cu levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cu_lod_,decimal,µg/L,1,limit of detection of child Cu levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mo_raw_,decimal,µg/L,1,child Mo levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mo_lod_,decimal,µg/L,1,limit of detection of child Mo levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cs_raw_,decimal,µg/L,1,child Cs levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cs_lod_,decimal,µg/L,1,limit of detection of child Cs levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_na_raw_,decimal,µg/L,1,child Na levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_na_lod_,decimal,µg/L,1,limit of detection of child Na levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_k_raw_,decimal,µg/L,1,child K levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_k_lod_,decimal,µg/L,1,limit of detection of child K levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mg_raw_,decimal,µg/L,1,child Mg levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_mg_lod_,decimal,µg/L,1,limit of detection of child Mg levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dmp_raw_,decimal,µg/L,1,child urine DMP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dmp_lod_,decimal,µg/L,1,limit of detection of child urine DMP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dmtp_raw_,decimal,µg/L,1,child urine DMTP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dmtp_lod_,decimal,µg/L,1,limit of detection of child urine DMTP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dmdtp_raw_,decimal,µg/L,1,child urine DMDTP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dmdtp_lod_,decimal,µg/L,1,limit of detection of child urine DMDTP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dep_raw_,decimal,µg/L,1,child urine DEP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dep_lod_,decimal,µg/L,1,limit of detection of child urine DEP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_detp_raw_,decimal,µg/L,1,child urine DETP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_detp_lod_,decimal,µg/L,1,limit of detection of child urine DETP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dedtp_raw_,decimal,µg/L,1,child urine DEDTP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_dedtp_lod_,decimal,µg/L,1,limit of detection of child urine DEDTP levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cotinine_raw_,decimal,µg/L,1,child urine Cotinine levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_cotinine_lod_,decimal,µg/L,1,limit of detection of child urine Cotinine levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_benzoapyrene_raw_,decimal,µg/L,1,child urine benzoapyrene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_benzoapyrene_lod_,decimal,µg/L,1,limit of detection of child urine benzoapyrene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_chrsene_raw_,decimal,µg/L,1,child urine chrysene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_chrsene_lod_,decimal,µg/L,1,limit of detection of child urine chrysene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_fluorene_raw_,decimal,µg/L,1,child urine Fluorene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_fluorene_lod_,decimal,µg/L,1,limit of detection of child urine Fluorene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_napthalene_raw_,decimal,µg/L,1,child urine Napthalene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_napthalene_lod_,decimal,µg/L,1,limit of detection of child urine Napthalene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_phenanthrene_raw_,decimal,µg/L,1,child urine Phenanthrene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_phenanthrene_lod_,decimal,µg/L,1,limit of detection of child urine Phenanthrene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pyrene_raw_,decimal,µg/L,1,child urine Pyrene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pyrene_lod_,decimal,µg/L,1,limit of detection of child urine Pyrene levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_chlorphyrifos_raw_,decimal,µg/L,1,child urine Chlorphyrifos levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_chlorphyrifos_lod_,decimal,µg/L,1,limit of detection of child urine Chlorphyrifos levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pyrethroids_raw_,decimal,µg/L,1,child urine Pyrethroids levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_pyrethroids_lod_,decimal,µg/L,1,limit of detection of child urine Pyrethroids levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_boscalid_raw_,decimal,µg/L,1,child urine Boscalid levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_boscalid_lod_,decimal,µg/L,1,limit of detection of child urine Boscalid levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_imazalil_raw_,decimal,µg/L,1,child urine Imazalil levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_imazalil_lod_,decimal,µg/L,1,limit of detection of child urine Imazalil levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_phenoxyacetic_acid_raw_,decimal,µg/L,1,child urine Phenoxyacetic acid levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_phenoxyacetic_acid_lod_,decimal,µg/L,1,limit of detection of child urine Phenoxyacetic acid levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_maa_raw_,decimal,µg/L,1,child urine MAA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_maa_lod_,decimal,µg/L,1,limit of detection of child urine MAA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_meaa_raw_,decimal,µg/L,1,child urine MEAA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_meaa_lod_,decimal,µg/L,1,limit of detection of child urine MEAA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_eaa_raw_,decimal,µg/L,1,child urine EAA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_eaa_lod_,decimal,µg/L,1,limit of detection of child urine EAA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_eeaa_raw_,decimal,µg/L,1,child urine EEAA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_eeaa_lod_,decimal,µg/L,1,limit of detection of child urine EEAA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_2mpa_raw_,decimal,µg/L,1,child urine 2-MPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,c_2mpa_lod_,decimal,µg/L,1,limit of detection of child urine 2-MPA levels within # year of age (child was aged between # and <#+1 year)
+chemicals,age_trimester,integer,numeric,1,Age of the child in trimesters
+chemicals,m_mep_raw_t,decimal,µg/ml,1,Maternal urine MEP  trimester levels
+chemicals,m_mep_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MEP in  trimester
+chemicals,m_mibp_raw_t,decimal,µg/ml,1,Maternal urine MiBP  trimester levels
+chemicals,m_mibp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MiBP in  trimester
+chemicals,m_mnbp_raw_t,decimal,µg/ml,1,Maternal urine MnBP  trimester levels
+chemicals,m_mnbp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MnBP in  trimester
+chemicals,m_mbzp_raw_t,decimal,µg/ml,1,Maternal urine MBzP  trimester levels
+chemicals,m_mbzp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MBzP in  trimester
+chemicals,m_mehp_raw_t,decimal,µg/ml,1,Maternal urine MEHP  trimester levels
+chemicals,m_mehp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MEHP in  trimester
+chemicals,m_mehhp_raw_t,decimal,µg/ml,1,Maternal urine MEHHP  trimester levels
+chemicals,m_mehhp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MEHHP in  trimester
+chemicals,m_meohp_raw_t,decimal,µg/ml,1,Maternal urine MEOHP  trimester levels
+chemicals,m_meohp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MEOHP in  trimester
+chemicals,m_mecpp_raw_t,decimal,µg/ml,1,Maternal urine MECPP  trimester levels
+chemicals,m_mecpp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MECPP in  trimester
+chemicals,m_mmchp_raw_t,decimal,µg/ml,1,Maternal urine MMCHP  trimester levels
+chemicals,m_mmchp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MMCHP in  trimester
+chemicals,m_ohminp_raw_t,decimal,µg/ml,1,Maternal urine oh_MiNP  trimester levels
+chemicals,m_ohminp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine oh_MiNP in  trimester
+chemicals,m_oxominp_raw_t,decimal,µg/ml,1,Maternal urine oxo_MiNP  trimester levels
+chemicals,m_oxominp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine oxo_MiNP in  trimester
+chemicals,m_cxminp_raw_t,decimal,µg/ml,1,Maternal urine cx_MiNP  trimester levels
+chemicals,m_cxminp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine cx_MiNP in  trimester
+chemicals,m_ohmphp_raw_t,decimal,µg/ml,1,Maternal urine oh_MPHP  trimester levels
+chemicals,m_ohmphp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine oh_MPHP in  trimester
+chemicals,m_ohminch_raw_t,decimal,µg/ml,1,Maternal urine oh_MiNCH  trimester levels
+chemicals,m_ohminch_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine oh_MiNCH in  trimester
+chemicals,m_oxominch_raw_t,decimal,µg/ml,1,Maternal urine oxo_MiNCH  trimester levels
+chemicals,m_oxominch_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine oxo_MiNCH in  trimester
+chemicals,m_mnpep_raw_t,decimal,µg/ml,1,Maternal urine MnPeP  trimester levels
+chemicals,m_mnpep_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MnPeP in  trimester
+chemicals,m_mchp_raw_t,decimal,µg/ml,1,Maternal urine MCHP  trimester levels
+chemicals,m_mchp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MCHP in  trimester
+chemicals,m_mnop_raw_t,decimal,µg/ml,1,Maternal urine MnOP  trimester levels
+chemicals,m_mnop_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine MnOP in  trimester
+chemicals,m_mmp_raw_t,decimal,µg/ml,1,Maternal urine mMP  trimester levels
+chemicals,m_mmp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine mMP in  trimester
+chemicals,m_mhxp_raw_t,decimal,µg/ml,1,Maternal urine mHxP  trimester levels
+chemicals,m_mhxp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine mHxP in  trimester
+chemicals,m_mhpp_raw_t,decimal,µg/ml,1,Maternal urine mHpP  trimester levels
+chemicals,m_mhpp_lod_t,decimal,µg/ml,1,Limit of detection of maternal urine mHpP in  trimester
+chemicals,m_bpa_raw_t,decimal,µg/L,1,Maternal urine BPA  trimester levels
+chemicals,m_bpa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine BPA in  trimester
+chemicals,m_bps_raw_t,decimal,µg/L,1,Maternal urine BPS  trimester levels
+chemicals,m_bps_lod_t,decimal,µg/L,1,Limit of detection of maternal urine BPS in  trimester
+chemicals,m_bpf_raw_t,decimal,µg/L,1,Maternal urine BPF  trimester levels
+chemicals,m_bpf_lod_t,decimal,µg/L,1,Limit of detection of maternal urine BPF in  trimester
+chemicals,m_mepa_raw_t,decimal,µg/L,1,Maternal urine MEPA  trimester levels
+chemicals,m_mepa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine MEPA in  trimester
+chemicals,m_etpa_raw_t,decimal,µg/L,1,Maternal urine ETPA  trimester levels
+chemicals,m_etpa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine ETPA in  trimester
+chemicals,m_prpa_raw_t,decimal,µg/L,1,Maternal urine PRPA  trimester levels
+chemicals,m_prpa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine PRPA in  trimester
+chemicals,m_bupa_raw_t,decimal,µg/L,1,Maternal urine BUPA  trimester levels
+chemicals,m_bupa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine BUPA in  trimester
+chemicals,m_oxbe_raw_t,decimal,µg/L,1,Maternal urine OXBE  trimester levels
+chemicals,m_oxbe_lod_t,decimal,µg/L,1,Limit of detection of maternal urine OXBE in  trimester
+chemicals,m_trcs_raw_t,decimal,µg/L,1,Maternal urine TRCS  trimester levels
+chemicals,m_trcs_lod_t,decimal,µg/L,1,Limit of detection of maternal urine TRCS in  trimester
+chemicals,m_pfhxs_raw_t,decimal,µg/L,1,Maternal   PFHxS  trimester levels
+chemicals,m_pfhxs_lod_t,decimal,µg/L,1,Limit of detection of maternal   PFHxS in  trimester
+chemicals,m_pfhps_raw_t,decimal,µg/L,1,Maternal   PFHpS  trimester levels
+chemicals,m_pfhps_lod_t,decimal,µg/L,1,Limit of detection of maternal   PFHpS in  trimester
+chemicals,m_pfos_raw_t,decimal,µg/L,1,Maternal   PFOS  trimester levels
+chemicals,m_pfos_lod_t,decimal,µg/L,1,Limit of detection of maternal   PFOS in  trimester
+chemicals,m_pfoa_raw_t,decimal,µg/L,1,Maternal   PFOA  trimester levels
+chemicals,m_pfoa_lod_t,decimal,µg/L,1,Limit of detection of maternal   PFOA in  trimester
+chemicals,m_pfna_raw_t,decimal,µg/L,1,Maternal   PFNA  trimester levels
+chemicals,m_pfna_lod_t,decimal,µg/L,1,Limit of detection of maternal   PFNA in  trimester
+chemicals,m_pfda_raw_t,decimal,µg/L,1,Maternal   PFDA  trimester levels
+chemicals,m_pfda_lod_t,decimal,µg/L,1,Limit of detection of maternal   PFDA in  trimester
+chemicals,m_pfunda_raw_t,decimal,µg/L,1,Maternal   PFUnDA  trimester levels
+chemicals,m_pfunda_lod_t,decimal,µg/L,1,Limit of detection of maternal   PFUnDA in  trimester
+chemicals,m_creatinine_raw_t,decimal,g/L,1,Maternal urine Creatinine  trimester levels
+chemicals,m_creatinine_lod_t,decimal,g/L,1,Limit of detection of maternal urine Creatinine in  trimester
+chemicals,m_pcb118_raw_t,decimal,pg/g,1,Maternal  PCB_118  trimester levels
+chemicals,m_pcb118_lod_t,decimal,pg/g,1,Limit of detection of maternal  PCB_118 in  trimester
+chemicals,m_pcb138_raw_t,decimal,pg/g,1,Maternal   PCB_138  trimester levels
+chemicals,m_pcb138_lod_t,decimal,pg/g,1,Limit of detection of maternal   PCB_138 in  trimester
+chemicals,m_pcb153_raw_t,decimal,pg/g,1,Maternal   PCB_153  trimester levels
+chemicals,m_pcb153_lod_t,decimal,pg/g,1,Limit of detection of maternal   PCB_153 in  trimester
+chemicals,m_pcb170_raw_t,decimal,pg/g,1,Maternal   PCB_170  trimester levels
+chemicals,m_pcb170_lod_t,decimal,pg/g,1,Limit of detection of maternal   PCB_170 in  trimester
+chemicals,m_pcb180_raw_t,decimal,pg/g,1,Maternal   PCB_180  trimester levels
+chemicals,m_pcb180_lod_t,decimal,pg/g,1,Limit of detection of maternal   PCB_180 in  trimester
+chemicals,m_ddt_raw_t,decimal,pg/g,1,Maternal   DDT  trimester levels
+chemicals,m_ddt_lod_t,decimal,pg/g,1,Limit of detection of maternal   DDT in  trimester
+chemicals,m_dde_raw_t,decimal,pg/g,1,Maternal   DDE  trimester levels
+chemicals,m_dde_lod_t,decimal,pg/g,1,Limit of detection of maternal   DDE in  trimester
+chemicals,m_hcb_raw_t,decimal,pg/g,1,Maternal   HCB  trimester levels
+chemicals,m_hcb_lod_t,decimal,pg/g,1,Limit of detection of maternal   HCB in  trimester
+chemicals,m_hch_raw_t,decimal,pg/g,1,Maternal   HCH  trimester levels
+chemicals,m_hch_lod_t,decimal,pg/g,1,Limit of detection of maternal   HCH in  trimester
+chemicals,m_pbde47_raw_t,decimal,pg/g,1,Maternal   PBDE_47  trimester levels
+chemicals,m_pbde47_lod_t,decimal,pg/g,1,Limit of detection of maternal   PBDE_47 in  trimester
+chemicals,m_pbde153_raw_t,decimal,pg/g,1,Maternal   PBDE_153  trimester levels
+chemicals,m_pbde153_lod_t,decimal,pg/g,1,Limit of detection of maternal   PBDE_153 in  trimester
+chemicals,m_dmp_raw_t,decimal,µg/L,1,Maternal urine DMP  trimester levels
+chemicals,m_dmp_lod_t,decimal,µg/L,1,Limit of detection of maternal urine DMP in  trimester
+chemicals,m_dmtp_raw_t,decimal,µg/L,1,Maternal urine DMTP  trimester levels
+chemicals,m_dmtp_lod_t,decimal,µg/L,1,Limit of detection of maternal urine DMTP in  trimester
+chemicals,m_dmdtp_raw_t,decimal,µg/L,1,Maternal urine DMDTP  trimester levels
+chemicals,m_dmdtp_lod_t,decimal,µg/L,1,Limit of detection of maternal urine DMDTP in  trimester
+chemicals,m_dep_raw_t,decimal,µg/L,1,Maternal urine DEP  trimester levels
+chemicals,m_dep_lod_t,decimal,µg/L,1,Limit of detection of maternal urine DEP in  trimester
+chemicals,m_detp_raw_t,decimal,µg/L,1,Maternal urine DETP  trimester levels
+chemicals,m_detp_lod_t,decimal,µg/L,1,Limit of detection of maternal urine DETP in  trimester
+chemicals,m_dedtp_raw_t,decimal,µg/L,1,Maternal urine DEDTP  trimester levels
+chemicals,m_dedtp_lod_t,decimal,µg/L,1,Limit of detection of maternal urine DEDTP in  trimester
+chemicals,m_hg_raw_t,decimal,µg/L,1,Maternal  Hg  trimester levels
+chemicals,m_hg_lod_t,decimal,µg/L,1,Limit of detection of maternal  Hg in  trimester
+chemicals,m_cd_raw_t,decimal,µg/L,1,Maternal   Cd  trimester levels
+chemicals,m_cd_lod_t,decimal,µg/L,1,Limit of detection of maternal   Cd in  trimester
+chemicals,m_pb_raw_t,decimal,µg/L,1,Maternal   Pb  trimester levels
+chemicals,m_pb_lod_t,decimal,µg/L,1,Limit of detection of maternal   Pb in  trimester
+chemicals,m_se_raw_t,decimal,µg/L,1,Maternal   Se  trimester levels
+chemicals,m_se_lod_t,decimal,µg/L,1,Limit of detection of maternal   Se in  trimester
+chemicals,m_mn_raw_t,decimal,µg/L,1,Maternal   Mn  trimester levels
+chemicals,m_mn_lod_t,decimal,µg/L,1,Limit of detection of maternal   Mn in  trimester
+chemicals,m_zn_raw_t,decimal,µg/L,1,Maternal   Zn  trimester levels
+chemicals,m_zn_lod_t,decimal,µg/L,1,Limit of detection of maternal   Zn in  trimester
+chemicals,m_as_raw_t,decimal,µg/L,1,Maternal   As  trimester levels
+chemicals,m_as_lod_t,decimal,µg/L,1,Limit of detection of maternal   As in  trimester
+chemicals,m_tl_raw_t,decimal,µg/L,1,Maternal   Tl  trimester levels
+chemicals,m_tl_lod_t,decimal,µg/L,1,Limit of detection of maternal   Tl in  trimester
+chemicals,m_co_raw_t,decimal,µg/L,1,Maternal   Co  trimester levels
+chemicals,m_co_lod_t,decimal,µg/L,1,Limit of detection of maternal   Co in  trimester
+chemicals,m_cu_raw_t,decimal,µg/L,1,Maternal   Cu  trimester levels
+chemicals,m_cu_lod_t,decimal,µg/L,1,Limit of detection of maternal   Cu in  trimester
+chemicals,m_mo_raw_t,decimal,µg/L,1,Maternal   Mo  trimester levels
+chemicals,m_mo_lod_t,decimal,µg/L,1,Limit of detection of maternal   Mo in  trimester
+chemicals,m_cs_raw_t,decimal,µg/L,1,Maternal   Cs  trimester levels
+chemicals,m_cs_lod_t,decimal,µg/L,1,Limit of detection of maternal   Cs in  trimester
+chemicals,m_na_raw_t,decimal,µg/L,1,Maternal   Na  trimester levels
+chemicals,m_na_lod_t,decimal,µg/L,1,Limit of detection of maternal   Na in  trimester
+chemicals,m_k_raw_t,decimal,µg/L,1,Maternal   K  trimester levels
+chemicals,m_k_lod_t,decimal,µg/L,1,Limit of detection of maternal   K in  trimester
+chemicals,m_mg_raw_t,decimal,µg/L,1,Maternal   Mg  trimester levels
+chemicals,m_mg_lod_t,decimal,µg/L,1,Limit of detection of maternal   Mg in  trimester
+chemicals,m_cotinine_raw_t,decimal,µg/L,1,Maternal urine Cotinine  trimester levels
+chemicals,m_cotinine_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Cotinine in  trimester
+chemicals,m_benzoapyrene_raw_t,decimal,µg/L,1,Maternal urine Benzo(a)pyrene  trimester levels
+chemicals,m_benzoapyrene_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Benzo(a)pyrene in  trimester
+chemicals,m_chrysene_raw_t,decimal,µg/L,1,Maternal urine Chrysene  trimester levels
+chemicals,m_chrysene_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Chrysene in  trimester
+chemicals,m_fluorene_raw_t,decimal,µg/L,1,Maternal urine Fluorene  trimester levels
+chemicals,m_fluorene_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Fluorene in  trimester
+chemicals,m_naphthalene_raw_t,decimal,µg/L,1,Maternal urine Naphthalene  trimester levels
+chemicals,m_naphthalene_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Naphthalene in  trimester
+chemicals,m_phenanthrene_raw_t,decimal,µg/L,1,Maternal urine Phenanthrene  trimester levels
+chemicals,m_phenanthrene_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Phenanthrene in  trimester
+chemicals,m_pyrene_raw_t,decimal,µg/L,1,Maternal urine Pyrene  trimester levels
+chemicals,m_pyrene_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Pyrene in  trimester
+chemicals,m_phenoxyacetic_acid_raw_t,decimal,µg/L,1,Maternal urine Phenoxyacetic acid  trimester levels
+chemicals,m_phenoxyacetic_acid_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Phenoxyacetic acid in  trimester
+chemicals,m_maa_raw_t,decimal,µg/L,1,Maternal urine MAA  trimester levels
+chemicals,m_maa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine MAA in  trimester
+chemicals,m_meaa_raw_t,decimal,µg/L,1,Maternal urine MEAA  trimester levels
+chemicals,m_meaa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine MEAA in  trimester
+chemicals,m_eaa_raw_t,decimal,µg/L,1,Maternal urine EAA  trimester levels
+chemicals,m_eaa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine EAA in  trimester
+chemicals,m_eeaa_raw_t,decimal,µg/L,1,Maternal urine EEAA  trimester levels
+chemicals,m_eeaa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine EEAA in  trimester
+chemicals,m_2mpa_raw_t,decimal,µg/L,1,Maternal urine 2_MPA  trimester levels
+chemicals,m_2mpa_lod_t,decimal,µg/L,1,Limit of detection of maternal urine 2_MPA in  trimester
+chemicals,m_chlorphyrifos_raw_t,decimal,µg/L,1,Maternal urine Chlorphyrifos  trimester levels
+chemicals,m_chlorphyrifos_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Chlorphyrifos in  trimester
+chemicals,m_pyrethroids_raw_t,decimal,µg/L,1,Maternal urine Pyrethroids  trimester levels
+chemicals,m_pyrethroids_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Pyrethroids in  trimester
+chemicals,m_boscalid_raw_t,decimal,µg/L,1,Maternal urine Boscalid  trimester levels
+chemicals,m_boscalid_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Boscalid in  trimester
+chemicals,m_imazalil_raw_t,decimal,µg/L,1,Maternal urine Imazalil  trimester levels
+chemicals,m_imazalil_lod_t,decimal,µg/L,1,Limit of detection of maternal urine Imazalil in  trimester
