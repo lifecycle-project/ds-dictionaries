@@ -4,7 +4,7 @@ We define here in what versions of the data dictionaries contains which tables
 
 ## 1.1
 
-**dsUpload R-package version >= 4.7.x**
+**dsUpload R-package version >= 4.7.2**
 
 ### Content
 
@@ -16,8 +16,8 @@ We define here in what versions of the data dictionaries contains which tables
 
 | Variable        | Type        | Description                                      |
 | ----------------| ----------- | --------------------------------------------- |
-| ath_blueyn300_preg | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at pregnancy |
-| ath_greenyn300_preg | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at pregnancy |
+| ath_blueyn300_preg | boolean | is there a blue space  > 5,000 m2 in a distance of 300 m? at pregnancy |
+| ath_greenyn300_preg | boolean | is there a green space  > 5,000 m2 in a distance of 300 m? at pregnancy |
 | ath_blueyn300_0 | boolean | is there a blue space  > 5,000 m2 in a distance of 300 m? at birth |
 | ath_greenyn300_0 | boolean | is there a green space  > 5,000 m2 in a distance of 300 m? at birth |
 
@@ -27,8 +27,8 @@ We define here in what versions of the data dictionaries contains which tables
 
 | Variable        | Type        | Description                                      |
 | ----------------| ----------- | --------------------------------------------- |
-| ath_blueyn300_t | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at trimester |
-| ath_greenyn300_t | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at trimester |
+| ath_blueyn300_t | boolean | is there a blue space  > 5,000 m2 in a distance of 300 m? at trimester |
+| ath_greenyn300_t | boolean | is there a green space  > 5,000 m2 in a distance of 300 m? at trimester |
 
 *yearly-repeated variables*
 
