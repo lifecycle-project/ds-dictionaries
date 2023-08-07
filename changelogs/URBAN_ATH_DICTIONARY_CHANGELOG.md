@@ -10,6 +10,26 @@ We define here in what versions of the data dictionaries contains which tables
 
 #### General changes
 
+*non-repeating variables*
+
+**Changed variables**
+
+| Variable        | Type        | Description                                      |
+| ----------------| ----------- | --------------------------------------------- |
+| ath_blueyn300_preg | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at pregnancy |
+| ath_greenyn300_preg | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at pregnancy |
+| ath_blueyn300_0 | boolean | is there a blue space  > 5,000 m2 in a distance of 300 m? at birth |
+| ath_greenyn300_0 | boolean | is there a green space  > 5,000 m2 in a distance of 300 m? at birth |
+
+*trimester-repeated variables*
+
+**Changed variables**
+
+| Variable        | Type        | Description                                      |
+| ----------------| ----------- | --------------------------------------------- |
+| ath_blueyn300_t | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at trimester |
+| ath_greenyn300_t | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at trimester |
+
 *yearly-repeated variables*
 
 **Changed variables**
@@ -17,8 +37,8 @@ We define here in what versions of the data dictionaries contains which tables
 | Variable        | Type        | Description                                      |
 | ----------------| ----------- | --------------------------------------------- |
 | cohort_id | integer | Unique identifier for the cohort |
-| ath_blueyn300_ | binary | is there a blue space  > 5,000 m2 in a distance of 300 m? at # year |
-| ath_greenyn300_ | binary | is there a green space  > 5,000 m2 in a distance of 300 m? at # year |
+| ath_blueyn300_ | boolean | is there a blue space  > 5,000 m2 in a distance of 300 m? at # year |
+| ath_greenyn300_ | boolean | is there a green space  > 5,000 m2 in a distance of 300 m? at # year |
 
 #### Additional variables
 
