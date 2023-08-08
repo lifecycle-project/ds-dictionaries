@@ -38,7 +38,6 @@ Categories options added and updated for ath_blueyn300_* and ath_greenyn300_*, i
 
 | Variable        | Type        | Description                                      |
 | ----------------| ----------- | --------------------------------------------- |
-| cohort_id | integer | Unique identifier for the cohort |
 | ath_blueyn300_ | integer | is there a blue space  > 5,000 m2 in a distance of 300 m? at # year |
 | ath_greenyn300_ | integer | is there a green space  > 5,000 m2 in a distance of 300 m? at # year |
 
