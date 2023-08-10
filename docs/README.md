@@ -25,9 +25,9 @@ These dictionaries are saved in an Excel file with two sheets `Variables` and `C
 - isMissing
 - label
 
-The format is roughly but not exactly the format Opal uses for the dictionary [template](https://opaldoc.obiba.org/en/latest/cookbook/import-data/r.html#connect-with-opal-server), this is one reason to transform the dictionaries. Another reason to transform the dictionaries is that excel files are not version controlled in github. This is why we will first create .csv files out of the original dictionaries and so be able to version control these.
+The format is roughly but not exactly the format Opal uses for the dictionary [template](https://opaldoc.obiba.org/en/latest/cookbook/import-data/r.html#connect-with-opal-server), this is one reason to transform the dictionaries. Another reason is that Excel files are not version controlled in github. This is why we will first create .csv files out of the original dictionaries and so be able to version control these.
 
-Using the *script?* the csv files `Variables.csv` and `Categories.csv` are created, you can find these here: `lifecycle-project/ds-dictionaries/dictionaries-source/`
+Using the *script?* the csv files `Variables.csv` and `Categories.csv` are created, you can find these here: `lifecycle-project/ds-dictionaries/dictionaries-source/{project}/`
 
 The following columns are used for (mandatory*):
 
@@ -52,7 +52,7 @@ The following columns are used for (mandatory*):
 - missing *
 - label *
 
-The dictionary csv files are ordered in the folder `dictionaries-source` as follows:
+The dictionary csv files are saved in the folder `dictionaries-source` as follows:
 
 `/dictionaries-source/{project}/{dictionary}/{version}/`
 

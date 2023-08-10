@@ -215,6 +215,8 @@ def process_dictionary(
     if categories_repeat.empty:
         print("Categories repeats empty for {} {}".format(old_table, old_version))
 
+    categories = categories.drop_duplicates()
+
     variables = pd.concat([variables_non_repeat, variables_repeat])
     variables = variables.drop_duplicates(subset="name")
 
@@ -236,7 +238,7 @@ def process_dictionary(
     )
     # write excel
     writer = pd.ExcelWriter(
-        ("{}/{}_{}_{}.xlsx".format(dict_new_folder, project, new_table, new_version)),
+        ("{}/{}_{}_{}.xlsx".format(dict_new_folder, project, new_version, new_table)),
         engine="xlsxwriter",
     )
     variables.to_excel(writer, sheet_name="Variables", index=False)

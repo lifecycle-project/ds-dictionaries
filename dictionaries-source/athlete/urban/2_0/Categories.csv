@@ -116,63 +116,6 @@ urban,urb_deg_,13,0,village
 urban,urb_deg_,12,0,rural dispersed area
 urban,urb_deg_,11,0,mostly uninahbitated area
 urban,urb_deg_,10,0,water
-urban,cohort_id,101,0,genr
-urban,cohort_id,102,0,inma
-urban,cohort_id,103,0,ninfea
-urban,cohort_id,104,0,sws
-urban,cohort_id,105,0,alspac
-urban,cohort_id,106,0,dnbc
-urban,cohort_id,107,0,bib
-urban,cohort_id,108,0,gecko
-urban,cohort_id,109,0,rhea
-urban,cohort_id,110,0,moba
-urban,cohort_id,111,0,elfe
-urban,cohort_id,112,0,eden
-urban,cohort_id,113,0,nfbc66
-urban,cohort_id,114,0,nfbc86
-urban,cohort_id,115,0,hbcs
-urban,cohort_id,116,0,chop
-urban,cohort_id,117,0,raine
-urban,cohort_id,118,0,rug
-urban,cohort_id,119,0,kanc
-urban,cohort_id,120,0,gaspii
-urban,cohort_id,121,0,piccolipu
-urban,cohort_id,122,0,abcd
-urban,cohort_id,123,0,bisc
-urban,cohort_id,124,0,environage
-urban,cohort_id,125,0,helix
-urban,cohort_id,126,0,pelagie
-urban,cohort_id,127,0,sepages
-urban,cohort_id,128,0,tng
-urban,cohort_id,129,0,hgs
-urban,cohort_id,130,0,elspac
-urban,cohort_id,131,0,genxxi
-urban,cohort_id,132,0,genrnext
-urban,urb_area_id,1001,0,Rotterdam
-urban,urb_area_id,1102,0,Gipuzkoa
-urban,urb_area_id,1103,0,Sabadell
-urban,urb_area_id,1104,0,Valencia
-urban,urb_area_id,1201,0,Florence
-urban,urb_area_id,1202,0,Turin
-urban,urb_area_id,1203,0,Rome
-urban,urb_area_id,1204,0,Trieste
-urban,urb_area_id,1205,0,Viareggio
-urban,urb_area_id,1301,0,Bristol
-urban,urb_area_id,1401,0,Copenhagen
-urban,urb_area_id,1402,0,Odense
-urban,urb_area_id,1403,0,Aarhus
-urban,urb_area_id,1404,0,Aalborg
-urban,urb_area_id,1501,0,Bradford
-urban,urb_area_id,1601,0,Heraklion
-urban,urb_area_id,1701,0,Oslo
-urban,urb_area_id,1801,0,Nancy
-urban,urb_area_id,1802,0,Poitiers
-urban,urb_area_id,1803,0,Grenoble
-urban,urb_area_id,1901,0,Kaunas
-urban,urb_area_id,1803,0,Rennes
-urban,urb_area_id,2101,0,"Genk, Maasmechelen and others"
-urban,urb_area_id,2201,0,Brno
-urban,urb_area_id,2301,0,Porto
 urban,ath_areases_ert_,1,0,low deprivated
 urban,ath_areases_ert_,2,0,medium deprivated
 urban,ath_areases_ert_,3,0,high deprivated
@@ -195,63 +138,6 @@ urban,ath_ln_c_,5,0,70-74.9
 urban,ath_ln_c_,6,0,>75
 urban,ath_blueyn300_,0,0,no
 urban,ath_greenyn300_,1,0,yes
-urban,cohort_id,101,0,genr
-urban,cohort_id,102,0,inma
-urban,cohort_id,103,0,ninfea
-urban,cohort_id,104,0,sws
-urban,cohort_id,105,0,alspac
-urban,cohort_id,106,0,dnbc
-urban,cohort_id,107,0,bib
-urban,cohort_id,108,0,gecko
-urban,cohort_id,109,0,rhea
-urban,cohort_id,110,0,moba
-urban,cohort_id,111,0,elfe
-urban,cohort_id,112,0,eden
-urban,cohort_id,113,0,nfbc66
-urban,cohort_id,114,0,nfbc86
-urban,cohort_id,115,0,hbcs
-urban,cohort_id,116,0,chop
-urban,cohort_id,117,0,raine
-urban,cohort_id,118,0,rug
-urban,cohort_id,119,0,kanc
-urban,cohort_id,120,0,gaspii
-urban,cohort_id,121,0,piccolipu
-urban,cohort_id,122,0,abcd
-urban,cohort_id,123,0,bisc
-urban,cohort_id,124,0,environage
-urban,cohort_id,125,0,helix
-urban,cohort_id,126,0,pelagie
-urban,cohort_id,127,0,sepages
-urban,cohort_id,128,0,tng
-urban,cohort_id,129,0,hgs
-urban,cohort_id,130,0,elspac
-urban,cohort_id,131,0,genxxi
-urban,cohort_id,132,0,genrnext
-urban,urb_area_id,1001,0,Rotterdam
-urban,urb_area_id,1102,0,Gipuzkoa
-urban,urb_area_id,1103,0,Sabadell
-urban,urb_area_id,1104,0,Valencia
-urban,urb_area_id,1201,0,Florence
-urban,urb_area_id,1202,0,Turin
-urban,urb_area_id,1203,0,Rome
-urban,urb_area_id,1204,0,Trieste
-urban,urb_area_id,1205,0,Viareggio
-urban,urb_area_id,1301,0,Bristol
-urban,urb_area_id,1401,0,Copenhagen
-urban,urb_area_id,1402,0,Odense
-urban,urb_area_id,1403,0,Aarhus
-urban,urb_area_id,1404,0,Aalborg
-urban,urb_area_id,1501,0,Bradford
-urban,urb_area_id,1601,0,Heraklion
-urban,urb_area_id,1701,0,Oslo
-urban,urb_area_id,1801,0,Nancy
-urban,urb_area_id,1802,0,Poitiers
-urban,urb_area_id,1803,0,Grenoble
-urban,urb_area_id,1901,0,Kaunas
-urban,urb_area_id,1803,0,Rennes
-urban,urb_area_id,2101,0,"Genk, Maasmechelen and others"
-urban,urb_area_id,2201,0,Brno
-urban,urb_area_id,2301,0,Porto
 urban,ath_areases_tert_t,1,0,low deprivated
 urban,ath_areases_tert_t,2,0,medium deprivated
 urban,ath_areases_tert_t,3,0,high deprivated
