@@ -1,373 +1,373 @@
-table,name,valueType,unit,repeatable,label
-urban,row_id,integer,numeric,0,Unique identifer for the row in Opal
-urban,child_id,text,,0,Unique identifer for the child
-urban,cohort_id,integer,numeric,0,Unique identifier for the cohort
-urban,urb_deg_preg,integer,numeric,0,Urban degree during pregnancy  as classified by GHS-SMOD
-urban,urb_deg_birth,integer,numeric,0,Urban degree at birth as classified by GHS-SMOD
-urban,ath_agrgr_preg,decimal,%,0,"percentage of agrgr (agricultural areas, semi-natural areas and wetlands) land use within a buffer of 300 m at pregnancy"
-urban,ath_airpt_preg,decimal,%,0,percentage of airpt (airports) land use within a buffer of 300 m at pregnancy
-urban,ath_areases_quint_preg,integer,,0,area-level SES indicator (deprivation index in quintiles) at pregnancy
-urban,ath_areases_tert_preg,integer,,0,area-level SES indicator (deprivation index in tertiles) at pregnancy
-urban,ath_bdens100_preg,decimal,square_meter_per_square_kilometer,0,building density within a buffer of 100 m at pregnancy
-urban,ath_bdens300_preg,decimal,square_meter_per_square_kilometer,0,building density within a buffer of 300 m at pregnancy
-urban,ath_blue_dist_preg,decimal,meter,0,"straight line distance to nearest blue space > 5,000 m2 at  pregnancy"
-urban,ath_blue_size_preg,decimal,square_meter,0,"area of closest blue space > 5,000m2 at pregnancy"
-urban,ath_blueyn300_preg,binary,,0,"is there a blue space  > 5,000 m2 in a distance of 300 m? at pregnancy"
-urban,ath_connind100_preg,decimal,number_per_square_kilometer,0,connectivity density within a buffer of 100 m at pregnancy
-urban,ath_connind300_preg,decimal,number_per_square_kilometer,0,connectivity density within a buffer of 300 m at pregnancy
-urban,ath_distinvnear1_preg,decimal,inverse_meter,0,inverse distance to nearest road at pregnancy
-urban,ath_fdensity300_preg,decimal,number_per_square_kilometer,0,number of facilities present within a buffer of 300 m at pregnancy
-urban,ath_foodenvdens300_preg,decimal,number_per_square_kilometer,0,number of facilities related to unhealthy food divided by the area of the 300 meters buffer at pregnancy
-urban,ath_frichness300_preg,decimal,,0,number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at pregnancy
-urban,ath_green_dist_preg,decimal,meter,0,"straight line distance to nearest green space > 5,000 m2 at  pregnancy"
-urban,ath_green_size_preg,decimal,square_meter,0,"area of closest green space > 5,000m2 at pregnancy"
-urban,ath_greenyn300_preg,binary,,0,"is there a green space  > 5,000 m2 in a distance of 300 m? at pregnancy"
-urban,ath_hdres_preg,decimal,%,0,percentage of hdres (decimal urban fabric) land use within a buffer of 300 m at pregnancy
-urban,ath_hmax_preg,decimal,%,0,average of maximum relative humidity during pregnancy
-urban,ath_hmin_preg,decimal,%,0,average of minimum relative humidity during pregnancy
-urban,ath_hu_preg,decimal,%,0,average of relative humidity from eobs data during pregnancy
-urban,ath_hum_preg,decimal,%,0,average of mean relative humidity during pregnancy
-urban,ath_indtr_preg,decimal,%,0,"percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at pregnancy"
-urban,ath_lan_preg,decimal,DN,0,nighttime light at pregnancy
-urban,ath_landuseshan300_preg,decimal,,0,landuse Shannon's Evenness Index within a buffer of 300 m at pregnancy
-urban,ath_lden_c_preg,integer,,0,categorized day-evening-night level at pregnancy
-urban,ath_lden_preg,decimal,A_weighted_decibel,0,day-evening-night level at pregnancy
-urban,ath_ldres_preg,decimal,%,0,percentage of ldres (disdecimal dense/medium density/low density urban fabric) land use within a buffer of 300 m at pregnancy
-urban,ath_lines_100_preg,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 100 m at pregnancy
-urban,ath_lines_300_preg,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 300 m at pregnancy
-urban,ath_lines_500_preg,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 500 m at pregnancy
-urban,ath_ln_c_preg,integer,,0,categorized night level at pregnancy
-urban,ath_ln_preg,decimal,A_weighted_decibel,0,night level at pregnancy
-urban,ath_lst_preg,decimal,degree_celsius,0,land surface temperature during pregnancy
-urban,ath_mdist_preg,decimal,meter,0,distance to meteorological station during pregnancy
-urban,ath_natgr_preg,decimal,%,0,percentage of natgr (forests) land use within a buffer of 300 m at pregnancy
-urban,ath_ndvi100_mean_preg,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy
-urban,ath_ndvi300_mean_preg,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy
-urban,ath_ndvi500_mean_preg,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy
-urban,ath_ndvi100_std_preg,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy
-urban,ath_ndvi300_std_preg,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy
-urban,ath_ndvi500_std_preg,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy
-urban,ath_no2_preg,decimal,micrograms_per_cubic_meter,0,no2 average value (extrapolated back in time using ratio method) during pregnancy
-urban,ath_no2elp_preg,decimal,micrograms_per_cubic_meter,0,no2 elapse average value (extrapolated back in time using ratio method) during pregnancy
-urban,ath_noise_dist_preg,decimal,meter,0,straight distance to the nearest road with noise level at pregnancy
-urban,ath_nox_preg,decimal,micrograms_per_cubic_meter,0,nox average value (extrapolated back in time using ratio method) during pregnancy
-urban,ath_other_preg,decimal,%,0,"percentage of other (mineral extraction and dump sites, construction sites, land without current use) land use within a buffer of 300 m at pregnancy"
-urban,ath_pm10_preg,decimal,micrograms_per_cubic_meter,0,pm10 average value (extrapolated back in time using ratio method) during pregnancy
-urban,ath_pm10cu_preg,decimal,nanograms_per_cubic_meter,0,pm10cu value at pregnancy
-urban,ath_pm10fe_preg,decimal,nanograms_per_cubic_meter,0,pm10fe value at pregnancy
-urban,ath_pm10k_preg,decimal,nanograms_per_cubic_meter,0,pm10k value at pregnancy
-urban,ath_pm10ni_preg,decimal,nanograms_per_cubic_meter,0,pm10ni value at pregnancy
-urban,ath_pm10s_preg,decimal,nanograms_per_cubic_meter,0,pm10s value at pregnancy
-urban,ath_pm10si_preg,decimal,nanograms_per_cubic_meter,0,pm10si value at pregnancy
-urban,ath_pm10v_preg,decimal,nanograms_per_cubic_meter,0,pm10v value at pregnancy
-urban,ath_pm10zn_preg,decimal,nanograms_per_cubic_meter,0,pm10zn value at pregnancy
-urban,ath_pm25_preg,decimal,micrograms_per_cubic_meter,0,pm25 average value (extrapolated back in time using ratio method) during pregnancy
-urban,ath_pm25abs_preg,decimal,ten_power_minus_five_per_inverse_meter,0,pm25abs average value (extrapolated back in time using ratio method) during pregnancy
-urban,ath_pm25cu_preg,decimal,nanograms_per_cubic_meter,0,pm25cu value at pregnancy
-urban,ath_pm25elp_preg,decimal,micrograms_per_cubic_meter,0,pm25 elapse average value (extrapolated back in time using ratio method) during pregnancy
-urban,ath_pm25fe_preg,decimal,nanograms_per_cubic_meter,0,pm25fe value at pregnancy
-urban,ath_pm25k_preg,decimal,nanograms_per_cubic_meter,0,pm25k value at pregnancy
-urban,ath_pm25ni_preg,decimal,nanograms_per_cubic_meter,0,pm25ni value at pregnancy
-urban,ath_pm25s_preg,decimal,nanograms_per_cubic_meter,0,pm25s value at pregnancy
-urban,ath_pm25si_preg,decimal,nanograms_per_cubic_meter,0,pm25si value at pregnancy
-urban,ath_pm25v_preg,decimal,nanograms_per_cubic_meter,0,pm25v value at pregnancy
-urban,ath_pm25zn_preg,decimal,nanograms_per_cubic_meter,0,pm25zn value at pregnancy
-urban,ath_pmcoarse_preg,decimal,micrograms_per_cubic_meter,0,pmcoarse average value (extrapolated back in time using ratio method) during pregnancy
-urban,ath_pntv_preg,decimal,%,0,average of percent of nontree vegetation within a buffer of 300 m at pregnancy
-urban,ath_pnv_preg,decimal,%,0,average of percent of non vegetated within a buffer of 300 m at pregnancy
-urban,ath_popdens_preg,decimal,vehicles_per_day,0,population density at pregnancy
-urban,ath_port_preg,decimal,%,0,percentage of port (port areas) land use within a buffer of 300 m at pregnancy
-urban,ath_pp_preg,decimal,Hectopascal,0,average of sea level pressure from eobs data during pregnancy
-urban,ath_ptc_preg,decimal,%,0,average of percent of tree covered within a buffer of 300 m at pregnancy
-urban,ath_qq_preg,decimal,watt per square meter,0,average of daily mean global radiation from eobs data during pregnancy
-urban,ath_rr_preg,decimal,mm,0,average of precipitation sum from eobs data during pregnancy
-urban,ath_stops_100_preg,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 100 m at pregnancy
-urban,ath_stops_300_preg,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 300 m at pregnancy
-urban,ath_stops_500_preg,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 500 m at pregnancy
-urban,ath_tg_preg,decimal,degree_celsius,0,average of mean temperature from eobs data during pregnancy
-urban,ath_tm_preg,decimal,degree_celsius,0,average of mean temperature during pregnancy
-urban,ath_tmax_preg,decimal,degree_celsius,0,average of maximum temperature during pregnancy
-urban,ath_tmin_preg,decimal,degree_celsius,0,average of minimum temperature during pregnancy
-urban,ath_tn_preg,decimal,degree_celsius,0,average of minimum temperature from eobs data during pregnancy
-urban,ath_trafload100_preg,decimal,vehicles_per_day_and_meter,0,total traffic load of all roads within a buffer of 100 m at pregnancy
-urban,ath_trafmajorload100_preg,decimal,vehicles_per_day_and_meter,0,total traffic load of major roads within a buffer of 100 m at pregnancy
-urban,ath_trafnear_preg,decimal,vehicles_per_day,0,traffic density on nearest road at pregnancy
-urban,ath_trans_preg,decimal,%,0,"percentage of trans (road and rail network and associated land, fast transit roads and associated land, other roads and associated land, railways and associated land) land use within a buffer of 300 m at pregnancy"
-urban,ath_tx_preg,decimal,degree_celsius,0,average of maximum temperature from eobs data during pregnancy
-urban,ath_urbgr_preg,decimal,%,0,"percentage of urbgr (green urban areas, sports and leisure facilities) land use within a buffer of 300 m at pregnancy"
-urban,ath_uvddc_preg,decimal,kilojoules_per_square_meter,0,average of DNA-damage UV dose during pregnancy
-urban,ath_uvdec_preg,decimal,kilojoules_per_square_meter,0,average of erythemal UV dose during pregnancy
-urban,ath_uvdvc_preg,decimal,kilojoules_per_square_meter,0,average of vitamin-d UV dose during pregnancy
-urban,ath_vldres_preg,decimal,%,0,percentage of vldres (disdecimal very low density urban fabric) land use within a buffer of 300 m at pregnancy
-urban,ath_walkability_mean_preg,decimal,,0,"walkability index (as mean of deciles of facility richness index, landuse shannon's Evenness Index, population density, connectivity density) within a buffer of 300 m at pregnancy"
-urban,ath_water_preg,decimal,%,0,percentage of water land use within a buffer of 300 m at pregnancy
-urban,urb_area_id,integer,,0,unique identifier for the urban area
-urban,ath_agrgr_0,decimal,%,0,"percentage of agrgr (agricultural areas, semi-natural areas and wetlands) land use within a buffer of 300 m at birth"
-urban,ath_airpt_0,decimal,%,0,percentage of airpt (airports) land use within a buffer of 300 m at birth
-urban,ath_areases_quint_0,integer,,0,area-level SES indicator (deprivation index in quintiles) at birth
-urban,ath_areases_tert_0,integer,,0,area-level SES indicator (deprivation index in tertiles) at birth
-urban,ath_bdens100_0,decimal,square_meter_per_square_kilometer,0,building density within a buffer of 100 m at birth
-urban,ath_bdens300_0,decimal,square_meter_per_square_kilometer,0,building density within a buffer of 300 m at birth
-urban,ath_blue_dist_0,decimal,meter,0,"straight line distance to nearest blue space > 5,000 m2 at  birth"
-urban,ath_blue_size_0,decimal,square_meter,0,"area of closest blue space > 5,000m2 at birth"
-urban,ath_blueyn300_0,binary,,0,"is there a blue space  > 5,000 m2 in a distance of 300 m? at birth"
-urban,ath_connind100_0,decimal,number_per_square_kilometer,0,connectivity density within a buffer of 100 m at birth
-urban,ath_connind300_0,decimal,number_per_square_kilometer,0,connectivity density within a buffer of 300 m at birth
-urban,ath_distinvnear1_0,decimal,inverse_meter,0,inverse distance to nearest road at birth
-urban,ath_fdensity300_0,decimal,number_per_square_kilometer,0,number of facilities present within a buffer of 300 m at birth
-urban,ath_foodenvdens300_0,decimal,number_per_square_kilometer,0,number of facilities related to unhealthy food divided by the area of the 300 meters buffer at birth
-urban,ath_frichness300_0,decimal,,0,number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at birth
-urban,ath_green_dist_0,decimal,meter,0,"straight line distance to nearest green space > 5,000 m2 at  birth"
-urban,ath_green_size_0,decimal,square_meter,0,"area of closest green space > 5,000m2 at birth"
-urban,ath_greenyn300_0,binary,,0,"is there a green space  > 5,000 m2 in a distance of 300 m? at birth"
-urban,ath_hdres_0,decimal,%,0,percentage of hdres (decimal urban fabric) land use within a buffer of 300 m at birth
-urban,ath_indtr_0,decimal,%,0,"percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at birth"
-urban,ath_lan_0,decimal,DN,0,nighttime light at birth
-urban,ath_landuseshan300_0,decimal,,0,landuse Shannon's Evenness Index within a buffer of 300 m at birth
-urban,ath_lden_c_0,integer,,0,categorized day-evening-night level at birth
-urban,ath_lden_0,decimal,A_weighted_decibel,0,day-evening-night level at birth
-urban,ath_ldres_0,decimal,%,0,percentage of ldres (disdecimal dense/medium density/low density urban fabric) land use within a buffer of 300 m at birth
-urban,ath_lines_100_0,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 100 m at birth
-urban,ath_lines_300_0,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 300 m at birth
-urban,ath_lines_500_0,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 500 m at birth
-urban,ath_ln_c_0,integer,,0,categorized night level at birth
-urban,ath_ln_0,decimal,A_weighted_decibel,0,night level at birth
-urban,ath_natgr_0,decimal,%,0,percentage of natgr (forests) land use within a buffer of 300 m at birth
-urban,ath_ndvi100_mean_0,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at birth
-urban,ath_ndvi300_mean_0,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at birth
-urban,ath_ndvi500_mean_0,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at birth
-urban,ath_ndvi100_std_0,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at birth
-urban,ath_ndvi300_std_0,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at birth
-urban,ath_ndvi500_std_0,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at birth
-urban,ath_noise_dist_0,decimal,meter,0,straight distance to the nearest road with noise level at birth
-urban,ath_other_0,decimal,%,0,"percentage of other (mineral extraction and dump sites, construction sites, land without current use) land use within a buffer of 300 m at birth"
-urban,ath_pm10cu_0,decimal,nanograms_per_cubic_meter,0,pm10cu value at birth
-urban,ath_pm10fe_0,decimal,nanograms_per_cubic_meter,0,pm10fe value at birth
-urban,ath_pm10k_0,decimal,nanograms_per_cubic_meter,0,pm10k value at birth
-urban,ath_pm10ni_0,decimal,nanograms_per_cubic_meter,0,pm10ni value at birth
-urban,ath_pm10s_0,decimal,nanograms_per_cubic_meter,0,pm10s value at birth
-urban,ath_pm10si_0,decimal,nanograms_per_cubic_meter,0,pm10si value at birth
-urban,ath_pm10v_0,decimal,nanograms_per_cubic_meter,0,pm10v value at birth
-urban,ath_pm10zn_0,decimal,nanograms_per_cubic_meter,0,pm10zn value at birth
-urban,ath_pm25cu_0,decimal,nanograms_per_cubic_meter,0,pm25cu value at birth
-urban,ath_pm25fe_0,decimal,nanograms_per_cubic_meter,0,pm25fe value at birth
-urban,ath_pm25k_0,decimal,nanograms_per_cubic_meter,0,pm25k value at birth
-urban,ath_pm25ni_0,decimal,nanograms_per_cubic_meter,0,pm25ni value at birth
-urban,ath_pm25s_0,decimal,nanograms_per_cubic_meter,0,pm25s value at birth
-urban,ath_pm25si_0,decimal,nanograms_per_cubic_meter,0,pm25si value at birth
-urban,ath_pm25v_0,decimal,nanograms_per_cubic_meter,0,pm25v value at birth
-urban,ath_pm25zn_0,decimal,nanograms_per_cubic_meter,0,pm25zn value at birth
-urban,ath_pntv_0,decimal,%,0,average of percent of nontree vegetation within a buffer of 300 m at birth
-urban,ath_pnv_0,decimal,%,0,average of percent of non vegetated within a buffer of 300 m at birth
-urban,ath_popdens_0,decimal,people_per_square_kilometer,0,population density at birth
-urban,ath_port_0,decimal,%,0,percentage of port (port areas) land use within a buffer of 300 m at birth
-urban,ath_ptc_0,decimal,%,0,average of percent of tree covered within a buffer of 300 m at birth
-urban,ath_stops_100_0,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 100 m at birth
-urban,ath_stops_300_0,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 300 m at birth
-urban,ath_stops_500_0,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 500 m at birth
-urban,ath_trafload100_0,decimal,vehicles_per_day_and_meter,0,total traffic load of all roads within a buffer of 100 m at birth
-urban,ath_trafmajorload100_0,decimal,vehicles_per_day_and_meter,0,total traffic load of major roads within a buffer of 100 m at birth
-urban,ath_trafnear_0,decimal,vehicles_per_day,0,traffic density on nearest road at birth
-urban,ath_trans_0,decimal,%,0,"percentage of trans (road and rail network and associated land, fast transit roads and associated land, other roads and associated land, railways and associated land) land use within a buffer of 300 m at birth"
-urban,ath_urbgr_0,decimal,%,0,"percentage of urbgr (green urban areas, sports and leisure facilities) land use within a buffer of 300 m at birth"
-urban,ath_vldres_0,decimal,%,0,percentage of vldres (disdecimal very low density urban fabric) land use within a buffer of 300 m at birth
-urban,ath_walkability_mean_0,decimal,,0,"walkability index (as mean of deciles of facility richness index, landuse shannon's Evenness Index, population density, connectivity density) within a buffer of 300 m at birth"
-urban,ath_water_0,decimal,%,0,percentage of water land use within a buffer of 300 m at birth
-urban,age_years,integer,,1,Age of child in years
-urban,urb_deg_,integer,,1,Urban degree as classified by GHS-SMOD
-urban,ath_no2_,decimal,micrograms_per_cubic_meter,1,no2 average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year)
-urban,ath_no2elp_,decimal,micrograms_per_cubic_meter,1,no2 elapse average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year)
-urban,ath_nox_,decimal,micrograms_per_cubic_meter,1,nox average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year)
-urban,ath_pm10_,decimal,micrograms_per_cubic_meter,1,pm10 average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year)
-urban,ath_pm25_,decimal,micrograms_per_cubic_meter,1,pm25 average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year)
-urban,ath_pm25elp_,decimal,micrograms_per_cubic_meter,1,pm25 elapse average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year)
-urban,ath_pmcoarse_,decimal,micrograms_per_cubic_meter,1,pmcoarse average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year)
-urban,ath_pm25abs_,decimal,ten_power_minus_five_per_inverse_meter,1,pm25abs average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year)
-urban,ath_pm25cu_,decimal,nanograms_per_cubic_meter,1,pm25cu value at # year
-urban,ath_pm25fe_,decimal,nanograms_per_cubic_meter,1,pm25fe value at # year
-urban,ath_pm25k_,decimal,nanograms_per_cubic_meter,1,pm25k value at # year
-urban,ath_pm25ni_,decimal,nanograms_per_cubic_meter,1,pm25ni value at # year
-urban,ath_pm25s_,decimal,nanograms_per_cubic_meter,1,pm25s value at # year
-urban,ath_pm25si_,decimal,nanograms_per_cubic_meter,1,pm25si value at # year
-urban,ath_pm25v_,decimal,nanograms_per_cubic_meter,1,pm25v value at # year
-urban,ath_pm25zn_,decimal,nanograms_per_cubic_meter,1,pm25zn value at # year
-urban,ath_pm10cu_,decimal,nanograms_per_cubic_meter,1,pm10cu value at # year
-urban,ath_pm10fe_,decimal,nanograms_per_cubic_meter,1,pm10fe value at # year
-urban,ath_pm10k_,decimal,nanograms_per_cubic_meter,1,pm10k value at # year
-urban,ath_pm10ni_,decimal,nanograms_per_cubic_meter,1,pm10ni value at # year
-urban,ath_pm10s_,decimal,nanograms_per_cubic_meter,1,pm10s value at # year
-urban,ath_pm10si_,decimal,nanograms_per_cubic_meter,1,pm10si value at # year
-urban,ath_pm10v_,decimal,nanograms_per_cubic_meter,1,pm10v value at # year
-urban,ath_pm10zn_,decimal,nanograms_per_cubic_meter,1,pm10zn value at # year
-urban,ath_blue_dist_,decimal,meter,1,"straight line distance to nearest blue space > 5,000 m2 at  # year"
-urban,ath_green_dist_,decimal,meter,1,"straight line distance to nearest green space > 5,000 m2 at  # year"
-urban,ath_blue_size_,decimal,square_meter,1,"area of closest blue space > 5,000m2 at # year"
-urban,ath_green_size_,decimal,square_meter,1,"area of closest green space > 5,000m2 at # year"
-urban,ath_blueyn300_,binary,,1,"is there a blue space  > 5,000 m2 in a distance of 300 m? at # year"
-urban,ath_greenyn300_,binary,,1,"is there a green space  > 5,000 m2 in a distance of 300 m? at # year"
-urban,ath_ndvi100_mean_,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at # year
-urban,ath_ndvi300_mean_,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at # year
-urban,ath_ndvi500_mean_,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at # year
-urban,ath_ndvi100_std_,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at # year
-urban,ath_ndvi300_std_,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at # year
-urban,ath_ndvi500_std_,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at # year
-urban,ath_pntv_,decimal,%,1,average of percent of nontree vegetation within a buffer of 300 m at # year
-urban,ath_pnv_,decimal,%,1,average of percent of non vegetated within a buffer of 300 m at # year
-urban,ath_ptc_,decimal,%,1,average of percent of tree covered within a buffer of 300 m at # year
-urban,ath_popdens_,decimal,people_per_square_kilometer,1,population density at # year
-urban,ath_bdens100_,decimal,square_meter_per_square_kilometer,1,building density within a buffer of 100 m at # year
-urban,ath_bdens300_,decimal,square_meter_per_square_kilometer,1,building density within a buffer of 300 m at # year
-urban,ath_connind100_,decimal,number_per_square_kilometer,1,connectivity density within a buffer of 100 m at # year
-urban,ath_connind300_,decimal,number_per_square_kilometer,1,connectivity density within a buffer of 300 m at # year
-urban,ath_lines_100_,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 100 m at # year
-urban,ath_lines_300_,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 300 m at # year
-urban,ath_lines_500_,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 500 m at # year
-urban,ath_stops_100_,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 100 m at # year
-urban,ath_stops_300_,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 300 m at # year
-urban,ath_stops_500_,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 500 m at # year
-urban,ath_fdensity300_,decimal,number_per_square_kilometer,1,number of facilities present within a buffer of 300 m at # year
-urban,ath_frichness300_,decimal,,1,number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at # year
-urban,ath_landuseshan300_,decimal,,1,landuse Shannon's Evenness Index within a buffer of 300 m at # year
-urban,ath_walkability_mean_,decimal,,1,"walkability index (as mean of deciles of facility richness index, landuse shannon's Evenness Index, population density, connectivity density) within a buffer of 300 m at # year"
-urban,ath_agrgr_,decimal,%,1,"percentage of agrgr (agricultural areas, semi-natural areas and wetlands) land use within a buffer of 300 m at # year"
-urban,ath_airpt_,decimal,%,1,percentage of airpt (airports) land use within a buffer of 300 m at # year
-urban,ath_hdres_,decimal,%,1,percentage of hdres (continuous urban fabric) land use within a buffer of 300 m at # year
-urban,ath_indtr_,decimal,%,1,"percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at # year"
-urban,ath_ldres_,decimal,%,1,percentage of ldres (discontinuous dense/medium density/low density urban fabric) land use within a buffer of 300 m at # year
-urban,ath_natgr_,decimal,%,1,percentage of natgr (forests) land use within a buffer of 300 m at # year
-urban,ath_other_,decimal,%,1,"percentage of other (mineral extraction and dump sites, construction sites, land without current use) land use within a buffer of 300 m at # year"
-urban,ath_port_,decimal,%,1,percentage of port (port areas) land use within a buffer of 300 m at # year
-urban,ath_trans_,decimal,%,1,"percentage of trans (road and rail network and associated land, fast transit roads and associated land, other roads and associated land, railways and associated land) land use within a buffer of 300 m at # year"
-urban,ath_urbgr_,decimal,%,1,"percentage of urbgr (green urban areas, sports and leisure facilities) land use within a buffer of 300 m at # year"
-urban,ath_vldres_,decimal,%,1,percentage of vldres (discontinuous very low density urban fabric) land use within a buffer of 300 m at # year
-urban,ath_water_,decimal,%,1,percentage of water land use within a buffer of 300 m at # year
-urban,ath_areases_tert_,integer,,1,area-level SES indicator (deprivation index in tertiles) at # year
-urban,ath_areases_quint_,integer,,1,area-level SES indicator (deprivation index in quintiles) at # year
-urban,ath_distinvnear1_,decimal,inverse_meter,1,inverse distance to nearest road at # year
-urban,ath_trafload100_,decimal,vehicles_per_day_and_meter,1,total traffic load of all roads within a buffer of 100 m at # year
-urban,ath_trafmajorload100_,decimal,vehicles_per_day_and_meter,1,total traffic load of major roads within a buffer of 100 m at # year
-urban,ath_trafnear_,decimal,vehicles_per_day,1,traffic density on nearest road at # year
-urban,ath_lden_,decimal,A_weighted_decibel,1,day-evening-night level at # year
-urban,ath_ln_,decimal,A_weighted_decibel,1,night level at # year
-urban,ath_lden_c_,integer,,1,categorized day-evening-night level at # year
-urban,ath_ln_c_,integer,,1,categorized night level at # year
-urban,ath_noise_dist_,decimal,meter,1,straight distance to the nearest road with noise level at # year
-urban,ath_foodenvdens300_,decimal,number_per_square_kilometer,1,number of facilities related to unhealthy food divided by the area of the 300 meters buffer at # year
-urban,ath_tm_,decimal,degree_celsius,1,average of mean temperature during # year (># year and <=#+1 year)
-urban,ath_tmin_,decimal,degree_celsius,1,average of minimum temperature during # year (># year and <=#+1 year)
-urban,ath_tmax_,decimal,degree_celsius,1,average of maximum temperature during # year (># year and <=#+1 year)
-urban,ath_hum_,decimal,%,1,average of mean relative humidity during # year (># year and <=#+1 year)
-urban,ath_hmin_,decimal,%,1,average of minimum relative humidity during # year (># year and <=#+1 year)
-urban,ath_hmax_,decimal,%,1,average of maximum relative humidity during # year (># year and <=#+1 year)
-urban,ath_tg_,decimal,degree_celsius,1,average of mean temperature from eobs data during # year (># year and <=#+1 year)
-urban,ath_tn_,decimal,degree_celsius,1,average of minimum temperature from eobs data during # year (># year and <=#+1 year)
-urban,ath_tx_,decimal,degree_celsius,1,average of maximum temperature from eobs data during # year (># year and <=#+1 year)
-urban,ath_hu_,decimal,%,1,average of relative humidity from eobs data during # year (># year and <=#+1 year)
-urban,ath_rr_,decimal,mm,1,average of precipitation sum from eobs data during # year (># year and <=#+1 year)
-urban,ath_qq_,decimal,watt per square meter,1,average of daily mean global radiation from eobs data during # year (># year and <=#+1 year)
-urban,ath_pp_,decimal,Hectopascal,1,average of sea level pressure from eobs data during # year (># year and <=#+1 year)
-urban,ath_uvddc_,decimal,kilojoules_per_square_meter,1,average of DNA-damage UV dose during # year (># year and <=#+1 year)
-urban,ath_uvdec_,decimal,kilojoules_per_square_meter,1,average of erythemal UV dose during # year (># year and <=#+1 year)
-urban,ath_uvdvc_,decimal,kilojoules_per_square_meter,1,average of vitamin-d UV dose during # year (># year and <=#+1 year)
-urban,ath_lst_,decimal,degree_celsius,1,land surface temperature during # year (># year and <=#+1 year)
-urban,ath_mdist_,decimal,meter,1,distance to meteorological station during # year (># year and <=#+1 year)
-urban,ath_lan_,decimal,DN,1,nighttime light at # year (># year and <=# year)
-urban,mother_id,text,,1,Unique identifier number for the mother 
-urban,age_trimester,integer,numeric,1,Age of the child in trimesters
-urban,ath_no2_t,decimal,micrograms_per_cubic_meter,1,no2 average value (extrapolated back in time using ratio method) during trimester
-urban,ath_no2elp_t,decimal,micrograms_per_cubic_meter,1,no2 elapse average value (extrapolated back in time using ratio method) during trimester
-urban,ath_nox_t,decimal,micrograms_per_cubic_meter,1,nox average value (extrapolated back in time using ratio method) during trimester
-urban,ath_pm10_t,decimal,micrograms_per_cubic_meter,1,pm10 average value (extrapolated back in time using ratio method) during trimester
-urban,ath_pm25_t,decimal,micrograms_per_cubic_meter,1,pm25 average value (extrapolated back in time using ratio method) during trimester
-urban,ath_pm25elp_t,decimal,micrograms_per_cubic_meter,1,pm25 elapse average value (extrapolated back in time using ratio method) during trimester
-urban,ath_pmcoarse_t,decimal,micrograms_per_cubic_meter,1,pmcoarse average value (extrapolated back in time using ratio method) during trimester
-urban,ath_pm25abs_t,decimal,ten_power_minus_five_per_inverse_meter,1,pm25abs average value (extrapolated back in time using ratio method) during trimester
-urban,ath_pm25cu_t,decimal,nanograms_per_cubic_meter,1,pm25cu value at trimester
-urban,ath_pm25fe_t,decimal,nanograms_per_cubic_meter,1,pm25fe value at trimester
-urban,ath_pm25k_t,decimal,nanograms_per_cubic_meter,1,pm25k value at trimester
-urban,ath_pm25ni_t,decimal,nanograms_per_cubic_meter,1,pm25ni value at trimester
-urban,ath_pm25s_t,decimal,nanograms_per_cubic_meter,1,pm25s value at trimester
-urban,ath_pm25si_t,decimal,nanograms_per_cubic_meter,1,pm25si value at trimester
-urban,ath_pm25v_t,decimal,nanograms_per_cubic_meter,1,pm25v value at trimester
-urban,ath_pm25zn_t,decimal,nanograms_per_cubic_meter,1,pm25zn value at trimester
-urban,ath_pm10cu_t,decimal,nanograms_per_cubic_meter,1,pm10cu value at trimester
-urban,ath_pm10fe_t,decimal,nanograms_per_cubic_meter,1,pm10fe value at trimester
-urban,ath_pm10k_t,decimal,nanograms_per_cubic_meter,1,pm10k value at trimester
-urban,ath_pm10ni_t,decimal,nanograms_per_cubic_meter,1,pm10ni value at trimester
-urban,ath_pm10s_t,decimal,nanograms_per_cubic_meter,1,pm10s value at trimester
-urban,ath_pm10si_t,decimal,nanograms_per_cubic_meter,1,pm10si value at trimester
-urban,ath_pm10v_t,decimal,nanograms_per_cubic_meter,1,pm10v value at trimester
-urban,ath_pm10zn_t,decimal,nanograms_per_cubic_meter,1,pm10zn value at trimester
-urban,ath_blue_dist_t,decimal,meter,1,"straight line distance to nearest blue space > 5,000 m2 at  trimester"
-urban,ath_green_dist_t,decimal,meter,1,"straight line distance to nearest green space > 5,000 m2 at  trimester"
-urban,ath_blue_size_t,decimal,square_meter,1,"area of closest blue space > 5,000m2 at trimester"
-urban,ath_green_size_t,decimal,square_meter,1,"area of closest green space > 5,000m2 at trimester"
-urban,ath_blueyn300_t,binary,,1,"is there a blue space  > 5,000 m2 in a distance of 300 m? at trimester"
-urban,ath_greenyn300_t,binary,,1,"is there a green space  > 5,000 m2 in a distance of 300 m? at trimester"
-urban,ath_ndvi100_mean_t,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester
-urban,ath_ndvi300_mean_t,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester
-urban,ath_ndvi500_mean_t,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester
-urban,ath_ndvi100_std_t,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester
-urban,ath_ndvi300_std_t,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester
-urban,ath_ndvi500_std_t,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester
-urban,ath_pntv_t,decimal,%,1,average of percent of nontree vegetation within a buffer of 300 m at trimester
-urban,ath_pnv_t,decimal,%,1,average of percent of non vegetated within a buffer of 300 m at trimester
-urban,ath_ptc_t,decimal,%,1,average of percent of tree covered within a buffer of 300 m at trimester
-urban,ath_popdens_t,decimal,people_per_square_kilometer,1,population density at trimester
-urban,ath_bdens100_t,decimal,square_meter_per_square_kilometer,1,building density within a buffer of 100 m at trimester
-urban,ath_bdens300_t,decimal,square_meter_per_square_kilometer,1,building density within a buffer of 300 m at trimester
-urban,ath_connind100_t,decimal,number_per_square_kilometer,1,connectivity density within a buffer of 100 m at trimester
-urban,ath_connind300_t,decimal,number_per_square_kilometer,1,connectivity density within a buffer of 300 m at trimester
-urban,ath_lines_100_t,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 100 m at trimester
-urban,ath_lines_300_t,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 300 m at trimester
-urban,ath_lines_500_t,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 500 m at trimester
-urban,ath_stops_100_t,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 100 m at trimester
-urban,ath_stops_300_t,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 300 m at trimester
-urban,ath_stops_500_t,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 500 m at trimester
-urban,ath_fdensity300_t,decimal,number_per_square_kilometer,1,number of facilities present within a buffer of 300 m at trimester
-urban,ath_frichness300_t,decimal,,1,number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at trimester
-urban,ath_landuseshan300_t,decimal,,1,landuse Shannon's Evenness Index within a buffer of 300 m at trimester
-urban,ath_walkability_mean_t,decimal,,1,"walkability index (as mean of deciles of facility richness index, landuse shannon's Evenness Index, population density, connectivity density) within a buffer of 300 m at trimester"
-urban,ath_agrgr_t,decimal,%,1,"percentage of agrgr (agricultural areas, semi-natural areas and wetlands) land use within a buffer of 300 m at trimester"
-urban,ath_airpt_t,decimal,%,1,percentage of airpt (airports) land use within a buffer of 300 m at trimester
-urban,ath_hdres_t,decimal,%,1,percentage of hdres (continuous urban fabric) land use within a buffer of 300 m at trimester
-urban,ath_indtr_t,decimal,%,1,"percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at trimester"
-urban,ath_ldres_t,decimal,%,1,percentage of ldres (discontinuous dense/medium density/low density urban fabric) land use within a buffer of 300 m at trimester
-urban,ath_natgr_t,decimal,%,1,percentage of natgr (forests) land use within a buffer of 300 m at trimester
-urban,ath_other_t,decimal,%,1,"percentage of other (mineral extraction and dump sites, construction sites, land without current use) land use within a buffer of 300 m at trimester"
-urban,ath_port_t,decimal,%,1,percentage of port (port areas) land use within a buffer of 300 m at trimester
-urban,ath_trans_t,decimal,%,1,"percentage of trans (road and rail network and associated land, fast transit roads and associated land, other roads and associated land, railways and associated land) land use within a buffer of 300 m at trimester"
-urban,ath_urbgr_t,decimal,%,1,"percentage of urbgr (green urban areas, sports and leisure facilities) land use within a buffer of 300 m at trimester"
-urban,ath_vldres_t,decimal,%,1,percentage of vldres (discontinuous very low density urban fabric) land use within a buffer of 300 m at trimester
-urban,ath_water_t,decimal,%,1,percentage of water land use within a buffer of 300 m at trimester
-urban,ath_areases_tert_t,integer,,1,area-level SES indicator (deprivation index in tertiles) at trimester
-urban,ath_areases_quint_t,integer,,1,area-level SES indicator (deprivation index in quintiles) at trimester
-urban,ath_distinvnear1_t,decimal,inverse_meter,1,inverse distance to nearest road at trimester
-urban,ath_trafload100_t,decimal,vehicles_per_day_and_meter,1,total traffic load of all roads within a buffer of 100 m at trimester
-urban,ath_trafmajorload100_t,decimal,vehicles_per_day_and_meter,1,total traffic load of major roads within a buffer of 100 m at trimester
-urban,ath_trafnear_t,decimal,vehicles_per_day,1,traffic density on nearest road at trimester
-urban,ath_lden_t,decimal,A_weighted_decibel,1,day-evening-night level at trimester
-urban,ath_ln_t,decimal,A_weighted_decibel,1,night level at trimester
-urban,ath_lden_c_t,integer,,1,categorized day-evening-night level at trimester
-urban,ath_ln_c_t,integer,,1,categorized night level at trimester
-urban,ath_noise_dist_t,decimal,meter,1,straight distance to the nearest road with noise level at trimester
-urban,ath_foodenvdens300_t,decimal,number_per_square_kilometer,1,number of facilities related to unhealthy food divided by the area of the 300 meters buffer at trimester
-urban,ath_tm_t,decimal,degree_celsius,1,average of mean temperature during trimester
-urban,ath_tmin_t,decimal,degree_celsius,1,average of minimum temperature during trimester
-urban,ath_tmax_t,decimal,degree_celsius,1,average of maximum temperature during trimester
-urban,ath_hum_t,decimal,%,1,average of mean relative humidity during trimester
-urban,ath_hmin_t,decimal,%,1,average of minimum relative humidity during trimester
-urban,ath_hmax_t,decimal,%,1,average of maximum relative humidity during trimester
-urban,ath_tg_t,decimal,degree_celsius,1,average of mean temperature from eobs data during trimester
-urban,ath_tn_t,decimal,degree_celsius,1,average of minimum temperature from eobs data during trimester
-urban,ath_tx_t,decimal,degree_celsius,1,average of maximum temperature from eobs data during trimester
-urban,ath_hu_t,decimal,%,1,average of relative humidity from eobs data during trimester
-urban,ath_rr_t,decimal,millimeters,1,average of precipitation sum from eobs data during trimester
-urban,ath_qq_t,decimal,watt per square meter,1,average of daily mean global radiation from eobs data during trimester
-urban,ath_pp_t,decimal,Hectopascal,1,average of sea level pressure from eobs data during trimester
-urban,ath_uvddc_t,decimal,kilojoules_per_square_meter,1,average of DNA-damage UV dose during trimester
-urban,ath_uvdec_t,decimal,kilojoules_per_square_meter,1,average of erythemal UV dose during trimester
-urban,ath_uvdvc_t,decimal,kilojoules_per_square_meter,1,average of vitamin-d UV dose during trimester
-urban,ath_lst_t,decimal,degree_celsius,1,land surface temperature during trimester
-urban,ath_mdist_t,decimal,meter,1,distance to meteorological station during trimester
-urban,ath_lan_t,decimal,DN,1,nighttime light at trimester
+table,name,valueType,unit,repeatable,label,variableNameRegexp,variableValueRegexp
+urban,row_id,integer,numeric,0,Unique identifer for the row in Opal,,
+urban,child_id,text,,0,Unique identifer for the child,,
+urban,cohort_id,integer,numeric,0,Unique identifier for the cohort,,
+urban,urb_deg_preg,integer,numeric,0,Urban degree during pregnancy  as classified by GHS-SMOD,,
+urban,urb_deg_birth,integer,numeric,0,Urban degree at birth as classified by GHS-SMOD,,
+urban,ath_agrgr_preg,decimal,%,0,"percentage of agrgr (agricultural areas, semi-natural areas and wetlands) land use within a buffer of 300 m at pregnancy",,
+urban,ath_airpt_preg,decimal,%,0,percentage of airpt (airports) land use within a buffer of 300 m at pregnancy,,
+urban,ath_areases_quint_preg,integer,,0,area-level SES indicator (deprivation index in quintiles) at pregnancy,,
+urban,ath_areases_tert_preg,integer,,0,area-level SES indicator (deprivation index in tertiles) at pregnancy,,
+urban,ath_bdens100_preg,decimal,square_meter_per_square_kilometer,0,building density within a buffer of 100 m at pregnancy,,
+urban,ath_bdens300_preg,decimal,square_meter_per_square_kilometer,0,building density within a buffer of 300 m at pregnancy,,
+urban,ath_blue_dist_preg,decimal,meter,0,"straight line distance to nearest blue space > 5,000 m2 at  pregnancy",,
+urban,ath_blue_size_preg,decimal,square_meter,0,"area of closest blue space > 5,000m2 at pregnancy",,
+urban,ath_blueyn300_preg,binary,,0,"is there a blue space  > 5,000 m2 in a distance of 300 m? at pregnancy",,
+urban,ath_connind100_preg,decimal,number_per_square_kilometer,0,connectivity density within a buffer of 100 m at pregnancy,,
+urban,ath_connind300_preg,decimal,number_per_square_kilometer,0,connectivity density within a buffer of 300 m at pregnancy,,
+urban,ath_distinvnear1_preg,decimal,inverse_meter,0,inverse distance to nearest road at pregnancy,,
+urban,ath_fdensity300_preg,decimal,number_per_square_kilometer,0,number of facilities present within a buffer of 300 m at pregnancy,,
+urban,ath_foodenvdens300_preg,decimal,number_per_square_kilometer,0,number of facilities related to unhealthy food divided by the area of the 300 meters buffer at pregnancy,,
+urban,ath_frichness300_preg,decimal,,0,number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at pregnancy,,
+urban,ath_green_dist_preg,decimal,meter,0,"straight line distance to nearest green space > 5,000 m2 at  pregnancy",,
+urban,ath_green_size_preg,decimal,square_meter,0,"area of closest green space > 5,000m2 at pregnancy",,
+urban,ath_greenyn300_preg,binary,,0,"is there a green space  > 5,000 m2 in a distance of 300 m? at pregnancy",,
+urban,ath_hdres_preg,decimal,%,0,percentage of hdres (decimal urban fabric) land use within a buffer of 300 m at pregnancy,,
+urban,ath_hmax_preg,decimal,%,0,average of maximum relative humidity during pregnancy,,
+urban,ath_hmin_preg,decimal,%,0,average of minimum relative humidity during pregnancy,,
+urban,ath_hu_preg,decimal,%,0,average of relative humidity from eobs data during pregnancy,,
+urban,ath_hum_preg,decimal,%,0,average of mean relative humidity during pregnancy,,
+urban,ath_indtr_preg,decimal,%,0,"percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at pregnancy",,
+urban,ath_lan_preg,decimal,DN,0,nighttime light at pregnancy,,
+urban,ath_landuseshan300_preg,decimal,,0,landuse Shannon's Evenness Index within a buffer of 300 m at pregnancy,,
+urban,ath_lden_c_preg,integer,,0,categorized day-evening-night level at pregnancy,,
+urban,ath_lden_preg,decimal,A_weighted_decibel,0,day-evening-night level at pregnancy,,
+urban,ath_ldres_preg,decimal,%,0,percentage of ldres (disdecimal dense/medium density/low density urban fabric) land use within a buffer of 300 m at pregnancy,,
+urban,ath_lines_100_preg,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 100 m at pregnancy,,
+urban,ath_lines_300_preg,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 300 m at pregnancy,,
+urban,ath_lines_500_preg,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 500 m at pregnancy,,
+urban,ath_ln_c_preg,integer,,0,categorized night level at pregnancy,,
+urban,ath_ln_preg,decimal,A_weighted_decibel,0,night level at pregnancy,,
+urban,ath_lst_preg,decimal,degree_celsius,0,land surface temperature during pregnancy,,
+urban,ath_mdist_preg,decimal,meter,0,distance to meteorological station during pregnancy,,
+urban,ath_natgr_preg,decimal,%,0,percentage of natgr (forests) land use within a buffer of 300 m at pregnancy,,
+urban,ath_ndvi100_mean_preg,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy,,
+urban,ath_ndvi300_mean_preg,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy,,
+urban,ath_ndvi500_mean_preg,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy,,
+urban,ath_ndvi100_std_preg,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy,,
+urban,ath_ndvi300_std_preg,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy,,
+urban,ath_ndvi500_std_preg,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at pregnancy,,
+urban,ath_no2_preg,decimal,micrograms_per_cubic_meter,0,no2 average value (extrapolated back in time using ratio method) during pregnancy,,
+urban,ath_no2elp_preg,decimal,micrograms_per_cubic_meter,0,no2 elapse average value (extrapolated back in time using ratio method) during pregnancy,,
+urban,ath_noise_dist_preg,decimal,meter,0,straight distance to the nearest road with noise level at pregnancy,,
+urban,ath_nox_preg,decimal,micrograms_per_cubic_meter,0,nox average value (extrapolated back in time using ratio method) during pregnancy,,
+urban,ath_other_preg,decimal,%,0,"percentage of other (mineral extraction and dump sites, construction sites, land without current use) land use within a buffer of 300 m at pregnancy",,
+urban,ath_pm10_preg,decimal,micrograms_per_cubic_meter,0,pm10 average value (extrapolated back in time using ratio method) during pregnancy,,
+urban,ath_pm10cu_preg,decimal,nanograms_per_cubic_meter,0,pm10cu value at pregnancy,,
+urban,ath_pm10fe_preg,decimal,nanograms_per_cubic_meter,0,pm10fe value at pregnancy,,
+urban,ath_pm10k_preg,decimal,nanograms_per_cubic_meter,0,pm10k value at pregnancy,,
+urban,ath_pm10ni_preg,decimal,nanograms_per_cubic_meter,0,pm10ni value at pregnancy,,
+urban,ath_pm10s_preg,decimal,nanograms_per_cubic_meter,0,pm10s value at pregnancy,,
+urban,ath_pm10si_preg,decimal,nanograms_per_cubic_meter,0,pm10si value at pregnancy,,
+urban,ath_pm10v_preg,decimal,nanograms_per_cubic_meter,0,pm10v value at pregnancy,,
+urban,ath_pm10zn_preg,decimal,nanograms_per_cubic_meter,0,pm10zn value at pregnancy,,
+urban,ath_pm25_preg,decimal,micrograms_per_cubic_meter,0,pm25 average value (extrapolated back in time using ratio method) during pregnancy,,
+urban,ath_pm25abs_preg,decimal,ten_power_minus_five_per_inverse_meter,0,pm25abs average value (extrapolated back in time using ratio method) during pregnancy,,
+urban,ath_pm25cu_preg,decimal,nanograms_per_cubic_meter,0,pm25cu value at pregnancy,,
+urban,ath_pm25elp_preg,decimal,micrograms_per_cubic_meter,0,pm25 elapse average value (extrapolated back in time using ratio method) during pregnancy,,
+urban,ath_pm25fe_preg,decimal,nanograms_per_cubic_meter,0,pm25fe value at pregnancy,,
+urban,ath_pm25k_preg,decimal,nanograms_per_cubic_meter,0,pm25k value at pregnancy,,
+urban,ath_pm25ni_preg,decimal,nanograms_per_cubic_meter,0,pm25ni value at pregnancy,,
+urban,ath_pm25s_preg,decimal,nanograms_per_cubic_meter,0,pm25s value at pregnancy,,
+urban,ath_pm25si_preg,decimal,nanograms_per_cubic_meter,0,pm25si value at pregnancy,,
+urban,ath_pm25v_preg,decimal,nanograms_per_cubic_meter,0,pm25v value at pregnancy,,
+urban,ath_pm25zn_preg,decimal,nanograms_per_cubic_meter,0,pm25zn value at pregnancy,,
+urban,ath_pmcoarse_preg,decimal,micrograms_per_cubic_meter,0,pmcoarse average value (extrapolated back in time using ratio method) during pregnancy,,
+urban,ath_pntv_preg,decimal,%,0,average of percent of nontree vegetation within a buffer of 300 m at pregnancy,,
+urban,ath_pnv_preg,decimal,%,0,average of percent of non vegetated within a buffer of 300 m at pregnancy,,
+urban,ath_popdens_preg,decimal,vehicles_per_day,0,population density at pregnancy,,
+urban,ath_port_preg,decimal,%,0,percentage of port (port areas) land use within a buffer of 300 m at pregnancy,,
+urban,ath_pp_preg,decimal,Hectopascal,0,average of sea level pressure from eobs data during pregnancy,,
+urban,ath_ptc_preg,decimal,%,0,average of percent of tree covered within a buffer of 300 m at pregnancy,,
+urban,ath_qq_preg,decimal,watt per square meter,0,average of daily mean global radiation from eobs data during pregnancy,,
+urban,ath_rr_preg,decimal,mm,0,average of precipitation sum from eobs data during pregnancy,,
+urban,ath_stops_100_preg,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 100 m at pregnancy,,
+urban,ath_stops_300_preg,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 300 m at pregnancy,,
+urban,ath_stops_500_preg,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 500 m at pregnancy,,
+urban,ath_tg_preg,decimal,degree_celsius,0,average of mean temperature from eobs data during pregnancy,,
+urban,ath_tm_preg,decimal,degree_celsius,0,average of mean temperature during pregnancy,,
+urban,ath_tmax_preg,decimal,degree_celsius,0,average of maximum temperature during pregnancy,,
+urban,ath_tmin_preg,decimal,degree_celsius,0,average of minimum temperature during pregnancy,,
+urban,ath_tn_preg,decimal,degree_celsius,0,average of minimum temperature from eobs data during pregnancy,,
+urban,ath_trafload100_preg,decimal,vehicles_per_day_and_meter,0,total traffic load of all roads within a buffer of 100 m at pregnancy,,
+urban,ath_trafmajorload100_preg,decimal,vehicles_per_day_and_meter,0,total traffic load of major roads within a buffer of 100 m at pregnancy,,
+urban,ath_trafnear_preg,decimal,vehicles_per_day,0,traffic density on nearest road at pregnancy,,
+urban,ath_trans_preg,decimal,%,0,"percentage of trans (road and rail network and associated land, fast transit roads and associated land, other roads and associated land, railways and associated land) land use within a buffer of 300 m at pregnancy",,
+urban,ath_tx_preg,decimal,degree_celsius,0,average of maximum temperature from eobs data during pregnancy,,
+urban,ath_urbgr_preg,decimal,%,0,"percentage of urbgr (green urban areas, sports and leisure facilities) land use within a buffer of 300 m at pregnancy",,
+urban,ath_uvddc_preg,decimal,kilojoules_per_square_meter,0,average of DNA-damage UV dose during pregnancy,,
+urban,ath_uvdec_preg,decimal,kilojoules_per_square_meter,0,average of erythemal UV dose during pregnancy,,
+urban,ath_uvdvc_preg,decimal,kilojoules_per_square_meter,0,average of vitamin-d UV dose during pregnancy,,
+urban,ath_vldres_preg,decimal,%,0,percentage of vldres (disdecimal very low density urban fabric) land use within a buffer of 300 m at pregnancy,,
+urban,ath_walkability_mean_preg,decimal,,0,"walkability index (as mean of deciles of facility richness index, landuse shannon's Evenness Index, population density, connectivity density) within a buffer of 300 m at pregnancy",,
+urban,ath_water_preg,decimal,%,0,percentage of water land use within a buffer of 300 m at pregnancy,,
+urban,urb_area_id,integer,,0,unique identifier for the urban area,,
+urban,ath_agrgr_0,decimal,%,0,"percentage of agrgr (agricultural areas, semi-natural areas and wetlands) land use within a buffer of 300 m at birth",,
+urban,ath_airpt_0,decimal,%,0,percentage of airpt (airports) land use within a buffer of 300 m at birth,,
+urban,ath_areases_quint_0,integer,,0,area-level SES indicator (deprivation index in quintiles) at birth,,
+urban,ath_areases_tert_0,integer,,0,area-level SES indicator (deprivation index in tertiles) at birth,,
+urban,ath_bdens100_0,decimal,square_meter_per_square_kilometer,0,building density within a buffer of 100 m at birth,,
+urban,ath_bdens300_0,decimal,square_meter_per_square_kilometer,0,building density within a buffer of 300 m at birth,,
+urban,ath_blue_dist_0,decimal,meter,0,"straight line distance to nearest blue space > 5,000 m2 at  birth",,
+urban,ath_blue_size_0,decimal,square_meter,0,"area of closest blue space > 5,000m2 at birth",,
+urban,ath_blueyn300_0,binary,,0,"is there a blue space  > 5,000 m2 in a distance of 300 m? at birth",,
+urban,ath_connind100_0,decimal,number_per_square_kilometer,0,connectivity density within a buffer of 100 m at birth,,
+urban,ath_connind300_0,decimal,number_per_square_kilometer,0,connectivity density within a buffer of 300 m at birth,,
+urban,ath_distinvnear1_0,decimal,inverse_meter,0,inverse distance to nearest road at birth,,
+urban,ath_fdensity300_0,decimal,number_per_square_kilometer,0,number of facilities present within a buffer of 300 m at birth,,
+urban,ath_foodenvdens300_0,decimal,number_per_square_kilometer,0,number of facilities related to unhealthy food divided by the area of the 300 meters buffer at birth,,
+urban,ath_frichness300_0,decimal,,0,number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at birth,,
+urban,ath_green_dist_0,decimal,meter,0,"straight line distance to nearest green space > 5,000 m2 at  birth",,
+urban,ath_green_size_0,decimal,square_meter,0,"area of closest green space > 5,000m2 at birth",,
+urban,ath_greenyn300_0,binary,,0,"is there a green space  > 5,000 m2 in a distance of 300 m? at birth",,
+urban,ath_hdres_0,decimal,%,0,percentage of hdres (decimal urban fabric) land use within a buffer of 300 m at birth,,
+urban,ath_indtr_0,decimal,%,0,"percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at birth",,
+urban,ath_lan_0,decimal,DN,0,nighttime light at birth,,
+urban,ath_landuseshan300_0,decimal,,0,landuse Shannon's Evenness Index within a buffer of 300 m at birth,,
+urban,ath_lden_c_0,integer,,0,categorized day-evening-night level at birth,,
+urban,ath_lden_0,decimal,A_weighted_decibel,0,day-evening-night level at birth,,
+urban,ath_ldres_0,decimal,%,0,percentage of ldres (disdecimal dense/medium density/low density urban fabric) land use within a buffer of 300 m at birth,,
+urban,ath_lines_100_0,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 100 m at birth,,
+urban,ath_lines_300_0,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 300 m at birth,,
+urban,ath_lines_500_0,decimal,meter_per_square_kilometer,0,length of public transport lines within a buffer of 500 m at birth,,
+urban,ath_ln_c_0,integer,,0,categorized night level at birth,,
+urban,ath_ln_0,decimal,A_weighted_decibel,0,night level at birth,,
+urban,ath_natgr_0,decimal,%,0,percentage of natgr (forests) land use within a buffer of 300 m at birth,,
+urban,ath_ndvi100_mean_0,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at birth,,
+urban,ath_ndvi300_mean_0,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at birth,,
+urban,ath_ndvi500_mean_0,decimal,ndvi_value,0,5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at birth,,
+urban,ath_ndvi100_std_0,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at birth,,
+urban,ath_ndvi300_std_0,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at birth,,
+urban,ath_ndvi500_std_0,decimal,ndvi_value,0,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at birth,,
+urban,ath_noise_dist_0,decimal,meter,0,straight distance to the nearest road with noise level at birth,,
+urban,ath_other_0,decimal,%,0,"percentage of other (mineral extraction and dump sites, construction sites, land without current use) land use within a buffer of 300 m at birth",,
+urban,ath_pm10cu_0,decimal,nanograms_per_cubic_meter,0,pm10cu value at birth,,
+urban,ath_pm10fe_0,decimal,nanograms_per_cubic_meter,0,pm10fe value at birth,,
+urban,ath_pm10k_0,decimal,nanograms_per_cubic_meter,0,pm10k value at birth,,
+urban,ath_pm10ni_0,decimal,nanograms_per_cubic_meter,0,pm10ni value at birth,,
+urban,ath_pm10s_0,decimal,nanograms_per_cubic_meter,0,pm10s value at birth,,
+urban,ath_pm10si_0,decimal,nanograms_per_cubic_meter,0,pm10si value at birth,,
+urban,ath_pm10v_0,decimal,nanograms_per_cubic_meter,0,pm10v value at birth,,
+urban,ath_pm10zn_0,decimal,nanograms_per_cubic_meter,0,pm10zn value at birth,,
+urban,ath_pm25cu_0,decimal,nanograms_per_cubic_meter,0,pm25cu value at birth,,
+urban,ath_pm25fe_0,decimal,nanograms_per_cubic_meter,0,pm25fe value at birth,,
+urban,ath_pm25k_0,decimal,nanograms_per_cubic_meter,0,pm25k value at birth,,
+urban,ath_pm25ni_0,decimal,nanograms_per_cubic_meter,0,pm25ni value at birth,,
+urban,ath_pm25s_0,decimal,nanograms_per_cubic_meter,0,pm25s value at birth,,
+urban,ath_pm25si_0,decimal,nanograms_per_cubic_meter,0,pm25si value at birth,,
+urban,ath_pm25v_0,decimal,nanograms_per_cubic_meter,0,pm25v value at birth,,
+urban,ath_pm25zn_0,decimal,nanograms_per_cubic_meter,0,pm25zn value at birth,,
+urban,ath_pntv_0,decimal,%,0,average of percent of nontree vegetation within a buffer of 300 m at birth,,
+urban,ath_pnv_0,decimal,%,0,average of percent of non vegetated within a buffer of 300 m at birth,,
+urban,ath_popdens_0,decimal,people_per_square_kilometer,0,population density at birth,,
+urban,ath_port_0,decimal,%,0,percentage of port (port areas) land use within a buffer of 300 m at birth,,
+urban,ath_ptc_0,decimal,%,0,average of percent of tree covered within a buffer of 300 m at birth,,
+urban,ath_stops_100_0,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 100 m at birth,,
+urban,ath_stops_300_0,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 300 m at birth,,
+urban,ath_stops_500_0,decimal,number_per_square_kilometer,0,number of public transport stops within a buffer of 500 m at birth,,
+urban,ath_trafload100_0,decimal,vehicles_per_day_and_meter,0,total traffic load of all roads within a buffer of 100 m at birth,,
+urban,ath_trafmajorload100_0,decimal,vehicles_per_day_and_meter,0,total traffic load of major roads within a buffer of 100 m at birth,,
+urban,ath_trafnear_0,decimal,vehicles_per_day,0,traffic density on nearest road at birth,,
+urban,ath_trans_0,decimal,%,0,"percentage of trans (road and rail network and associated land, fast transit roads and associated land, other roads and associated land, railways and associated land) land use within a buffer of 300 m at birth",,
+urban,ath_urbgr_0,decimal,%,0,"percentage of urbgr (green urban areas, sports and leisure facilities) land use within a buffer of 300 m at birth",,
+urban,ath_vldres_0,decimal,%,0,percentage of vldres (disdecimal very low density urban fabric) land use within a buffer of 300 m at birth,,
+urban,ath_walkability_mean_0,decimal,,0,"walkability index (as mean of deciles of facility richness index, landuse shannon's Evenness Index, population density, connectivity density) within a buffer of 300 m at birth",,
+urban,ath_water_0,decimal,%,0,percentage of water land use within a buffer of 300 m at birth,,
+urban,age_years,integer,,1,Age of child in years,,
+urban,urb_deg_,integer,,1,Urban degree as classified by GHS-SMOD,,
+urban,ath_no2_,decimal,micrograms_per_cubic_meter,1,no2 average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year),,
+urban,ath_no2elp_,decimal,micrograms_per_cubic_meter,1,no2 elapse average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year),,
+urban,ath_nox_,decimal,micrograms_per_cubic_meter,1,nox average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year),,
+urban,ath_pm10_,decimal,micrograms_per_cubic_meter,1,pm10 average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year),,
+urban,ath_pm25_,decimal,micrograms_per_cubic_meter,1,pm25 average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year),,
+urban,ath_pm25elp_,decimal,micrograms_per_cubic_meter,1,pm25 elapse average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year),,
+urban,ath_pmcoarse_,decimal,micrograms_per_cubic_meter,1,pmcoarse average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year),,
+urban,ath_pm25abs_,decimal,ten_power_minus_five_per_inverse_meter,1,pm25abs average value (extrapolated back in time using ratio method) during # year (># year and <=#+1 year),,
+urban,ath_pm25cu_,decimal,nanograms_per_cubic_meter,1,pm25cu value at # year,,
+urban,ath_pm25fe_,decimal,nanograms_per_cubic_meter,1,pm25fe value at # year,,
+urban,ath_pm25k_,decimal,nanograms_per_cubic_meter,1,pm25k value at # year,,
+urban,ath_pm25ni_,decimal,nanograms_per_cubic_meter,1,pm25ni value at # year,,
+urban,ath_pm25s_,decimal,nanograms_per_cubic_meter,1,pm25s value at # year,,
+urban,ath_pm25si_,decimal,nanograms_per_cubic_meter,1,pm25si value at # year,,
+urban,ath_pm25v_,decimal,nanograms_per_cubic_meter,1,pm25v value at # year,,
+urban,ath_pm25zn_,decimal,nanograms_per_cubic_meter,1,pm25zn value at # year,,
+urban,ath_pm10cu_,decimal,nanograms_per_cubic_meter,1,pm10cu value at # year,,
+urban,ath_pm10fe_,decimal,nanograms_per_cubic_meter,1,pm10fe value at # year,,
+urban,ath_pm10k_,decimal,nanograms_per_cubic_meter,1,pm10k value at # year,,
+urban,ath_pm10ni_,decimal,nanograms_per_cubic_meter,1,pm10ni value at # year,,
+urban,ath_pm10s_,decimal,nanograms_per_cubic_meter,1,pm10s value at # year,,
+urban,ath_pm10si_,decimal,nanograms_per_cubic_meter,1,pm10si value at # year,,
+urban,ath_pm10v_,decimal,nanograms_per_cubic_meter,1,pm10v value at # year,,
+urban,ath_pm10zn_,decimal,nanograms_per_cubic_meter,1,pm10zn value at # year,,
+urban,ath_blue_dist_,decimal,meter,1,"straight line distance to nearest blue space > 5,000 m2 at  # year",,
+urban,ath_green_dist_,decimal,meter,1,"straight line distance to nearest green space > 5,000 m2 at  # year",,
+urban,ath_blue_size_,decimal,square_meter,1,"area of closest blue space > 5,000m2 at # year",,
+urban,ath_green_size_,decimal,square_meter,1,"area of closest green space > 5,000m2 at # year",,
+urban,ath_blueyn300_,binary,,1,"is there a blue space  > 5,000 m2 in a distance of 300 m? at # year",,
+urban,ath_greenyn300_,binary,,1,"is there a green space  > 5,000 m2 in a distance of 300 m? at # year",,
+urban,ath_ndvi100_mean_,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at # year,,
+urban,ath_ndvi300_mean_,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at # year,,
+urban,ath_ndvi500_mean_,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at # year,,
+urban,ath_ndvi100_std_,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at # year,,
+urban,ath_ndvi300_std_,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at # year,,
+urban,ath_ndvi500_std_,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at # year,,
+urban,ath_pntv_,decimal,%,1,average of percent of nontree vegetation within a buffer of 300 m at # year,,
+urban,ath_pnv_,decimal,%,1,average of percent of non vegetated within a buffer of 300 m at # year,,
+urban,ath_ptc_,decimal,%,1,average of percent of tree covered within a buffer of 300 m at # year,,
+urban,ath_popdens_,decimal,people_per_square_kilometer,1,population density at # year,,
+urban,ath_bdens100_,decimal,square_meter_per_square_kilometer,1,building density within a buffer of 100 m at # year,,
+urban,ath_bdens300_,decimal,square_meter_per_square_kilometer,1,building density within a buffer of 300 m at # year,,
+urban,ath_connind100_,decimal,number_per_square_kilometer,1,connectivity density within a buffer of 100 m at # year,,
+urban,ath_connind300_,decimal,number_per_square_kilometer,1,connectivity density within a buffer of 300 m at # year,,
+urban,ath_lines_100_,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 100 m at # year,,
+urban,ath_lines_300_,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 300 m at # year,,
+urban,ath_lines_500_,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 500 m at # year,,
+urban,ath_stops_100_,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 100 m at # year,,
+urban,ath_stops_300_,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 300 m at # year,,
+urban,ath_stops_500_,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 500 m at # year,,
+urban,ath_fdensity300_,decimal,number_per_square_kilometer,1,number of facilities present within a buffer of 300 m at # year,,
+urban,ath_frichness300_,decimal,,1,number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at # year,,
+urban,ath_landuseshan300_,decimal,,1,landuse Shannon's Evenness Index within a buffer of 300 m at # year,,
+urban,ath_walkability_mean_,decimal,,1,"walkability index (as mean of deciles of facility richness index, landuse shannon's Evenness Index, population density, connectivity density) within a buffer of 300 m at # year",,
+urban,ath_agrgr_,decimal,%,1,"percentage of agrgr (agricultural areas, semi-natural areas and wetlands) land use within a buffer of 300 m at # year",,
+urban,ath_airpt_,decimal,%,1,percentage of airpt (airports) land use within a buffer of 300 m at # year,,
+urban,ath_hdres_,decimal,%,1,percentage of hdres (continuous urban fabric) land use within a buffer of 300 m at # year,,
+urban,ath_indtr_,decimal,%,1,"percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at # year",,
+urban,ath_ldres_,decimal,%,1,percentage of ldres (discontinuous dense/medium density/low density urban fabric) land use within a buffer of 300 m at # year,,
+urban,ath_natgr_,decimal,%,1,percentage of natgr (forests) land use within a buffer of 300 m at # year,,
+urban,ath_other_,decimal,%,1,"percentage of other (mineral extraction and dump sites, construction sites, land without current use) land use within a buffer of 300 m at # year",,
+urban,ath_port_,decimal,%,1,percentage of port (port areas) land use within a buffer of 300 m at # year,,
+urban,ath_trans_,decimal,%,1,"percentage of trans (road and rail network and associated land, fast transit roads and associated land, other roads and associated land, railways and associated land) land use within a buffer of 300 m at # year",,
+urban,ath_urbgr_,decimal,%,1,"percentage of urbgr (green urban areas, sports and leisure facilities) land use within a buffer of 300 m at # year",,
+urban,ath_vldres_,decimal,%,1,percentage of vldres (discontinuous very low density urban fabric) land use within a buffer of 300 m at # year,,
+urban,ath_water_,decimal,%,1,percentage of water land use within a buffer of 300 m at # year,,
+urban,ath_areases_tert_,integer,,1,area-level SES indicator (deprivation index in tertiles) at # year,,
+urban,ath_areases_quint_,integer,,1,area-level SES indicator (deprivation index in quintiles) at # year,,
+urban,ath_distinvnear1_,decimal,inverse_meter,1,inverse distance to nearest road at # year,,
+urban,ath_trafload100_,decimal,vehicles_per_day_and_meter,1,total traffic load of all roads within a buffer of 100 m at # year,,
+urban,ath_trafmajorload100_,decimal,vehicles_per_day_and_meter,1,total traffic load of major roads within a buffer of 100 m at # year,,
+urban,ath_trafnear_,decimal,vehicles_per_day,1,traffic density on nearest road at # year,,
+urban,ath_lden_,decimal,A_weighted_decibel,1,day-evening-night level at # year,,
+urban,ath_ln_,decimal,A_weighted_decibel,1,night level at # year,,
+urban,ath_lden_c_,integer,,1,categorized day-evening-night level at # year,,
+urban,ath_ln_c_,integer,,1,categorized night level at # year,,
+urban,ath_noise_dist_,decimal,meter,1,straight distance to the nearest road with noise level at # year,,
+urban,ath_foodenvdens300_,decimal,number_per_square_kilometer,1,number of facilities related to unhealthy food divided by the area of the 300 meters buffer at # year,,
+urban,ath_tm_,decimal,degree_celsius,1,average of mean temperature during # year (># year and <=#+1 year),,
+urban,ath_tmin_,decimal,degree_celsius,1,average of minimum temperature during # year (># year and <=#+1 year),,
+urban,ath_tmax_,decimal,degree_celsius,1,average of maximum temperature during # year (># year and <=#+1 year),,
+urban,ath_hum_,decimal,%,1,average of mean relative humidity during # year (># year and <=#+1 year),,
+urban,ath_hmin_,decimal,%,1,average of minimum relative humidity during # year (># year and <=#+1 year),,
+urban,ath_hmax_,decimal,%,1,average of maximum relative humidity during # year (># year and <=#+1 year),,
+urban,ath_tg_,decimal,degree_celsius,1,average of mean temperature from eobs data during # year (># year and <=#+1 year),,
+urban,ath_tn_,decimal,degree_celsius,1,average of minimum temperature from eobs data during # year (># year and <=#+1 year),,
+urban,ath_tx_,decimal,degree_celsius,1,average of maximum temperature from eobs data during # year (># year and <=#+1 year),,
+urban,ath_hu_,decimal,%,1,average of relative humidity from eobs data during # year (># year and <=#+1 year),,
+urban,ath_rr_,decimal,mm,1,average of precipitation sum from eobs data during # year (># year and <=#+1 year),,
+urban,ath_qq_,decimal,watt per square meter,1,average of daily mean global radiation from eobs data during # year (># year and <=#+1 year),,
+urban,ath_pp_,decimal,Hectopascal,1,average of sea level pressure from eobs data during # year (># year and <=#+1 year),,
+urban,ath_uvddc_,decimal,kilojoules_per_square_meter,1,average of DNA-damage UV dose during # year (># year and <=#+1 year),,
+urban,ath_uvdec_,decimal,kilojoules_per_square_meter,1,average of erythemal UV dose during # year (># year and <=#+1 year),,
+urban,ath_uvdvc_,decimal,kilojoules_per_square_meter,1,average of vitamin-d UV dose during # year (># year and <=#+1 year),,
+urban,ath_lst_,decimal,degree_celsius,1,land surface temperature during # year (># year and <=#+1 year),,
+urban,ath_mdist_,decimal,meter,1,distance to meteorological station during # year (># year and <=#+1 year),,
+urban,ath_lan_,decimal,DN,1,nighttime light at # year (># year and <=# year),,
+urban,mother_id,text,,1,Unique identifier number for the mother ,,
+urban,age_trimester,integer,numeric,1,Age of the child in trimesters,,
+urban,ath_no2_t,decimal,micrograms_per_cubic_meter,1,no2 average value (extrapolated back in time using ratio method) during trimester,,
+urban,ath_no2elp_t,decimal,micrograms_per_cubic_meter,1,no2 elapse average value (extrapolated back in time using ratio method) during trimester,,
+urban,ath_nox_t,decimal,micrograms_per_cubic_meter,1,nox average value (extrapolated back in time using ratio method) during trimester,,
+urban,ath_pm10_t,decimal,micrograms_per_cubic_meter,1,pm10 average value (extrapolated back in time using ratio method) during trimester,,
+urban,ath_pm25_t,decimal,micrograms_per_cubic_meter,1,pm25 average value (extrapolated back in time using ratio method) during trimester,,
+urban,ath_pm25elp_t,decimal,micrograms_per_cubic_meter,1,pm25 elapse average value (extrapolated back in time using ratio method) during trimester,,
+urban,ath_pmcoarse_t,decimal,micrograms_per_cubic_meter,1,pmcoarse average value (extrapolated back in time using ratio method) during trimester,,
+urban,ath_pm25abs_t,decimal,ten_power_minus_five_per_inverse_meter,1,pm25abs average value (extrapolated back in time using ratio method) during trimester,,
+urban,ath_pm25cu_t,decimal,nanograms_per_cubic_meter,1,pm25cu value at trimester,,
+urban,ath_pm25fe_t,decimal,nanograms_per_cubic_meter,1,pm25fe value at trimester,,
+urban,ath_pm25k_t,decimal,nanograms_per_cubic_meter,1,pm25k value at trimester,,
+urban,ath_pm25ni_t,decimal,nanograms_per_cubic_meter,1,pm25ni value at trimester,,
+urban,ath_pm25s_t,decimal,nanograms_per_cubic_meter,1,pm25s value at trimester,,
+urban,ath_pm25si_t,decimal,nanograms_per_cubic_meter,1,pm25si value at trimester,,
+urban,ath_pm25v_t,decimal,nanograms_per_cubic_meter,1,pm25v value at trimester,,
+urban,ath_pm25zn_t,decimal,nanograms_per_cubic_meter,1,pm25zn value at trimester,,
+urban,ath_pm10cu_t,decimal,nanograms_per_cubic_meter,1,pm10cu value at trimester,,
+urban,ath_pm10fe_t,decimal,nanograms_per_cubic_meter,1,pm10fe value at trimester,,
+urban,ath_pm10k_t,decimal,nanograms_per_cubic_meter,1,pm10k value at trimester,,
+urban,ath_pm10ni_t,decimal,nanograms_per_cubic_meter,1,pm10ni value at trimester,,
+urban,ath_pm10s_t,decimal,nanograms_per_cubic_meter,1,pm10s value at trimester,,
+urban,ath_pm10si_t,decimal,nanograms_per_cubic_meter,1,pm10si value at trimester,,
+urban,ath_pm10v_t,decimal,nanograms_per_cubic_meter,1,pm10v value at trimester,,
+urban,ath_pm10zn_t,decimal,nanograms_per_cubic_meter,1,pm10zn value at trimester,,
+urban,ath_blue_dist_t,decimal,meter,1,"straight line distance to nearest blue space > 5,000 m2 at  trimester",,
+urban,ath_green_dist_t,decimal,meter,1,"straight line distance to nearest green space > 5,000 m2 at  trimester",,
+urban,ath_blue_size_t,decimal,square_meter,1,"area of closest blue space > 5,000m2 at trimester",,
+urban,ath_green_size_t,decimal,square_meter,1,"area of closest green space > 5,000m2 at trimester",,
+urban,ath_blueyn300_t,binary,,1,"is there a blue space  > 5,000 m2 in a distance of 300 m? at trimester",,
+urban,ath_greenyn300_t,binary,,1,"is there a green space  > 5,000 m2 in a distance of 300 m? at trimester",,
+urban,ath_ndvi100_mean_t,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester,,
+urban,ath_ndvi300_mean_t,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester,,
+urban,ath_ndvi500_mean_t,decimal,ndvi_value,1,5-years moving average (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester,,
+urban,ath_ndvi100_std_t,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 100 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester,,
+urban,ath_ndvi300_std_t,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 300 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester,,
+urban,ath_ndvi500_std_t,decimal,ndvi_value,1,5-years moving standard deviation (YYYY-4 to YYYY) of NDVI within a 500 meter buffer around geocode using all available images during the greenest period (from May to August) at trimester,,
+urban,ath_pntv_t,decimal,%,1,average of percent of nontree vegetation within a buffer of 300 m at trimester,,
+urban,ath_pnv_t,decimal,%,1,average of percent of non vegetated within a buffer of 300 m at trimester,,
+urban,ath_ptc_t,decimal,%,1,average of percent of tree covered within a buffer of 300 m at trimester,,
+urban,ath_popdens_t,decimal,people_per_square_kilometer,1,population density at trimester,,
+urban,ath_bdens100_t,decimal,square_meter_per_square_kilometer,1,building density within a buffer of 100 m at trimester,,
+urban,ath_bdens300_t,decimal,square_meter_per_square_kilometer,1,building density within a buffer of 300 m at trimester,,
+urban,ath_connind100_t,decimal,number_per_square_kilometer,1,connectivity density within a buffer of 100 m at trimester,,
+urban,ath_connind300_t,decimal,number_per_square_kilometer,1,connectivity density within a buffer of 300 m at trimester,,
+urban,ath_lines_100_t,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 100 m at trimester,,
+urban,ath_lines_300_t,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 300 m at trimester,,
+urban,ath_lines_500_t,decimal,meter_per_square_kilometer,1,length of public transport lines within a buffer of 500 m at trimester,,
+urban,ath_stops_100_t,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 100 m at trimester,,
+urban,ath_stops_300_t,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 300 m at trimester,,
+urban,ath_stops_500_t,decimal,number_per_square_kilometer,1,number of public transport stops within a buffer of 500 m at trimester,,
+urban,ath_fdensity300_t,decimal,number_per_square_kilometer,1,number of facilities present within a buffer of 300 m at trimester,,
+urban,ath_frichness300_t,decimal,,1,number of different facility types present divided by the maximum potential number of facility types within a buffer of 300 m at trimester,,
+urban,ath_landuseshan300_t,decimal,,1,landuse Shannon's Evenness Index within a buffer of 300 m at trimester,,
+urban,ath_walkability_mean_t,decimal,,1,"walkability index (as mean of deciles of facility richness index, landuse shannon's Evenness Index, population density, connectivity density) within a buffer of 300 m at trimester",,
+urban,ath_agrgr_t,decimal,%,1,"percentage of agrgr (agricultural areas, semi-natural areas and wetlands) land use within a buffer of 300 m at trimester",,
+urban,ath_airpt_t,decimal,%,1,percentage of airpt (airports) land use within a buffer of 300 m at trimester,,
+urban,ath_hdres_t,decimal,%,1,percentage of hdres (continuous urban fabric) land use within a buffer of 300 m at trimester,,
+urban,ath_indtr_t,decimal,%,1,"percentage of indtr (industrial, commercial, public, military and private units) land use within a buffer of 300 m at trimester",,
+urban,ath_ldres_t,decimal,%,1,percentage of ldres (discontinuous dense/medium density/low density urban fabric) land use within a buffer of 300 m at trimester,,
+urban,ath_natgr_t,decimal,%,1,percentage of natgr (forests) land use within a buffer of 300 m at trimester,,
+urban,ath_other_t,decimal,%,1,"percentage of other (mineral extraction and dump sites, construction sites, land without current use) land use within a buffer of 300 m at trimester",,
+urban,ath_port_t,decimal,%,1,percentage of port (port areas) land use within a buffer of 300 m at trimester,,
+urban,ath_trans_t,decimal,%,1,"percentage of trans (road and rail network and associated land, fast transit roads and associated land, other roads and associated land, railways and associated land) land use within a buffer of 300 m at trimester",,
+urban,ath_urbgr_t,decimal,%,1,"percentage of urbgr (green urban areas, sports and leisure facilities) land use within a buffer of 300 m at trimester",,
+urban,ath_vldres_t,decimal,%,1,percentage of vldres (discontinuous very low density urban fabric) land use within a buffer of 300 m at trimester,,
+urban,ath_water_t,decimal,%,1,percentage of water land use within a buffer of 300 m at trimester,,
+urban,ath_areases_tert_t,integer,,1,area-level SES indicator (deprivation index in tertiles) at trimester,,
+urban,ath_areases_quint_t,integer,,1,area-level SES indicator (deprivation index in quintiles) at trimester,,
+urban,ath_distinvnear1_t,decimal,inverse_meter,1,inverse distance to nearest road at trimester,,
+urban,ath_trafload100_t,decimal,vehicles_per_day_and_meter,1,total traffic load of all roads within a buffer of 100 m at trimester,,
+urban,ath_trafmajorload100_t,decimal,vehicles_per_day_and_meter,1,total traffic load of major roads within a buffer of 100 m at trimester,,
+urban,ath_trafnear_t,decimal,vehicles_per_day,1,traffic density on nearest road at trimester,,
+urban,ath_lden_t,decimal,A_weighted_decibel,1,day-evening-night level at trimester,,
+urban,ath_ln_t,decimal,A_weighted_decibel,1,night level at trimester,,
+urban,ath_lden_c_t,integer,,1,categorized day-evening-night level at trimester,,
+urban,ath_ln_c_t,integer,,1,categorized night level at trimester,,
+urban,ath_noise_dist_t,decimal,meter,1,straight distance to the nearest road with noise level at trimester,,
+urban,ath_foodenvdens300_t,decimal,number_per_square_kilometer,1,number of facilities related to unhealthy food divided by the area of the 300 meters buffer at trimester,,
+urban,ath_tm_t,decimal,degree_celsius,1,average of mean temperature during trimester,,
+urban,ath_tmin_t,decimal,degree_celsius,1,average of minimum temperature during trimester,,
+urban,ath_tmax_t,decimal,degree_celsius,1,average of maximum temperature during trimester,,
+urban,ath_hum_t,decimal,%,1,average of mean relative humidity during trimester,,
+urban,ath_hmin_t,decimal,%,1,average of minimum relative humidity during trimester,,
+urban,ath_hmax_t,decimal,%,1,average of maximum relative humidity during trimester,,
+urban,ath_tg_t,decimal,degree_celsius,1,average of mean temperature from eobs data during trimester,,
+urban,ath_tn_t,decimal,degree_celsius,1,average of minimum temperature from eobs data during trimester,,
+urban,ath_tx_t,decimal,degree_celsius,1,average of maximum temperature from eobs data during trimester,,
+urban,ath_hu_t,decimal,%,1,average of relative humidity from eobs data during trimester,,
+urban,ath_rr_t,decimal,millimeters,1,average of precipitation sum from eobs data during trimester,,
+urban,ath_qq_t,decimal,watt per square meter,1,average of daily mean global radiation from eobs data during trimester,,
+urban,ath_pp_t,decimal,Hectopascal,1,average of sea level pressure from eobs data during trimester,,
+urban,ath_uvddc_t,decimal,kilojoules_per_square_meter,1,average of DNA-damage UV dose during trimester,,
+urban,ath_uvdec_t,decimal,kilojoules_per_square_meter,1,average of erythemal UV dose during trimester,,
+urban,ath_uvdvc_t,decimal,kilojoules_per_square_meter,1,average of vitamin-d UV dose during trimester,,
+urban,ath_lst_t,decimal,degree_celsius,1,land surface temperature during trimester,,
+urban,ath_mdist_t,decimal,meter,1,distance to meteorological station during trimester,,
+urban,ath_lan_t,decimal,DN,1,nighttime light at trimester,,

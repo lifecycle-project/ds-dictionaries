@@ -1,61 +1,61 @@
-table,name,valueType,unit,repeatable,label
-methyl,row_id,integer,numeric,1,Unique identifier for the row in Opal
-methyl,child_id,text,numeric,1,Unique identifier of the child_id
-methyl,Horvath,decimal,numeric,1,Horvath DNAmAge from methylclock
-methyl,ageAcc.Horvath ,decimal,numeric,1,Difference between Horvath DNAmAge and chronological age (ageAcc from methylclock)
-methyl,ageAcc2.Horvath ,decimal,numeric,1,"Residuals obtained after regressing chronological age and Horvath DNAmAge (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.Horvath ,decimal,numeric,1,"Residuals obtained after regressing chronological age and Horvath DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,Hannum,decimal,numeric,1,Hannum DNAmAge from methylclock
-methyl,ageAcc.Hannum ,decimal,numeric,1,Difference between Hannum DNAmAge and chronological age (ageAcc from methylclock)
-methyl,ageAcc2.Hannum ,decimal,numeric,1,"Residuals obtained after regressing chronological age and Hannum DNAmAge (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.Hannum ,decimal,numeric,1,"Residuals obtained after regressing chronological age and Hannum DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,Levine,decimal,numeric,1,Levine DNAmAge from methylclock
-methyl,ageAcc.Levine,decimal,numeric,1,Difference between Levine DNAmAge and chronological age (ageAcc from methylclock)
-methyl,ageAcc2.Levine,decimal,numeric,1,"Residuals obtained after regressing chronological age and Levine DNAmAge (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.Levine,decimal,numeric,1,"Residuals obtained after regressing chronological age and Levine DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,BNN,decimal,numeric,1,BNN DNAmAge from methylclock
-methyl,ageAcc.BNN,decimal,numeric,1,Difference between BNN DNAmAge and chronological age (ageAcc from methylclock)
-methyl,ageAcc2.BNN,decimal,numeric,1,"Residuals obtained after regressing chronological age and BNN DNAmAge (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.BNN,decimal,numeric,1,"Residuals obtained after regressing chronological age and BNN DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,skinHorvath,decimal,numeric,1,Horvath2 DNAmAge from methylclock
-methyl,ageAcc.skinHorvath,decimal,numeric,1,Difference between Horvath2 DNAmAge and chronological age (ageAcc from methylclock)
-methyl,ageAcc2.skinHorvath,decimal,numeric,1,"Residuals obtained after regressing chronological age and Horvath2 DNAmAge (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.skinHorvath,decimal,numeric,1,"Residuals obtained after regressing chronological age and Horvath2 DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,PedBE,decimal,numeric,1,PedBE DNAmAge from methylclock
-methyl,ageAcc.PedBE,decimal,numeric,1,Difference between PedBE DNAmAge and chronological age (ageAcc from methylclock)
-methyl,ageAcc2.PedBE,decimal,numeric,1,"Residuals obtained after regressing chronological age and PedBE DNAmAge (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.PedBE,decimal,numeric,1,"Residuals obtained after regressing chronological age and PedBE DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,TL,decimal,numeric,1,Telomere length DNAmAge from methylclock
-methyl,ageAcc.TL,decimal,numeric,1,Difference between TL DNAmAge and chronological age (ageAcc from methylclock)
-methyl,ageAcc2.TL,decimal,numeric,1,"Residuals obtained after regressing chronological age and TL DNAmAge (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.TL,decimal,numeric,1,"Residuals obtained after regressing chronological age and TL DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,age,decimal,numeric,1,Chronological age at the time of DNA methylation measurement in methylclock
-methyl,norm_method,integer,numeric,1,Normalization method for the DNA methylation data used in the methylclock
-methyl,Knight,decimal,numeric,1,Knight DNAmGA from methylclock
-methyl,ageAcc.Knight,decimal,numeric,1,Difference between Knight DNAmGA and chronological GA (ageAcc from methylclock)
-methyl,ageAcc2.Knight,decimal,numeric,1,"Residuals obtained after regressing chronological GA and Knight DNAmGA (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.Knight,decimal,numeric,1,"Residuals obtained after regressing chronological age and Knight DNAmGA adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,Bohlin,decimal,numeric,1,Bohlin DNAmGA from methylclock
-methyl,ageAcc.Bohlin,decimal,numeric,1,Difference between Bohlin DNAmGA and chronological GA (ageAcc from methylclock)
-methyl,ageAcc2.Bohlin,decimal,numeric,1,"Residuals obtained after regressing chronological GA and Bohlin DNAmGA (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.Bohlin,decimal,numeric,1,"Residuals obtained after regressing chronological age and Bohlin DNAmGA adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,Mayne,decimal,numeric,1,Mayne DNAmGA from methylclock
-methyl,ageAcc.Mayne,decimal,numeric,1,Difference between Mayne DNAmGA and chronological GA (ageAcc from methylclock)
-methyl,ageAcc2.Mayne,decimal,numeric,1,"Residuals obtained after regressing chronological GA and Mayne DNAmGA (similar to IEAA, ageAcc2 from methyclock)"
-methyl,ageAcc3.Mayne,decimal,numeric,1,"Residuals obtained after regressing chronological age and Mayne DNAmGA adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)"
-methyl,Lee.RPC,decimal,numeric,1,Lee robust placental clock (RPC) from methylclock
-methyl,Lee.CPC,decimal,numeric,1,Lee control placental clock (CPC) from methylclock
-methyl,Lee.refRPC,decimal,numeric,1,Lee refined RPC clock from methylclock: Useful for uncomplicated term pregnancies (e.g. gestational age >36 weeks)
-methyl,ageAcc.Lee.RPC,decimal,numeric,1,Age 1 - Lee control placental clock (CPC) from methylclock
-methyl,ageAcc2.Lee.RPC,decimal,numeric,1,Age 2 - Lee control placental clock (CPC) from methylclock
-methyl,ageAcc3.Lee.RPC,decimal,numeric,1,Age 3 - Lee control placental clock (CPC) from methylclock
-methyl,ageAcc.Lee.RPCdiff,decimal,numeric,1,Difference between Lee RPC clock and chronological GA from methylclock
-methyl,ageAcc.Lee.CPC,decimal,numeric,1,Age 1 - Lee control placental clock (CPC) from methylclock
-methyl,ageAcc2.Lee.CPC,decimal,numeric,1,Age 2 - Lee control placental clock (CPC) from methylclock
-methyl,ageAcc3.Lee.CPC,decimal,numeric,1,Age 3 - Lee control placental clock (CPC) from methylclock
-methyl,ageAcc.Lee.CPCdiff,decimal,numeric,1,Difference between Lee CPC clock and chronological GA from methylclock
-methyl,ageAcc.Lee.refRPC,decimal,numeric,1,Age 1 - Lee refined RPC clock from methylclock: Useful for uncomplicated term pregnancies (e.g. gestational age >36 weeks)
-methyl,ageAcc2.Lee.refRPC,decimal,numeric,1,Age 2 - Lee refined RPC clock from methylclock: Useful for uncomplicated term pregnancies (e.g. gestational age >36 weeks)
-methyl,ageAcc3.Lee.refRPC,decimal,numeric,1,Age 3 - Lee refined RPC clock from methylclock: Useful for uncomplicated term pregnancies (e.g. gestational age >36 weeks)
-methyl,ageAcc.Lee.refRPCdiff,decimal,numeric,1,Difference between Lee refined RPC clock and chronological GA from methylclock
-methyl,EPIC,decimal,numeric,1,EPIC
+table,name,valueType,unit,repeatable,label,variableNameRegexp,variableValueRegexp
+methyl,row_id,integer,numeric,1,Unique identifier for the row in Opal,,
+methyl,child_id,text,numeric,1,Unique identifier of the child_id,,
+methyl,Horvath,decimal,numeric,1,Horvath DNAmAge from methylclock,,
+methyl,ageAcc.Horvath ,decimal,numeric,1,Difference between Horvath DNAmAge and chronological age (ageAcc from methylclock),,
+methyl,ageAcc2.Horvath ,decimal,numeric,1,"Residuals obtained after regressing chronological age and Horvath DNAmAge (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.Horvath ,decimal,numeric,1,"Residuals obtained after regressing chronological age and Horvath DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,Hannum,decimal,numeric,1,Hannum DNAmAge from methylclock,,
+methyl,ageAcc.Hannum ,decimal,numeric,1,Difference between Hannum DNAmAge and chronological age (ageAcc from methylclock),,
+methyl,ageAcc2.Hannum ,decimal,numeric,1,"Residuals obtained after regressing chronological age and Hannum DNAmAge (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.Hannum ,decimal,numeric,1,"Residuals obtained after regressing chronological age and Hannum DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,Levine,decimal,numeric,1,Levine DNAmAge from methylclock,,
+methyl,ageAcc.Levine,decimal,numeric,1,Difference between Levine DNAmAge and chronological age (ageAcc from methylclock),,
+methyl,ageAcc2.Levine,decimal,numeric,1,"Residuals obtained after regressing chronological age and Levine DNAmAge (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.Levine,decimal,numeric,1,"Residuals obtained after regressing chronological age and Levine DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,BNN,decimal,numeric,1,BNN DNAmAge from methylclock,,
+methyl,ageAcc.BNN,decimal,numeric,1,Difference between BNN DNAmAge and chronological age (ageAcc from methylclock),,
+methyl,ageAcc2.BNN,decimal,numeric,1,"Residuals obtained after regressing chronological age and BNN DNAmAge (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.BNN,decimal,numeric,1,"Residuals obtained after regressing chronological age and BNN DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,skinHorvath,decimal,numeric,1,Horvath2 DNAmAge from methylclock,,
+methyl,ageAcc.skinHorvath,decimal,numeric,1,Difference between Horvath2 DNAmAge and chronological age (ageAcc from methylclock),,
+methyl,ageAcc2.skinHorvath,decimal,numeric,1,"Residuals obtained after regressing chronological age and Horvath2 DNAmAge (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.skinHorvath,decimal,numeric,1,"Residuals obtained after regressing chronological age and Horvath2 DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,PedBE,decimal,numeric,1,PedBE DNAmAge from methylclock,,
+methyl,ageAcc.PedBE,decimal,numeric,1,Difference between PedBE DNAmAge and chronological age (ageAcc from methylclock),,
+methyl,ageAcc2.PedBE,decimal,numeric,1,"Residuals obtained after regressing chronological age and PedBE DNAmAge (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.PedBE,decimal,numeric,1,"Residuals obtained after regressing chronological age and PedBE DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,TL,decimal,numeric,1,Telomere length DNAmAge from methylclock,,
+methyl,ageAcc.TL,decimal,numeric,1,Difference between TL DNAmAge and chronological age (ageAcc from methylclock),,
+methyl,ageAcc2.TL,decimal,numeric,1,"Residuals obtained after regressing chronological age and TL DNAmAge (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.TL,decimal,numeric,1,"Residuals obtained after regressing chronological age and TL DNAmAge adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,age,decimal,numeric,1,Chronological age at the time of DNA methylation measurement in methylclock,,
+methyl,norm_method,integer,numeric,1,Normalization method for the DNA methylation data used in the methylclock,,
+methyl,Knight,decimal,numeric,1,Knight DNAmGA from methylclock,,
+methyl,ageAcc.Knight,decimal,numeric,1,Difference between Knight DNAmGA and chronological GA (ageAcc from methylclock),,
+methyl,ageAcc2.Knight,decimal,numeric,1,"Residuals obtained after regressing chronological GA and Knight DNAmGA (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.Knight,decimal,numeric,1,"Residuals obtained after regressing chronological age and Knight DNAmGA adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,Bohlin,decimal,numeric,1,Bohlin DNAmGA from methylclock,,
+methyl,ageAcc.Bohlin,decimal,numeric,1,Difference between Bohlin DNAmGA and chronological GA (ageAcc from methylclock),,
+methyl,ageAcc2.Bohlin,decimal,numeric,1,"Residuals obtained after regressing chronological GA and Bohlin DNAmGA (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.Bohlin,decimal,numeric,1,"Residuals obtained after regressing chronological age and Bohlin DNAmGA adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,Mayne,decimal,numeric,1,Mayne DNAmGA from methylclock,,
+methyl,ageAcc.Mayne,decimal,numeric,1,Difference between Mayne DNAmGA and chronological GA (ageAcc from methylclock),,
+methyl,ageAcc2.Mayne,decimal,numeric,1,"Residuals obtained after regressing chronological GA and Mayne DNAmGA (similar to IEAA, ageAcc2 from methyclock)",,
+methyl,ageAcc3.Mayne,decimal,numeric,1,"Residuals obtained after regressing chronological age and Mayne DNAmGA adjusted for cell counts (similar to EEAA, ageAcc3 from methylclock)",,
+methyl,Lee.RPC,decimal,numeric,1,Lee robust placental clock (RPC) from methylclock,,
+methyl,Lee.CPC,decimal,numeric,1,Lee control placental clock (CPC) from methylclock,,
+methyl,Lee.refRPC,decimal,numeric,1,Lee refined RPC clock from methylclock: Useful for uncomplicated term pregnancies (e.g. gestational age >36 weeks),,
+methyl,ageAcc.Lee.RPC,decimal,numeric,1,Age 1 - Lee control placental clock (CPC) from methylclock,,
+methyl,ageAcc2.Lee.RPC,decimal,numeric,1,Age 2 - Lee control placental clock (CPC) from methylclock,,
+methyl,ageAcc3.Lee.RPC,decimal,numeric,1,Age 3 - Lee control placental clock (CPC) from methylclock,,
+methyl,ageAcc.Lee.RPCdiff,decimal,numeric,1,Difference between Lee RPC clock and chronological GA from methylclock,,
+methyl,ageAcc.Lee.CPC,decimal,numeric,1,Age 1 - Lee control placental clock (CPC) from methylclock,,
+methyl,ageAcc2.Lee.CPC,decimal,numeric,1,Age 2 - Lee control placental clock (CPC) from methylclock,,
+methyl,ageAcc3.Lee.CPC,decimal,numeric,1,Age 3 - Lee control placental clock (CPC) from methylclock,,
+methyl,ageAcc.Lee.CPCdiff,decimal,numeric,1,Difference between Lee CPC clock and chronological GA from methylclock,,
+methyl,ageAcc.Lee.refRPC,decimal,numeric,1,Age 1 - Lee refined RPC clock from methylclock: Useful for uncomplicated term pregnancies (e.g. gestational age >36 weeks),,
+methyl,ageAcc2.Lee.refRPC,decimal,numeric,1,Age 2 - Lee refined RPC clock from methylclock: Useful for uncomplicated term pregnancies (e.g. gestational age >36 weeks),,
+methyl,ageAcc3.Lee.refRPC,decimal,numeric,1,Age 3 - Lee refined RPC clock from methylclock: Useful for uncomplicated term pregnancies (e.g. gestational age >36 weeks),,
+methyl,ageAcc.Lee.refRPCdiff,decimal,numeric,1,Difference between Lee refined RPC clock and chronological GA from methylclock,,
+methyl,EPIC,decimal,numeric,1,EPIC,,

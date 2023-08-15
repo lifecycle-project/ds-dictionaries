@@ -225,6 +225,18 @@ def process_dictionary(
     if "missing" in categories.columns:
         categories["missing"] = categories["missing"].astype(int)
 
+        # write excel
+    writer = pd.ExcelWriter(
+        ("{}/{}_{}_{}.xlsx".format(dict_new_folder, project, new_version, new_table)),
+        engine="xlsxwriter",
+    )
+    variables.to_excel(writer, sheet_name="Variables", index=False)
+    categories.to_excel(writer, sheet_name="Categories", index=False)
+    writer.close()
+
+    variables = variables.assign(variableNameRegexp="")
+    variables = variables.assign(variableValueRegexp="")
+
     variables.to_csv(
         (dict_source_folder + "/Variables.csv"), index=False, quoting=csv.QUOTE_MINIMAL
     )
@@ -236,14 +248,6 @@ def process_dictionary(
     categories.to_csv(
         (dict_source_folder + "/Categories.csv"), index=False, quoting=csv.QUOTE_MINIMAL
     )
-    # write excel
-    writer = pd.ExcelWriter(
-        ("{}/{}_{}_{}.xlsx".format(dict_new_folder, project, new_version, new_table)),
-        engine="xlsxwriter",
-    )
-    variables.to_excel(writer, sheet_name="Variables", index=False)
-    categories.to_excel(writer, sheet_name="Categories", index=False)
-    writer.close()
 
 
 print("Transform: chemicals_ath 1_2")
