@@ -1,6 +1,36 @@
 # Readme
 
-## Create new dictionary
+## Create a new dictionary
+
+The following steps are needed to create a new dictionary:
+* Dictionary project
+* Dictionary name
+* Dictionary version
+
+### Dictionary project
+
+Check if the project (lifecycle/athlete/longitools) is already present in the directory: `lifecycle-project/ds-dictionaries/dictionaries-source/`
+
+If your dictionary project is not present create a new directory with your project name (lower case).
+
+### Dictionary name
+
+Check if the name of the dictionary is already defined, for example lifecycle contains the dictionary names `core`, `methyl` and `outcome`.
+
+If your dictionary name is not present create a new directory with the dictionary name (lower case).
+
+### Dictionary version
+
+In case of a completely new dictionary your version will be `1_0`, otherwise check the previous version and depending on the changes (major or minor) create a new directory, for example: `dictionaries-source/lifecycle/core/x_y/`.
+
+`x_y` (x = major, y = minor) [source](https://lifecycle-project.github.io/ds-upload/articles/dictionaryVersioning.html).
+
+* Major
+    * Remove columns from the existing tables.
+* Minor
+  * Add additional columns to the existing tables.
+  * Renaming of columns within the existing tables (the original column remains in the set).
+  * Changing the columntype within the existing tables.
 
 ## Transform existing ds-dictionary
 The transformation is performed once and is described here only to explain the process, follow the link if you need to [create a new dictionary] or [update an existing dictionary].
@@ -57,8 +87,6 @@ The following columns are used for (mandatory*, used by dsUpload**):
 The dictionary csv files are saved in the folder `dictionaries-source` as follows:
 
 `/dictionaries-source/{project}/{dictionary}/{version}/`
-
-
 
 ## Manually upload dictionary to Opal server
 Navigate to the dictionary folder that contains the Excel (.xlsx) file, for instance `lifecycle-project/ds-dictionaries/dictionaries/core/3_0`.
@@ -138,3 +166,42 @@ Variable names and values struck though are removed and not uploaded to Opal/Arm
 | 13       | 2       | 50.4     | 58.8     | ~~167.9~~      | ~~1~~      | 0      | 0      | 0      |
 | ~~14~~   | ~~0~~   | ~~50.4~~ | ~~58.8~~ | ~~145.9~~      | ~~0~~      | ~~0~~  | ~~0~~  | 0      |
 | ~~15~~   | ~~0~~   | ~~50.4~~ | ~~58.8~~ | ~~172.8~~      | ~~1~~      | ~~0~~  | ~~0~~  | 0      |
+
+## Categories
+
+`Categories.csv` has the following mandatory(*) columns:
+
+- table *
+- variable *
+- name *
+- missing *
+- label *
+
+### Categories: table
+
+Should be set to match the dictionary name, `core` for example.
+
+### Categories: variable
+
+Categories.variable should exist in Variables.name, `cohort_id` for example.
+
+### Categories: name
+
+Categories.name `101` is the option that can be chosen for given variable `cohort_id`.
+
+### Categories: missing
+
+Opal setting: if the category indicates a missing answer. 
+
+Some categories are interpreted as missing answers (e.g. 'Don't know', 'Prefer not to answer').  Use 1 for missing and 0 for not. missing (normal answer). Default value is 0
+
+### Categories: label
+
+Categories.label for example `genr`.
+
+## Categories example
+
+| table | variable  | name | missing | label |
+|-------|-----------|------|---------|-------|
+| core  | cohort_id | 101  | 0       | genr  |
+| core  | cohort_id | 102  | 0       | inma  |
