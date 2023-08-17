@@ -1,0 +1,204 @@
+table,variable,name,missing,label
+wave1,study_id ,101,0,Gen R 
+wave1,study_id ,105,0,ALSPAC 
+wave1,study_id ,111,0,ELFE
+wave1,study_id ,112,0,EDEN 
+wave1,study_id ,113,0,NFBC66 
+wave1,study_id ,114,0,NFBC86
+wave1,study_id ,118,0,DFBC
+wave1,study_id ,119,0,FinnGeDi
+wave1,study_id ,120,0,CONSTANCES
+wave1,study_id ,121,0,Rotterdam Study
+wave1,study_id ,122,0,OULU1935 and 1945
+wave1,study_id ,123,0,ELIPA
+wave1,study_id ,124,0,Fibrefects
+wave1,study_id ,125,0,NOMA
+wave1,study_id ,126,0,PANIC
+wave1,study_id ,127,0,SYSDIMET
+wave1,study_country,246,0,Finland
+wave1,study_country,250,0,France
+wave1,study_country,276,0,Germany
+wave1,study_country,300,0,Greece
+wave1,study_country,380,0,Italy
+wave1,study_country,528,0,Netherlands
+wave1,study_country,578,0,Norway
+wave1,study_country,724,0,Spain
+wave1,study_country,826,0,United Kingdom
+wave1,parity_m,0,0,0
+wave1,parity_m,1,0,1
+wave1,parity_m,2,0,2
+wave1,parity_m,3,0,3
+wave1,parity_m,4,0,≥ 4
+wave1,agebirth_p_fath,1,0,Biological father
+wave1,agebirth_p_fath,2,0,Social father
+wave1,agebirth_p_fath,3,0,Social mother
+wave1,agebirth_p_fath,4,0,Unknown
+wave1,weight_f1_fath,1,0,Biological father
+wave1,weight_f1_fath,2,0,Social father
+wave1,weight_f1_fath,3,0,Social mother
+wave1,weight_f1_fath,4,0,Unknown
+wave1,height_f1_fath,1,0,Biological father
+wave1,height_f1_fath,2,0,Social father
+wave1,height_f1_fath,3,0,Social mother
+wave1,height_f1_fath,4,0,Unknown
+wave1,prepreg_alc,0,0,No (never drinking)
+wave1,prepreg_alc,1,0,Yes
+wave1,prepreg_alc_unit,0,0,0 (Never drinking alcohol)
+wave1,prepreg_alc_unit,1,0,Light (< 3 units per week)
+wave1,prepreg_alc_unit,2,0,Moderate (≥3 - <7 units per week)
+wave1,prepreg_alc_unit,3,0,Moderate to heavy (≥7 - <14 units per week)
+wave1,prepreg_alc_unit,4,0,Heavy (≥14 units per week)
+wave1,preg_alc,0,0,No
+wave1,preg_alc,1,0,Yes
+wave1,preg_alc_unit,0,0,0 (Not drinking alcohol)
+wave1,preg_alc_unit,1,0,Light (>0 and <3units per week)
+wave1,preg_alc_unit,2,0,Moderate (≥3 and <7 units per week)
+wave1,preg_alc_unit,3,0,Heavy (≥7  units per week)
+wave1,alc_t1,0,0,No
+wave1,alc_t1,1,0,Yes
+wave1,alc_t2,0,0,No
+wave1,alc_t2,1,0,Yes
+wave1,alc_t3,0,0,No
+wave1,alc_t3,1,0,Yes
+wave1,prepreg_smk,0,0,No
+wave1,prepreg_smk,1,0,Yes
+wave1,prepreg_cig,0,0,None
+wave1,prepreg_cig,1,0,< 10 per day
+wave1,prepreg_cig,2,0,≥ 10 per day
+wave1,preg_smk,0,0,No
+wave1,preg_smk,1,0,Yes
+wave1,preg_cig,0,0,None
+wave1,preg_cig,1,0,< 10 per day
+wave1,preg_cig,2,0,≥ 10 per day
+wave1,smk_t1,0,0,No
+wave1,smk_t1,1,0,Yes
+wave1,smk_t2,0,0,No
+wave1,smk_t2,1,0,Yes
+wave1,smk_t3,0,0,No
+wave1,smk_t3,1,0,Yes
+wave1,preg_dia,0,0,No
+wave1,preg_dia,1,0,Yes
+wave1,preeclam,0,0,No
+wave1,preeclam,1,0,Yes
+wave1,preg_ht,0,0,No
+wave1,preg_ht,1,0,Yes
+wave1,ppd,0,0,No
+wave1,ppd,1,0,Yes
+wave1,cob_m,0,0,Born in country of study
+wave1,cob_m,1,0,Born in EU country or UK (outside study country)
+wave1,cob_m,2,0,Born in other country
+wave1,ethn1_m,1,0,Western
+wave1,ethn1_m,2,0,Non-western
+wave1,ethn1_m,3,0,Mixed
+wave1,ethn2_m,1,0,White (Caucasian)
+wave1,ethn2_m,2,0,Non-white (non-Caucasian)
+wave1,ethn2_m,3,0,Mixed
+wave1,ethn3_m,1,0,Western
+wave1,ethn3_m,2,0,Non-western
+wave1,ethn3_m,3,0,Mixed
+wave1,region_mo,0,0,Host country-born
+wave1,region_mo,1,0,Western EU/EEA and UK
+wave1,region_mo,2,0,Eastern EU
+wave1,region_mo,3,0,Other Europe & Central Asia
+wave1,region_mo,4,0,East Asia & Pacific
+wave1,region_mo,5,0,South Asia
+wave1,region_mo,6,0,Middle East & North Africa
+wave1,region_mo,7,0,Sub-Saharan Africa
+wave1,region_mo,8,0,Latin America & Caribbean
+wave1,region_mo,9,0,North America
+wave1,cob_p,0,0,Born in country of study
+wave1,cob_p,1,0,Born in EU country or UK (outside study country)
+wave1,cob_p,2,0,Born in other country
+wave1,cob_p_fath,1,0,Biological father
+wave1,cob_p_fath,2,0,Social father
+wave1,cob_p_fath,3,0,Social mother
+wave1,cob_p_fath,4,0,Unknown
+wave1,ethn1_p,1,0,Western
+wave1,ethn1_p,2,0,Non-western
+wave1,ethn1_p,3,0,Mixed
+wave1,ethn2_p,1,0,White (Caucasian)
+wave1,ethn2_p,2,0,Non-white (non-Caucasian)
+wave1,ethn2_p,3,0,Mixed
+wave1,ethn3_p,1,0,Western
+wave1,ethn3_p,2,0,Non-western
+wave1,ethn3_p,3,0,Mixed
+wave1,ethn_p_fath,1,0,Biological father
+wave1,ethn_p_fath,2,0,Social father
+wave1,ethn_p_fath,3,0,Social mother
+wave1,ethn_p_fath,4,0,Unknown
+wave1,region_fa,0,0,Host country-born
+wave1,region_fa,1,0,Western EU/EEA and UK
+wave1,region_fa,2,0,Eastern EU
+wave1,region_fa,3,0,Other Europe & Central Asia
+wave1,region_fa,4,0,East Asia & Pacific
+wave1,region_fa,5,0,South Asia
+wave1,region_fa,6,0,Middle East & North Africa
+wave1,region_fa,7,0,Sub-Saharan Africa
+wave1,region_fa,8,0,Latin America & Caribbean
+wave1,region_fa,9,0,North America
+wave1,edu_m_,1,0,High
+wave1,edu_m_,2,0,Medium
+wave1,edu_m_,3,0,Low
+wave1,occup_m_,1,0,Employed
+wave1,occup_m_,2,0,Self-employed  
+wave1,occup_m_,3,0,Unemployed 
+wave1,occup_m_,4,0,"Student, apprentice, student"
+wave1,occup_m_,5,0,Domestic tasks (housewife etc.)
+wave1,occup_m_,6,0,Inactive/other (Receiving benefits or pension etc.)
+wave1,edu_f1_,1,0,High
+wave1,edu_f1_,2,0,Medium
+wave1,edu_f1_,3,0,Low
+wave1,edu_f1_fath_,1,0,Biological father
+wave1,edu_f1_fath_,2,0,Social father
+wave1,edu_f1_fath_,3,0,Social mother
+wave1,edu_f1_fath_,4,0,Unknown
+wave1,occup_f1_,1,0,Employed
+wave1,occup_f1_,2,0,Self-employed
+wave1,occup_f1_,3,0,Unemployed
+wave1,occup_f1_,4,0,"Student, apprentice, student"
+wave1,occup_f1_,5,0,Domestic tasks (housewife etc.)
+wave1,occup_f1_,6,0,Inactive/other (Receiving benefits or pension etc.)
+wave1,occup_f1_fath,1,0,Biological father
+wave1,occup_f1_fath,2,0,Social father
+wave1,occup_f1_fath,3,0,Social mother
+wave1,occup_f1_fath,4,0,Unknown
+wave1,hhincome_,1,0,4th quartile (highest)
+wave1,hhincome_,2,0,3rd quartile
+wave1,hhincome_,3,0,2nd quartile
+wave1,hhincome_,4,0,1st quartile
+wave1,cohab_,1,0,Yes
+wave1,cohab_,2,0,No
+wave1,breastfed_ever,0,0,never breastfed
+wave1,breastfed_ever,1,0,ever breastfed
+wave1,childcare_0,0,0,No
+wave1,childcare_0,1,0,Yes
+wave1,childcare_1,0,0,No
+wave1,childcare_1,1,0,Yes
+wave1,childcare_2,0,0,No
+wave1,childcare_2,1,0,Yes
+wave1,childcare_3,0,0,No
+wave1,childcare_3,1,0,Yes
+wave1,childcarerel_0,0,0,No
+wave1,childcarerel_0,1,0,Yes
+wave1,childcarerel_1,0,0,No
+wave1,childcarerel_1,1,0,Yes
+wave1,childcarerel_2,0,0,No
+wave1,childcarerel_2,1,0,Yes
+wave1,childcarerel_3,0,0,No
+wave1,childcarerel_3,1,0,Yes
+wave1,childcareprof_0,0,0,No
+wave1,childcareprof_0,1,0,Yes
+wave1,childcareprof_1,0,0,No
+wave1,childcareprof_1,1,0,Yes
+wave1,childcareprof_2,0,0,No
+wave1,childcareprof_2,1,0,Yes
+wave1,childcareprof_3,0,0,No
+wave1,childcareprof_3,1,0,Yes
+wave1,childcarecentre_0,0,0,No
+wave1,childcarecentre_0,1,0,Yes
+wave1,childcarecentre_1,0,0,No
+wave1,childcarecentre_1,1,0,Yes
+wave1,childcarecentre_2,0,0,No
+wave1,childcarecentre_2,1,0,Yes
+wave1,childcarecentre_3,0,0,No
+wave1,childcarecentre_3,1,0,Yes
