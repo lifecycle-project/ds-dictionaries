@@ -33,6 +33,14 @@ wave1,agebirth_p_fath,1,0,Biological father
 wave1,agebirth_p_fath,2,0,Social father
 wave1,agebirth_p_fath,3,0,Social mother
 wave1,agebirth_p_fath,4,0,Unknown
+wave1,height_m,0,0,Self-reported
+wave1,height_m,1,0,Measured
+wave1,prepreg_weight,0,0,Self-reported
+wave1,prepreg_weight,1,0,Measured
+wave1,latepreg_weight,0,0,Self-reported
+wave1,latepreg_weight,1,0,Measured
+wave1,weight_f1,0,0,Self-reported
+wave1,weight_f1,1,0,Measured
 wave1,weight_f1_fath,1,0,Biological father
 wave1,weight_f1_fath,2,0,Social father
 wave1,weight_f1_fath,3,0,Social mother
@@ -202,3 +210,124 @@ wave1,childcarecentre_2,0,0,No
 wave1,childcarecentre_2,1,0,Yes
 wave1,childcarecentre_3,0,0,No
 wave1,childcarecentre_3,1,0,Yes
+wave1,sex,1,0,Male
+wave1,sex,2,0,Female
+wave1,birth_month,1,0,January
+wave1,birth_month,2,0,February
+wave1,birth_month,3,0,March
+wave1,birth_month,4,0,April
+wave1,birth_month,5,0,May
+wave1,birth_month,6,0,June
+wave1,birth_month,7,0,July
+wave1,birth_month,8,0,August
+wave1,birth_month,9,0,September
+wave1,birth_month,10,0,October
+wave1,birth_month,11,0,November
+wave1,birth_month,12,0,December
+wave1,mode_delivery,1,0,Vaginal (normal)
+wave1,mode_delivery,2,0,"Forceps, vacuum"
+wave1,mode_delivery,3,0,Elective caesarean
+wave1,mode_delivery,4,0,Emergency caesarean
+wave1,mode_delivery,5,0,Caesarean unspecified
+wave1,cob,0,0,Born in country of study
+wave1,cob,1,0,Born in EU country or UK (outside study country)
+wave1,cob,2,0,Born in other country
+wave1,ethn1,1,0,Western
+wave1,ethn1,2,0,Non-western
+wave1,ethn1,3,0,Mixed
+wave1,ethn2,1,0,White (Caucasian)
+wave1,ethn2,2,0,Non-white (non-Caucasian)
+wave1,ethn2,3,0,Mixed
+wave1,ethn3,1,0,Western
+wave1,ethn3,2,0,Non-western
+wave1,ethn3,3,0,Mixed
+wave1,region_birth,0,0,Host country-born
+wave1,region_birth,1,0,Western EU/EEA and UK
+wave1,region_birth,2,0,Eastern EU
+wave1,region_birth,3,0,Other Europe & Central Asia
+wave1,region_birth,4,0,East Asia & Pacific
+wave1,region_birth,5,0,South Asia
+wave1,region_birth,6,0,Middle East & North Africa
+wave1,region_birth,7,0,Sub-Saharan Africa
+wave1,region_birth,8,0,Latin America & Caribbean
+wave1,region_birth,9,0,North America
+wave1,edu,1,0,High
+wave1,edu,2,0,Medium
+wave1,edu,3,0,Low
+wave1,occup,1,0,Employed
+wave1,occup,2,0,Self-employed
+wave1,occup,3,0,Unemployed
+wave1,occup,4,0,"Student, apprentice, student"
+wave1,occup,5,0,Domestic tasks (housewife etc.)
+wave1,occup,6,0,Inactive/other (Receiving benefits or pension etc.)
+wave1,hhincome_own,1,0,4th quartile (highest)
+wave1,hhincome_own,2,0,3rd quartile
+wave1,hhincome_own,3,0,2nd quartile
+wave1,hhincome_own,4,0,1st quartile
+wave1,smk_ever,0,0,Never
+wave1,smk_ever,1,0,"Yes, at some point"
+wave1,smk_ever,2,0,Current smoker
+wave1,smk_cig,0,0,None
+wave1,smk_cig,1,0,< 10 per day
+wave1,smk_cig,2,0,≥ 10 per day
+wave1,smk_curr,1,0,Non smoker
+wave1,smk_curr,2,0,Ocasional smoker
+wave1,smk_curr,3,0,Regular smoker
+wave1,alc,0,0,No (never drinking)
+wave1,alc,1,0,Yes
+wave1,alc_unit,0,0,0 (Never drinking alcohol)
+wave1,alc_unit,1,0,Light (< 3 units per week)
+wave1,alc_unit,2,0,Moderate (≥3 - <7 units per week)
+wave1,alc_unit,3,0,Moderate to heavy (≥7 - <14 units per week)
+wave1,alc_unit,4,0,Heavy (≥14 units per week)
+wave1,outdoor_season,1,0,Spring
+wave1,outdoor_season,2,0,Summer
+wave1,outdoor_season,3,0,Autumn
+wave1,outdoor_season,4,0,Winter
+wave1,pa_mod_vig,1,0,Questionnaire
+wave1,pa_mod_vig,2,0,Based on MET classification (>= 3 METs)
+wave1,diet_veg,1,0,FFQ
+wave1,diet_veg,2,0,Recall diary
+wave1,diet_veg,3,0,Other
+wave1,diet_fruit,1,0,FFQ
+wave1,diet_fruit,2,0,Recall diary
+wave1,diet_fruit,3,0,Other
+wave1,diet_fish,1,0,FFQ
+wave1,diet_fish,2,0,Recall diary
+wave1,diet_fish,3,0,Other
+wave1,diet_swebev,1,0,FFQ
+wave1,diet_swebev,2,0,Recall diary
+wave1,diet_swebev,3,0,Other
+wave1,diet_na,1,0,FFQ
+wave1,diet_na,2,0,Recall diary
+wave1,diet_na,3,0,Other
+wave1,diet_kcal,1,0,FFQ
+wave1,diet_kcal,2,0,Recall diary
+wave1,diet_kcal,3,0,Other
+wave1,height_,0,0,Measured
+wave1,height_,1,0,Parent/self-reported
+wave1,height_,2,0,Medical record
+wave1,weight_,0,0,Measured
+wave1,weight_,1,0,Parent/self-reported
+wave1,weight_,2,0,Medical record
+wave1,waistcirc_,0,0,Measured
+wave1,waistcirc_,1,0,Parent/self-reported
+wave1,waistcirc_,2,0,Medical record
+wave1,hipcirc_,0,0,Measured
+wave1,hipcirc_,1,0,Parent/self-reported
+wave1,hipcirc_,2,0,Medical record
+wave1,tanner_breast,1,0,Stage I (pre-pubertal)
+wave1,tanner_breast,2,0,Stage II  
+wave1,tanner_breast,3,0,Stage III
+wave1,tanner_breast,4,0,Stage IV
+wave1,tanner_breast,5,0,Stage V (late puberty)
+wave1,tanner_genit,1,0,Stage I (pre-pubertal)
+wave1,tanner_genit,2,0,Stage II  
+wave1,tanner_genit,3,0,Stage III
+wave1,tanner_genit,4,0,Stage IV
+wave1,tanner_genit,5,0,Stage V (late puberty)
+wave1,tanner_pubhair,1,0,Stage I (pre-pubertal)
+wave1,tanner_pubhair,2,0,Stage II  
+wave1,tanner_pubhair,3,0,Stage III
+wave1,tanner_pubhair,4,0,Stage IV
+wave1,tanner_pubhair,5,0,Stage V (late puberty)
