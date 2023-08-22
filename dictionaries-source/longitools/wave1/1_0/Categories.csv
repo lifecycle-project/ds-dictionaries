@@ -33,14 +33,6 @@ wave1,agebirth_p_fath,1,0,Biological father
 wave1,agebirth_p_fath,2,0,Social father
 wave1,agebirth_p_fath,3,0,Social mother
 wave1,agebirth_p_fath,4,0,Unknown
-wave1,height_m,0,0,Self-reported
-wave1,height_m,1,0,Measured
-wave1,prepreg_weight,0,0,Self-reported
-wave1,prepreg_weight,1,0,Measured
-wave1,latepreg_weight,0,0,Self-reported
-wave1,latepreg_weight,1,0,Measured
-wave1,weight_f1,0,0,Self-reported
-wave1,weight_f1,1,0,Measured
 wave1,weight_f1_fath,1,0,Biological father
 wave1,weight_f1_fath,2,0,Social father
 wave1,weight_f1_fath,3,0,Social mother
@@ -284,38 +276,6 @@ wave1,outdoor_season,1,0,Spring
 wave1,outdoor_season,2,0,Summer
 wave1,outdoor_season,3,0,Autumn
 wave1,outdoor_season,4,0,Winter
-wave1,pa_mod_vig,1,0,Questionnaire
-wave1,pa_mod_vig,2,0,Based on MET classification (>= 3 METs)
-wave1,diet_veg,1,0,FFQ
-wave1,diet_veg,2,0,Recall diary
-wave1,diet_veg,3,0,Other
-wave1,diet_fruit,1,0,FFQ
-wave1,diet_fruit,2,0,Recall diary
-wave1,diet_fruit,3,0,Other
-wave1,diet_fish,1,0,FFQ
-wave1,diet_fish,2,0,Recall diary
-wave1,diet_fish,3,0,Other
-wave1,diet_swebev,1,0,FFQ
-wave1,diet_swebev,2,0,Recall diary
-wave1,diet_swebev,3,0,Other
-wave1,diet_na,1,0,FFQ
-wave1,diet_na,2,0,Recall diary
-wave1,diet_na,3,0,Other
-wave1,diet_kcal,1,0,FFQ
-wave1,diet_kcal,2,0,Recall diary
-wave1,diet_kcal,3,0,Other
-wave1,height_,0,0,Measured
-wave1,height_,1,0,Parent/self-reported
-wave1,height_,2,0,Medical record
-wave1,weight_,0,0,Measured
-wave1,weight_,1,0,Parent/self-reported
-wave1,weight_,2,0,Medical record
-wave1,waistcirc_,0,0,Measured
-wave1,waistcirc_,1,0,Parent/self-reported
-wave1,waistcirc_,2,0,Medical record
-wave1,hipcirc_,0,0,Measured
-wave1,hipcirc_,1,0,Parent/self-reported
-wave1,hipcirc_,2,0,Medical record
 wave1,tanner_breast,1,0,Stage I (pre-pubertal)
 wave1,tanner_breast,2,0,Stage II  
 wave1,tanner_breast,3,0,Stage III
@@ -331,3 +291,74 @@ wave1,tanner_pubhair,2,0,Stage II
 wave1,tanner_pubhair,3,0,Stage III
 wave1,tanner_pubhair,4,0,Stage IV
 wave1,tanner_pubhair,5,0,Stage V (late puberty)
+wave1,cimtmeanmax,0,0,Mean
+wave1,cimtmeanmax,1,0,Max
+wave1,diab_t2_icd,0,0,No
+wave1,diab_t2_icd,1,0,Yes
+wave1,diab_t2_sr,0,0,No
+wave1,diab_t2_sr,1,0,Yes
+wave1,hypertension,0,0,No
+wave1,hypertension,1,0,Yes
+wave1,hypertension_med,0,0,No
+wave1,hypertension_med,1,0,Yes
+wave1,chd_hard,0,0,No
+wave1,chd_hard,1,0,Yes
+wave1,chd_broad,0,0,No
+wave1,chd_broad,1,0,Yes
+wave1,chd_ap,0,0,No
+wave1,chd_ap,1,0,Yes
+wave1,chd_mi,0,0,No
+wave1,chd_mi,1,0,Yes
+wave1,chd_acs,0,0,No
+wave1,chd_acs,1,0,Yes
+wave1,chd_revasc,0,0,No
+wave1,chd_revasc,1,0,Yes
+wave1,chd_cabg,0,0,No
+wave1,chd_cabg,1,0,Yes
+wave1,chd_si,0,0,No
+wave1,chd_si,1,0,Yes
+wave1,car_plaques,0,0,No
+wave1,car_plaques,1,0,Yes
+wave1,death,0,0,No
+wave1,death,1,0,Yes
+wave1,death_cause,1,0,Diabetes mellitus (E10-E14)
+wave1,death_cause,2,0,Major cardiovascular diseases (I00-I78)
+wave1,death_cause,3,0,"Diseases of heart (I00-I09, I11, I13, I20-I51)"
+wave1,death_cause,4,0,"Hypertensive heart disease with or without renal disease (I11, I13)"
+wave1,death_cause,5,0,Ischemic heart diseases (I20-I25)
+wave1,death_cause,6,0,"Other diseases of heart (I00-I09, I26-I51)"
+wave1,death_cause,7,0,"Essential (primary) hypertension and hypertensive renal disease (I10, I12)"
+wave1,death_cause,8,0,Cerebrovascular diseases (I60-I69)
+wave1,death_cause,9,0,Atherosclerosis (I70)
+wave1,death_cause,10,0,Other diseases of circulatory system (I71-I78)
+wave1,death_cause,11,0,Other (non-cardiometabolic)
+wave1,hosp,0,0,No
+wave1,hosp,1,0,Yes
+wave1,drugs_a,0,0,No
+wave1,drugs_a,1,0,Yes
+wave1,drugs_b,0,0,No
+wave1,drugs_b,1,0,Yes
+wave1,drugs_c,0,0,No
+wave1,drugs_c,1,0,Yes
+wave1,drugs_d,0,0,No
+wave1,drugs_d,1,0,Yes
+wave1,drugs_g,0,0,No
+wave1,drugs_g,1,0,Yes
+wave1,drugs_h,0,0,No
+wave1,drugs_h,1,0,Yes
+wave1,drugs_j,0,0,No
+wave1,drugs_j,1,0,Yes
+wave1,drugs_l,0,0,No
+wave1,drugs_l,1,0,Yes
+wave1,drugs_m,0,0,No
+wave1,drugs_m,1,0,Yes
+wave1,drugs_n,0,0,No
+wave1,drugs_n,1,0,Yes
+wave1,drugs_p,0,0,No
+wave1,drugs_p,1,0,Yes
+wave1,drugs_r,0,0,No
+wave1,drugs_r,1,0,Yes
+wave1,drugs_s,0,0,No
+wave1,drugs_s,1,0,Yes
+wave1,drugs_v,0,0,No
+wave1,drugs_v,1,0,Yes
