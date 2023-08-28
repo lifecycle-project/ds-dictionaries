@@ -13,7 +13,7 @@ We define here in what versions of the data dictionaries contains which tables.
 
 | Variable          | Type      | Description                                           |
 | ----------------- | --------- | ---------------------------------------------------   |
-|bib1000_valid      |integer    |Partipant a member of BiB1000 sub-cohort               |
+|bib_1000           |integer    |Partipant a member of BiB1000 sub-cohort               |
 
 
 ### Tables
