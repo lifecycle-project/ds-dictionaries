@@ -2,6 +2,28 @@
 
 We define here in what versions of the data dictionaries contains which tables
 
+## 1.2
+
+**dsUpload R-package version >= 4.7.x**
+
+### Content
+- added mets_score_partial_idefics_ to yearly_rep
+
+#### General changes
+
+- added mets_score_partial_idefics_ to yearly_rep
+
+#### Additional variables
+
+- none
+
+### Tables
+
+- 1_2_non_rep
+- 1_2_monthly_rep
+- 1_2_trimester_rep
+- 1_2_yearly_rep
+
 ## 1.1
 
 **dsUpload R-package version >= 4.7.x**
