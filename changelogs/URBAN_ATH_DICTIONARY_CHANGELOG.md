@@ -1,6 +1,9 @@
 # Versions of data dictionaries (urban_ath data)
 
 We define here in what versions of the data dictionaries contains which tables
+## 2023/09/29
+minor fixed issue:
+- add category for urb_deg_birth at category tab in non-repeated dictionary
 
 ## 1.2
 
