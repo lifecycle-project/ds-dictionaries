@@ -10,7 +10,9 @@ We define here in what versions of the data dictionaries contains which tables
 
 #### General changes
 
-Categories options added and updated for ath_blueyn300_* and ath_greenyn300_*, integer values 0 (no) and 1 (yes).
+Categories options added and updated for ath_blueyn300_* and ath_greenyn300_*, integer values 0 (no) and 1 (yes). 
+In addition, type of these variables changed from boolean to binary.
+
 
 *non-repeating variables*
 
