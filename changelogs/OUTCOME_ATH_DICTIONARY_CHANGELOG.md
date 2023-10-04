@@ -4,6 +4,15 @@ We define here in what versions of the data dictionaries contains which tables
 
 ## 1.2
 
+These variables were changed to decimal type in 1_2_yearly_rep
+att_age_	decimal
+edR_age_	decimal
+anR_age_	decimal
+bnR_age_	decimal
+bedR_age_	decimal
+
+
+
 **dsUpload R-package version >= 4.7.x**
 
 ### Content
