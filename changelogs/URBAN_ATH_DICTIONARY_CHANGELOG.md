@@ -2,6 +2,28 @@
 
 We define here in what versions of the data dictionaries contains which tables
 
+## 1.3
+
+**dsUpload R-package version >= 4.7.x**
+
+### Content
+
+#### General changes
+
+- yearly_rep: categories options added and updated for ath_blueyn300_* and ath_greenyn300_*, integer values 0 (no) and 1 (yes). 
+- yearly_rep: in addition, type of these ath_blueyn300_* and ath_greenyn300_* changed from boolean to integer.
+- non_rep: Added categories for urb_deg_birth at category tab.
+
+#### Additional variables
+
+No additional variables added.
+
+### Tables
+
+- 1_3_non_rep
+- 1_3_trimester_rep
+- 1_3_yearly_rep
+
 ## 1.2
 
 **dsUpload R-package version >= 4.7.x**
@@ -47,9 +69,9 @@ No additional variables added.
 
 ### Tables
 
-- 1_1_non_rep
-- 1_1_trimester_rep
-- 1_1_yearly_rep
+- 1_2_non_rep
+- 1_2_trimester_rep
+- 1_2_yearly_rep
 
 ## 1.1
 
