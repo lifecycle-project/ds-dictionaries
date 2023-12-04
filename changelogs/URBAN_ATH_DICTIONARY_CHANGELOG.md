@@ -10,6 +10,8 @@ We define here in what versions of the data dictionaries contains which tables
 
 #### General changes
 
+- 2023 dic 4th. all food environment variables added (these variables were not included in the older versions).
+
 - yearly_rep: categories options added and updated for ath_blueyn300_* and ath_greenyn300_*, integer values 0 (no) and 1 (yes). 
 - yearly_rep: in addition, type of these ath_blueyn300_* and ath_greenyn300_* changed from boolean to integer.
 - non_rep: Added categories for urb_deg_birth at category tab.
