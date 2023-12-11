@@ -1,6 +1,30 @@
 # Versions of data dictionaries (core = wp1 and wp3)
 We define here in what versions of the data dictionaries contains which tables.
 
+## 2.6
+**dsUpload R-package version >= 4.7.x**
+
+### Content
+
+#### General changes
+
+#### Additional variables 
+
+*non-repeated variables*
+
+| Variable          | Type      | Description                                           |
+| ----------------- | --------- | ---------------------------------------------------   |
+|preg_dep           |integer    |Maternal depression during pregnancy (based on questionnaire, interview or medical record)              |
+|preg_dep_raw_continuous |decimal | Maternal depression during pregnancy, raw score of questionnaire |
+|preg_dep_std_continuous |decimal | Maternal depression during pregnancy, standardised score of questionnaire
+
+
+### Tables
+- 2_6_nonrep
+- 2_6_trimester_rep
+- 2_6_yearly_rep
+- 2_6_monthly_rep
+
 ## 2.5
 
 ### Content
