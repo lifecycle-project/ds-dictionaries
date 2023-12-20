@@ -1,6 +1,29 @@
 # Versions of data dictionaries (outcome_ath data)
 
-We define here in what versions of the data dictionaries contains which tables
+We define here what versions of the data dictionaries contains which tables
+
+
+## 1.3
+
+### Content
+in 1_3_yearly_rep dictionary
+- changed categories typo for mets_score_partial_idefics_ (not partical)
+
+#### General changes
+- fix categories in 1_3_yearly_rep
+
+#### Additional variables
+
+- none
+
+### Tables
+
+- 1_3_non_rep
+- 1_3_monthly_rep
+- 1_3_trimester_rep
+- 1_3_yearly_rep
+
+
 
 ## 1.2
 
