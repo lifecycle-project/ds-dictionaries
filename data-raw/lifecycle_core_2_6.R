@@ -17,10 +17,14 @@ categories <- unique(categories)
 categories <- tibble::add_column(table = "core", categories, .before = "variable")
 categories <- dplyr::rename(categories, missing = isMissing)
 
+monthly_rep_v <- monthly_rep_v[!(monthly_rep_v$name %in% non_rep_v$name),]
+trimester_rep_v <- trimester_rep_v[!(trimester_rep_v$name %in% non_rep_v$name),]
+yearly_rep_v <- yearly_rep_v[!(yearly_rep_v$name %in% non_rep_v$name),]
+
 non_rep_v <- tibble::add_column(repeatable = 0, non_rep_v, .before = "label")
 
 variables <- rbind(monthly_rep_v, trimester_rep_v, yearly_rep_v)
-variables <- tibble::add_column(repeatable = 0, variables, .before = "label")
+variables <- tibble::add_column(repeatable = 1, variables, .before = "label")
 
 variables <- rbind(non_rep_v, variables)
 variables <- unique(variables)
