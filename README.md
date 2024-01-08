@@ -44,9 +44,23 @@ For each existing (and new) dictionary a `.R` file is saved in the folder `data-
 usethis::use_data_raw("lifecycle_core_2_6")
 ```
 
-`use_data_raw()` creates the `data-raw/` folder and lists it in `.Rbuildignore`. A typical script in `data-raw/` includes code to prepare a dataset and ends with a call to `use_data()`.
+`use_data_raw()` creates the `data-raw/` folder and lists it in `.Rbuildignore`.
+
+Navigate to the folder `data-raw` and create a directory with the name of the dataset:
+
+`mkdir lifecycle_core_2_6`
+
+Copy the original dictionary files into this folder and edit your R script in `lifecycle_core_2_6.R`, use this script as insparation.
+
+A typical script in `data-raw/` includes code to prepare a dataset and ends with a call to `use_data()`.
+
+Document the dataset by editing `R/data.R`.
+
+Add tests for the 'new' dataset by editing `tests/testthat/test-data.R`
 
 source: <https://r-pkgs.org/data.html>
+
+# Dictionary format
 
 The following columns are used for (mandatory\*, used by dsUpload\*\*):
 
@@ -91,3 +105,23 @@ The following columns are used for (mandatory\*, used by dsUpload\*\*):
 -   missing \*
 
 -   label \*
+
+# Developers
+
+`git clone https://github.com/lifecycle-project/ds-dictionaries.git`\
+\
+Navigate to the folder you just cloned. Open your rstudio and open the project (`ds-dictionaries.Rproj`):
+
+`library(devtools)devtools::load_all()`
+
+To run the tests:
+
+`devtools::tests()`
+
+To perform automatically build and check the package:
+
+`devtools::check()`
+
+-   If the check complains about a missing library you might need to include it into DESCRIPTION, use `usethis::use_package("library")` to do this for you.
+
+Create a new or edit an existing dictionary.
