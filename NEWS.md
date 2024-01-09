@@ -37,7 +37,7 @@ library(dsDictionaries)`
 ### Changes
 
 | name                    | valueType | label                                                                                      |
-|:------------|:------------|:---------------------------------------------|
+|:------------------------|:----------|:-------------------------------------------------------------------------------------------|
 | preg_dep                | integer   | Maternal depression during pregnancy (based on questionnaire, interview or medical record) |
 | preg_dep_raw_continuous | decimal   | Maternal depression during pregnancy, raw score of questionnaire                           |
 | preg_dep_std_continuous | decimal   | Maternal depression during pregnancy, standardised score of questionnaire                  |
