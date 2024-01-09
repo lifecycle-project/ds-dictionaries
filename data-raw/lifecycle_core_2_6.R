@@ -39,4 +39,24 @@ categories <- categories %>%
 
 lifecycle_core_2_6 <- nest_join(variables, categories, by = "name")
 
+# Update NEWS.md (changelogs)
+# - Compare the old and new data variables and categories
+
+data("lifecycle_core_2_5")
+
+diff <- dplyr::setdiff(lifecycle_core_2_6, lifecycle_core_2_5)
+NEWS <- diff %>% dplyr::select(name, valueType, label)
+
+write_lines(c("\n"), "NEWS.md", append = TRUE)
+write_lines("## Release: lifecycle_core_2_6", "NEWS.md", append = TRUE)
+write_lines(c("\n"), "NEWS.md", append = TRUE)
+write_lines("### Usage\n", "NEWS.md", append = TRUE)
+write_lines(c("``` r\nlibrary(dsDictionaries)`\n`data(lifecycle_core_2_6)\n```\n"), "NEWS.md", append = TRUE)
+write_lines("### Changes\n", "NEWS.md", append = TRUE)
+write_lines(
+  knitr::kable(NEWS, caption = "lifecycle_core_2_6 changes"),
+  "NEWS.md",
+  append = TRUE, )
+# Edit the NEWS.md file by hand to make sure it is formatted correctly
+
 usethis::use_data(lifecycle_core_2_6, overwrite = TRUE)
