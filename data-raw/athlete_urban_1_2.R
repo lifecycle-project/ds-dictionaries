@@ -1,0 +1,59 @@
+library(readxl)
+library(tidyverse)
+# Copy over the original dictionary from dictionaries/urban_ath/1_2 to data-raw and rename folder to athlete_urban_1_2
+non_rep_v <- readxl::read_xlsx("data-raw/athlete_urban_1_2/1_2_non_rep.xlsx", sheet = "Variables")
+non_rep_c <- readxl::read_xlsx("data-raw/athlete_urban_1_2/1_2_non_rep.xlsx", sheet = "Categories")
+
+trimester_rep_v <- readxl::read_xlsx("data-raw/athlete_urban_1_2/1_2_trimester_rep.xlsx", sheet = "Variables")
+trimester_rep_c <- readxl::read_xlsx("data-raw/athlete_urban_1_2/1_2_trimester_rep.xlsx", sheet = "Categories")
+
+yearly_rep_v <- readxl::read_xlsx("data-raw/athlete_urban_1_2/1_2_yearly_rep.xlsx", sheet = "Variables")
+yearly_rep_c <- readxl::read_xlsx("data-raw/athlete_urban_1_2/1_2_yearly_rep.xlsx", sheet = "Categories")
+
+categories <- rbind(non_rep_c,trimester_rep_c, yearly_rep_c)
+categories <- unique(categories)
+categories <- tibble::add_column(table = "urban", categories, .before = "variable")
+categories <- dplyr::rename(categories, missing = isMissing)
+
+trimester_rep_v <- trimester_rep_v[!(trimester_rep_v$name %in% non_rep_v$name),]
+yearly_rep_v <- yearly_rep_v[!(yearly_rep_v$name %in% non_rep_v$name),]
+
+non_rep_v <- tibble::add_column(repeatable = 0, non_rep_v, .before = "label")
+
+variables <- rbind(trimester_rep_v, yearly_rep_v)
+variables <- tibble::add_column(repeatable = 1, variables, .before = "label")
+
+variables <- rbind(non_rep_v, variables)
+variables <- unique(variables)
+variables <- tibble::add_column(table = "urban", variables, .before = "name")
+
+variables <- tibble::add_column(columnNamePattern = "", variables, .after = "label")
+variables <- tibble::add_column(valuePattern = "", variables, .after = "columnNamePattern")
+
+categories <- categories %>%
+  dplyr::rename(value = name, name = variable) %>%
+  dplyr::mutate(name = as.character(name), label = as.character(label))
+
+athlete_urban_1_2 <- nest_join(variables, categories, by = "name")
+
+# Update NEWS.md (changelogs)
+# - Compare the old and new data variables and categories
+
+data("athlete_urban_1_1")
+
+diff <- dplyr::setdiff(athlete_urban_1_2, athlete_urban_1_1)
+NEWS <- diff %>% dplyr::select(name, valueType, label)
+
+write_lines(c("\n"), "NEWS.md", append = TRUE)
+write_lines("## Release: athlete_urban_1_2", "NEWS.md", append = TRUE)
+write_lines(c("\n"), "NEWS.md", append = TRUE)
+write_lines("### Usage\n", "NEWS.md", append = TRUE)
+write_lines(c("``` r\nlibrary(dsDictionaries)\ndata(athlete_urban_1_2)\n```\n"), "NEWS.md", append = TRUE)
+write_lines("### Changes\n", "NEWS.md", append = TRUE)
+write_lines(
+  knitr::kable(NEWS, caption = "athlete_urban_1_2 changes"),
+  "NEWS.md",
+  append = TRUE, )
+# Edit the NEWS.md file by hand to make sure it is formatted correctly
+
+usethis::use_data(athlete_urban_1_2, overwrite = TRUE)
