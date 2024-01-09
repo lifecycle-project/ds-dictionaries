@@ -51,7 +51,7 @@ write_lines(c("\n"), "NEWS.md", append = TRUE)
 write_lines("## Release: lifecycle_core_2_6", "NEWS.md", append = TRUE)
 write_lines(c("\n"), "NEWS.md", append = TRUE)
 write_lines("### Usage\n", "NEWS.md", append = TRUE)
-write_lines(c("``` r\nlibrary(dsDictionaries)`\n`data(lifecycle_core_2_6)\n```\n"), "NEWS.md", append = TRUE)
+write_lines(c("``` r\nlibrary(dsDictionaries)\ndata(lifecycle_core_2_6)\n```\n"), "NEWS.md", append = TRUE)
 write_lines("### Changes\n", "NEWS.md", append = TRUE)
 write_lines(
   knitr::kable(NEWS, caption = "lifecycle_core_2_6 changes"),

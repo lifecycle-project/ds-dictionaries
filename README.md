@@ -44,15 +44,19 @@ For each existing (and new) dictionary a `.R` file is saved in the folder `data-
 usethis::use_data_raw("lifecycle_core_2_6")
 ```
 
-`use_data_raw()` creates the `data-raw/` folder and lists it in `.Rbuildignore`.
+`usethis::use_data_raw()` creates the `data-raw/` folder and lists it in `.Rbuildignore`.
 
 Navigate to the folder `data-raw` and create a directory with the name of the dataset:
 
 `mkdir lifecycle_core_2_6`
 
-Copy the original dictionary files into this folder and edit your R script in `lifecycle_core_2_6.R`, use this script as insparation.
+Copy the original dictionary files into this folder and edit your R script in `lifecycle_core_2_6.R`, use this script as inspiration.
+
+Make sure to update [`NEWS.md`](NEWS.md) by describing the changes between dictionaries, for example which variables where added to `lifecycle_core_2_6` compared to `lifecycle_core_2_5`. The script `data-raw/lifecycle_core_2_6.R` contains some code to make this process semi automatic.
 
 A typical script in `data-raw/` includes code to prepare a dataset and ends with a call to `use_data()`.
+
+Run the script you just prepared, in this example `data-raw/lifecycle_core_2_6.R`.
 
 Document the dataset by editing `R/data.R`.
 
