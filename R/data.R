@@ -1,3 +1,21 @@
+#' Athlete chemicals 1_1
+#'
+#' This dataset contains the variables and categories for the chemicals athlete 1_1 dictionary.
+#'
+#' @format A tibble with 8 Variable variables: \code{table}, \code{name}, \code{label}, \code{valueType}, \code{unit}, \code{repeatable}, \code{columnNamePattern}, \code{valuePattern}
+#' and Category variables: \code{table}, \code{value}, \code{missing}, \code{label}
+#' @source <https://athleteproject.eu/>
+"athlete_chemicals_1_1"
+
+#' Athlete chemicals 1_2
+#'
+#' This dataset contains the variables and categories for the chemicals athlete 1_2 dictionary.
+#'
+#' @format A tibble with 8 Variable variables: \code{table}, \code{name}, \code{label}, \code{valueType}, \code{unit}, \code{repeatable}, \code{columnNamePattern}, \code{valuePattern}
+#' and Category variables: \code{table}, \code{value}, \code{missing}, \code{label}
+#' @source <https://athleteproject.eu/>
+"athlete_chemicals_1_2"
+
 #' Athlete outcome 1_2
 #'
 #' This dataset contains the variables and categories for the outcome athlete 1_2 dictionary.

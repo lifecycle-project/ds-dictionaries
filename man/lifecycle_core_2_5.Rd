@@ -15,6 +15,6 @@ and Category variables: \code{table}, \code{value}, \code{missing}, \code{label}
 lifecycle_core_2_5
 }
 \description{
-This dataset contains the variables and categories for the core lifecycle 2_5.
+This dataset contains the variables and categories for the core lifecycle 2_5 dictionary.
 }
 \keyword{datasets}

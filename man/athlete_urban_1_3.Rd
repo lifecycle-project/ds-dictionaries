@@ -15,6 +15,6 @@ and Category variables: \code{table}, \code{value}, \code{missing}, \code{label}
 athlete_urban_1_3
 }
 \description{
-This dataset contains the variables and categories for the urban athlete 1_3.
+This dataset contains the variables and categories for the urban athlete 1_3 dictionary.
 }
 \keyword{datasets}
