@@ -5,7 +5,8 @@ test_that("list of datasets not empty", {
   expect_false(purrr::is_empty(l))
 })
 test_that("expect lifecycle datasets" , {
-  expect_contains(l, c("athlete_urban_1_2","athlete_urban_1_3",
+  expect_contains(l, c("athlete_outcome_1_2", "athlete_outcome_1_3",
+                       "athlete_urban_1_2","athlete_urban_1_3",
                        "lifecycle_core_2_5", "lifecycle_core_2_6",
                        "lifecycle_outcome_1_5", "lifecycle_outcome_1_6"))
 })
@@ -13,6 +14,16 @@ test_that("expect lifecycle datasets" , {
 data(list = data.frame(data(package = "dsDictionaries")$result)$Item, package = "dsDictionaries")
 
 test_that("expect string not empty", {
+  # athlete_outcome_1_2
+  expect_equal(sum(athlete_outcome_1_2$table==""), 0)
+  expect_equal(sum(athlete_outcome_1_2$name==""), 0)
+  expect_equal(sum(athlete_outcome_1_2$valueType==""), 0)
+  expect_equal(sum(athlete_outcome_1_2$label==""), 0)
+  # athlete_outcome_1_3
+  expect_equal(sum(athlete_outcome_1_3$table==""), 0)
+  expect_equal(sum(athlete_outcome_1_3$name==""), 0)
+  expect_equal(sum(athlete_outcome_1_3$valueType==""), 0)
+  expect_equal(sum(athlete_outcome_1_3$label==""), 0)
   # athlete_urban_1_2
   expect_equal(sum(athlete_urban_1_2$table==""), 0)
   expect_equal(sum(athlete_urban_1_2$name==""), 0)
@@ -46,6 +57,12 @@ test_that("expect string not empty", {
 })
 
 test_that("expect zero or one", {
+  # athlete_outcome_1_2
+  expect_contains(athlete_outcome_1_2$repeatable, c(0,1))
+  expect_true(is.double(athlete_outcome_1_2$repeatable))
+  # athlete_outcome_1_3
+  expect_contains(athlete_outcome_1_3$repeatable, c(0,1))
+  expect_true(is.double(athlete_outcome_1_3$repeatable))
   # athlete_urban_1_2
   expect_contains(athlete_urban_1_2$repeatable, c(0,1))
   expect_true(is.double(athlete_urban_1_2$repeatable))
@@ -67,6 +84,24 @@ test_that("expect zero or one", {
 })
 
 test_that("categories column names and types", {
+  # athlete_outcome_1_2
+  t <- dplyr::bind_rows(athlete_outcome_1_2$categories)
+  if (nrow(t) > 0) {
+    expect_equal(names(t), c("table", "value", "missing", "label"))
+    expect_true(is.character(t$table))
+    expect_true(is.double(t$value))
+    expect_true(is.logical(t$missing))
+    expect_true(is.character(t$label))
+  }
+  # athlete_outcome_1_3
+  t <- dplyr::bind_rows(athlete_outcome_1_3$categories)
+  if (nrow(t) > 0) {
+    expect_equal(names(t), c("table", "value", "missing", "label"))
+    expect_true(is.character(t$table))
+    expect_true(is.double(t$value))
+    expect_true(is.logical(t$missing))
+    expect_true(is.character(t$label))
+  }
   # athlete_urban_1_2
   t <- dplyr::bind_rows(athlete_urban_1_2$categories)
   if (nrow(t) > 0) {

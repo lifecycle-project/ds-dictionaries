@@ -24,6 +24,22 @@ Load for example the `lifecycle_core_2_6` dictionary.
 ``` r
 data(lifecycle_core_2_6)
 ```
+## Release: athlete_outcome_1_3
+
+### Usage
+
+``` r
+library(dsDictionaries)
+data(athlete_outcome_1_3)
+```
+
+### Changes
+
+| name                         | valueType | label                                                                                                                             |
+|:-----------|:-----------|:-----------------------------------------------|
+| mets_score_partial_idefics\_ | integer   | Partial definition of MetS. To have a definition of MetS also in those cohorts without information on fasting glucose or HOMA-IR. |
+
+: athlete_outcome_1_3 changes
 
 ## Release: athlete_urban_1_3
 
@@ -37,7 +53,7 @@ data(athlete_urban_1_3)
 ### Changes
 
 | name                      | valueType | label                                                                                                                |
-|:--------------------------|:----------|:---------------------------------------------------------------------------------------------------------------------|
+|:------------|:------------|:----------------------------------------------|
 | urb_deg_birth             | integer   | Urban degree at birth as classified by GHS-SMOD                                                                      |
 | ath_fefoodenv300_preg     | decimal   | number of facilities related to food divided by the area of the 300 meters buffer at pregnancy                       |
 | ath_fefoodenv300_0        | decimal   | number of facilities related to food divided by the area of the 300 meters buffer at birth                           |
@@ -144,7 +160,7 @@ library(dsDictionaries)`
 ### Changes
 
 | name                    | valueType | label                                                                                      |
-|:------------------------|:----------|:-------------------------------------------------------------------------------------------|
+|:------------|:------------|:--------------------------------------------|
 | preg_dep                | integer   | Maternal depression during pregnancy (based on questionnaire, interview or medical record) |
 | preg_dep_raw_continuous | decimal   | Maternal depression during pregnancy, raw score of questionnaire                           |
 | preg_dep_std_continuous | decimal   | Maternal depression during pregnancy, standardised score of questionnaire                  |
@@ -163,8 +179,9 @@ data(lifecycle_outcome_1_6)
 ### Changes
 
 | name                       | valueType | label                                               |
-|:---------------------------|:----------|:----------------------------------------------------|
+|:------------------|:--------------|:-------------------------------------|
 | matsmo_score\_             | integer   | Calculated smoking score using DNAsmokeR            |
 | matsmo_age_at_dna_methyl\_ | integer   | Age of child when DNA sample was collected in years |
 
 : lifecycle_outcome_1_6 changes
+
