@@ -36,6 +36,9 @@ categories <- categories %>%
 
 athlete_urban_1_2 <- nest_join(variables, categories, by = "name")
 
+athlete_urban_1_2 <- athlete_urban_1_2 %>% dplyr::rows_update(., tibble(name = "ath_blueyn300_", valueType = "integer"))
+athlete_urban_1_2 <- athlete_urban_1_2 %>% dplyr::rows_update(., tibble(name = "ath_greenyn300_", valueType = "integer"))
+
 # Update NEWS.md (changelogs)
 # - Compare the old and new data variables and categories
 
