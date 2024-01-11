@@ -37,7 +37,7 @@ athlete_chemicals_1_1 <- nest_join(variables, categories, by = "name")
 # Update NEWS.md (changelogs)
 # - Compare the old and new data variables and categories
 
-data("athlete_outcome_1_1")
+data("athlete_chemicals_1_2")
 
 diff <- dplyr::setdiff(athlete_chemicals_1_2, athlete_chemicals_1_1)
 NEWS <- diff %>% dplyr::select(name, valueType, label)
