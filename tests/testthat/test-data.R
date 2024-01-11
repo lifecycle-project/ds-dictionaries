@@ -4,11 +4,15 @@ l <- data(list = data.frame(data(package = "dsDictionaries")$result)$Item, packa
 test_that("list of datasets not empty", {
   expect_false(purrr::is_empty(l))
 })
-test_that("expect lifecycle datasets" , {
+
+test_that("expect athlete datasets" , {
   expect_contains(l, c("athlete_chemicals_1_1" ,"athlete_chemicals_1_2",
                        "athlete_outcome_1_2", "athlete_outcome_1_3",
-                       "athlete_urban_1_2","athlete_urban_1_3",
-                       "lifecycle_core_2_5", "lifecycle_core_2_6",
+                       "athlete_urban_1_2","athlete_urban_1_3"))
+})
+
+test_that("expect lifecycle datasets" , {
+  expect_contains(l, c("lifecycle_core_2_5", "lifecycle_core_2_6",
                        "lifecycle_outcome_1_5", "lifecycle_outcome_1_6"))
 })
 
