@@ -38,6 +38,8 @@ categories <- categories %>%
 
 athlete_outcome_1_2 <- nest_join(variables, categories, by = "name")
 
+athlete_outcome_1_2 <- athlete_outcome_1_2 %>% dplyr::filter(name!="age_years" | valueType!="decimal")
+
 # Update NEWS.md (changelogs)
 # - Compare the old and new data variables and categories
 

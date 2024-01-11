@@ -48,4 +48,10 @@ test_that("categories column names and types", {
   }
 })
 
+test_that("variable name is unique", {
+  for (x in l) {
+    expect_equal(dplyr::n_distinct(eval(parse(text=x))$name), nrow(eval(parse(text=x))))
+  }
+})
+
 

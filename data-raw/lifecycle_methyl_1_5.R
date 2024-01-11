@@ -30,6 +30,8 @@ categories <- categories %>%
 
 lifecycle_methyl_1_5 <- nest_join(variables, categories, by = "name")
 
+lifecycle_methyl_1_5 <- lifecycle_methyl_1_5 %>% dplyr::filter(name!="age" | label!="Chronological age at the time of DNA methylation measurement in methylclock")
+
 # Update NEWS.md (changelogs)
 # - Compare the old and new data variables and categories
 

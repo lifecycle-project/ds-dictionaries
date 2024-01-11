@@ -39,6 +39,8 @@ categories <- categories %>%
 
 lifecycle_outcome_1_5 <- nest_join(variables, categories, by = "name")
 
+lifecycle_outcome_1_5 <- lifecycle_outcome_1_5 %>% dplyr::filter(name!="age_years" | label!="Age of child in years")
+
 # Update NEWS.md (changelogs)
 # - Compare the old and new data variables and categories
 
