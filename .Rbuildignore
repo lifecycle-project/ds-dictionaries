@@ -2,3 +2,6 @@
 ^\.Rproj\.user$
 ^\.lintr$
 ^data-raw$
+^NEWS.md$
+^changelogs$
+^dictionaries$
