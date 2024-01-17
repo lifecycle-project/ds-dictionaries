@@ -19,10 +19,10 @@ Load `dsDictionaries`.
 library(dsDictionaries)
 ```
 
-Load for example the `lifecycle_core_2_6` dictionary.
+Load for example the `lifecycle_core_3_0` dictionary.
 
 ``` r
-data(lifecycle_core_2_6)
+data(lifecycle_core_3_0)
 ```
 
 ## Release: athlete_chemicals_1_2
@@ -269,24 +269,20 @@ data(athlete_urban_1_3)
 
 : athlete_urban_1_3 changes
 
-## Release: lifecycle_core_2_6
+## Release: lifecycle_core_3_0
+
+LifeCycle core 3_0 dictionary is build from LifeCycle core 2_6 dictionary. The major change is the format of the new dictionary and the fact that the non-repeated and repeats are now combined into 1 dataset `data(lifecyle_core_3_0). After you uploaded your data with dsUpload you need to make sure that your analyses steps are changed to reflect the new format.
 
 ### Usage
 
 ``` r
 library(dsDictionaries)`
-`data(lifecycle_core_2_6)
+`data(lifecycle_core_3_0)
 ```
 
 ### Changes
 
-| name                    | valueType | label                                                                                      |
-|:------------------------|:----------|:-------------------------------------------------------------------------------------------|
-| preg_dep                | integer   | Maternal depression during pregnancy (based on questionnaire, interview or medical record) |
-| preg_dep_raw_continuous | decimal   | Maternal depression during pregnancy, raw score of questionnaire                           |
-| preg_dep_std_continuous | decimal   | Maternal depression during pregnancy, standardised score of questionnaire                  |
-
-: lifecycle_core_2_6 changes
+No new or changed variables compared to lifeCycle core 2_6, only the format of the dictionary has changed.
 
 ## Release: lifecycle_outcome_1_6
 

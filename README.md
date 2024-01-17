@@ -30,7 +30,7 @@ These dictionaries are saved in an Excel file with two sheets *Variables* and *C
 
 The format is roughly the format Opal uses for the dictionary template. Excel files are not version controlled in github. This is why new dictionaries will be saved as comma separated files (.csv) in order to enable version control.
 
-Please note that the original dictionaries (Excel) will not be saved as .csv files, instead these will be available by calling `data(lifecycle_core_2_6)` after loading the R package `library(dsDictionaries)`. Newly created dictionaries will be available as .csv for the developers/maintainers, users will be able to use the dictionary as described above. For example `data(athlete_urban_1_4)`.
+Please note that the original dictionaries (Excel) will not be saved as .csv files, instead these will be available by calling `data(lifecycle_core_3_0)` after loading the R package `library(dsDictionaries)`. Newly created dictionaries will be available as .csv for the developers/maintainers, users will be able to use the dictionary as described above. For example `data(athlete_urban_2_0)`.
 
 Data (dictionaries) are prepared under the folder `data-raw/`.
 
@@ -41,22 +41,22 @@ The dictionary Excel files are saved in the folder `data-raw/{project}/{dictiona
 For each existing (and new) dictionary a `.R` file is saved in the folder `data-raw/`. These files are not bundled in the package but makes it easy to update and version control the data. Below the steps to prepare package data.
 
 ``` r
-usethis::use_data_raw("lifecycle_core_2_6")
+usethis::use_data_raw("lifecycle_core_3_0")
 ```
 
 `usethis::use_data_raw()` creates the `data-raw/` folder and lists it in `.Rbuildignore`.
 
 Navigate to the folder `data-raw` and create a directory with the name of the dataset:
 
-`mkdir lifecycle_core_2_6`
+`mkdir lifecycle_core_3_0`
 
-Copy the original dictionary files into this folder and edit your R script in `lifecycle_core_2_6.R`, use this script as inspiration.
+Copy the original dictionary files into this folder and edit your R script in `lifecycle_core_3_0.R`, use this script as inspiration.
 
-Make sure to update [`NEWS.md`](NEWS.md) by describing the changes between dictionaries, for example which variables where added to `lifecycle_core_2_6` compared to `lifecycle_core_2_5`. The script `data-raw/lifecycle_core_2_6.R` contains some code to make this process semi automatic.
+Make sure to update [`NEWS.md`](NEWS.md) by describing the changes between dictionaries, for example which variables where added to `lifecycle_core_3_1` compared to `lifecycle_core_3_0`. The script `data-raw/lifecycle_core_3_0.R` contains some code to make this process semi automatic.
 
 A typical script in `data-raw/` includes code to prepare a dataset and ends with a call to `use_data()`.
 
-Run the script you just prepared, in this example `data-raw/lifecycle_core_2_6.R`.
+Run the script you just prepared, in this example `data-raw/lifecycle_core_3_0.R`.
 
 Document the dataset by editing `R/data.R`.
 
