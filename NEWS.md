@@ -85,20 +85,17 @@ library(dsDictionaries)`
 
 No new or changed variables compared to lifeCycle core 2_6, only the format of the dictionary has changed.
 
-## Release: lifecycle_outcome_1_6
+## Release: lifecycle_outcome_2_0
+
+LifeCycle outcome 2_0 dictionary is build from LifeCycle outcome 1_6 dictionary. The major change is the format of the new dictionary and the fact that the non-repeated and repeats are now combined into 1 dataset `data(lifecyle_outcome_2_0). After you uploaded your data with dsUpload you need to make sure that your analyses steps are changed to reflect the new format.
 
 ### Usage
 
 ``` r
 library(dsDictionaries)
-data(lifecycle_outcome_1_6)
+data(lifecycle_outcome_2_0)
 ```
 
 ### Changes
 
-| name                       | valueType | label                                               |
-|:---------------------------|:----------|:----------------------------------------------------|
-| matsmo_score\_             | integer   | Calculated smoking score using DNAsmokeR            |
-| matsmo_age_at_dna_methyl\_ | integer   | Age of child when DNA sample was collected in years |
-
-: lifecycle_outcome_1_6 changes
+No new or changed variables compared to lifeCycle outcome 2_0, only the format of the dictionary has changed.
