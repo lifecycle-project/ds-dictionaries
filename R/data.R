@@ -16,23 +16,14 @@
 #' @source <https://athleteproject.eu/>
 "athlete_outcome_2_0"
 
-#' Athlete urban 1_2
+#' Athlete urban 2_0
 #'
-#' This dataset contains the variables and categories for the urban athlete 1_2 dictionary.
-#'
-#' @format A tibble with 8 Variable variables: \code{table}, \code{name}, \code{label}, \code{valueType}, \code{unit}, \code{repeatable}, \code{columnNamePattern}, \code{valuePattern}
-#' and Category variables: \code{table}, \code{value}, \code{missing}, \code{label}
-#' @source <https://athleteproject.eu/>
-"athlete_urban_1_2"
-
-#' Athlete urban 1_3
-#'
-#' This dataset contains the variables and categories for the urban athlete 1_3 dictionary.
+#' This dataset contains the variables and categories for the urban athlete 2_0 dictionary.
 #'
 #' @format A tibble with 8 Variable variables: \code{table}, \code{name}, \code{label}, \code{valueType}, \code{unit}, \code{repeatable}, \code{columnNamePattern}, \code{valuePattern}
 #' and Category variables: \code{table}, \code{value}, \code{missing}, \code{label}
 #' @source <https://athleteproject.eu/>
-"athlete_urban_1_3"
+"athlete_urban_2_0"
 
 #' Lifecycle core 3_0
 #'

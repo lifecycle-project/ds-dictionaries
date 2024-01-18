@@ -8,7 +8,7 @@ test_that("list of datasets not empty", {
 test_that("expect athlete datasets" , {
   expect_contains(l, c("athlete_chemicals_2_0",
                        "athlete_outcome_2_0",
-                       "athlete_urban_1_2","athlete_urban_1_3"))
+                       "athlete_urban_2_0"))
 })
 
 test_that("expect lifecycle datasets" , {
