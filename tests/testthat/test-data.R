@@ -13,7 +13,7 @@ test_that("expect athlete datasets" , {
 
 test_that("expect lifecycle datasets" , {
   expect_contains(l, c("lifecycle_core_3_0",
-                       "lifecycle_methyl_1_5",
+                       "lifecycle_methyl_cord_blood_2_0",
                        "lifecycle_outcome_2_0"))
 })
 

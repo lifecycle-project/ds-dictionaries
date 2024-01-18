@@ -98,4 +98,19 @@ data(lifecycle_outcome_2_0)
 
 ### Changes
 
-No new or changed variables compared to lifeCycle outcome 2_0, only the format of the dictionary has changed.
+No new or changed variables compared to lifeCycle outcome 1_6, only the format of the dictionary has changed.
+
+## Release: lifecycle_methyl_cord_blood_2_0
+
+LifeCycle methyl_cord_blood 2_0 dictionary is build from LifeCycle methyl 1_5 dictionary. The major change is the format of the new dictionary and the fact that the non-repeated and cord blood repeats (lifecycle_methyl_peripherial_blood_2_0 and lifecycle_methyl_placenta_2_0 separately available) into 1 dataset `data(lifecyle_methyl_cord_blood_2_0). After you uploaded your data with dsUpload you need to make sure that your analyses steps are changed to reflect the new format.
+
+### Usage
+
+``` r
+library(dsDictionaries)
+data(lifecycle_methyl_cord_blood_2_0)
+```
+
+### Changes
+
+No new or changed variables compared to lifeCycle methyl 1_5, only the format of the dictionary has changed.
