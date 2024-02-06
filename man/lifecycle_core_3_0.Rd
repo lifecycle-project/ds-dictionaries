@@ -5,7 +5,7 @@
 \alias{lifecycle_core_3_0}
 \title{Lifecycle core 3_0}
 \format{
-A tibble with 8 Variable variables: \code{table}, \code{name}, \code{label}, \code{valueType}, \code{unit}, \code{repeatable}, \code{columnNamePattern}, \code{valuePattern}
+A tibble with 9 Variable variables: \code{table}, \code{name}, \code{label}, \code{valueType}, \code{unit}, \code{timeDependentCovariate}, \code{repeatable}, \code{columnNamePattern}, \code{valuePattern}
 and Category variables: \code{table}, \code{value}, \code{missing}, \code{label}
 }
 \source{

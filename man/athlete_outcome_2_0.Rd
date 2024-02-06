@@ -5,7 +5,7 @@
 \alias{athlete_outcome_2_0}
 \title{Athlete outcome 2_0}
 \format{
-A tibble with 8 Variable variables: \code{table}, \code{name}, \code{label}, \code{valueType}, \code{unit}, \code{repeatable}, \code{columnNamePattern}, \code{valuePattern}
+A tibble with 9 Variable variables: \code{table}, \code{name}, \code{label}, \code{valueType}, \code{unit}, \code{timeDependentCovariate}, \code{repeatable}, \code{columnNamePattern}, \code{valuePattern}
 and Category variables: \code{table}, \code{value}, \code{missing}, \code{label}
 }
 \source{
