@@ -42,6 +42,7 @@ yearly_rep_v <- tibble::add_column(timeDependentCovariate = "age_years", yearly_
 #variables <- tibble::add_column(repeatable = 1, variables, .before = "label")
 
 variables <- rbind(non_rep_v, weekly_rep_v, monthly_rep_v, yearly_rep_v)
+variables <- variables %>% dplyr::filter(name != "row_id")
 variables <- unique(variables)
 variables <- tibble::add_column(table = dictionary_kind, variables, .before = "name")
 
