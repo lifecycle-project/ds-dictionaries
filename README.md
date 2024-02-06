@@ -53,6 +53,8 @@ The following columns are used for (required\*, used by dsUpload\*\*):
 
 - alias
 
+- timeDependentCovariate \* (required, empty for non repeats)
+
 - columnNamePattern \*\* (optional used by dsUpload)
 
 - valuePattern \*\* (optional used by dsUpload)
