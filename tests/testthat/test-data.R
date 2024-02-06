@@ -55,11 +55,12 @@ test_that("variable name is unique", {
 
 test_that("variable column names and types", {
   for (x in l) {
-    expect_equal(names(eval(parse(text=x))), c("table", "name", "valueType", "unit", "repeatable", "label", "columnNamePattern", "valuePattern", "categories"))
+    expect_equal(names(eval(parse(text=x))), c("table", "name", "valueType", "unit", "timeDependentCovariate","repeatable", "label", "columnNamePattern", "valuePattern", "categories"))
     expect_true(is.character(eval(parse(text=x))$table))
     expect_true(is.character(eval(parse(text=x))$name))
     expect_true(is.character(eval(parse(text=x))$valueType))
     expect_true(is.character(eval(parse(text=x))$unit))
+    expect_true(is.character(eval(parse(text=x))$timeDependentCovariate))
     expect_true(is.double(eval(parse(text=x))$repeatable))
     expect_true(is.character(eval(parse(text=x))$label))
   }

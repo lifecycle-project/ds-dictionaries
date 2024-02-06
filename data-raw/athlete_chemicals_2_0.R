@@ -26,9 +26,6 @@ trimester_rep_v <- tibble::add_column(timeDependentCovariate = "age_trimester", 
 yearly_rep_v <- tibble::add_column(repeatable = 1, yearly_rep_v, .before = "label")
 yearly_rep_v <- tibble::add_column(timeDependentCovariate = "age_years", yearly_rep_v, .before = "repeatable")
 
-#variables <- rbind(trimester_rep_v, yearly_rep_v)
-#variables <- tibble::add_column(repeatable = 1, variables, .before = "label")
-
 variables <- rbind(non_rep_v, trimester_rep_v, yearly_rep_v)
 variables <- unique(variables)
 variables <- variables %>% dplyr::filter(name != "row_id")
