@@ -71,6 +71,19 @@ The following columns are used for (required\*, used by dsUpload\*\*):
 
 - label \* (required)
 
+### Variables
+
+The **first variable** `name` is the primary key for the table. The
+primary key is the unique identifier for each row in the table. The
+primary key is used to join the table with other tables.
+
+For LifeCycle (derived) datasets the primary key is the `child_id`.
+
+The `timeDependentCovariate` is used by repeated measures. For example,
+in the LifeCycle project the trimester data uses the
+`timeDependentCovariate` to indicate the trimester with the variable
+`age_trimester`. The `timeDependentCovariate` is empty for non repeats.
+
 ## Create a dataset from existing dictionary
 
 The transformation (or creating a dataset from existing dictionary) is

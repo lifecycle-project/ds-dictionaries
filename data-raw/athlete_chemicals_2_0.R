@@ -1,5 +1,6 @@
 library(readxl)
 library(tidyverse)
+dictionary_kind = "chemicals"
 # Copy over the original dictionary from dictionaries/chemicals_ath/1_2 to data-raw and rename folder to athlete_chemicals_2_0
 non_rep_v <- readxl::read_xlsx("data-raw/athlete_chemicals_2_0/1_2_non_rep.xlsx", sheet = "Variables")
 non_rep_c <- readxl::read_xlsx("data-raw/athlete_chemicals_2_0/1_2_non_rep.xlsx", sheet = "Categories")
@@ -10,20 +11,29 @@ yearly_rep_v <- readxl::read_xlsx("data-raw/athlete_chemicals_2_0/1_2_yearly_rep
 
 categories <- rbind(non_rep_c)
 categories <- unique(categories)
-categories <- tibble::add_column(table = "chemicals", categories, .before = "variable")
+categories <- tibble::add_column(table = dictionary_kind, categories, .before = "variable")
 categories <- dplyr::rename(categories, missing = isMissing)
 
 trimester_rep_v <- trimester_rep_v[!(trimester_rep_v$name %in% non_rep_v$name),]
 yearly_rep_v <- yearly_rep_v[!(yearly_rep_v$name %in% non_rep_v$name),]
 
 non_rep_v <- tibble::add_column(repeatable = 0, non_rep_v, .before = "label")
+non_rep_v <- tibble::add_column(timeDependentCovariate = "", non_rep_v, .before = "repeatable")
 
-variables <- rbind(trimester_rep_v, yearly_rep_v)
-variables <- tibble::add_column(repeatable = 1, variables, .before = "label")
+trimester_rep_v <- tibble::add_column(repeatable = 1, trimester_rep_v, .before = "label")
+trimester_rep_v <- tibble::add_column(timeDependentCovariate = "age_trimester", trimester_rep_v, .before = "repeatable")
 
-variables <- rbind(non_rep_v, variables)
+yearly_rep_v <- tibble::add_column(repeatable = 1, yearly_rep_v, .before = "label")
+yearly_rep_v <- tibble::add_column(timeDependentCovariate = "age_years", yearly_rep_v, .before = "repeatable")
+
+#variables <- rbind(trimester_rep_v, yearly_rep_v)
+#variables <- tibble::add_column(repeatable = 1, variables, .before = "label")
+
+variables <- rbind(non_rep_v, trimester_rep_v, yearly_rep_v)
 variables <- unique(variables)
-variables <- tibble::add_column(table = "chemicals", variables, .before = "name")
+variables <- variables %>% dplyr::filter(name != "row_id")
+
+variables <- tibble::add_column(table = dictionary_kind, variables, .before = "name")
 
 variables <- tibble::add_column(columnNamePattern = "", variables, .after = "label")
 variables <- tibble::add_column(valuePattern = "", variables, .after = "columnNamePattern")
