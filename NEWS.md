@@ -25,6 +25,8 @@ Load for example the `lifecycle_core_3_0` dictionary.
 data(lifecycle_core_3_0)
 ```
 
+# Changes in version 0.0.0.9000
+
 ## Release: athlete_chemicals_2_0
 
 Athlete chemicals 2_0 dictionary is build from athlete chemicals  1_2 dictionary. The major change is the format of the new dictionary and the fact that the non-repeated and repeats are now combined into 1 dataset `data(athlete_chemicals_2_0). After you uploaded your data with dsUpload you need to make sure that your analyses steps are changed to reflect the new format.
