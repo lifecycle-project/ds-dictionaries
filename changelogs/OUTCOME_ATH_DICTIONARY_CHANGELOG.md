@@ -7,8 +7,8 @@ We define here what versions of the data dictionaries contains which tables
 
 ### Content
 in 1_3_yearly_rep dictionary
-- changed categories typo for mets_score_partial_idefics_ (not partical)
-
+- changed categories typo for mets_score_partial_idefics_ (not partical), in adition in categories
+- new variables bmi_idefics_perc_, bmi_idefics_z_, wc_idefics_z_, hdl_idefics_z_, triglyceride_idefics_z_, glucose_idefics_z_, sbp_idefics_z_, dbp_idefics_z_, mets_nriskfactors_idefics_
 #### General changes
 - fix categories in 1_3_yearly_rep
 
