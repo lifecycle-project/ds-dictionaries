@@ -1,7 +1,54 @@
 # Versions of data dictionaries (outcome = wp4, wp5 and wp6)
 We define here in what versions of the data dictionaries contains which tables.
 
-## 1.6 --> not released yet
+## 1.7 --> not released yet
+**dsUpload R-package version >= 4.4.x** 
+  
+### Content
+Only affects the outcome yearly repeated measurements.
+
+#### General changes
+- *yearly repeated variables*
+  - Added generated spinal pain variables
+
+#### Additional variables
+
+*yearly-repeated variables*
+  
+**Added generated spinal pain variables**
+  
+  | Variable                  | Type    | Description                                                                                                                                                               |
+  | ------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | sp_                       | integer | Variable indicating whether the person has experienced any spinal pain                                                                                                    |
+  | sp_age                    | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_                                                                                       |
+  | sp_neck                   | integer | Variable indicating whether the person has experienced any neck pain                                                                                                      |
+  | sp_neck_age               | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_neck                                                                                   |
+  | sp_midback                | integer | Variable indicating whether the person has experienced any mid back pain                                                                                                  |
+  | sp_midback_age            | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_midback                                                                                |
+  | sp_lowback                | integer | Variable indicating whether the person has experienced any low back pain                                                                                                  |
+  | sp_lowback_age            | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_lowback                                                                                |
+  | sp_conseq                 | integer | Variable indicating whether the person has experienced any consequences of spinal pain, i.e. care seeking behaviour, physical activity restriction and school absenteeism |
+  | sp_conseq_age             | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_conseq                                                                                 |
+  | sp_conseq_careseek        | integer | Variable indicating whether the person has exhibited any care seeking behaviour due to spinal pain                                                                        |
+  | sp_conseq_careseek_age    | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_conseq_careseek                                                                        |
+  | sp_conseq_physact         | integer | Variable indicating whether the person has experienced any physical activity restriction due to spinal pain                                                               |
+  | sp_conseq_physact_age     | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_conseq_physact                                                                         |
+  | sp_conseq_schoolabs       | integer | Variable indicating whether the person has been absent from school due to spinal pain                                                                                     |
+  | sp_conseq_schoolabs_age   | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_conseq_schoolabs                                                                       |
+  | sp_frequency              | integer | Variable indicating the frequency of experiencing spinal pain                                                                                                             |
+  | sp_frequency_age          | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_frequency                                                                              |
+  | sp_intensity              | integer | Variable indicating the intensity of the worst spinal pain experience/ episode                                                                                            |
+  | sp_intensity_age          | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_intensity                                                                              |
+
+### Tables
+- 1_7_non_repeated
+- 1_7_weekly_repeated
+- 1_7_monthly_repeated
+- 1_7_yearly_repeated
+
+
+
+## 1.6
 **dsUpload R-package version >= 4.4.x** 
 
 ### Content
@@ -42,7 +89,7 @@ Only affects the yearly repeated measurements.
 
 #### General changes
 - *yearly-repeated variables*
-  - Added grass alergic varialbe
+  - Added grass allergic variable
 
 #### Additional variables
 
