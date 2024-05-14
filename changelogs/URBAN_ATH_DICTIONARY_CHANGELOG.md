@@ -9,7 +9,15 @@ We define here in what versions of the data dictionaries contains which tables
 ### Content
 
 #### General changes
+- 2024 may 14th.  remove duplicate variable 'ath_foodenvdens300_' , error in yearly repeated table creation. 
 
+*yearly-repeated variables*
+- remove duplicate variable 'ath_foodenvdens300_'
+
+##tables 
+- 1_3_yearly_rep
+
+### General changes
 - 2023 dic 4th. all food environment variables added (these variables were not included in the older versions).
 
 - yearly_rep: categories options added and updated for ath_blueyn300_* and ath_greenyn300_*, integer values 0 (no) and 1 (yes). 
