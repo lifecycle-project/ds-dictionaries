@@ -5,6 +5,7 @@ We define here in what versions of the data dictionaries contains which tables.
 **dsUpload R-package version >= 4.7.x**
 
 ### Content
+Add categories 616 for Poland and 56 for Belgium (needed for CHOP) that were missing from the coh_country variable in "Categories" sheet of 2_6_non_rep dictionary. 
 
 #### General changes
 
