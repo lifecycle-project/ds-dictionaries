@@ -1,0 +1,364 @@
+table,variable,name,missing,label
+wave1,study_id ,101,0,Gen R 
+wave1,study_id ,105,0,ALSPAC 
+wave1,study_id ,111,0,ELFE
+wave1,study_id ,112,0,EDEN 
+wave1,study_id ,113,0,NFBC66 
+wave1,study_id ,114,0,NFBC86
+wave1,study_id ,118,0,DFBC
+wave1,study_id ,119,0,FinnGeDi
+wave1,study_id ,120,0,CONSTANCES
+wave1,study_id ,121,0,Rotterdam Study
+wave1,study_id ,122,0,OULU1935 and 1945
+wave1,study_id ,123,0,ELIPA
+wave1,study_id ,124,0,Fibrefects
+wave1,study_id ,125,0,NOMA
+wave1,study_id ,126,0,PANIC
+wave1,study_id ,127,0,SYSDIMET
+wave1,study_country,246,0,Finland
+wave1,study_country,250,0,France
+wave1,study_country,276,0,Germany
+wave1,study_country,300,0,Greece
+wave1,study_country,380,0,Italy
+wave1,study_country,528,0,Netherlands
+wave1,study_country,578,0,Norway
+wave1,study_country,724,0,Spain
+wave1,study_country,826,0,United Kingdom
+wave1,parity_m,0,0,0
+wave1,parity_m,1,0,1
+wave1,parity_m,2,0,2
+wave1,parity_m,3,0,3
+wave1,parity_m,4,0,≥ 4
+wave1,agebirth_p_fath,1,0,Biological father
+wave1,agebirth_p_fath,2,0,Social father
+wave1,agebirth_p_fath,3,0,Social mother
+wave1,agebirth_p_fath,4,0,Unknown
+wave1,weight_f1_fath,1,0,Biological father
+wave1,weight_f1_fath,2,0,Social father
+wave1,weight_f1_fath,3,0,Social mother
+wave1,weight_f1_fath,4,0,Unknown
+wave1,height_f1_fath,1,0,Biological father
+wave1,height_f1_fath,2,0,Social father
+wave1,height_f1_fath,3,0,Social mother
+wave1,height_f1_fath,4,0,Unknown
+wave1,prepreg_alc,0,0,No (never drinking)
+wave1,prepreg_alc,1,0,Yes
+wave1,prepreg_alc_unit,0,0,0 (Never drinking alcohol)
+wave1,prepreg_alc_unit,1,0,Light (< 3 units per week)
+wave1,prepreg_alc_unit,2,0,Moderate (≥3 - <7 units per week)
+wave1,prepreg_alc_unit,3,0,Moderate to heavy (≥7 - <14 units per week)
+wave1,prepreg_alc_unit,4,0,Heavy (≥14 units per week)
+wave1,preg_alc,0,0,No
+wave1,preg_alc,1,0,Yes
+wave1,preg_alc_unit,0,0,0 (Not drinking alcohol)
+wave1,preg_alc_unit,1,0,Light (>0 and <3units per week)
+wave1,preg_alc_unit,2,0,Moderate (≥3 and <7 units per week)
+wave1,preg_alc_unit,3,0,Heavy (≥7  units per week)
+wave1,alc_t1,0,0,No
+wave1,alc_t1,1,0,Yes
+wave1,alc_t2,0,0,No
+wave1,alc_t2,1,0,Yes
+wave1,alc_t3,0,0,No
+wave1,alc_t3,1,0,Yes
+wave1,prepreg_smk,0,0,No
+wave1,prepreg_smk,1,0,Yes
+wave1,prepreg_cig,0,0,None
+wave1,prepreg_cig,1,0,< 10 per day
+wave1,prepreg_cig,2,0,≥ 10 per day
+wave1,preg_smk,0,0,No
+wave1,preg_smk,1,0,Yes
+wave1,preg_cig,0,0,None
+wave1,preg_cig,1,0,< 10 per day
+wave1,preg_cig,2,0,≥ 10 per day
+wave1,smk_t1,0,0,No
+wave1,smk_t1,1,0,Yes
+wave1,smk_t2,0,0,No
+wave1,smk_t2,1,0,Yes
+wave1,smk_t3,0,0,No
+wave1,smk_t3,1,0,Yes
+wave1,preg_dia,0,0,No
+wave1,preg_dia,1,0,Yes
+wave1,preeclam,0,0,No
+wave1,preeclam,1,0,Yes
+wave1,preg_ht,0,0,No
+wave1,preg_ht,1,0,Yes
+wave1,ppd,0,0,No
+wave1,ppd,1,0,Yes
+wave1,cob_m,0,0,Born in country of study
+wave1,cob_m,1,0,Born in EU country or UK (outside study country)
+wave1,cob_m,2,0,Born in other country
+wave1,ethn1_m,1,0,Western
+wave1,ethn1_m,2,0,Non-western
+wave1,ethn1_m,3,0,Mixed
+wave1,ethn2_m,1,0,White (Caucasian)
+wave1,ethn2_m,2,0,Non-white (non-Caucasian)
+wave1,ethn2_m,3,0,Mixed
+wave1,ethn3_m,1,0,Western
+wave1,ethn3_m,2,0,Non-western
+wave1,ethn3_m,3,0,Mixed
+wave1,region_mo,0,0,Host country-born
+wave1,region_mo,1,0,Western EU/EEA and UK
+wave1,region_mo,2,0,Eastern EU
+wave1,region_mo,3,0,Other Europe & Central Asia
+wave1,region_mo,4,0,East Asia & Pacific
+wave1,region_mo,5,0,South Asia
+wave1,region_mo,6,0,Middle East & North Africa
+wave1,region_mo,7,0,Sub-Saharan Africa
+wave1,region_mo,8,0,Latin America & Caribbean
+wave1,region_mo,9,0,North America
+wave1,cob_p,0,0,Born in country of study
+wave1,cob_p,1,0,Born in EU country or UK (outside study country)
+wave1,cob_p,2,0,Born in other country
+wave1,cob_p_fath,1,0,Biological father
+wave1,cob_p_fath,2,0,Social father
+wave1,cob_p_fath,3,0,Social mother
+wave1,cob_p_fath,4,0,Unknown
+wave1,ethn1_p,1,0,Western
+wave1,ethn1_p,2,0,Non-western
+wave1,ethn1_p,3,0,Mixed
+wave1,ethn2_p,1,0,White (Caucasian)
+wave1,ethn2_p,2,0,Non-white (non-Caucasian)
+wave1,ethn2_p,3,0,Mixed
+wave1,ethn3_p,1,0,Western
+wave1,ethn3_p,2,0,Non-western
+wave1,ethn3_p,3,0,Mixed
+wave1,ethn_p_fath,1,0,Biological father
+wave1,ethn_p_fath,2,0,Social father
+wave1,ethn_p_fath,3,0,Social mother
+wave1,ethn_p_fath,4,0,Unknown
+wave1,region_fa,0,0,Host country-born
+wave1,region_fa,1,0,Western EU/EEA and UK
+wave1,region_fa,2,0,Eastern EU
+wave1,region_fa,3,0,Other Europe & Central Asia
+wave1,region_fa,4,0,East Asia & Pacific
+wave1,region_fa,5,0,South Asia
+wave1,region_fa,6,0,Middle East & North Africa
+wave1,region_fa,7,0,Sub-Saharan Africa
+wave1,region_fa,8,0,Latin America & Caribbean
+wave1,region_fa,9,0,North America
+wave1,edu_m_,1,0,High
+wave1,edu_m_,2,0,Medium
+wave1,edu_m_,3,0,Low
+wave1,occup_m_,1,0,Employed
+wave1,occup_m_,2,0,Self-employed  
+wave1,occup_m_,3,0,Unemployed 
+wave1,occup_m_,4,0,"Student, apprentice, student"
+wave1,occup_m_,5,0,Domestic tasks (housewife etc.)
+wave1,occup_m_,6,0,Inactive/other (Receiving benefits or pension etc.)
+wave1,edu_f1_,1,0,High
+wave1,edu_f1_,2,0,Medium
+wave1,edu_f1_,3,0,Low
+wave1,edu_f1_fath_,1,0,Biological father
+wave1,edu_f1_fath_,2,0,Social father
+wave1,edu_f1_fath_,3,0,Social mother
+wave1,edu_f1_fath_,4,0,Unknown
+wave1,occup_f1_,1,0,Employed
+wave1,occup_f1_,2,0,Self-employed
+wave1,occup_f1_,3,0,Unemployed
+wave1,occup_f1_,4,0,"Student, apprentice, student"
+wave1,occup_f1_,5,0,Domestic tasks (housewife etc.)
+wave1,occup_f1_,6,0,Inactive/other (Receiving benefits or pension etc.)
+wave1,occup_f1_fath,1,0,Biological father
+wave1,occup_f1_fath,2,0,Social father
+wave1,occup_f1_fath,3,0,Social mother
+wave1,occup_f1_fath,4,0,Unknown
+wave1,hhincome_,1,0,4th quartile (highest)
+wave1,hhincome_,2,0,3rd quartile
+wave1,hhincome_,3,0,2nd quartile
+wave1,hhincome_,4,0,1st quartile
+wave1,cohab_,1,0,Yes
+wave1,cohab_,2,0,No
+wave1,breastfed_ever,0,0,never breastfed
+wave1,breastfed_ever,1,0,ever breastfed
+wave1,childcare_0,0,0,No
+wave1,childcare_0,1,0,Yes
+wave1,childcare_1,0,0,No
+wave1,childcare_1,1,0,Yes
+wave1,childcare_2,0,0,No
+wave1,childcare_2,1,0,Yes
+wave1,childcare_3,0,0,No
+wave1,childcare_3,1,0,Yes
+wave1,childcarerel_0,0,0,No
+wave1,childcarerel_0,1,0,Yes
+wave1,childcarerel_1,0,0,No
+wave1,childcarerel_1,1,0,Yes
+wave1,childcarerel_2,0,0,No
+wave1,childcarerel_2,1,0,Yes
+wave1,childcarerel_3,0,0,No
+wave1,childcarerel_3,1,0,Yes
+wave1,childcareprof_0,0,0,No
+wave1,childcareprof_0,1,0,Yes
+wave1,childcareprof_1,0,0,No
+wave1,childcareprof_1,1,0,Yes
+wave1,childcareprof_2,0,0,No
+wave1,childcareprof_2,1,0,Yes
+wave1,childcareprof_3,0,0,No
+wave1,childcareprof_3,1,0,Yes
+wave1,childcarecentre_0,0,0,No
+wave1,childcarecentre_0,1,0,Yes
+wave1,childcarecentre_1,0,0,No
+wave1,childcarecentre_1,1,0,Yes
+wave1,childcarecentre_2,0,0,No
+wave1,childcarecentre_2,1,0,Yes
+wave1,childcarecentre_3,0,0,No
+wave1,childcarecentre_3,1,0,Yes
+wave1,sex,1,0,Male
+wave1,sex,2,0,Female
+wave1,birth_month,1,0,January
+wave1,birth_month,2,0,February
+wave1,birth_month,3,0,March
+wave1,birth_month,4,0,April
+wave1,birth_month,5,0,May
+wave1,birth_month,6,0,June
+wave1,birth_month,7,0,July
+wave1,birth_month,8,0,August
+wave1,birth_month,9,0,September
+wave1,birth_month,10,0,October
+wave1,birth_month,11,0,November
+wave1,birth_month,12,0,December
+wave1,mode_delivery,1,0,Vaginal (normal)
+wave1,mode_delivery,2,0,"Forceps, vacuum"
+wave1,mode_delivery,3,0,Elective caesarean
+wave1,mode_delivery,4,0,Emergency caesarean
+wave1,mode_delivery,5,0,Caesarean unspecified
+wave1,cob,0,0,Born in country of study
+wave1,cob,1,0,Born in EU country or UK (outside study country)
+wave1,cob,2,0,Born in other country
+wave1,ethn1,1,0,Western
+wave1,ethn1,2,0,Non-western
+wave1,ethn1,3,0,Mixed
+wave1,ethn2,1,0,White (Caucasian)
+wave1,ethn2,2,0,Non-white (non-Caucasian)
+wave1,ethn2,3,0,Mixed
+wave1,ethn3,1,0,Western
+wave1,ethn3,2,0,Non-western
+wave1,ethn3,3,0,Mixed
+wave1,region_birth,0,0,Host country-born
+wave1,region_birth,1,0,Western EU/EEA and UK
+wave1,region_birth,2,0,Eastern EU
+wave1,region_birth,3,0,Other Europe & Central Asia
+wave1,region_birth,4,0,East Asia & Pacific
+wave1,region_birth,5,0,South Asia
+wave1,region_birth,6,0,Middle East & North Africa
+wave1,region_birth,7,0,Sub-Saharan Africa
+wave1,region_birth,8,0,Latin America & Caribbean
+wave1,region_birth,9,0,North America
+wave1,edu,1,0,High
+wave1,edu,2,0,Medium
+wave1,edu,3,0,Low
+wave1,occup,1,0,Employed
+wave1,occup,2,0,Self-employed
+wave1,occup,3,0,Unemployed
+wave1,occup,4,0,"Student, apprentice, student"
+wave1,occup,5,0,Domestic tasks (housewife etc.)
+wave1,occup,6,0,Inactive/other (Receiving benefits or pension etc.)
+wave1,hhincome_own,1,0,4th quartile (highest)
+wave1,hhincome_own,2,0,3rd quartile
+wave1,hhincome_own,3,0,2nd quartile
+wave1,hhincome_own,4,0,1st quartile
+wave1,smk_ever,0,0,Never
+wave1,smk_ever,1,0,"Yes, at some point"
+wave1,smk_ever,2,0,Current smoker
+wave1,smk_cig,0,0,None
+wave1,smk_cig,1,0,< 10 per day
+wave1,smk_cig,2,0,≥ 10 per day
+wave1,smk_curr,1,0,Non smoker
+wave1,smk_curr,2,0,Ocasional smoker
+wave1,smk_curr,3,0,Regular smoker
+wave1,alc,0,0,No (never drinking)
+wave1,alc,1,0,Yes
+wave1,alc_unit,0,0,0 (Never drinking alcohol)
+wave1,alc_unit,1,0,Light (< 3 units per week)
+wave1,alc_unit,2,0,Moderate (≥3 - <7 units per week)
+wave1,alc_unit,3,0,Moderate to heavy (≥7 - <14 units per week)
+wave1,alc_unit,4,0,Heavy (≥14 units per week)
+wave1,outdoor_season,1,0,Spring
+wave1,outdoor_season,2,0,Summer
+wave1,outdoor_season,3,0,Autumn
+wave1,outdoor_season,4,0,Winter
+wave1,tanner_breast,1,0,Stage I (pre-pubertal)
+wave1,tanner_breast,2,0,Stage II  
+wave1,tanner_breast,3,0,Stage III
+wave1,tanner_breast,4,0,Stage IV
+wave1,tanner_breast,5,0,Stage V (late puberty)
+wave1,tanner_genit,1,0,Stage I (pre-pubertal)
+wave1,tanner_genit,2,0,Stage II  
+wave1,tanner_genit,3,0,Stage III
+wave1,tanner_genit,4,0,Stage IV
+wave1,tanner_genit,5,0,Stage V (late puberty)
+wave1,tanner_pubhair,1,0,Stage I (pre-pubertal)
+wave1,tanner_pubhair,2,0,Stage II  
+wave1,tanner_pubhair,3,0,Stage III
+wave1,tanner_pubhair,4,0,Stage IV
+wave1,tanner_pubhair,5,0,Stage V (late puberty)
+wave1,cimtmeanmax,0,0,Mean
+wave1,cimtmeanmax,1,0,Max
+wave1,diab_t2_icd,0,0,No
+wave1,diab_t2_icd,1,0,Yes
+wave1,diab_t2_sr,0,0,No
+wave1,diab_t2_sr,1,0,Yes
+wave1,hypertension,0,0,No
+wave1,hypertension,1,0,Yes
+wave1,hypertension_med,0,0,No
+wave1,hypertension_med,1,0,Yes
+wave1,chd_hard,0,0,No
+wave1,chd_hard,1,0,Yes
+wave1,chd_broad,0,0,No
+wave1,chd_broad,1,0,Yes
+wave1,chd_ap,0,0,No
+wave1,chd_ap,1,0,Yes
+wave1,chd_mi,0,0,No
+wave1,chd_mi,1,0,Yes
+wave1,chd_acs,0,0,No
+wave1,chd_acs,1,0,Yes
+wave1,chd_revasc,0,0,No
+wave1,chd_revasc,1,0,Yes
+wave1,chd_cabg,0,0,No
+wave1,chd_cabg,1,0,Yes
+wave1,chd_si,0,0,No
+wave1,chd_si,1,0,Yes
+wave1,car_plaques,0,0,No
+wave1,car_plaques,1,0,Yes
+wave1,death,0,0,No
+wave1,death,1,0,Yes
+wave1,death_cause,1,0,Diabetes mellitus (E10-E14)
+wave1,death_cause,2,0,Major cardiovascular diseases (I00-I78)
+wave1,death_cause,3,0,"Diseases of heart (I00-I09, I11, I13, I20-I51)"
+wave1,death_cause,4,0,"Hypertensive heart disease with or without renal disease (I11, I13)"
+wave1,death_cause,5,0,Ischemic heart diseases (I20-I25)
+wave1,death_cause,6,0,"Other diseases of heart (I00-I09, I26-I51)"
+wave1,death_cause,7,0,"Essential (primary) hypertension and hypertensive renal disease (I10, I12)"
+wave1,death_cause,8,0,Cerebrovascular diseases (I60-I69)
+wave1,death_cause,9,0,Atherosclerosis (I70)
+wave1,death_cause,10,0,Other diseases of circulatory system (I71-I78)
+wave1,death_cause,11,0,Other (non-cardiometabolic)
+wave1,hosp,0,0,No
+wave1,hosp,1,0,Yes
+wave1,drugs_a,0,0,No
+wave1,drugs_a,1,0,Yes
+wave1,drugs_b,0,0,No
+wave1,drugs_b,1,0,Yes
+wave1,drugs_c,0,0,No
+wave1,drugs_c,1,0,Yes
+wave1,drugs_d,0,0,No
+wave1,drugs_d,1,0,Yes
+wave1,drugs_g,0,0,No
+wave1,drugs_g,1,0,Yes
+wave1,drugs_h,0,0,No
+wave1,drugs_h,1,0,Yes
+wave1,drugs_j,0,0,No
+wave1,drugs_j,1,0,Yes
+wave1,drugs_l,0,0,No
+wave1,drugs_l,1,0,Yes
+wave1,drugs_m,0,0,No
+wave1,drugs_m,1,0,Yes
+wave1,drugs_n,0,0,No
+wave1,drugs_n,1,0,Yes
+wave1,drugs_p,0,0,No
+wave1,drugs_p,1,0,Yes
+wave1,drugs_r,0,0,No
+wave1,drugs_r,1,0,Yes
+wave1,drugs_s,0,0,No
+wave1,drugs_s,1,0,Yes
+wave1,drugs_v,0,0,No
+wave1,drugs_v,1,0,Yes
