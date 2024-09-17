@@ -3,7 +3,10 @@ We define here in what versions of the data dictionaries contains which tables.
 
 ## 1.7 --> not released yet
 **dsUpload R-package version >= 4.4.x** 
-  
+
+### Note:
+2024/sept/17th fixed matsmo_score_, changed type from integer to decimal
+
 ### Content
 Only affects the outcome yearly repeated measurements.
 
