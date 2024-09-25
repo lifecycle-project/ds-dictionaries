@@ -1,6 +1,10 @@
 # Versions of data dictionaries (outcome = wp4, wp5 and wp6)
 We define here in what versions of the data dictionaries contains which tables.
 
+## 1.8
+### Content
+Only affects the outcome yearly repeated measurements (smoking)
+
 ## 1.7 --> not released yet
 **dsUpload R-package version >= 4.4.x** 
   
