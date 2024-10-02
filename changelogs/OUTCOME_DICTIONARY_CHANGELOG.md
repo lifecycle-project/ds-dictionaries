@@ -1,7 +1,28 @@
 # Versions of data dictionaries (outcome = wp4, wp5 and wp6)
 We define here in what versions of the data dictionaries contains which tables.
 
-## 1.7 --> not released yet
+## 1.8
+**dsUpload R-package version >= 4.4.x** 
+
+### Content
+Only affects the outcome yearly repeated measurements (smoking), changed type from integer to decimal.
+
+#### General changes
+
+matsmo_score_
+| Variable                  | Type    | Description                                                                                                                                                               |
+  | ------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | matsmo_score_                       | decimal | Calculated smoking score using DNAsmokeR                                                                                                    |
+
+#### Additional variables
+
+### Tables
+- 1_8_non_repeated
+- 1_8_weekly_repeated
+- 1_8_monthly_repeated
+- 1_8_yearly_repeated
+
+## 1.7
 **dsUpload R-package version >= 4.4.x** 
   
 ### Content
