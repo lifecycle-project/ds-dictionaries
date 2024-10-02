@@ -1,6 +1,18 @@
 # Versions of data dictionaries (core = wp1 and wp3)
 We define here in what versions of the data dictionaries contains which tables.
 
+## 2.7
+**dsUpload R-package version >= 4.7.x**
+
+### Content
+Add categories 616 for Poland and 56 for Belgium (needed for CHOP) that were missing from the coh_country variable in "Categories" sheet of non repeating (non_rep) dictionary. 
+
+### Tables
+- 2_7_nonrep
+- 2_7_trimester_rep
+- 2_7_yearly_rep
+- 2_7_monthly_rep
+
 ## 2.6
 **dsUpload R-package version >= 4.7.x**
 
