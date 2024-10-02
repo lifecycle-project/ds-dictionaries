@@ -5,7 +5,9 @@ We define here in what versions of the data dictionaries contains which tables.
 **dsUpload R-package version >= 4.4.x** 
 
 ### Content
-Only affects the outcome yearly repeated measurements (smoking), changed type from integer to decimal.
+- Changed type from integer to decimal for outcome yearly repeated variable matsmo_score_
+- Added outcome yearly repeated variable sp_back
+- Added outcome yearly repeated variable sp_back_age
 
 #### General changes
 
@@ -13,6 +15,8 @@ matsmo_score_
 | Variable                  | Type    | Description                                                                                                                                                               |
   | ------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
   | matsmo_score_                       | decimal | Calculated smoking score using DNAsmokeR                                                                                                    |
+  | sp_back                       | integer | Variable indicating whether the person has experienced any mid back or low back pain (combination of sp_midback and sp_lowback)                                                                                                    |
+  | sp_back_age                       | decimal | Exact age of the child (in years) when spinal pain information was recorded for sp_back                                                                                                    |
 
 #### Additional variables
 
