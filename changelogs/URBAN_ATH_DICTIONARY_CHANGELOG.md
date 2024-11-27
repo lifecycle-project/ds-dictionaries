@@ -2,6 +2,28 @@
 
 We define here in what versions of the data dictionaries contains which tables
 
+## 1.4
+
+**dsUpload R-package version >= 4.7.x**
+
+### Content
+
+#### General changes
+- 2024 november 25th.  add variable 'urb_deg_' in dictionary of trimester data. 
+
+*trimester-repeated variables*
+- add variable 'urb_deg_'
+
+#### Additional variables
+
+variable 'urb_deg_' added in trimester-repeated data dictionary
+
+### Tables
+
+- 1_4_non_rep
+- 1_4_trimester_rep
+- 1_4_yearly_rep
+
 ## 1.3
 
 **dsUpload R-package version >= 4.7.x**
