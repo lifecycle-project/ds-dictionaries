@@ -1,0 +1,20 @@
+Package: dsDictionaries
+Title: Define and manage harmonised data dictionaries for DataSHIELD
+Version: 0.0.0.9000
+Authors@R: 
+    person("Erik", "Zwart", , "e.zwart@umcg.nl", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4552-003X"))
+Description: Manage versioned harmonised data dictionaries that are used in DataSHIELD (datashield.org). The dictionaries are used by dsUpload which uploads data from LifeCycle/Athlete/LongITools cohorts to Opal and/or (MOLGENIS) Armadillo servers.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 4.3.0)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr,
+    purrr

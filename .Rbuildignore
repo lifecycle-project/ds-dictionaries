@@ -1,0 +1,5 @@
+^ds-dictionaries\.Rproj$
+^\.Rproj\.user$
+^\.lintr$
+^data-raw$
+^README\.Rmd$
