@@ -2,6 +2,37 @@
 
 We define here in what versions of the data dictionaries contains which tables
 
+## 1.5
+
+**dsUpload R-package version >= 4.7.x**
+
+### Content
+
+#### General changes
+- 2025 april 7th.  add time-dependent variables for urb_area_id in all data dictionaries, for the cohorts that 
+have data with children moving from one area to another area at different time periods. 
+
+*non-repeated variables*
+- add variable 'urb_area_id_0'
+
+*trimester-repeated variables*
+- add variable 'urb_area_id_t'
+
+*yearly-repeated variables*
+- add variable 'urb_area_id_'
+
+#### Additional variables
+
+variable 'urb_area_id_0' added in non-repeated data dictionary
+variable 'urb_area_id_t' added in trimester-repeated data dictionary
+variable 'urb_area_id_' added in yearly-repeated data dictionary
+
+### Tables
+
+- 1_5_non_rep
+- 1_5_trimester_rep
+- 1_5_yearly_rep
+
 ## 1.4
 
 **dsUpload R-package version >= 4.7.x**
