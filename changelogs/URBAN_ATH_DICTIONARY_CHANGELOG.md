@@ -13,7 +13,7 @@ We define here in what versions of the data dictionaries contains which tables
 have data with children moving from one area to another area at different time periods. 
 
 *non-repeated variables*
-- add variable 'urb_area_id_0'
+- add variable 'urb_area_id_0' and 'urb_area_id_preg'
 
 *trimester-repeated variables*
 - add variable 'urb_area_id_t'
@@ -23,7 +23,7 @@ have data with children moving from one area to another area at different time p
 
 #### Additional variables
 
-variable 'urb_area_id_0' added in non-repeated data dictionary
+variables 'urb_area_id_0' and 'urb_area_id_preg' added in non-repeated data dictionary
 variable 'urb_area_id_t' added in trimester-repeated data dictionary
 variable 'urb_area_id_' added in yearly-repeated data dictionary
 
